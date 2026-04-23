@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --transition-speed: 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Dropdown visibility utility */
+.dropdown-menu {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-0.5rem);
+  transition: all var(--transition-speed) ease;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Glassmorphism Classes */
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glass-dark {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Smooth Image Hover scaling */
+.img-hover-zoom {
+  overflow: hidden;
+}
+.img-hover-zoom img {
+  transition: transform var(--transition-speed) ease;
+}
+.img-hover-zoom:hover img {
+  transform: scale(1.05);
+}
+
+/* Micro animations */
+.btn-hover {
+  transition: all 0.2s ease-in-out;
+}
+.btn-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Navbar Slide Down Animation */
+@keyframes navSlideDown {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.nav-animate {
+  animation: navSlideDown 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Event Filter Button Active State */
+.event-filter-btn.active {
+  background-color: #3b82f6 !important;
+  color: #ffffff !important;
+  border-color: #3b82f6 !important;
+}
+
+/* Custom scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Course Tab Active */
+.course-tab.active {
+  color: #0f172a;
+  border-bottom: 2px solid #0f172a;
+  font-weight: 700;
+}
+.course-tab {
+  transition: all 0.2s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.course-tab:hover {
+  color: #0f172a;
+}
+
+/* Data Modal Animations */
+#data-modal {
+  transition: opacity 0.3s ease;
+  will-change: opacity;
+}
+#data-modal.modal-entering .modal-content {
+  transform: scale(0.9) translateY(20px);
+  opacity: 0;
+}
+#data-modal.modal-active .modal-content {
+  transform: scale(1) translateY(0);
+  opacity: 1;
+}
+.modal-content {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+  will-change: transform, opacity;
+}
+
+/* Scroll Lock */
+body.is-locked {
+  overflow: hidden;
+}
+
+/* Publication filter active */
+.pub-filter-btn.active {
+  background-color: #3b82f6 !important;
+  color: #ffffff !important;
+}
