@@ -41,7 +41,7 @@ export default function Publications() {
       <section className="sticky top-28 z-30 bg-white/80 backdrop-blur-md border-b border-gray-100 py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-3">
-            {filterButtons.map((btn) => (
+            {filterButtons.map((btn: any) => (
               <button
                 key={btn.value}
                 onClick={() => setCurrentFilter(btn.value)}

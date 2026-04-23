@@ -48,7 +48,7 @@ export default function SectionMandate({
             </div>
             <h2 className="text-2xl sm:text-4xl font-heading font-bold text-brand-dark mb-4 sm:mb-6">{missionTitle}</h2>
             <ul className="space-y-4">
-              {missionList.map((item, idx) => (
+              {missionList.map((item: string, idx: number) => (
                 <li key={idx} className='flex items-start gap-3'>
                   <i className='fa-solid fa-check text-brand-accent mt-1'></i>
                   <span>{item}</span>
@@ -74,7 +74,7 @@ export default function SectionMandate({
               <div>
                 <p className='mb-4'>{approachThird}</p>
                 <ul className='space-y-2 mt-4 text-brand-accent font-bold'>
-                  {values.map((v, i) => <li key={i}>{v}</li>)}
+                  {values.map((v: string, i: number) => <li key={i}>{v}</li>)}
                 </ul>
               </div>
             </div>

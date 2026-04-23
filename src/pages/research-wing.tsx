@@ -90,7 +90,7 @@ export default function ResearchWing() {
                  'No research articles found for the selected filters.'}
               </div>
             ) : (
-              filtered.map((item) => (
+              filtered.map((item: any) => (
                 <CardResearch
                   key={item.id}
                   id={item.id}
@@ -99,8 +99,8 @@ export default function ResearchWing() {
                   type={item.type}
                   date={item.date}
                   category={item.category}
-                  onOpenModal={(id) => {
-                    const found = researchData.find((r) => r.id === id);
+                  onOpenModal={(id: string) => {
+                    const found = researchData.find((r: any) => r.id === id);
                     if (found) setSelectedItem(found);
                   }}
                 />

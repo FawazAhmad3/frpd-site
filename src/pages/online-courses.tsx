@@ -60,7 +60,7 @@ export default function OnlineCourses() {
   };
 
   const openModal = (id: string) => {
-    const course = allCourses.find((c) => c.id === id);
+    const course = allCourses.find((c: any) => c.id === id);
     if (course) setModalCourse(course);
   };
 
@@ -129,7 +129,7 @@ export default function OnlineCourses() {
               onScroll={updateScrollButtons}
               className="flex overflow-x-auto gap-6 pb-8 no-scrollbar scroll-smooth"
             >
-              {courses.map((course) => (
+              {courses.map((course: any) => (
                 <CardCourse key={course.id} {...course} onOpenModal={openModal} />
               ))}
             </div>

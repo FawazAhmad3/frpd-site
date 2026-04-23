@@ -59,7 +59,7 @@ export default function WorkshopsEvents() {
       <section className="sticky top-28 z-30 bg-white/80 backdrop-blur-md border-b border-gray-100 py-6 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-3">
-            {filterButtons.map((btn) => (
+            {filterButtons.map((btn: any) => (
               <button
                 key={btn.label}
                 onClick={() => { setCurrentFilter(btn.filter); setIsStatusFilter(btn.isStatus); }}

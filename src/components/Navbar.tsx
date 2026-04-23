@@ -122,7 +122,7 @@ export default function Navbar() {
             { to: '/pages/mandate', label: t.mandate },
             { to: '/pages/governance', label: t.governance },
             { to: '/pages/careers', label: t.careers },
-          ].map((item) => (
+          ].map((item: any) => (
             <Link
               key={item.to}
               to={item.to}

@@ -52,7 +52,7 @@ export default function Footer() {
                 { to: '/pages/mandate', label: nav.mandate },
                 { to: '/pages/governance', label: nav.governance },
                 { to: '/pages/contact', label: nav.contactUs },
-              ].map((item, i, arr) => (
+              ].map((item: any, i: number, arr: any[]) => (
                 <span key={item.to} className="flex items-center gap-6">
                   <Link to={item.to} className="hover:text-brand-accent transition-colors">{item.label}</Link>
                   {i < arr.length - 1 && <span className="text-gray-300">|</span>}
