@@ -84,8 +84,81 @@
       }
     ]
   },
-  "ar": {},
-  "fr": {},
-  "de": {},
-  "zh": {}
+  "ar": {
+    "hero": {
+      "title": "خدمات السياسة والاستشارات",
+      "description": "تقدم FRPD استشارات استراتيجية رفيعة المستوى عبر قطاعات متعددة، تجمع بين الرؤى المستندة إلى البيانات والمعرفة المؤسسية العميقة لتعزيز النمو والكفاءة."
+    },
+    "categories": [
+      {
+        "id": "business",
+        "title": "خدمات استشارات الأعمال",
+        "icon": "fas fa-briefcase",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "أفكار الأعمال", "url": "/pages/contact" },
+          { "title": "خطة العمل", "url": "/pages/contact" }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "hero": {
+      "title": "Services de politique et de conseil",
+      "description": "FRPD fournit des conseils stratégiques de haut niveau dans de nombreux secteurs, combinant des informations basées sur les données avec une connaissance institutionnelle approfondie pour stimuler la croissance et l'efficacité."
+    },
+    "categories": [
+      {
+        "id": "business",
+        "title": "Services de conseil aux entreprises",
+        "icon": "fas fa-briefcase",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "Idées d'affaires", "url": "/pages/contact" }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "hero": {
+      "title": "Politik- und Beratungsdienste",
+      "description": "FRPD bietet strategische Beratung auf hohem Niveau in verschiedenen Sektoren an und kombiniert datengestützte Erkenntnisse mit fundiertem institutionellem Wissen, um Wachstum und Effizienz zu fördern."
+    },
+    "categories": [
+      {
+        "id": "business",
+        "title": "Unternehmensberatung",
+        "icon": "fas fa-briefcase",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "Geschäftsideen", "url": "/pages/contact" }
+        ]
+      }
+    ]
+  },
+  "zh": {
+    "hero": {
+      "title": "政策与咨询服务",
+      "description": "FRPD 在多个部门提供高水平的战略咨询，将数据驱动的见解与深厚的机构知识相结合，以推动增长和效率。"
+    },
+    "categories": [
+      {
+        "id": "business",
+        "title": "业务咨询服务",
+        "icon": "fas fa-briefcase",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "商业创意", "url": "/pages/contact" }
+        ]
+      }
+    ]
+  }
 }

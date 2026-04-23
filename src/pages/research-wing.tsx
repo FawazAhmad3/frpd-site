@@ -1,21 +1,27 @@
 import { useState } from 'react';
 import CardResearch from '../components/CardResearch';
 import ModalResearch from '../components/ModalResearch';
-import researchData from '../data/research-wing-en.json';
+import researchDataAll from '../data/research-wing.json';
+import { useLanguage } from '../context/LanguageContext';
+import globalData from '../data/global.json';
 
-type ResearchItem = typeof researchData[0];
-
-const categories = ['All', 'Economic Policy & Development', 'Health & Medical Research', 'Data Science and AI', 'Social Sector & Human Development', 'Market & Industry Analysis'];
-const types = ['All', 'Thematic Research Initiatives', 'Ongoing Projects', 'Completed Studies', 'Collaborative Research'];
+type ResearchItem = any;
 
 export default function ResearchWing() {
-  const [currentCategory, setCurrentCategory] = useState('All');
-  const [currentType, setCurrentType] = useState('All');
+  const { language } = useLanguage();
+  const langData = (researchDataAll as any)[language] || (researchDataAll as any).en;
+  const researchData = langData.items;
+  const categories = langData.filters.categories;
+  const types = langData.filters.types;
+  const t = (globalData as any)[language].buttons;
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [currentType, setCurrentType] = useState(types[0]);
   const [selectedItem, setSelectedItem] = useState<ResearchItem | null>(null);
 
-  const filtered = researchData.filter((item) => {
-    const catMatch = currentCategory === 'All' || item.category === currentCategory;
-    const typeMatch = currentType === 'All' || item.type === currentType;
+  const filtered = researchData.filter((item: any) => {
+    const catMatch = currentCategory === categories[0] || item.category === currentCategory;
+    const typeMatch = currentType === types[0] || item.type === currentType;
     return catMatch && typeMatch;
   });
 
@@ -27,9 +33,9 @@ export default function ResearchWing() {
           <div className="absolute inset-0 bg-gradient-to-r from-brand-accent to-transparent"></div>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          <h1 className="text-3xl md:text-5xl font-heading font-bold text-white mb-6 animate__animated animate__fadeInDown">Research & Development (R&D)</h1>
+          <h1 className="text-3xl md:text-5xl font-heading font-bold text-white mb-6 animate__animated animate__fadeInDown">{langData.header.title}</h1>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg leading-relaxed animate__animated animate__fadeInUp">
-            Advancing economic knowledge through rigorous analysis across diverse fields and initiatives.
+            {langData.header.summary}
           </p>
         </div>
       </section>
@@ -38,7 +44,7 @@ export default function ResearchWing() {
       <section className="py-6 bg-white border-b border-gray-200 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
           <div className="flex flex-wrap justify-center gap-2">
-            {categories.map((cat) => (
+            {categories.map((cat: string) => (
               <button
                 key={cat}
                 onClick={() => setCurrentCategory(cat)}
@@ -48,13 +54,13 @@ export default function ResearchWing() {
                     : 'border-gray-200 bg-white text-brand-dark hover:border-brand-accent'
                 }`}
               >
-                {cat === 'All' ? 'All Types' : cat}
+                {cat}
               </button>
             ))}
           </div>
 
           <div className="flex flex-wrap justify-center gap-4 border-t border-gray-100 pt-6">
-            {types.map((t) => (
+            {types.map((t: string) => (
               <button
                 key={t}
                 onClick={() => setCurrentType(t)}
@@ -64,7 +70,7 @@ export default function ResearchWing() {
                     : 'text-brand-dark/50 hover:text-brand-accent hover:border-b-2 hover:border-brand-accent/30'
                 }`}
               >
-                {t === 'All' ? 'All Types' : t.replace('Thematic Research Initiatives', 'Thematic Initiatives')}
+                {t}
               </button>
             ))}
           </div>
@@ -76,7 +82,13 @@ export default function ResearchWing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {filtered.length === 0 ? (
-              <div className="col-span-full py-20 text-center text-gray-400">No research articles found for the selected filters.</div>
+              <div className="col-span-full py-20 text-center text-gray-400">
+                {language === 'ar' ? 'لم يتم العثور على مقالات بحثية للفلاتر المختارة.' : 
+                 language === 'fr' ? 'Aucun article de recherche trouvé pour les filtres sélectionnés.' :
+                 language === 'de' ? 'Keine Forschungsartikel für die ausgewählten Filter gefunden.' :
+                 language === 'zh' ? '未找到所选筛选条件的研究文章。' :
+                 'No research articles found for the selected filters.'}
+              </div>
             ) : (
               filtered.map((item) => (
                 <CardResearch

@@ -1,0 +1,247 @@
+{
+  "en": {
+    "about": {
+      "title": "FRPD",
+      "summary": "Firm of Research, Policy and Development (FRPD) is a premier organization dedicated to advancing multidisciplinary research, offering cutting-edge training, and driving policy innovation globally."
+    },
+    "stats": {
+      "researchesTarget": "120",
+      "researchesSuffix": "+",
+      "researchesLabel": "Researches",
+      "projectsTarget": "65",
+      "projectsSuffix": "",
+      "projectsLabel": "Global Projects",
+      "blogsTarget": "500",
+      "blogsSuffix": "+",
+      "blogsLabel": "Insights & Blogs",
+      "expertsTarget": "10",
+      "expertsSuffix": "k+",
+      "expertsLabel": "Trained Experts"
+    },
+    "trainingHeader": {
+      "title": "Upcoming Training",
+      "summary": "Upgrade your expertise with structured programs.",
+      "linkText": "Explore All Courses",
+      "linkUrl": "/pages/online-courses"
+    },
+    "featuredResearch": {
+      "title": "Featured Research",
+      "summary": "Exploring the frontiers of economic and policy innovation.",
+      "res1_id": "res-001",
+      "res1_title": "Supply Chain Resilience",
+      "res1_image": "/assets/images/sample1.jpg",
+      "res1_category": "Economic Policy & Development",
+      "res1_type": "Ongoing Projects",
+      "res2_id": "res-002",
+      "res2_title": "Monetary Policy Trends",
+      "res2_image": "/assets/images/sample2.png",
+      "res2_category": "Health & Medical Research",
+      "res2_type": "Thematic Initiatives",
+      "res3_id": "res-003",
+      "res3_title": "Trade & Digital Services",
+      "res3_image": "/assets/images/sample3.png",
+      "res3_category": "Data Science and AI",
+      "res3_type": "Completed Studies"
+    },
+    "featuredPublications": {
+      "title": "Featured Publications",
+      "summary": "Access our latest research reports, policy briefs, and academic articles to stay informed on global developmental trends."
+    }
+  },
+  "ar": {
+    "about": {
+      "title": "FRPD",
+      "summary": "تعد مؤسسة الأبحاث والسياسات والتنمية (FRPD) منظمة رائدة مكرسة للنهوض بالأبحاث متعددة التخصصات، وتقديم تدريب متطور، وقيادة ابتكار السياسات عالميًا."
+    },
+    "stats": {
+      "researchesTarget": "120",
+      "researchesSuffix": "+",
+      "researchesLabel": "أبحاث",
+      "projectsTarget": "65",
+      "projectsSuffix": "",
+      "projectsLabel": "مشاريع عالمية",
+      "blogsTarget": "500",
+      "blogsSuffix": "+",
+      "blogsLabel": "رؤى ومدونات",
+      "expertsTarget": "10",
+      "expertsSuffix": "ألف+",
+      "expertsLabel": "خبراء مدربون"
+    },
+    "trainingHeader": {
+      "title": "التدريب القادم",
+      "summary": "قم بترقية خبرتك مع برامج منظمة.",
+      "linkText": "استكشف جميع الدورات",
+      "linkUrl": "/pages/online-courses"
+    },
+    "featuredResearch": {
+      "title": "أبحاث مميزة",
+      "summary": "استكشاف آفاق الابتكار الاقتصادي والسياسي.",
+      "res1_id": "res-001",
+      "res1_title": "مرونة سلاسل التوريد",
+      "res1_image": "/assets/images/sample1.jpg",
+      "res1_category": "السياسة الاقتصادية والتنمية",
+      "res1_type": "مشاريع جارية",
+      "res2_id": "res-002",
+      "res2_title": "اتجاهات السياسة النقدية",
+      "res2_image": "/assets/images/sample2.png",
+      "res2_category": "الأبحاث الصحية والطبية",
+      "res2_type": "مبادرات موضوعية",
+      "res3_id": "res-003",
+      "res3_title": "التجارة والخدمات الرقمية",
+      "res3_image": "/assets/images/sample3.png",
+      "res3_category": "علوم البيانات والذكاء الاصطناعي",
+      "res3_type": "دراسات مكتملة"
+    },
+    "featuredPublications": {
+      "title": "منشورات مميزة",
+      "summary": "قم بالوصول إلى أحدث تقاريرنا البحثية وموجزات السياسات والمقالات الأكاديمية للبقاء على اطلاع على الاتجاهات التنموية العالمية."
+    }
+  },
+  "fr": {
+    "about": {
+      "title": "FRPD",
+      "summary": "La Firm of Research, Policy and Development (FRPD) est une organisation de premier plan dédiée à l'avancement de la recherche multidisciplinaire, offrant une formation de pointe et stimulant l'innovation politique à l'échelle mondiale."
+    },
+    "stats": {
+      "researchesTarget": "120",
+      "researchesSuffix": "+",
+      "researchesLabel": "Recherches",
+      "projectsTarget": "65",
+      "projectsSuffix": "",
+      "projectsLabel": "Projets mondiaux",
+      "blogsTarget": "500",
+      "blogsSuffix": "+",
+      "blogsLabel": "Perspectives et blogs",
+      "expertsTarget": "10",
+      "expertsSuffix": "k+",
+      "expertsLabel": "Experts formés"
+    },
+    "trainingHeader": {
+      "title": "Formation à venir",
+      "summary": "Améliorez votre expertise avec des programmes structurés.",
+      "linkText": "Explorer tous les cours",
+      "linkUrl": "/pages/online-courses"
+    },
+    "featuredResearch": {
+      "title": "Recherches en vedette",
+      "summary": "Explorer les frontières de l'innovation économique et politique.",
+      "res1_id": "res-001",
+      "res1_title": "Résilience de la chaîne d'approvisionnement",
+      "res1_image": "/assets/images/sample1.jpg",
+      "res1_category": "Politique économique et développement",
+      "res1_type": "Projets en cours",
+      "res2_id": "res-002",
+      "res2_title": "Tendances de la politique monétaire",
+      "res2_image": "/assets/images/sample2.png",
+      "res2_category": "Recherche sur la santé et médicale",
+      "res2_type": "Initiatives thématiques",
+      "res3_id": "res-003",
+      "res3_title": "Commerce et services numériques",
+      "res3_image": "/assets/images/sample3.png",
+      "res3_category": "Science des données et IA",
+      "res3_type": "Études terminées"
+    },
+    "featuredPublications": {
+      "title": "Publications en vedette",
+      "summary": "Accédez à nos derniers rapports de recherche, notes de politique et articles académiques pour rester informé des tendances mondiales du développement."
+    }
+  },
+  "de": {
+    "about": {
+      "title": "FRPD",
+      "summary": "Das Firm of Research, Policy and Development (FRPD) ist eine führende Organisation, die sich der Förderung multidisziplinärer Forschung widmet, erstklassige Schulungen anbietet und Politikinnovationen weltweit vorantreibt."
+    },
+    "stats": {
+      "researchesTarget": "120",
+      "researchesSuffix": "+",
+      "researchesLabel": "Forschung",
+      "projectsTarget": "65",
+      "projectsSuffix": "",
+      "projectsLabel": "Globale Projekte",
+      "blogsTarget": "500",
+      "blogsSuffix": "+",
+      "blogsLabel": "Einblicke & Blogs",
+      "expertsTarget": "10",
+      "expertsSuffix": "k+",
+      "expertsLabel": "Geschulte Experten"
+    },
+    "trainingHeader": {
+      "title": "Anstehende Schulungen",
+      "summary": "Erweitern Sie Ihr Fachwissen mit strukturierten Programmen.",
+      "linkText": "Alle Kurse durchsuchen",
+      "linkUrl": "/pages/online-courses"
+    },
+    "featuredResearch": {
+      "title": "Ausgewählte Forschung",
+      "summary": "Erforschung der Grenzen wirtschaftlicher und politischer Innovation.",
+      "res1_id": "res-001",
+      "res1_title": "Resilienz der Lieferkette",
+      "res1_image": "/assets/images/sample1.jpg",
+      "res1_category": "Wirtschaftspolitik & Entwicklung",
+      "res1_type": "Laufende Projekte",
+      "res2_id": "res-002",
+      "res2_title": "Geldpolitische Trends",
+      "res2_image": "/assets/images/sample2.png",
+      "res2_category": "Gesundheits- & medizinische Forschung",
+      "res2_type": "Thematische Initiativen",
+      "res3_id": "res-003",
+      "res3_title": "Handel & digitale Dienste",
+      "res3_image": "/assets/images/sample3.png",
+      "res3_category": "Datenwissenschaft und KI",
+      "res3_type": "Abgeschlossene Studien"
+    },
+    "featuredPublications": {
+      "title": "Ausgewählte Publikationen",
+      "summary": "Greifen Sie auf unsere neuesten Forschungsberichte, Policy Briefs und akademischen Artikel zu, um über globale Entwicklungstrends auf dem Laufenden zu bleiben."
+    }
+  },
+  "zh": {
+    "about": {
+      "title": "FRPD",
+      "summary": "研究、政策与发展公司 (FRPD) 是一家致力于推进多学科研究、提供前沿培训并在全球范围内推动政策创新的领先机构。"
+    },
+    "stats": {
+      "researchesTarget": "120",
+      "researchesSuffix": "+",
+      "researchesLabel": "研究成果",
+      "projectsTarget": "65",
+      "projectsSuffix": "",
+      "projectsLabel": "全球项目",
+      "blogsTarget": "500",
+      "blogsSuffix": "+",
+      "blogsLabel": "见解与博客",
+      "expertsTarget": "10",
+      "expertsSuffix": "k+",
+      "expertsLabel": "受训专家"
+    },
+    "trainingHeader": {
+      "title": "即将举行的培训",
+      "summary": "通过结构化计划提升您的专业知识。",
+      "linkText": "探索所有课程",
+      "linkUrl": "/pages/online-courses"
+    },
+    "featuredResearch": {
+      "title": "精选研究",
+      "summary": "探索经济和政策创新的前沿。",
+      "res1_id": "res-001",
+      "res1_title": "供应链韧性",
+      "res1_image": "/assets/images/sample1.jpg",
+      "res1_category": "经济政策与发展",
+      "res1_type": "进行中的项目",
+      "res2_id": "res-002",
+      "res2_title": "货币政策趋势",
+      "res2_image": "/assets/images/sample2.png",
+      "res2_category": "健康与医学研究",
+      "res2_type": "主题倡议",
+      "res3_id": "res-003",
+      "res3_title": "贸易与数字服务",
+      "res3_image": "/assets/images/sample3.png",
+      "res3_category": "数据科学与人工智能",
+      "res3_type": "已完成的研究"
+    },
+    "featuredPublications": {
+      "title": "精选出版物",
+      "summary": "访问我们最新的研究报告、政策简报和学术文章，了解全球发展趋势。"
+    }
+  }
+}

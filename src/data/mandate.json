@@ -1,0 +1,87 @@
+{
+  "en": {
+    "mandate": {
+      "visionTitle": "Global Policy Leadership",
+      "visionText": "To be a global leader in evidence-based research and inclusive policy development, bridging the gap between theoretical knowledge and practical solutions for sustainable development.",
+      "missionTitle": "Empowering Innovation",
+      "missionList": [
+        "Conduct high-impact multidisciplinary research to solve complex social and economic challenges.",
+        "Provide cutting-edge capacity-building programs for governments, NGOs, and the private sector.",
+        "Foster collaborative networks between academia, policy-makers, and practitioners."
+      ],
+      "approachTitle": "Our Scientific Methodology",
+      "approachContent": "We employ a multi-layered approach to policy development, starting with rigorous data collection and econometric analysis. Our team utilizes both quantitative and qualitative methods to ensure a holistic understanding of the landscape.",
+      "approachSecond": "By integrating stakeholders at every stage, we ensure that our recommendations are not only scientifically sound but also practically implementable and socially sustainable.",
+      "approachThird": "Global perspective, local impact. We scale our findings through international partnerships while maintaining a sharp focus on the specific cultural and institutional nuances of the regions we serve.",
+      "values": ["Rigor & Integrity", "Innovation & Agility", "Inclusivity & Impact"]
+    }
+  },
+  "ar": {
+    "mandate": {
+      "visionTitle": "قيادة السياسات العالمية",
+      "visionText": "أن نكون رائدين عالمياً في الأبحاث القائمة على الأدلة وتطوير السياسات الشاملة، لسد الفجوة بين المعرفة النظرية والحلول العملية للتنمية المستدامة.",
+      "missionTitle": "تمكين الابتكار",
+      "missionList": [
+        "إجراء أبحاث متعددة التخصصات عالية التأثير لحل التحديات الاجتماعية والاقتصادية المعقدة.",
+        "تقديم برامج بناء قدرات متطورة للحكومات والمنظمات غير الحكومية والقطاع الخاص.",
+        "تعزيز شبكات التعاون بين الأوساط الأكاديمية وصناع السياسات والممارسين."
+      ],
+      "approachTitle": "منهجيتنا العلمية",
+      "approachContent": "نحن نتبع نهجاً متعدد الطبقات لتطوير السياسات، بدءاً من جمع البيانات الصارم والتحليل الاقتصادي القياسي. يستخدم فريقنا الأساليب الكمية والنوعية لضمان فهم شامل للمشهد.",
+      "approachSecond": "من خلال دمج أصحاب المصلحة في كل مرحلة، نضمن أن توصياتنا ليست سليمة علمياً فحسب، بل قابلة للتنفيذ عملياً ومستدامة اجتماعياً.",
+      "approachThird": "منظور عالمي، تأثير محلي. نقوم بتوسيع نطاق نتائجنا من خلال شراكات دولية مع الحفاظ على تركيز حاد على الفوارق الثقافية والمؤسسية المحددة للمناطق التي نخدمها.",
+      "values": ["الصرامة والنزاهة", "الابتكار والمرونة", "الشمول والتأثير"]
+    }
+  },
+  "fr": {
+    "mandate": {
+      "visionTitle": "Leadership politique mondial",
+      "visionText": "Être un leader mondial de la recherche fondée sur des données probantes et de l'élaboration de politiques inclusives, en comblant le fossé entre les connaissances théoriques et les solutions pratiques pour le développement durable.",
+      "missionTitle": "Autonomiser l'innovation",
+      "missionList": [
+        "Mener des recherches multidisciplinaires à fort impact pour résoudre des défis sociaux et économiques complexes.",
+        "Fournir des programmes de renforcement des capacités de pointe aux gouvernements, aux ONG et au secteur privé.",
+        "Favoriser les réseaux de collaboration entre le milieu universitaire, les décideurs et les praticiens."
+      ],
+      "approachTitle": "Notre méthodologie scientifique",
+      "approachContent": "Nous employons une approche multicouche pour l'élaboration des politiques, en commençant par une collecte de données rigoureuse et une analyse économétrique. Notre équipe utilise des méthodes quantitatives et qualitatives pour garantir une compréhension globale du paysage.",
+      "approachSecond": "En intégrant les parties prenantes à chaque étape, nous veillons à ce que nos recommandations soient non seulement scientifiquement fondées, mais également applicables dans la pratique et socialement durables.",
+      "approachThird": "Perspective mondiale, impact local. Nous diffusons nos résultats grâce à des partenariats internationaux tout en restant concentrés sur les nuances culturelles et institutionnelles spécifiques des régions que nous servons.",
+      "values": ["Rigueur et intégrité", "Innovation et agilité", "Inclusion et impact"]
+    }
+  },
+  "de": {
+    "mandate": {
+      "visionTitle": "Globale Politikführung",
+      "visionText": "Weltweit führend in evidenzbasierter Forschung und inklusiver Politikentwicklung zu sein und die Lücke zwischen theoretischem Wissen und praktischen Lösungen für eine nachhaltige Entwicklung zu schließen.",
+      "missionTitle": "Innovation fördern",
+      "missionList": [
+        "Durchführung hochwirksamer multidisziplinärer Forschung zur Lösung komplexer sozialer und wirtschaftlicher Herausforderungen.",
+        "Bereitstellung modernster Programme zum Kapazitätsaufbau für Regierungen, NGOs und den privaten Sektor.",
+        "Förderung kollaborativer Netzwerke zwischen Wissenschaft, Politik und Praxis."
+      ],
+      "approachTitle": "Unsere wissenschaftliche Methodik",
+      "approachContent": "Wir verfolgen einen mehrschichtigen Ansatz bei der Politikentwicklung, beginnend mit einer fundierten Datenerhebung und ökonometrischen Analyse. Unser Team setzt sowohl quantitative als auch qualitative Methoden ein, um ein ganzheitliches Verständnis der Situation zu gewährleisten.",
+      "approachSecond": "Durch die Einbindung von Interessengruppen in jeder Phase stellen wir sicher, dass unsere Empfehlungen nicht nur wissenschaftlich fundiert, sondern auch praktisch umsetzbar und sozial nachhaltig sind.",
+      "approachThird": "Globale Perspektive, lokale Wirkung. Wir skalieren unsere Ergebnisse durch internationale Partnerschaften und konzentrieren uns dabei auf die spezifischen kulturellen und institutionellen Nuancen der Regionen, in denen wir tätig sind.",
+      "values": ["Strenge & Integrität", "Innovation & Agilität", "Inklusivität & Wirkung"]
+    }
+  },
+  "zh": {
+    "mandate": {
+      "visionTitle": "全球政策领导力",
+      "visionText": "成为循证研究和包容性政策制定方面的全球领导者，缩小可持续发展理论知识与实际解决方案之间的差距。",
+      "missionTitle": "赋能创新",
+      "missionList": [
+        "开展高影响力的多学科研究，以解决复杂的社会和经济挑战。",
+        "为政府、非政府组织和私营部门提供尖端的能力建设计划。",
+        "促进学术界、决策者和从业者之间的合作网络。"
+      ],
+      "approachTitle": "我们的科学方法论",
+      "approachContent": "我们采用多层面的政策制定方法，从严谨的数据收集和经济计量分析开始。我们的团队利用定量和定性方法来确保对景观的全面了解。",
+      "approachSecond": "通过在每个阶段整合利益相关者，我们确保我们的建议不仅科学合理，而且在实践上可行并在社会上可持续。",
+      "approachThird": "全球视野，地方影响。我们通过国际合作伙伴关系扩大研究成果，同时重点关注我们服务地区的特定文化和机构细微差别。",
+      "values": ["严谨与诚信", "创新与敏捷", "包容与影响"]
+    }
+  }
+}

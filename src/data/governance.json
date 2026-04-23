@@ -1,0 +1,147 @@
+{
+  "en": {
+    "governance": {
+      "boardTitle": "Board of Governors",
+      "boardSummary": "The strategic leadership overseeing FRPD's global operations and ethical standards.",
+      "teamTitle": "Our Research & Policy Team",
+      "teamSummary": "The multidisciplinary experts driving our daily research and innovation efforts.",
+      "adminTitle": "Administrative Staff",
+      "adminSummary": "The dedicated support team ensuring seamless day-to-day operations and institutional excellence.",
+      "board": [
+        {
+          "name": "Dr. Shakeel Shahzad",
+          "role": "Chief Executive Officer",
+          "image": "/assets/images/Governance/Dr Shakeel.jpg",
+          "bio": "Over 15 years of distinguished experience in national and international economic policy and institutional reform. Former Advisor to GIZ International Services (GIZ IS/GmbH) and the Central Asia Development Group (CADG)."
+        },
+        {
+          "name": "Dr. Miraj Ul Haq",
+          "role": "Associate Professor",
+          "image": "/assets/images/Governance/Dr Miraj.png",
+          "bio": "Over 18 years of distinguished experience in national economic policy and institutional reform in education. Currently, working as Associate Professor at International Islamic University – IIUI, Islamabad."
+        }
+      ],
+      "team": [
+        {
+          "name": "Michael Okafor",
+          "role": "Lead Researcher",
+          "image": "/assets/images/sample3.png",
+          "bio": "Specializes in microeconomic modeling and supply chain dynamics in emerging markets."
+        }
+      ],
+      "adminStaff": [
+        {
+          "name": "Sarah Collins",
+          "role": "Operations Manager",
+          "image": "/assets/images/sample1.jpg",
+          "bio": "Expert in institutional logistics and process optimization. Manages the core administrative functions across global offices."
+        }
+      ]
+    },
+    "ui": {
+      "badge": "Leadership & Team",
+      "heroTitle": "Institutional Governance",
+      "heroDesc": "FRPD is governed by a distinguished board and supported by a global network of researchers, policy experts, and administrative professionals."
+    }
+  },
+  "ar": {
+    "governance": {
+      "boardTitle": "مجلس المحافظين",
+      "boardSummary": "القيادة الاستراتيجية التي تشرف على عمليات FRPD العالمية والمعايير الأخلاقية.",
+      "teamTitle": "فريق البحث والسياسات لدينا",
+      "teamSummary": "الخبراء متعددو التخصصات الذين يقودون جهودنا اليومية في البحث والابتكار.",
+      "adminTitle": "الموظفون الإداريون",
+      "adminSummary": "فريق الدعم المتفاني الذي يضمن سلاسة العمليات اليومية والتميز المؤسسي.",
+      "board": [
+        {
+          "name": "د. شكيل شهزاد",
+          "role": "الرئيس التنفيذي",
+          "image": "/assets/images/Governance/Dr Shakeel.jpg",
+          "bio": "أكثر من 15 عاماً من الخبرة المتميزة في السياسة الاقتصادية الوطنية والدولية والإصلاح المؤسسي."
+        }
+      ],
+      "team": [],
+      "adminStaff": []
+    },
+    "ui": {
+      "badge": "القيادة والفريق",
+      "heroTitle": "الحوكمة المؤسسية",
+      "heroDesc": "تدار FRPD من قبل مجلس إدارة متميز وتدعمها شبكة عالمية من الباحثين وخبراء السياسات والمحترفين الإداريين."
+    }
+  },
+  "fr": {
+    "governance": {
+      "boardTitle": "Conseil des gouverneurs",
+      "boardSummary": "Le leadership stratégique supervisant les opérations mondiales et les normes éthiques de la FRPD.",
+      "teamTitle": "Notre équipe de recherche et de politique",
+      "teamSummary": "Les experts multidisciplinaires qui dirigent nos efforts quotidiens de recherche et d'innovation.",
+      "adminTitle": "Personnel administratif",
+      "adminSummary": "L'équipe de soutien dévouée assurant des opérations quotidiennes fluides et l'excellence institutionnelle.",
+      "board": [
+        {
+          "name": "Dr Shakeel Shahzad",
+          "role": "Directeur général",
+          "image": "/assets/images/Governance/Dr Shakeel.jpg",
+          "bio": "Plus de 15 ans d'expérience distinguée dans la politique économique nationale et internationale et la réforme institutionnelle."
+        }
+      ],
+      "team": [],
+      "adminStaff": []
+    },
+    "ui": {
+      "badge": "Direction et équipe",
+      "heroTitle": "Gouvernance institutionnelle",
+      "heroDesc": "La FRPD est dirigée par un conseil d'administration distingué et soutenue par un réseau mondial de chercheurs, d'experts en politiques et de professionnels de l'administration."
+    }
+  },
+  "de": {
+    "governance": {
+      "boardTitle": "Gouverneursrat",
+      "boardSummary": "Die strategische Führung, die die globalen Aktivitäten und ethischen Standards der FRPD überwacht.",
+      "teamTitle": "Unser Forschungs- und Politik-Team",
+      "teamSummary": "Die multidisziplinären Experten, die unsere täglichen Forschungs- und Innovationsbemühungen vorantreiben.",
+      "adminTitle": "Verwaltungspersonal",
+      "adminSummary": "Das engagierte Support-Team, das reibungslose tägliche Abläufe und institutionelle Exzellenz gewährleistet.",
+      "board": [
+        {
+          "name": "Dr. Shakeel Shahzad",
+          "role": "Vorstandsvorsitzender",
+          "image": "/assets/images/Governance/Dr Shakeel.jpg",
+          "bio": "Über 15 Jahre herausragende Erfahrung in nationaler und internationaler Wirtschaftspolitik und institutioneller Reform."
+        }
+      ],
+      "team": [],
+      "adminStaff": []
+    },
+    "ui": {
+      "badge": "Führung & Team",
+      "heroTitle": "Institutionelle Governance",
+      "heroDesc": "Die FRPD wird von einem hochkarätigen Vorstand geleitet und von einem globalen Netzwerk aus Forschern, Politikexperten und Verwaltungsfachleuten unterstützt."
+    }
+  },
+  "zh": {
+    "governance": {
+      "boardTitle": "理事会",
+      "boardSummary": "负责监督 FRPD 全球运营和伦理标准的战略领导层。",
+      "teamTitle": "我们的研究与政策团队",
+      "teamSummary": "推动我们日常研究和创新工作的多学科专家。",
+      "adminTitle": "行政人员",
+      "adminSummary": "确保日常运营顺畅和机构卓越的敬业支持团队。",
+      "board": [
+        {
+          "name": "Shakeel Shahzad 博士",
+          "role": "首席执行官",
+          "image": "/assets/images/Governance/Dr Shakeel.jpg",
+          "bio": "在国家和国际经济政策以及机构改革方面拥有超过15年的卓越经验。"
+        }
+      ],
+      "team": [],
+      "adminStaff": []
+    },
+    "ui": {
+      "badge": "领导与团队",
+      "heroTitle": "机构治理",
+      "heroDesc": "FRPD 由杰出的董事会管理，并由研究人员、政策专家和行政专业人士组成的全球网络提供支持。"
+    }
+  }
+}

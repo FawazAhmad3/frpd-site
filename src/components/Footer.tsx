@@ -1,10 +1,15 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useLanguage } from '../context/LanguageContext';
+import globalData from '../data/global.json';
 
 export default function Footer() {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<{ text: string; type: 'success' | 'error' } | null>(null);
   const [submitting, setSubmitting] = useState(false);
+  const { language } = useLanguage();
+  const t = (globalData as any)[language].footer;
+  const nav = (globalData as any)[language].nav;
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -12,10 +17,10 @@ export default function Footer() {
     setSubmitting(true);
     try {
       await new Promise((r) => setTimeout(r, 1000));
-      setStatus({ text: 'Thank you for subscribing! We will notify you of new updates.', type: 'success' });
+      setStatus({ text: t.subscribeSuccess, type: 'success' });
       setEmail('');
     } catch {
-      setStatus({ text: 'Something went wrong. Please try again later.', type: 'error' });
+      setStatus({ text: t.subscribeError, type: 'error' });
     } finally {
       setSubmitting(false);
     }
@@ -38,15 +43,15 @@ export default function Footer() {
 
             <div className="flex flex-wrap gap-x-6 gap-y-4 text-sm font-medium border-y border-gray-100 py-6">
               {[
-                { to: '/pages/research-wing', label: 'Research & Development (R&D)' },
-                { to: '/pages/online-courses', label: 'Executive Online Programs' },
-                { to: '/pages/capacity-building', label: 'Capacity Building' },
-                { to: '/pages/workshops-events', label: 'Workshops & Events' },
-                { to: '/pages/consultancy', label: 'Policy & Advisory Services' },
-                { to: '/pages/datahub', label: 'DataHub' },
-                { to: '/pages/mandate', label: 'Mandate' },
-                { to: '/pages/governance', label: 'Governance' },
-                { to: '/pages/contact', label: 'Contact Us' },
+                { to: '/pages/research-wing', label: nav.research },
+                { to: '/pages/online-courses', label: nav.onlineCourses },
+                { to: '/pages/capacity-building', label: nav.capacityBuilding },
+                { to: '/pages/workshops-events', label: nav.workshops },
+                { to: '/pages/consultancy', label: nav.policyAdvisory },
+                { to: '/pages/datahub', label: nav.datahub },
+                { to: '/pages/mandate', label: nav.mandate },
+                { to: '/pages/governance', label: nav.governance },
+                { to: '/pages/contact', label: nav.contactUs },
               ].map((item, i, arr) => (
                 <span key={item.to} className="flex items-center gap-6">
                   <Link to={item.to} className="hover:text-brand-accent transition-colors">{item.label}</Link>
@@ -56,20 +61,20 @@ export default function Footer() {
             </div>
 
             <div className="pt-2 text-sm text-gray-500 leading-relaxed italic">
-              Providing multidisciplinary research, cutting-edge training, and driving policy innovation globally.
+              {t.tagline}
             </div>
           </div>
 
           {/* Right Side */}
           <div className="lg:col-span-5 space-y-10">
             <div className="text-center lg:text-left">
-              <h4 className="text-2xl font-heading font-bold text-gray-900 mb-2">Subscribe</h4>
-              <p className="text-sm text-gray-500 mb-4">Select topics and stay current with our latest insights</p>
+              <h4 className="text-2xl font-heading font-bold text-gray-900 mb-2">{t.subscribe}</h4>
+              <p className="text-sm text-gray-500 mb-4">{t.subscribeDesc}</p>
               <form onSubmit={handleSubmit} className="flex max-w-md mx-auto lg:ml-0 overflow-hidden border border-gray-300 rounded shadow-sm focus-within:border-brand-accent transition-all">
                 <input
                   type="email"
                   required
-                  placeholder="Your e-mail here"
+                  placeholder={t.emailPlaceholder}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="flex-grow px-4 py-3 text-sm focus:outline-none bg-transparent"
@@ -97,12 +102,12 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center gap-4 text-sm group cursor-pointer border-t border-gray-50 pt-4 pb-2">
                   <i className="fas fa-map-marker-alt text-brand-accent"></i>
-                  <span className="font-medium group-hover:text-brand-accent">CDA Headworks Road, Barakahu, Islamabad</span>
+                  <span className="font-medium group-hover:text-brand-accent">{t.address}</span>
                 </div>
               </div>
               <div className="text-right">
                 <Link to="/pages/governance" className="inline-flex items-center gap-2 text-brand-accent font-bold text-sm hover:gap-3 transition-all">
-                  Explore Staff Directory
+                  {t.staffDirectory}
                   <i className="fas fa-chevron-right text-[10px]"></i>
                 </Link>
               </div>
@@ -113,7 +118,7 @@ export default function Footer() {
 
       <div className="bg-brand-dark text-white py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm font-medium tracking-wide">
-          &copy; {new Date().getFullYear()} Firm of Research, Policy and Development. All rights reserved.
+          &copy; {new Date().getFullYear()} Firm of Research, Policy and Development. {t.allRights}
         </div>
       </div>
     </footer>

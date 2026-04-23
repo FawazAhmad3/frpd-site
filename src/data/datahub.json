@@ -204,10 +204,202 @@
         "url": "#",
         "chartDataUrl": "../assets/data/dashboard-sample.csv"
       }
-    ]
+    ] ,
+    "ui": {
+      "sidebarTitle": "Resource Types",
+      "supportTitle": "Support",
+      "customRequest": "Custom Request",
+      "resourcesFound": "Resources Found",
+      "noResults": "No resources found matching your criteria.",
+      "ctaTitle": "Need a Specialized Dataset?",
+      "ctaDesc": "Our data engineering team provides custom data procurement, cleaning, and advanced analytical services tailored to your specific research or policy objectives.",
+      "ctaButton": "Submit Data Request",
+      "searchPlaceholder": "Search by title...",
+      "badge": "Resources Explorer",
+      "categories": [
+        { "label": "All Resources", "value": "All", "icon": "fas fa-layer-group" },
+        { "label": "Surveys", "value": "Surveys", "icon": "fas fa-square-poll-vertical" },
+        { "label": "Dashboards", "value": "Dashboards", "icon": "fas fa-chart-pie" },
+        { "label": "Reports", "value": "Reports", "icon": "fas fa-file-contract" },
+        { "label": "Tools", "value": "Tools", "icon": "fas fa-screwdriver-wrench" }
+      ],
+      "accessFilters": [
+        { "label": "All Access", "value": "All" },
+        { "label": "Open Data", "value": "Free" },
+        { "label": "Premium", "value": "Premium" }
+      ]
+    }
   },
-  "ar": {},
-  "fr": {},
-  "de": {},
-  "zh": {}
+  "ar": {
+    "hero": {
+      "title": "مركز بيانات FRPD",
+      "description": "المستودع المركزي للبيانات الاقتصادية عالية الدقة، والمسوحات الطولية، وأدوات التصور التفاعلية المصممة لدعم صنع السياسات القائمة على الأدلة."
+    },
+    "resources": [
+      {
+        "id": "1",
+        "category": "بيانات مفتوحة",
+        "title": "صندوق النقد الدولي (IMF)",
+        "description": "بيانات الاقتصاد الكلي العالمية (الناتج المحلي الإجمالي، التضخم، الدين، البيانات المالية)<br>قاعدة بيانات آفاق الاقتصاد العالمي (WEO)<br>ميزان المدفوعات، أسعار الصرف، الإحصاءات المالية<br>الأفضل لـ: أبحاث السياسات والماكرو العالمية",
+        "format": "بوابة بيانات",
+        "access": "مجاني",
+        "accessClass": "bg-green-100 text-green-700",
+        "icon": "fas fa-globe",
+        "url": "https://data.imf.org"
+      }
+    ],
+    "ui": {
+      "sidebarTitle": "أنواع الموارد",
+      "supportTitle": "الدعم",
+      "customRequest": "طلب مخصص",
+      "resourcesFound": "موارد تم العثور عليها",
+      "noResults": "لم يتم العثور على موارد تطابق معاييرك.",
+      "ctaTitle": "هل تحتاج إلى مجموعة بيانات متخصصة؟",
+      "ctaDesc": "يوفر فريق هندسة البيانات لدينا خدمات شراء البيانات وتنظيفها والتحليل المتقدم المخصصة لأهدافك البحثية أو السياسية المحددة.",
+      "ctaButton": "إرسال طلب بيانات",
+      "searchPlaceholder": "البحث حسب العنوان...",
+      "badge": "مستكشف الموارد",
+      "categories": [
+        { "label": "جميع الموارد", "value": "All", "icon": "fas fa-layer-group" },
+        { "label": "المسوحات", "value": "Surveys", "icon": "fas fa-square-poll-vertical" },
+        { "label": "لوحات المعلومات", "value": "Dashboards", "icon": "fas fa-chart-pie" },
+        { "label": "التقارير", "value": "Reports", "icon": "fas fa-file-contract" },
+        { "label": "الأدوات", "value": "Tools", "icon": "fas fa-screwdriver-wrench" }
+      ],
+      "accessFilters": [
+        { "label": "كل الوصول", "value": "All" },
+        { "label": "بيانات مفتوحة", "value": "Free" },
+        { "label": "بريميوم", "value": "Premium" }
+      ]
+    }
+  },
+  "fr": {
+    "hero": {
+      "title": "DataHub de la FRPD",
+      "description": "Le référentiel central pour les données économiques de haute fidélité, les enquêtes longitudinales et les outils de visualisation interactive conçus pour soutenir l'élaboration de politiques fondées sur des données probantes."
+    },
+    "resources": [
+      {
+        "id": "1",
+        "category": "Données ouvertes",
+        "title": "Fonds monétaire international (FMI)",
+        "description": "Données macroéconomiques mondiales (PIB, inflation, dette, données budgétaires)<br>Base de données des Perspectives de l'économie mondiale (PEM)<br>Balance des paiements, taux de change, statistiques financières<br>Idéal pour : recherche macroéconomique et politique mondiale",
+        "format": "Portail de données",
+        "access": "Gratuit",
+        "accessClass": "bg-green-100 text-green-700",
+        "icon": "fas fa-globe",
+        "url": "https://data.imf.org"
+      }
+    ],
+    "ui": {
+      "sidebarTitle": "Types de ressources",
+      "supportTitle": "Support",
+      "customRequest": "Demande personnalisée",
+      "resourcesFound": "Ressources trouvées",
+      "noResults": "Aucune ressource trouvée correspondant à vos critères.",
+      "ctaTitle": "Besoin d'un jeu de données spécialisé ?",
+      "ctaDesc": "Notre équipe d'ingénierie de données fournit des services d'approvisionnement, de nettoyage et d'analyse avancée de données personnalisés, adaptés à vos objectifs de recherche ou de politique spécifiques.",
+      "ctaButton": "Soumettre une demande de données",
+      "searchPlaceholder": "Rechercher par titre...",
+      "badge": "Explorateur de ressources",
+      "categories": [
+        { "label": "Toutes les ressources", "value": "All", "icon": "fas fa-layer-group" },
+        { "label": "Enquêtes", "value": "Surveys", "icon": "fas fa-square-poll-vertical" },
+        { "label": "Tableaux de bord", "value": "Dashboards", "icon": "fas fa-chart-pie" },
+        { "label": "Rapports", "value": "Reports", "icon": "fas fa-file-contract" },
+        { "label": "Outils", "value": "Tools", "icon": "fas fa-screwdriver-wrench" }
+      ],
+      "accessFilters": [
+        { "label": "Tout l'accès", "value": "All" },
+        { "label": "Données ouvertes", "value": "Free" },
+        { "label": "Premium", "value": "Premium" }
+      ]
+    }
+  },
+  "de": {
+    "hero": {
+      "title": "FRPD DataHub",
+      "description": "Das zentrale Repository für hochpräzise Wirtschaftsdaten, Längsschnittumfragen und interaktive Visualisierungstools zur Unterstützung einer evidenzbasierten Politikgestaltung."
+    },
+    "resources": [
+      {
+        "id": "1",
+        "category": "Offene Daten",
+        "title": "Internationaler Währungsfonds (IWF)",
+        "description": "Globale makroökonomische Daten (BIP, Inflation, Verschuldung, Finanzdaten)<br>Datenbank des World Economic Outlook (WEO)<br>Zahlungsbilanz, Wechselkurse, Finanzstatistiken<br>Am besten für: globale Makro- und Politikforschung",
+        "format": "Datenportal",
+        "access": "Kostenlos",
+        "accessClass": "bg-green-100 text-green-700",
+        "icon": "fas fa-globe",
+        "url": "https://data.imf.org"
+      }
+    ],
+    "ui": {
+      "sidebarTitle": "Ressourcentypen",
+      "supportTitle": "Unterstützung",
+      "customRequest": "Benutzerdefinierte Anfrage",
+      "resourcesFound": "Ressourcen gefunden",
+      "noResults": "Keine Ressourcen gefunden, die Ihren Kriterien entsprechen.",
+      "ctaTitle": "Benötigen Sie einen spezialisierten Datensatz?",
+      "ctaDesc": "Unser Data Engineering Team bietet maßgeschneiderte Datenbeschaffung, -bereinigung und fortgeschrittene Analysedienste, die auf Ihre spezifischen Forschungs- oder Politikziele zugeschnitten sind.",
+      "ctaButton": "Datenanfrage senden",
+      "searchPlaceholder": "Nach Titel suchen...",
+      "badge": "Ressourcen-Explorer",
+      "categories": [
+        { "label": "Alle Ressourcen", "value": "All", "icon": "fas fa-layer-group" },
+        { "label": "Umfragen", "value": "Surveys", "icon": "fas fa-square-poll-vertical" },
+        { "label": "Dashboards", "value": "Dashboards", "icon": "fas fa-chart-pie" },
+        { "label": "Berichte", "value": "Reports", "icon": "fas fa-file-contract" },
+        { "label": "Werkzeuge", "value": "Tools", "icon": "fas fa-screwdriver-wrench" }
+      ],
+      "accessFilters": [
+        { "label": "Alle Zugänge", "value": "All" },
+        { "label": "Offene Daten", "value": "Free" },
+        { "label": "Premium", "value": "Premium" }
+      ]
+    }
+  },
+  "zh": {
+    "hero": {
+      "title": "FRPD 数据中心",
+      "description": "高保真经济数据、纵向调查和交互式可视化工具的中央存储库，旨在支持循证政策制定。"
+    },
+    "resources": [
+      {
+        "id": "1",
+        "category": "开放数据",
+        "title": "国际货币基金组织 (IMF)",
+        "description": "全球宏观经济数据（GDP、通货膨胀、债务、财政数据）<br>世界经济展望 (WEO) 数据库<br>国际收支、汇率、金融统计<br>最适合：全球宏观和政策研究",
+        "format": "数据门户",
+        "access": "免费",
+        "accessClass": "bg-green-100 text-green-700",
+        "icon": "fas fa-globe",
+        "url": "https://data.imf.org"
+      }
+    ],
+    "ui": {
+      "sidebarTitle": "资源类型",
+      "supportTitle": "支持",
+      "customRequest": "自定义请求",
+      "resourcesFound": "找到的资源",
+      "noResults": "未找到符合您条件的资源。",
+      "ctaTitle": "需要专业数据集？",
+      "ctaDesc": "我们的数据工程团队根据您的特定研究或政策目标，提供定制的数据采购、清洗和高级分析服务。",
+      "ctaButton": "提交数据请求",
+      "searchPlaceholder": "按标题搜索...",
+      "badge": "资源资源管理器",
+      "categories": [
+        { "label": "所有资源", "value": "All", "icon": "fas fa-layer-group" },
+        { "label": "调查", "value": "Surveys", "icon": "fas fa-square-poll-vertical" },
+        { "label": "仪表板", "value": "Dashboards", "icon": "fas fa-chart-pie" },
+        { "label": "报告", "value": "Reports", "icon": "fas fa-file-contract" },
+        { "label": "工具", "value": "Tools", "icon": "fas fa-screwdriver-wrench" }
+      ],
+      "accessFilters": [
+        { "label": "所有访问", "value": "All" },
+        { "label": "开放数据", "value": "Free" },
+        { "label": "高级版", "value": "Premium" }
+      ]
+    }
+  }
 }

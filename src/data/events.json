@@ -1,92 +1,112 @@
 {
-  "en": [
-    {
-      "id": "1",
-      "type": "Workshop",
-      "typeColor": "bg-blue-600",
-      "title": "Applied Econometrics & Data Visualization",
-      "date": "May 15-17, 2026",
-      "time": "09:00 AM - 04:00 PM",
-      "location": "Islamabad, Pakistan / Hybrid",
-      "description": "A comprehensive hands-on workshop focused on advanced econometric models and modern data visualization techniques using R and Stata.",
-      "imageUrl": "/assets/images/sample1.jpg",
-      "registrationUrl": "/pages/contact.html",
-      "status": "Coming Soon",
-      "statusColor": "text-green-500"
+  "en": {
+    "header": {
+      "title": "Workshops & Events",
+      "description": "Join our expert-led sessions designed to bridge the gap between academic research and practical policy application."
     },
-    {
-      "id": "2",
-      "type": "Seminar",
-      "typeColor": "bg-purple-600",
-      "title": "Global Trade Dynamics in a Post-Pandemic World",
-      "date": "June 05, 2026",
-      "time": "02:00 PM - 05:00 PM",
-      "location": "Online via Zoom",
-      "description": "Expert panel discussion on the shifting paradigms of international trade, supply chain resilience, and emerging economic blocs.",
-      "imageUrl": "/assets/images/sample1.jpg",
-      "registrationUrl": "/pages/contact.html",
-      "status": "Coming Soon",
-      "statusColor": "text-green-500"
+    "events": [
+      {
+        "id": "1",
+        "type": "Workshop",
+        "typeColor": "bg-blue-600",
+        "title": "Applied Econometrics & Data Visualization",
+        "date": "May 15-17, 2026",
+        "time": "09:00 AM - 04:00 PM",
+        "location": "Islamabad, Pakistan / Hybrid",
+        "description": "A comprehensive hands-on workshop focused on advanced econometric models and modern data visualization techniques using R and Stata.",
+        "imageUrl": "/assets/images/sample1.jpg",
+        "registrationUrl": "/pages/contact",
+        "status": "Coming Soon",
+        "statusColor": "text-green-500"
+      }
+    ]
+  },
+  "ar": {
+    "header": {
+      "title": "ورش العمل والفعاليات",
+      "description": "انضم إلى جلساتنا التي يقودها الخبراء والمصممة لسد الفجوة بين البحث الأكاديمي والتطبيق العملي للسياسات."
     },
-    {
-      "id": "3",
-      "type": "Conference",
-      "typeColor": "bg-indigo-600",
-      "title": "FRPD Annual Economic Summit 2026",
-      "date": "September 12-14, 2026",
-      "time": "Full Day",
-      "location": "National Convention center",
-      "description": "Our flagship annual conference bringing together policy makers, academics, and industry leaders to discuss sustainable development goals.",
-      "imageUrl": "/assets/images/sample1.jpg",
-      "registrationUrl": "/pages/contact.html",
-      "status": "Coming Soon",
-      "statusColor": "text-green-500"
+    "events": [
+      {
+        "id": "1",
+        "type": "ورشة عمل",
+        "typeColor": "bg-blue-600",
+        "title": "الاقتصاد القياسي التطبيقي وتصور البيانات",
+        "date": "15-17 مايو 2026",
+        "time": "09:00 صباحاً - 04:00 مساءً",
+        "location": "إسلام آباد، باكستان / هجين",
+        "description": "ورشة عمل عملية شاملة تركز على النماذج الاقتصادية القياسية المتقدمة وتقنيات تصور البيانات الحديثة باستخدام R و Stata.",
+        "imageUrl": "/assets/images/sample1.jpg",
+        "registrationUrl": "/pages/contact",
+        "status": "قريباً",
+        "statusColor": "text-green-500"
+      }
+    ]
+  },
+  "fr": {
+    "header": {
+      "title": "Ateliers et événements",
+      "description": "Participez à nos sessions dirigées par des experts, conçues pour combler le fossé entre la recherche académique et l'application pratique des politiques."
     },
-    {
-      "id": "4",
-      "type": "Webinar",
-      "typeColor": "bg-teal-600",
-      "title": "Digital Transformation in Developing Economies",
-      "date": "April 28, 2026",
-      "time": "03:30 PM - 05:00 PM",
-      "location": "Online / YouTube Live",
-      "description": "Exploring the impact of financial technologies and digital infrastructure on economic growth in emerging markets.",
-      "imageUrl": "/assets/images/sample1.jpg",
-      "registrationUrl": "/pages/contact.html",
-      "status": "Registration Open",
-      "statusColor": "text-blue-500"
+    "events": [
+      {
+        "id": "1",
+        "type": "Atelier",
+        "typeColor": "bg-blue-600",
+        "title": "Économétrie appliquée et visualisation des données",
+        "date": "15-17 mai 2026",
+        "time": "09h00 - 16h00",
+        "location": "Islamabad, Pakistan / Hybride",
+        "description": "Un atelier pratique complet axé sur les modèles économétriques avancés et les techniques modernes de visualisation de données utilisant R et Stata.",
+        "imageUrl": "/assets/images/sample1.jpg",
+        "registrationUrl": "/pages/contact",
+        "status": "À venir",
+        "statusColor": "text-green-500"
+      }
+    ]
+  },
+  "de": {
+    "header": {
+      "title": "Workshops & Veranstaltungen",
+      "description": "Nehmen Sie an unseren von Experten geleiteten Sitzungen teil, die darauf abzielen, die Lücke zwischen akademischer Forschung und praktischer Anwendung in der Politik zu schließen."
     },
-    {
-      "id": "5",
-      "type": "Roundtable",
-      "typeColor": "bg-orange-600",
-      "title": "Policy Framework for Climate Resilience",
-      "date": "May 22, 2026",
-      "time": "11:00 AM - 01:00 PM",
-      "location": "FRPD Boardroom / Invite Only",
-      "description": "A closed-door discussion among senior advisors on integrating climate risk into national economic planning.",
-      "imageUrl": "/assets/images/sample1.jpg",
-      "registrationUrl": "#",
-      "status": "Closed",
-      "statusColor": "text-red-500"
+    "events": [
+      {
+        "id": "1",
+        "type": "Workshop",
+        "typeColor": "bg-blue-600",
+        "title": "Angewandte Ökonometrie & Datenvisualisierung",
+        "date": "15.-17. Mai 2026",
+        "time": "09:00 - 16:00 Uhr",
+        "location": "Islamabad, Pakistan / Hybrid",
+        "description": "Ein umfassender praktischer Workshop mit Schwerpunkt auf fortgeschrittenen ökonometrischen Modellen und modernen Datenvisualisierungstechniken unter Verwendung von R und Stata.",
+        "imageUrl": "/assets/images/sample1.jpg",
+        "registrationUrl": "/pages/contact",
+        "status": "Demnächst",
+        "statusColor": "text-green-500"
+      }
+    ]
+  },
+  "zh": {
+    "header": {
+      "title": "研讨会与活动",
+      "description": "参加由专家领导的课程，旨在缩小学术研究与实际政策应用之间的差距。"
     },
-    {
-      "id": "6",
-      "type": "Seminar",
-      "typeColor": "bg-purple-600",
-      "title": "Launch of the Economic Outlook Report Q3",
-      "date": "July 10, 2026",
-      "time": "10:30 AM",
-      "location": "Press Club / Live Stream",
-      "description": "Unveiling our quarterly analysis of national economic indicators and growth projections for the upcoming year.",
-      "imageUrl": "/assets/images/sample1.jpg",
-      "registrationUrl": "/pages/contact.html",
-      "status": "Coming Soon",
-      "statusColor": "text-green-500"
-    }
-  ],
-  "ar": [],
-  "fr": [],
-  "de": [],
-  "zh": []
+    "events": [
+      {
+        "id": "1",
+        "type": "研讨会",
+        "typeColor": "bg-blue-600",
+        "title": "应用经济计量学与数据可视化",
+        "date": "2026年5月15-17日",
+        "time": "上午 09:00 - 下午 04:00",
+        "location": "巴基斯坦伊斯兰堡 / 混合办公",
+        "description": "一个全面的实践研讨会，专注于先进的经济计量模型和使用 R 和 Stata 的现代数据可视化技术。",
+        "imageUrl": "/assets/images/sample1.jpg",
+        "registrationUrl": "/pages/contact",
+        "status": "即将推出",
+        "statusColor": "text-green-500"
+      }
+    ]
+  }
 }

@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
+import globalData from '../data/global.json';
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const location = useLocation();
   const { language, setLanguage } = useLanguage();
+  const t = (globalData as any)[language].nav;
 
   const isActive = (path: string) => location.pathname === path;
 
@@ -28,39 +30,39 @@ export default function Navbar() {
           <div className="flex items-center space-x-4 lg:space-x-8 animate__animated animate__delay-0.1s animate__slower animate__backInLeft">
             {/* Navigation Links */}
             <div className="hidden lg:flex items-center space-x-6 text-[15px] font-medium">
-              <Link to="/" className={`hover:text-brand-accent transition-colors ${isActive('/') ? 'text-brand-accent' : ''}`}>Home</Link>
+              <Link to="/" className={`hover:text-brand-accent transition-colors ${isActive('/') ? 'text-brand-accent' : ''}`}>{t.home}</Link>
 
               {/* What We Do Dropdown */}
               <div className="relative dropdown group">
                 <button className="hover:text-brand-accent flex items-center transition-colors pb-12 -mb-12 pt-12 -mt-12">
-                  <span>What we do</span>
+                  <span>{t.whatWeDo}</span>
                   <i className="fas fa-chevron-down ml-1 text-xs"></i>
                 </button>
                 <div className="dropdown-menu absolute left-0 top-full w-80 bg-white text-brand-dark rounded-md shadow-xl z-20 border border-gray-100 mt-1 pb-2 animate__animated animate__zoomIn animate__faster">
-                  <Link to="/pages/research-wing" className="block px-6 py-3 text-base font-semibold hover:bg-brand-gray hover:text-brand-accent tracking-wide">Research & Development (R&D)</Link>
+                  <Link to="/pages/research-wing" className="block px-6 py-3 text-base font-semibold hover:bg-brand-gray hover:text-brand-accent tracking-wide">{t.research}</Link>
                   <div className="border-t border-gray-100"></div>
-                  <Link to="/pages/online-courses" className="block px-6 py-3 text-base font-semibold hover:bg-brand-gray hover:text-brand-accent tracking-wide">Executive Online Programs</Link>
+                  <Link to="/pages/online-courses" className="block px-6 py-3 text-base font-semibold hover:bg-brand-gray hover:text-brand-accent tracking-wide">{t.onlineCourses}</Link>
                   <div className="border-t border-gray-100"></div>
-                  <Link to="/pages/capacity-building" className="block px-6 py-3 text-base font-semibold hover:bg-brand-gray hover:text-brand-accent tracking-wide">Capacity Building Programs</Link>
+                  <Link to="/pages/capacity-building" className="block px-6 py-3 text-base font-semibold hover:bg-brand-gray hover:text-brand-accent tracking-wide">{t.capacityBuilding}</Link>
                   <div className="border-t border-gray-100"></div>
-                  <Link to="/pages/consultancy" className="block px-6 py-3 text-base font-semibold hover:bg-brand-gray hover:text-brand-accent tracking-wide">Policy & Advisory Services</Link>
+                  <Link to="/pages/consultancy" className="block px-6 py-3 text-base font-semibold hover:bg-brand-gray hover:text-brand-accent tracking-wide">{t.policyAdvisory}</Link>
                 </div>
               </div>
 
-              <Link to="/pages/workshops-events" className="hover:text-brand-accent transition-colors">Workshops & Events</Link>
-              <Link to="/pages/publications" className="hover:text-brand-accent transition-colors">Publications</Link>
-              <Link to="/pages/datahub" className="hover:text-brand-accent transition-colors">DataHub</Link>
+              <Link to="/pages/workshops-events" className="hover:text-brand-accent transition-colors">{t.workshops}</Link>
+              <Link to="/pages/publications" className="hover:text-brand-accent transition-colors">{t.publications}</Link>
+              <Link to="/pages/datahub" className="hover:text-brand-accent transition-colors">{t.datahub}</Link>
 
               {/* About Us Dropdown */}
               <div className="relative dropdown group">
                 <button className="hover:text-brand-accent flex items-center transition-colors pb-12 -mb-12 pt-12 -mt-12">
-                  <span>About Us</span>
+                  <span>{t.aboutUs}</span>
                   <i className="fas fa-chevron-down ml-1 text-xs"></i>
                 </button>
                 <div className="dropdown-menu absolute right-0 top-full w-56 bg-white text-brand-dark rounded-md shadow-xl z-20 border border-gray-100 mt-1 animate__animated animate__zoomIn animate__faster">
-                  <Link to="/pages/mandate" className="block px-4 py-3 text-base hover:bg-brand-gray hover:text-brand-accent">Mandate</Link>
-                  <Link to="/pages/governance" className="block px-4 py-3 text-base hover:bg-brand-gray hover:text-brand-accent">Governance</Link>
-                  <Link to="/pages/careers" className="block px-4 py-3 text-base hover:bg-brand-gray hover:text-brand-accent">Careers</Link>
+                  <Link to="/pages/mandate" className="block px-4 py-3 text-base hover:bg-brand-gray hover:text-brand-accent">{t.mandate}</Link>
+                  <Link to="/pages/governance" className="block px-4 py-3 text-base hover:bg-brand-gray hover:text-brand-accent">{t.governance}</Link>
+                  <Link to="/pages/careers" className="block px-4 py-3 text-base hover:bg-brand-gray hover:text-brand-accent">{t.careers}</Link>
                 </div>
               </div>
             </div>
@@ -71,7 +73,7 @@ export default function Navbar() {
                 to="/pages/contact"
                 className="hidden lg:inline-block bg-brand-accent text-white px-6 py-2.5 rounded-full hover:bg-blue-600 transition-colors btn-hover shadow-md font-semibold"
               >
-                Contact Us
+                {t.contactUs}
               </Link>
 
               {/* Language Switcher */}
@@ -109,17 +111,17 @@ export default function Navbar() {
       <div className={`${mobileOpen ? '' : 'hidden'} lg:hidden bg-white border-t border-gray-100 pb-4 shadow-xl`}>
         <div className="px-2 pt-2 pb-3 space-y-1 bg-white">
           {[
-            { to: '/', label: 'Home' },
-            { to: '/pages/research-wing', label: 'Research & Development (R&D)' },
-            { to: '/pages/online-courses', label: 'Executive Online Programs' },
-            { to: '/pages/capacity-building', label: 'Capacity Building Programs' },
-            { to: '/pages/workshops-events', label: 'Workshops & Events' },
-            { to: '/pages/publications', label: 'Publications' },
-            { to: '/pages/consultancy', label: 'Policy & Advisory Services' },
-            { to: '/pages/datahub', label: 'DataHub' },
-            { to: '/pages/mandate', label: 'Mandate' },
-            { to: '/pages/governance', label: 'Governance' },
-            { to: '/pages/careers', label: 'Careers' },
+            { to: '/', label: t.home },
+            { to: '/pages/research-wing', label: t.research },
+            { to: '/pages/online-courses', label: t.onlineCourses },
+            { to: '/pages/capacity-building', label: t.capacityBuilding },
+            { to: '/pages/workshops-events', label: t.workshops },
+            { to: '/pages/publications', label: t.publications },
+            { to: '/pages/consultancy', label: t.policyAdvisory },
+            { to: '/pages/datahub', label: t.datahub },
+            { to: '/pages/mandate', label: t.mandate },
+            { to: '/pages/governance', label: t.governance },
+            { to: '/pages/careers', label: t.careers },
           ].map((item) => (
             <Link
               key={item.to}
@@ -135,7 +137,7 @@ export default function Navbar() {
             onClick={() => setMobileOpen(false)}
             className="block px-3 py-2 rounded-md text-base font-bold text-brand-accent hover:text-brand-dark hover:bg-gray-50 transition"
           >
-            Contact Us
+            {t.contactUs}
           </Link>
           
           <div className="border-t border-gray-100 my-2 pt-2 px-3">

@@ -4,6 +4,10 @@
       "title": "Skills to transform your career and life",
       "description": "From critical skills to technical topics, FRPD supports your professional development."
     },
+    "ui": {
+      "allLabel": "All Courses",
+      "allDescription": "Discover our complete range of certified professional courses across AI, Data Science, Web Development, and more."
+    },
     "categories": [
       {
         "id": "cat-ai",
@@ -20,114 +24,144 @@
             "oldPrice": "15,000",
             "badge": "Bestseller",
             "badgeVisibility": "block",
-            "image": "/Users/fawaz/.gemini/antigravity/brain/f08df287-e437-41cd-b278-deca17d938cb/ai_course_1_1776755108297.png",
+            "image": "/assets/images/sample1.jpg",
             "duration": "45.5 hours",
-            "level": "All Levels"
-          },
-          {
-            "id": "cp-ai-2",
-            "title": "AI Agents & Agentic AI: Building the Future of Automation",
-            "instructor": "Alex Rivera",
-            "rating": 4.9,
-            "reviewsCount": "5,120",
-            "price": "3,500",
-            "oldPrice": "18,000",
-            "badge": "Highest Rated",
-            "badgeVisibility": "block",
-            "image": "/Users/fawaz/.gemini/antigravity/brain/f08df287-e437-41cd-b278-deca17d938cb/ai_course_1_1776755108297.png",
-            "duration": "12 hours",
-            "level": "Intermediate"
-          }
-        ]
-      },
-      {
-        "id": "cat-web",
-        "name": "Web Development",
-        "description": "Build modern, responsive websites and web applications using the latest technologies.",
-        "courses": [
-          {
-            "id": "cp-web-1",
-            "title": "The Complete 2026 Web Development Bootcamp",
-            "instructor": "James Wilson",
-            "rating": 4.7,
-            "reviewsCount": "152,940",
-            "price": "2,500",
-            "oldPrice": "18,000",
-            "badge": "Bestseller",
-            "badgeVisibility": "block",
-            "image": "/Users/fawaz/.gemini/antigravity/brain/f08df287-e437-41cd-b278-deca17d938cb/web_dev_course_1_1776755122933.png",
-            "duration": "64 hours",
-            "level": "All Levels"
-          }
-        ]
-      },
-      {
-        "id": "cat-data",
-        "name": "Data Science",
-        "description": "Learn to analyze data, build predictive models, and extract insights with Python and R.",
-        "courses": [
-          {
-            "id": "cp-data-1",
-            "title": "Data Science & AI Masters 2026 - From Python to Gen AI",
-            "instructor": "Prof. Michael Chen",
-            "rating": 4.8,
-            "reviewsCount": "8,243",
-            "price": "3,000",
-            "oldPrice": "12,000",
-            "badge": "Bestseller",
-            "badgeVisibility": "block",
-            "image": "/Users/fawaz/.gemini/antigravity/brain/f08df287-e437-41cd-b278-deca17d938cb/data_science_course_1_1776755140538.png",
-            "duration": "52 hours",
-            "level": "Beginner to Pro"
-          }
-        ]
-      },
-      {
-        "id": "cat-lead",
-        "name": "Leadership",
-        "description": "Develop the soft skills and strategic mindset needed to lead modern organizations.",
-        "courses": [
-          {
-            "id": "cp-lead-1",
-            "title": "Leadership: Practical Leadership Skills",
-            "instructor": "Gregory Caremans",
-            "rating": 4.6,
-            "reviewsCount": "45,000",
-            "price": "2,500",
-            "oldPrice": "4,500",
-            "badge": "Bestseller",
-            "badgeVisibility": "block",
-            "image": "/Users/fawaz/.gemini/antigravity/brain/f08df287-e437-41cd-b278-deca17d938cb/leadership_course_1_1776755161106.png",
-            "duration": "3 hours",
-            "level": "Intermediate"
-          }
-        ]
-      },
-      {
-        "id": "cat-biz",
-        "name": "Business Analytics & Intelligence",
-        "description": "Master data-driven decision making with Power BI, SQL, and Advanced Analytics.",
-        "courses": [
-          {
-            "id": "cp-biz-1",
-            "title": "Business Intelligence Mastery: Power BI & SQL",
-            "instructor": "Elena Rodriguez",
-            "rating": 4.7,
-            "reviewsCount": "12,300",
-            "price": "2,500",
-            "oldPrice": "7,500",
-            "badge": "New",
-            "badgeVisibility": "block",
-            "image": "/Users/fawaz/.gemini/antigravity/brain/f08df287-e437-41cd-b278-deca17d938cb/business_analytics_course_1_retry_1776755245494.png",
-            "duration": "18 hours",
             "level": "All Levels"
           }
         ]
       }
     ]
   },
-  "ar": {},
-  "fr": {},
-  "de": {},
-  "zh": {}
+  "ar": {
+    "hero": {
+      "title": "مهارات لتحويل حياتك المهنية وحياتك",
+      "description": "من المهارات الحيوية إلى المواضيع التقنية، تدعم FRPD تطورك المهني."
+    },
+    "ui": {
+      "allLabel": "جميع الدورات",
+      "allDescription": "اكتشف مجموعتنا الكاملة من الدورات المهنية المعتمدة في الذكاء الاصطناعي وعلوم البيانات وتطوير الويب والمزيد."
+    },
+    "categories": [
+      {
+        "id": "cat-ai",
+        "name": "الذكاء الاصطناعي (AI)",
+        "description": "أتقن عالم الذكاء الاصطناعي التوليدي، والشبكات العصبية، وسير العمل الوكيل مع مشاريع عملية.",
+        "courses": [
+          {
+            "id": "cp-ai-1",
+            "title": "دورة مهندس الذكاء الاصطناعي 2026: معسكر تدريب مهندس الذكاء الاصطناعي الكامل",
+            "instructor": "د. سارة ميتشل",
+            "rating": 4.8,
+            "reviewsCount": "19,409",
+            "price": "2,500",
+            "oldPrice": "15,000",
+            "badge": "الأكثر مبيعاً",
+            "badgeVisibility": "block",
+            "image": "/assets/images/sample1.jpg",
+            "duration": "45.5 ساعة",
+            "level": "جميع المستويات"
+          }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "hero": {
+      "title": "Des compétences pour transformer votre carrière et votre vie",
+      "description": "Des compétences critiques aux sujets techniques, FRPD soutient votre développement professionnel."
+    },
+    "ui": {
+      "allLabel": "Tous les cours",
+      "allDescription": "Découvrez notre gamme complète de cours professionnels certifiés en IA, science des données, développement Web, etc."
+    },
+    "categories": [
+      {
+        "id": "cat-ai",
+        "name": "Intelligence Artificielle (IA)",
+        "description": "Maîtrisez le monde de l'IA générative, des réseaux neuronaux et des flux de travail agentiques avec des projets pratiques.",
+        "courses": [
+          {
+            "id": "cp-ai-1",
+            "title": "Cours d'ingénieur IA 2026 : Bootcamp complet d'ingénieur IA",
+            "instructor": "Dr Sarah Mitchell",
+            "rating": 4.8,
+            "reviewsCount": "19 409",
+            "price": "2 500",
+            "oldPrice": "15 000",
+            "badge": "Bestseller",
+            "badgeVisibility": "block",
+            "image": "/assets/images/sample1.jpg",
+            "duration": "45,5 heures",
+            "level": "Tous les niveaux"
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "hero": {
+      "title": "Fähigkeiten, die Ihre Karriere und Ihr Leben verändern",
+      "description": "Von kritischen Fähigkeiten bis hin zu technischen Themen unterstützt FRPD Ihre berufliche Weiterentwicklung."
+    },
+    "ui": {
+      "allLabel": "Alle Kurse",
+      "allDescription": "Entdecken Sie unser komplettes Angebot an zertifizierten professionellen Kursen in den Bereichen KI, Datenwissenschaft, Webentwicklung und mehr."
+    },
+    "categories": [
+      {
+        "id": "cat-ai",
+        "name": "Künstliche Intelligenz (KI)",
+        "description": "Meistern Sie die Welt der generativen KI, neuronalen Netze und agentischen Workflows mit praktischen Projekten.",
+        "courses": [
+          {
+            "id": "cp-ai-1",
+            "title": "Der KI-Ingenieur-Kurs 2026: Komplettes KI-Ingenieur-Bootcamp",
+            "instructor": "Dr. Sarah Mitchell",
+            "rating": 4.8,
+            "reviewsCount": "19.409",
+            "price": "2.500",
+            "oldPrice": "15.000",
+            "badge": "Bestseller",
+            "badgeVisibility": "block",
+            "image": "/assets/images/sample1.jpg",
+            "duration": "45,5 Stunden",
+            "level": "Alle Ebenen"
+          }
+        ]
+      }
+    ]
+  },
+  "zh": {
+    "hero": {
+      "title": "改变职业和生活的技能",
+      "description": "从关键技能到技术话题，FRPD 支持您的职业发展。"
+    },
+    "ui": {
+      "allLabel": "所有课程",
+      "allDescription": "探索我们在人工智能、数据科学、Web 开发等领域的全系列认证专业课程。"
+    },
+    "categories": [
+      {
+        "id": "cat-ai",
+        "name": "人工智能 (AI)",
+        "description": "通过动手项目掌握生成式人工智能、神经网络和代理工作流的世界。",
+        "courses": [
+          {
+            "id": "cp-ai-1",
+            "title": "2026年人工智能工程师课程：完整的人工智能工程师训练营",
+            "instructor": "Sarah Mitchell 博士",
+            "rating": 4.8,
+            "reviewsCount": "19,409",
+            "price": "2,500",
+            "oldPrice": "15,000",
+            "badge": "畅销",
+            "badgeVisibility": "block",
+            "image": "/assets/images/sample1.jpg",
+            "duration": "45.5 小时",
+            "level": "所有级别"
+          }
+        ]
+      }
+    ]
+  }
 }

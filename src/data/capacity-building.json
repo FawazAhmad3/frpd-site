@@ -62,5 +62,82 @@
         ]
       }
     ]
+  },
+  "ar": {
+    "hero": {
+      "title": "برامج بناء القدرات",
+      "description": "توفر FRPD مبادرات متخصصة لبناء القدرات مصممة لتمكين المنظمات والأفراد بالأدوات اللازمة للتنمية المستدامة والتميز المؤسسي."
+    },
+    "categories": [
+      {
+        "id": "policy",
+        "title": "السياسة والحوكمة",
+        "icon": "fas fa-gavel",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "برنامج تصميم وتنفيذ السياسات العامة", "url": "/pages/contact" },
+          { "title": "التدريب على الحوكمة والأطر التنظيمية والإصلاح المؤسسي", "url": "/pages/contact" }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "hero": {
+      "title": "Programmes de renforcement des capacités",
+      "description": "FRPD propose des initiatives spécialisées de renforcement des capacités conçues pour doter les organisations et les individus des outils nécessaires au développement durable et à l'excellence institutionnelle."
+    },
+    "categories": [
+      {
+        "id": "policy",
+        "title": "Politique et gouvernance",
+        "icon": "fas fa-gavel",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "Programme de conception et de mise en œuvre des politiques publiques", "url": "/pages/contact" }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "hero": {
+      "title": "Programme zum Kapazitätsaufbau",
+      "description": "FRPD bietet spezialisierte Initiativen zum Kapazitätsaufbau an, um Organisationen und Einzelpersonen mit den für eine nachhaltige Entwicklung und institutionelle Exzellenz erforderlichen Instrumenten auszustatten."
+    },
+    "categories": [
+      {
+        "id": "policy",
+        "title": "Politik & Governance",
+        "icon": "fas fa-gavel",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "Programm zur Gestaltung und Umsetzung öffentlicher Politik", "url": "/pages/contact" }
+        ]
+      }
+    ]
+  },
+  "zh": {
+    "hero": {
+      "title": "能力建设计划",
+      "description": "FRPD 提供专门的能力建设倡议，旨在为组织和个人提供可持续发展和机构卓越所需的工具。"
+    },
+    "categories": [
+      {
+        "id": "policy",
+        "title": "政策与治理",
+        "icon": "fas fa-gavel",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "公共政策设计与实施计划", "url": "/pages/contact" }
+        ]
+      }
+    ]
   }
 }

@@ -1,4 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
+import { useLanguage } from '../context/LanguageContext';
+import globalData from '../data/global.json';
 
 const slides = [
   { src: '/assets/images/sample1.jpg', alt: 'Slide 1' },
@@ -8,6 +10,8 @@ const slides = [
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
+  const { language } = useLanguage();
+  const t = (globalData as any)[language].footer;
 
   const goTo = useCallback((index: number) => {
     setCurrent(index);
@@ -72,8 +76,8 @@ export default function Hero() {
 
       {/* Ribbon */}
       <div className="w-full text-center py-2.5 px-4" style={{ backgroundColor: '#0f1729' }}>
-        <p className="text-[#c75e2b] text-xs md:text-sm font-bold uppercase tracking-widest">
-          Organization in special consultative status with the economic and social council since 2018
+        <p className="text-[#c75e2b] text-[10px] md:text-sm font-bold uppercase tracking-widest leading-relaxed">
+          {t.ribbonText}
         </p>
       </div>
     </div>

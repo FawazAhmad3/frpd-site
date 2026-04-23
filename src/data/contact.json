@@ -1,0 +1,136 @@
+{
+  "en": {
+    "hero": {
+      "title": "Contact Us",
+      "description": "Have questions or need assistance? Reach out to us through any of the channels below."
+    },
+    "details": {
+      "phone": "0092 344 9198158",
+      "email": "info@frpd.pk",
+      "address": "CDA Headworks Road, Barakahu, Islamabad",
+      "workHours": "Monday - Friday: 9:00 AM - 5:00 PM"
+    },
+    "ui": {
+      "badge": "Get in Touch",
+      "formTitle": "Send us a Message",
+      "formName": "Full Name",
+      "formEmail": "Email Address",
+      "formSubject": "Subject",
+      "formMessage": "Message",
+      "formSubmit": "Send Message",
+      "infoTitle": "Contact Information",
+      "deptTitle": "Departmental Contacts"
+    },
+    "departments": [
+      { "name": "Admin Office", "phone": "+92-51 9248051", "email": "admin@frpd.pk" },
+      { "name": "Research Wing", "phone": "+92-51 344 9198158", "email": "research@frpd.pk" },
+      { "name": "Capacity Building", "phone": "+92-51 9248053", "email": "training@frpd.pk" }
+    ]
+  },
+  "ar": {
+    "hero": {
+      "title": "اتصل بنا",
+      "description": "لديك أسئلة أو تحتاج إلى مساعدة؟ تواصل معنا من خلال أي من القنوات أدناه."
+    },
+    "details": {
+      "phone": "0092 344 9198158",
+      "email": "info@frpd.pk",
+      "address": "طريق كدا هيدوركس، باركاهو، إسلام آباد",
+      "workHours": "الاثنين - الجمعة: 9:00 صباحاً - 5:00 مساءً"
+    },
+    "ui": {
+      "badge": "تواصل معنا",
+      "formTitle": "أرسل لنا رسالة",
+      "formName": "الاسم الكامل",
+      "formEmail": "البريد الإلكتروني",
+      "formSubject": "الموضوع",
+      "formMessage": "الرسالة",
+      "formSubmit": "إرسال الرسالة",
+      "infoTitle": "معلومات الاتصال",
+      "deptTitle": "جهات اتصال الأقسام"
+    },
+    "departments": [
+      { "name": "المكتب الإداري", "phone": "+92-51 9248051", "email": "admin@frpd.pk" },
+      { "name": "جناح البحث", "phone": "+92-51 344 9198158", "email": "research@frpd.pk" },
+      { "name": "بناء القدرات", "phone": "+92-51 9248053", "email": "training@frpd.pk" }
+    ]
+  },
+  "fr": {
+    "hero": {
+      "title": "Contactez-nous",
+      "description": "Vous avez des questions ou besoin d'aide ? Contactez-nous via l'un des canaux ci-dessous."
+    },
+    "details": {
+      "phone": "0092 344 9198158",
+      "email": "info@frpd.pk",
+      "address": "CDA Headworks Road, Barakahu, Islamabad",
+      "workHours": "Lundi - Vendredi : 09h00 - 17h00"
+    },
+    "ui": {
+      "badge": "Entrer en contact",
+      "formTitle": "Envoyez-nous un message",
+      "formName": "Nom complet",
+      "formEmail": "Adresse e-mail",
+      "formSubject": "Sujet",
+      "formMessage": "Message",
+      "formSubmit": "Envoyer le message",
+      "infoTitle": "Coordonnées",
+      "deptTitle": "Contacts des départements"
+    },
+    "departments": [
+      { "name": "Bureau administratif", "phone": "+92-51 9248051", "email": "admin@frpd.pk" }
+    ]
+  },
+  "de": {
+    "hero": {
+      "title": "Kontaktieren Sie uns",
+      "description": "Haben Sie Fragen oder benötigen Sie Unterstützung? Kontaktieren Sie uns über einen der unten aufgeführten Kanäle."
+    },
+    "details": {
+      "phone": "0092 344 9198158",
+      "email": "info@frpd.pk",
+      "address": "CDA Headworks Road, Barakahu, Islamabad",
+      "workHours": "Montag - Freitag: 9:00 - 17:00 Uhr"
+    },
+    "ui": {
+      "badge": "Kontakt aufnehmen",
+      "formTitle": "Schicken Sie uns eine Nachricht",
+      "formName": "Vollständiger Name",
+      "formEmail": "E-Mail-Adresse",
+      "formSubject": "Betreff",
+      "formMessage": "Nachricht",
+      "formSubmit": "Nachricht senden",
+      "infoTitle": "Kontaktinformationen",
+      "deptTitle": "Abteilungskontakte"
+    },
+    "departments": [
+      { "name": "Verwaltungsbüro", "phone": "+92-51 9248051", "email": "admin@frpd.pk" }
+    ]
+  },
+  "zh": {
+    "hero": {
+      "title": "联系我们",
+      "description": "有疑问或需要帮助？通过以下任何渠道与我们联系。"
+    },
+    "details": {
+      "phone": "0092 344 9198158",
+      "email": "info@frpd.pk",
+      "address": "伊斯兰堡巴拉卡胡 CDA Headworks Road",
+      "workHours": "周一至周五：上午 9:00 - 下午 5:00"
+    },
+    "ui": {
+      "badge": "保持联系",
+      "formTitle": "给我们发信息",
+      "formName": "全名",
+      "formEmail": "电子邮件地址",
+      "formSubject": "主题",
+      "formMessage": "消息",
+      "formSubmit": "发送消息",
+      "infoTitle": "联系信息",
+      "deptTitle": "部门联系方式"
+    },
+    "departments": [
+      { "name": "行政办公室", "phone": "+92-51 9248051", "email": "admin@frpd.pk" }
+    ]
+  }
+}

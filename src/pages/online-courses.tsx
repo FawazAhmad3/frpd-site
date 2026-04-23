@@ -2,8 +2,7 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 import CardCourse from '../components/CardCourse';
 import ModalCourse from '../components/ModalCourse';
 import programsData from '../data/online-programs.json';
-
-const data = programsData.en;
+import { useLanguage } from '../context/LanguageContext';
 
 interface Course {
   id: string;
@@ -21,20 +20,22 @@ interface Course {
 }
 
 export default function OnlineCourses() {
+  const { language } = useLanguage();
+  const data = (programsData as any)[language] || programsData.en;
   const [activeTab, setActiveTab] = useState('all');
   const [modalCourse, setModalCourse] = useState<Course | null>(null);
   const [showLeft, setShowLeft] = useState(false);
   const [showRight, setShowRight] = useState(true);
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  const allCourses: Course[] = data.categories.flatMap((c) => c.courses);
+  const allCourses: Course[] = data.categories.flatMap((c: any) => c.courses);
 
-  const activeCat = data.categories.find((c) => c.id === activeTab);
-  const displayName = activeTab === 'all' ? 'All Executive Programs' : activeCat?.name || '';
-  const displayDesc =
-    activeTab === 'all'
-      ? 'Discover our complete range of certified professional courses across AI, Data Science, Web Development, and more.'
-      : activeCat?.description || '';
+  const activeCat = data.categories.find((c: any) => c.id === activeTab);
+  
+  const allLabel = data.ui.allLabel;
+
+  const displayName = activeTab === 'all' ? allLabel : activeCat?.name || '';
+  const displayDesc = activeTab === 'all' ? data.ui.allDescription : activeCat?.description || '';
 
   const courses: Course[] = activeTab === 'all' ? allCourses : activeCat?.courses || [];
 
@@ -87,9 +88,9 @@ export default function OnlineCourses() {
                 activeTab === 'all' ? 'active text-brand-dark border-b-2 border-brand-dark font-bold' : 'text-gray-500 hover:text-brand-dark'
               }`}
             >
-              All Courses
+              {allLabel}
             </div>
-            {data.categories.map((cat) => (
+            {data.categories.map((cat: any) => (
               <div
                 key={cat.id}
                 onClick={() => setActiveTab(cat.id)}

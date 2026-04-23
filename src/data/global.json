@@ -1,0 +1,192 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "whatWeDo": "What we do",
+      "research": "Research & Development (R&D)",
+      "onlineCourses": "Executive Online Programs",
+      "capacityBuilding": "Capacity Building Programs",
+      "policyAdvisory": "Policy & Advisory Services",
+      "workshops": "Workshops & Events",
+      "publications": "Publications",
+      "datahub": "DataHub",
+      "aboutUs": "About Us",
+      "mandate": "Mandate",
+      "governance": "Governance",
+      "careers": "Careers",
+      "contactUs": "Contact Us"
+    },
+    "footer": {
+      "tagline": "Providing multidisciplinary research, cutting-edge training, and driving policy innovation globally.",
+      "quickLinks": "Quick Links",
+      "contactInfo": "Contact Info",
+      "address": "Islamabad, Pakistan",
+      "allRights": "All Rights Reserved.",
+      "subscribe": "Subscribe",
+      "subscribeDesc": "Select topics and stay current with our latest insights",
+      "emailPlaceholder": "Your e-mail here",
+      "staffDirectory": "Explore Staff Directory",
+      "subscribeSuccess": "Thank you for subscribing! We will notify you of new updates.",
+      "subscribeError": "Something went wrong. Please try again later.",
+      "ribbonText": "Organization in special consultative status with the economic and social council since 2018"
+    },
+    "buttons": {
+      "applyNow": "Apply Now",
+      "readMore": "Read More",
+      "viewDetails": "View Details",
+      "joinPool": "Join Talent Pool"
+    }
+  },
+  "ar": {
+    "nav": {
+      "home": "الرئيسية",
+      "whatWeDo": "ماذا نفعل",
+      "research": "البحث والتطوير (R&D)",
+      "onlineCourses": "البرامج التنفيذية عبر الإنترنت",
+      "capacityBuilding": "برامج بناء القدرات",
+      "policyAdvisory": "خدمات السياسات والاستشارات",
+      "workshops": "ورش العمل والفعاليات",
+      "publications": "المنشورات",
+      "datahub": "مركز البيانات",
+      "aboutUs": "من نحن",
+      "mandate": "المهمة",
+      "governance": "الحوكمة",
+      "careers": "الوظائف",
+      "contactUs": "اتصل بنا"
+    },
+    "footer": {
+      "tagline": "تقديم أبحاث متعددة التخصصات، وتدريب متطور، وقيادة ابتكار السياسات عالميًا.",
+      "quickLinks": "روابط سريعة",
+      "contactInfo": "معلومات الاتصال",
+      "address": "إسلام آباد، باكستان",
+      "allRights": "جميع الحقوق محفوظة.",
+      "subscribe": "اشترك",
+      "subscribeDesc": "اختر المواضيع وابقَ على اطلاع بأحدث رؤانا",
+      "emailPlaceholder": "بريدك الإلكتروني هنا",
+      "staffDirectory": "استكشف دليل الموظفين",
+      "subscribeSuccess": "شكراً لاشتراكك! سنقوم بإخطارك بالتحديثات الجديدة.",
+      "subscribeError": "حدث خطأ ما. يرجى المحاولة مرة أخرى لاحقًا.",
+      "ribbonText": "منظمة ذات وضع استشاري خاص لدى المجلس الاقتصادي والاجتماعي منذ عام 2018"
+    },
+    "buttons": {
+      "applyNow": "قدم الآن",
+      "readMore": "اقرأ المزيد",
+      "viewDetails": "عرض التفاصيل",
+      "joinPool": "انضم إلى تجمع المواهب"
+    }
+  },
+  "fr": {
+    "nav": {
+      "home": "Accueil",
+      "whatWeDo": "Ce que nous faisons",
+      "research": "Recherche et développement (R&D)",
+      "onlineCourses": "Programmes exécutifs en ligne",
+      "capacityBuilding": "Programmes de renforcement des capacités",
+      "policyAdvisory": "Services de politiques et de conseil",
+      "workshops": "Ateliers et événements",
+      "publications": "Publications",
+      "datahub": "DataHub",
+      "aboutUs": "À propos de nous",
+      "mandate": "Mandat",
+      "governance": "Gouvernance",
+      "careers": "Carrières",
+      "contactUs": "Contactez-nous"
+    },
+    "footer": {
+      "tagline": "Fournir une recherche multidisciplinaire, une formation de pointe et stimuler l'innovation politique à l'échelle mondiale.",
+      "quickLinks": "Liens rapides",
+      "contactInfo": "Informations de contact",
+      "address": "Islamabad, Pakistan",
+      "allRights": "Tous droits réservés.",
+      "subscribe": "S'abonner",
+      "subscribeDesc": "Sélectionnez des sujets et restez au courant de nos dernières informations",
+      "emailPlaceholder": "Votre e-mail ici",
+      "staffDirectory": "Explorer l'annuaire du personnel",
+      "subscribeSuccess": "Merci de vous être abonné ! Nous vous informerons des nouvelles mises à jour.",
+      "subscribeError": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "ribbonText": "Organisation dotée du statut consultatif spécial auprès du Conseil économique et social depuis 2018"
+    },
+    "buttons": {
+      "applyNow": "Appliquer maintenant",
+      "readMore": "Lire la suite",
+      "viewDetails": "Voir les détails",
+      "joinPool": "Rejoindre le vivier de talents"
+    }
+  },
+  "de": {
+    "nav": {
+      "home": "Startseite",
+      "whatWeDo": "Was wir tun",
+      "research": "Forschung & Entwicklung (F&E)",
+      "onlineCourses": "Online-Programme für Führungskräfte",
+      "capacityBuilding": "Programme zum Kapazitätsaufbau",
+      "policyAdvisory": "Politik- und Beratungsdienste",
+      "workshops": "Workshops & Veranstaltungen",
+      "publications": "Publikationen",
+      "datahub": "DataHub",
+      "aboutUs": "Über uns",
+      "mandate": "Mandat",
+      "governance": "Governance",
+      "careers": "Karriere",
+      "contactUs": "Kontaktieren Sie uns"
+    },
+    "footer": {
+      "tagline": "Bereitstellung multidisziplinärer Forschung, modernster Schulungen und Förderung von Politikinnovationen weltweit.",
+      "quickLinks": "Schnelllinks",
+      "contactInfo": "Kontaktinformationen",
+      "address": "Islamabad, Pakistan",
+      "allRights": "Alle Rechte vorbehalten.",
+      "subscribe": "Abonnieren",
+      "subscribeDesc": "Wählen Sie Themen aus und bleiben Sie über unsere neuesten Erkenntnisse auf dem Laufenden",
+      "emailPlaceholder": "Ihre E-Mail hier",
+      "staffDirectory": "Personalverzeichnis durchsuchen",
+      "subscribeSuccess": "Vielen Dank für Ihr Abonnement! Wir werden Sie über neue Updates informieren.",
+      "subscribeError": "Etwas ist schief gelaufen. Bitte versuchen Sie es später noch einmal.",
+      "ribbonText": "Organisation mit besonderem Beraterstatus beim Wirtschafts- und Sozialrat seit 2018"
+    },
+    "buttons": {
+      "applyNow": "Jetzt bewerben",
+      "readMore": "Weiterlesen",
+      "viewDetails": "Details anzeigen",
+      "joinPool": "Talentpool beitreten"
+    }
+  },
+  "zh": {
+    "nav": {
+      "home": "首页",
+      "whatWeDo": "我们的业务",
+      "research": "研究与开发 (R&D)",
+      "onlineCourses": "高管在线课程",
+      "capacityBuilding": "能力建设计划",
+      "policyAdvisory": "政策与咨询服务",
+      "workshops": "研讨会与活动",
+      "publications": "出版物",
+      "datahub": "数据中心",
+      "aboutUs": "关于我们",
+      "mandate": "职责",
+      "governance": "治理",
+      "careers": "职业生涯",
+      "contactUs": "联系我们"
+    },
+    "footer": {
+      "tagline": "提供多学科研究、前沿培训，并在全球范围内推动政策创新。",
+      "quickLinks": "快速链接",
+      "contactInfo": "联系信息",
+      "address": "伊斯兰堡，巴基斯坦",
+      "allRights": "保留所有权利。",
+      "subscribe": "订阅",
+      "subscribeDesc": "选择话题并随时了解我们的最新见解",
+      "emailPlaceholder": "您的电子邮件",
+      "staffDirectory": "浏览员工目录",
+      "subscribeSuccess": "感谢订阅！我们将通知您最新动态。",
+      "subscribeError": "出错了。请稍后再试。",
+      "ribbonText": "自2018年起具有经济及社会理事会特别咨商地位的组织"
+    },
+    "buttons": {
+      "applyNow": "立即申请",
+      "readMore": "阅读更多",
+      "viewDetails": "查看详情",
+      "joinPool": "加入人才库"
+    }
+  }
+}

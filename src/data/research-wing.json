@@ -1,0 +1,166 @@
+{
+  "en": {
+    "header": {
+      "title": "Research & Development (R&D)",
+      "summary": "Advancing economic knowledge through rigorous analysis across diverse fields and initiatives."
+    },
+    "filters": {
+      "categories": ["All", "Economic Policy & Development", "Health & Medical Research", "Data Science and AI", "Social Sector & Human Development", "Market & Industry Analysis"],
+      "types": ["All", "Thematic Research Initiatives", "Ongoing Projects", "Completed Studies", "Collaborative Research"]
+    },
+    "items": [
+      {
+        "id": "res-001",
+        "category": "Economic Policy & Development",
+        "type": "Ongoing Projects",
+        "title": "Supply Chain Resilience in Developing Markets",
+        "image": "/assets/images/sample1.jpg",
+        "articleTitle": "A Microeconomic Analysis of Supply Chain Disruptions 2026",
+        "date": "April 15, 2026",
+        "team": "Economic Resilience Group",
+        "details": "This study explores how small and medium enterprises in emerging markets adapt to global supply chain shocks. We utilize high-frequency data to track price transmission and inventory management strategies across various industrial clusters.",
+        "previewUrl": "https://pern-my.sharepoint.com/:b:/g/personal/04162114042_student_qau_edu_pk/IQAv1QdrsrP6SKlPfa90kcwFAc0C3nMv82I4rU_huNeI8jU?e=E6zsTk/preview",
+        "downloadUrl": "https://pern-my.sharepoint.com/:b:/g/personal/04162114042_student_qau_edu_pk/IQAv1QdrsrP6SKlPfa90kcwFAc0C3nMv82I4rU_huNeI8jU?e=E6zsTk"
+      },
+      {
+        "id": "res-002",
+        "category": "Health & Medical Research",
+        "type": "Thematic Research Initiatives",
+        "title": "Monetary Policy in Low-Inflation Environments",
+        "image": "/assets/images/sample2.png",
+        "articleTitle": "Global Trends in Central Banking and Inflation Targeting",
+        "date": "March 10, 2026",
+        "team": "FRPD Monetary Policy Unit",
+        "details": "An extensive review of macroeconomic policy effectiveness in regions experiencing persistent low inflation. This research initiative focuses on the transition from traditional targeting to more flexible frameworks in the post-pandemic era.",
+        "previewUrl": "",
+        "downloadUrl": ""
+      },
+      {
+        "id": "res-003",
+        "category": "Data Science and AI",
+        "type": "Completed Studies",
+        "title": "Trade Liberalization and Digital Services",
+        "image": "/assets/images/sample3.png",
+        "articleTitle": "Cross-Border Data Flows and Trade Agreements",
+        "date": "February 22, 2026",
+        "team": "Global Trade Research Section",
+        "details": "This completed study analyzes the impact of digital trade chapters in recent regional trade agreements. It quantifies the gains from reduced barriers to cross-border data services and digital goods.",
+        "previewUrl": "",
+        "downloadUrl": ""
+      }
+    ]
+  },
+  "ar": {
+    "header": {
+      "title": "البحث والتطوير (R&D)",
+      "summary": "النهوض بالمعرفة الاقتصادية من خلال التحليل الصارم في مختلف المجالات والمبادرات."
+    },
+    "filters": {
+      "categories": ["الكل", "السياسة الاقتصادية والتنمية", "الأبحاث الصحية والطبية", "علوم البيانات والذكاء الاصطناعي", "القطاع الاجتماعي والتنمية البشرية", "تحليل السوق والصناعة"],
+      "types": ["الكل", "مبادرات بحثية موضوعية", "مشاريع جارية", "دراسات مكتملة", "أبحاث تعاونية"]
+    },
+    "items": [
+      {
+        "id": "res-001",
+        "category": "السياسة الاقتصادية والتنمية",
+        "type": "مشاريع جارية",
+        "title": "مرونة سلاسل التوريد في الأسواق النامية",
+        "image": "/assets/images/sample1.jpg",
+        "articleTitle": "تحليل اقتصاد جزئي لاضطرابات سلاسل التوريد 2026",
+        "date": "15 أبريل 2026",
+        "team": "مجموعة المرونة الاقتصادية",
+        "details": "تستكشف هذه الدراسة كيف تتكيف المؤسسات الصغيرة والمتوسطة في الأسواق الناشئة مع صدمات سلاسل التوريد العالمية. نحن نستخدم بيانات عالية التردد لتتبع انتقال الأسعار واستراتيجيات إدارة المخزون عبر التجمعات الصناعية المختلفة.",
+        "previewUrl": "",
+        "downloadUrl": ""
+      },
+      {
+        "id": "res-002",
+        "category": "الأبحاث الصحية والطبية",
+        "type": "مبادرات بحثية موضوعية",
+        "title": "السياسة النقدية في بيئات التضخم المنخفض",
+        "image": "/assets/images/sample2.png",
+        "articleTitle": "الاتجاهات العالمية في الخدمات المصرفية المركزية واستهداف التضخم",
+        "date": "10 مارس 2026",
+        "team": "وحدة السياسة النقدية في FRPD",
+        "details": "مراجعة شاملة لفعالية السياسة الاقتصادية الكلية في المناطق التي تشهد تضخماً منخفضاً مستمراً. تركز هذه المبادرة البحثية على الانتقال من الاستهداف التقليدي إلى أطر أكثر مرونة في حقبة ما بعد الجائحة.",
+        "previewUrl": "",
+        "downloadUrl": ""
+      }
+    ]
+  },
+  "fr": {
+    "header": {
+      "title": "Recherche et développement (R&D)",
+      "summary": "Faire progresser les connaissances économiques grâce à une analyse rigoureuse dans divers domaines et initiatives."
+    },
+    "filters": {
+      "categories": ["Tout", "Politique économique et développement", "Recherche sur la santé et médicale", "Science des données et IA", "Secteur social et développement humain", "Analyse du marché et de l'industrie"],
+      "types": ["Tout", "Initiatives de recherche thématiques", "Projets en cours", "Études terminées", "Recherche collaborative"]
+    },
+    "items": [
+      {
+        "id": "res-001",
+        "category": "Politique économique et développement",
+        "type": "Projets en cours",
+        "title": "Résilience de la chaîne d'approvisionnement sur les marchés en développement",
+        "image": "/assets/images/sample1.jpg",
+        "articleTitle": "Une analyse microéconomique des perturbations de la chaîne d'approvisionnement 2026",
+        "date": "15 avril 2026",
+        "team": "Groupe de résilience économique",
+        "details": "Cette étude explore comment les petites et moyennes entreprises des marchés émergents s'adaptent aux chocs de la chaîne d'approvisionnement mondiale. Nous utilisons des données à haute fréquence pour suivre la transmission des prix et les stratégies de gestion des stocks à travers divers pôles industriels.",
+        "previewUrl": "",
+        "downloadUrl": ""
+      }
+    ]
+  },
+  "de": {
+    "header": {
+      "title": "Forschung & Entwicklung (F&E)",
+      "summary": "Förderung wirtschaftlicher Erkenntnisse durch fundierte Analysen in verschiedenen Bereichen und Initiativen."
+    },
+    "filters": {
+      "categories": ["Alle", "Wirtschaftspolitik & Entwicklung", "Gesundheits- & medizinische Forschung", "Datenwissenschaft und KI", "Sozialsektor & menschliche Entwicklung", "Markt- & Industrieanalyse"],
+      "types": ["Alle", "Thematische Forschungsinitiativen", "Laufende Projekte", "Abgeschlossene Studien", "Kollaborative Forschung"]
+    },
+    "items": [
+      {
+        "id": "res-001",
+        "category": "Wirtschaftspolitik & Entwicklung",
+        "type": "Laufende Projekte",
+        "title": "Resilienz der Lieferkette in Entwicklungsmärkten",
+        "image": "/assets/images/sample1.jpg",
+        "articleTitle": "Eine mikroökonomische Analyse von Lieferkettenunterbrechungen 2026",
+        "date": "15. April 2026",
+        "team": "Gruppe für wirtschaftliche Resilienz",
+        "details": "Diese Studie untersucht, wie kleine und mittlere Unternehmen in Schwellenländern auf globale Lieferkettenschocks reagieren. Wir nutzen Hochfrequenzdaten, um die Preisübertragung und Bestandsmanagementstrategien in verschiedenen Industrieclustern zu verfolgen.",
+        "previewUrl": "",
+        "downloadUrl": ""
+      }
+    ]
+  },
+  "zh": {
+    "header": {
+      "title": "研究与开发 (R&D)",
+      "summary": "通过对不同领域和倡议的严谨分析，推进经济知识。"
+    },
+    "filters": {
+      "categories": ["全部", "经济政策与发展", "健康与医学研究", "数据科学与人工智能", "社会部门与人类发展", "市场与行业分析"],
+      "types": ["全部", "主题研究倡议", "进行中的项目", "已完成的研究", "合作研究"]
+    },
+    "items": [
+      {
+        "id": "res-001",
+        "category": "经济政策与发展",
+        "type": "进行中的项目",
+        "title": "发展中市场的供应链韧性",
+        "image": "/assets/images/sample1.jpg",
+        "articleTitle": "2026年供应链中断的微观经济分析",
+        "date": "2026年4月15日",
+        "team": "经济韧性小组",
+        "details": "本研究探讨了新兴市场的中小企业如何适应全球供应链冲击。我们利用高频数据来跟踪不同产业集群的价格传导和库存管理策略。",
+        "previewUrl": "",
+        "downloadUrl": ""
+      }
+    ]
+  }
+}

@@ -49,10 +49,132 @@
         "thumbnail": "/assets/images/research-economics-3.jpg",
         "downloadUrl": "#"
       }
-    ]
+    ] ,
+    "ui": {
+      "badge": "Resource Library",
+      "searchPlaceholder": "Search publications...",
+      "filterAll": "All Publications",
+      "filterReports": "Reports",
+      "filterBriefs": "Policy Briefs",
+      "filterArticles": "Articles",
+      "noResults": "No publications found matching your search.",
+      "download": "Download PDF"
+    }
   },
-  "ar": {},
-  "fr": {},
-  "de": {},
-  "zh": {}
+  "ar": {
+    "hero": {
+      "title": "المنشورات",
+      "description": "استكشف مكتبتنا من تقارير الأبحاث وملخصات السياسات والمنشورات الأكاديمية التي تقود حوار التنمية العالمي."
+    },
+    "publications": [
+      {
+        "id": "pub-1",
+        "title": "الآفاق الاقتصادية العالمية 2025: التنقل عبر عدم اليقين",
+        "author": "د. سارة جونسون، وآخرون.",
+        "date": "مارس 2025",
+        "type": "Report",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "تحليل شامل لمرونة الأسواق الناشئة واستراتيجيات التحسين المالي.",
+        "thumbnail": "/assets/images/research-economics-1.jpg",
+        "downloadUrl": "#"
+      }
+    ],
+    "ui": {
+      "badge": "مكتبة الموارد",
+      "searchPlaceholder": "البحث في المنشورات...",
+      "filterAll": "جميع المنشورات",
+      "filterReports": "تقارير",
+      "filterBriefs": "ملخصات السياسات",
+      "filterArticles": "مقالات",
+      "noResults": "لم يتم العثور على منشورات تطابق بحثك.",
+      "download": "تحميل PDF"
+    }
+  },
+  "fr": {
+    "hero": {
+      "title": "Publications",
+      "description": "Explorez notre bibliothèque de rapports de recherche, de notes de politique et de publications académiques alimentant le dialogue sur le développement mondial."
+    },
+    "publications": [
+      {
+        "id": "pub-1",
+        "title": "Perspectives économiques mondiales 2025 : naviguer dans l'incertitude",
+        "author": "Dr Sarah Johnson, et al.",
+        "date": "Mars 2025",
+        "type": "Report",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "Une analyse complète de la résilience des marchés émergents et des stratégies d'optimisation fiscale.",
+        "thumbnail": "/assets/images/research-economics-1.jpg",
+        "downloadUrl": "#"
+      }
+    ],
+    "ui": {
+      "badge": "Bibliothèque de ressources",
+      "searchPlaceholder": "Rechercher des publications...",
+      "filterAll": "Toutes les publications",
+      "filterReports": "Rapports",
+      "filterBriefs": "Notes de politique",
+      "filterArticles": "Articles",
+      "noResults": "Aucune publication trouvée correspondant à votre recherche.",
+      "download": "Télécharger le PDF"
+    }
+  },
+  "de": {
+    "hero": {
+      "title": "Publikationen",
+      "description": "Erkunden Sie unsere Bibliothek mit Forschungsberichten, Policy Briefs und akademischen Publikationen, die den globalen Entwicklungsdialog vorantreiben."
+    },
+    "publications": [
+      {
+        "id": "pub-1",
+        "title": "Globaler Wirtschaftsausblick 2025: Navigation durch Unsicherheit",
+        "author": "Dr. Sarah Johnson, et al.",
+        "date": "März 2025",
+        "type": "Report",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "Eine umfassende Analyse der Resilienz von Schwellenländern und fiskalischen Optimierungsstrategien.",
+        "thumbnail": "/assets/images/research-economics-1.jpg",
+        "downloadUrl": "#"
+      }
+    ],
+    "ui": {
+      "badge": "Ressourcenbibliothek",
+      "searchPlaceholder": "Publikationen suchen...",
+      "filterAll": "Alle Publikationen",
+      "filterReports": "Berichte",
+      "filterBriefs": "Policy Briefs",
+      "filterArticles": "Artikel",
+      "noResults": "Keine Publikationen gefunden, die Ihrer Suche entsprechen.",
+      "download": "PDF herunterladen"
+    }
+  },
+  "zh": {
+    "hero": {
+      "title": "出版物",
+      "description": "探索我们的研究报告、政策简报和学术出版物库，推动全球发展对话。"
+    },
+    "publications": [
+      {
+        "id": "pub-1",
+        "title": "2025年全球经济展望：在不确定性中航行",
+        "author": "Sarah Johnson 博士等",
+        "date": "2025年3月",
+        "type": "Report",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "对新兴市场韧性和财政优化策略的全面分析。",
+        "thumbnail": "/assets/images/research-economics-1.jpg",
+        "downloadUrl": "#"
+      }
+    ],
+    "ui": {
+      "badge": "资源库",
+      "searchPlaceholder": "搜索出版物...",
+      "filterAll": "所有出版物",
+      "filterReports": "报告",
+      "filterBriefs": "政策简报",
+      "filterArticles": "文章",
+      "noResults": "未找到符合您搜索条件的出版物。",
+      "download": "下载 PDF"
+    }
+  }
 }
