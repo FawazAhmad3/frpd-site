@@ -2,5 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/frpdpk13/public_html/
-    - /bin/cp -R assets/ $DEPLOYPATH
-    - /bin/cp -R pages/ $DEPLOYPATH
+    - npm install
+    - npm run build
+    - /bin/cp -R dist/* $DEPLOYPATH
