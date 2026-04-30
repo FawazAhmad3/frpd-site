@@ -5,8 +5,21 @@
       "summary": "Advancing economic knowledge through rigorous analysis across diverse fields and initiatives."
     },
     "filters": {
-      "categories": ["All", "Economic Policy & Development", "Health & Medical Research", "Data Science and AI", "Social Sector & Human Development", "Market & Industry Analysis"],
-      "types": ["All", "Thematic Research Initiatives", "Ongoing Projects", "Completed Studies", "Collaborative Research"]
+      "categories": [
+        "All",
+        "Economic Policy & Development",
+        "Health & Medical Research",
+        "Data Science and AI",
+        "Social Sector & Human Development",
+        "Market & Industry Analysis"
+      ],
+      "types": [
+        "All",
+        "Thematic Research Initiatives",
+        "Ongoing Projects",
+        "Completed Studies",
+        "Collaborative Research"
+      ]
     },
     "items": [
       {
@@ -14,7 +27,7 @@
         "category": "Economic Policy & Development",
         "type": "Ongoing Projects",
         "title": "Supply Chain Resilience in Developing Markets",
-        "image": "/assets/images/sample1.jpg",
+        "image": "/assets/images/research/Development.png",
         "articleTitle": "A Microeconomic Analysis of Supply Chain Disruptions 2026",
         "date": "April 15, 2026",
         "team": "Economic Resilience Group",
@@ -27,7 +40,7 @@
         "category": "Health & Medical Research",
         "type": "Thematic Research Initiatives",
         "title": "Monetary Policy in Low-Inflation Environments",
-        "image": "/assets/images/sample2.png",
+        "image": "/assets/images/research/health.png",
         "articleTitle": "Global Trends in Central Banking and Inflation Targeting",
         "date": "March 10, 2026",
         "team": "FRPD Monetary Policy Unit",
@@ -40,7 +53,7 @@
         "category": "Data Science and AI",
         "type": "Completed Studies",
         "title": "Trade Liberalization and Digital Services",
-        "image": "/assets/images/sample3.png",
+        "image": "/assets/images/research/AI.png",
         "articleTitle": "Cross-Border Data Flows and Trade Agreements",
         "date": "February 22, 2026",
         "team": "Global Trade Research Section",
@@ -56,8 +69,21 @@
       "summary": "النهوض بالمعرفة الاقتصادية من خلال التحليل الصارم في مختلف المجالات والمبادرات."
     },
     "filters": {
-      "categories": ["الكل", "السياسة الاقتصادية والتنمية", "الأبحاث الصحية والطبية", "علوم البيانات والذكاء الاصطناعي", "القطاع الاجتماعي والتنمية البشرية", "تحليل السوق والصناعة"],
-      "types": ["الكل", "مبادرات بحثية موضوعية", "مشاريع جارية", "دراسات مكتملة", "أبحاث تعاونية"]
+      "categories": [
+        "الكل",
+        "السياسة الاقتصادية والتنمية",
+        "الأبحاث الصحية والطبية",
+        "علوم البيانات والذكاء الاصطناعي",
+        "القطاع الاجتماعي والتنمية البشرية",
+        "تحليل السوق والصناعة"
+      ],
+      "types": [
+        "الكل",
+        "مبادرات بحثية موضوعية",
+        "مشاريع جارية",
+        "دراسات مكتملة",
+        "أبحاث تعاونية"
+      ]
     },
     "items": [
       {
@@ -94,8 +120,21 @@
       "summary": "Faire progresser les connaissances économiques grâce à une analyse rigoureuse dans divers domaines et initiatives."
     },
     "filters": {
-      "categories": ["Tout", "Politique économique et développement", "Recherche sur la santé et médicale", "Science des données et IA", "Secteur social et développement humain", "Analyse du marché et de l'industrie"],
-      "types": ["Tout", "Initiatives de recherche thématiques", "Projets en cours", "Études terminées", "Recherche collaborative"]
+      "categories": [
+        "Tout",
+        "Politique économique et développement",
+        "Recherche sur la santé et médicale",
+        "Science des données et IA",
+        "Secteur social et développement humain",
+        "Analyse du marché et de l'industrie"
+      ],
+      "types": [
+        "Tout",
+        "Initiatives de recherche thématiques",
+        "Projets en cours",
+        "Études terminées",
+        "Recherche collaborative"
+      ]
     },
     "items": [
       {
@@ -119,8 +158,21 @@
       "summary": "Förderung wirtschaftlicher Erkenntnisse durch fundierte Analysen in verschiedenen Bereichen und Initiativen."
     },
     "filters": {
-      "categories": ["Alle", "Wirtschaftspolitik & Entwicklung", "Gesundheits- & medizinische Forschung", "Datenwissenschaft und KI", "Sozialsektor & menschliche Entwicklung", "Markt- & Industrieanalyse"],
-      "types": ["Alle", "Thematische Forschungsinitiativen", "Laufende Projekte", "Abgeschlossene Studien", "Kollaborative Forschung"]
+      "categories": [
+        "Alle",
+        "Wirtschaftspolitik & Entwicklung",
+        "Gesundheits- & medizinische Forschung",
+        "Datenwissenschaft und KI",
+        "Sozialsektor & menschliche Entwicklung",
+        "Markt- & Industrieanalyse"
+      ],
+      "types": [
+        "Alle",
+        "Thematische Forschungsinitiativen",
+        "Laufende Projekte",
+        "Abgeschlossene Studien",
+        "Kollaborative Forschung"
+      ]
     },
     "items": [
       {
@@ -144,8 +196,21 @@
       "summary": "通过对不同领域和倡议的严谨分析，推进经济知识。"
     },
     "filters": {
-      "categories": ["全部", "经济政策与发展", "健康与医学研究", "数据科学与人工智能", "社会部门与人类发展", "市场与行业分析"],
-      "types": ["全部", "主题研究倡议", "进行中的项目", "已完成的研究", "合作研究"]
+      "categories": [
+        "全部",
+        "经济政策与发展",
+        "健康与医学研究",
+        "数据科学与人工智能",
+        "社会部门与人类发展",
+        "市场与行业分析"
+      ],
+      "types": [
+        "全部",
+        "主题研究倡议",
+        "进行中的项目",
+        "已完成的研究",
+        "合作研究"
+      ]
     },
     "items": [
       {

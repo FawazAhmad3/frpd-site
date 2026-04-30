@@ -1,5 +1,6 @@
 interface ResearchItem {
   id: string;
+  image: string;
   category: string;
   type: string;
   title: string;
@@ -21,7 +22,7 @@ export default function ModalResearch({ item, onClose }: Props) {
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-      <div className="absolute inset-0 bg-brand-dark/80 backdrop-blur-sm" onClick={onClose}></div>
+      <div className="absolute inset-0 bg-brand-dark/90" onClick={onClose}></div>
 
       <div className="relative bg-white w-full max-w-5xl max-h-[90vh] rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row animate__animated animate__zoomIn animate__faster">
         <button onClick={onClose} className="absolute top-4 right-4 z-[110] w-10 h-10 bg-white shadow-lg rounded-full flex items-center justify-center text-brand-dark hover:text-red-500 transition-colors">
@@ -31,11 +32,14 @@ export default function ModalResearch({ item, onClose }: Props) {
         {/* Preview Area */}
         <div className="w-full md:w-3/5 bg-brand-gray border-r border-gray-100 min-h-[400px]">
           {item.previewUrl ? (
-            <iframe src={item.previewUrl} className="w-full h-full border-none" allow="autoplay" title="PDF Preview"></iframe>
+            <iframe src={item.previewUrl} loading="lazy" className="w-full h-full border-none" allow="autoplay" title="PDF Preview"></iframe>
           ) : (
-            <div className="w-full h-full flex flex-col items-center justify-center p-12 text-center text-gray-400">
-              <i className="fa-solid fa-file-pdf text-6xl mb-4 opacity-20"></i>
-              <p>Preview not available for this article</p>
+            <div className="w-full h-full flex items-center justify-center p-8 bg-brand-dark/5 relative">
+              <img src={item.image} alt={item.title} className="w-full h-full object-cover rounded-xl shadow-lg" />
+              <div className="absolute inset-0 bg-brand-dark/40 flex flex-col items-center justify-center m-8 rounded-xl opacity-0 hover:opacity-100 transition-opacity duration-300">
+                <i className="fa-solid fa-file-pdf text-4xl text-white mb-2"></i>
+                <p className="text-white text-sm font-bold">Document preview unavailable</p>
+              </div>
             </div>
           )}
         </div>

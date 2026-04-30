@@ -1,4 +1,4 @@
-import SectionProgramCategory from '../components/SectionProgramCategory';
+import SectionProgramCategory from '../components/programs/SectionProgramCategory';
 import paData from '../data/policy-advisory.json';
 import { useLanguage } from '../context/LanguageContext';
 

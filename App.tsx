@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import Navbar from './src/components/Navbar';
-import Footer from './src/components/Footer';
-import SocialButtons from './src/components/SocialButtons';
+import Navbar from './src/components/shared/Navbar';
+import Footer from './src/components/shared/Footer';
+import SocialButtons from './src/components/shared/SocialButtons';
 import { LanguageProvider } from './src/context/LanguageContext';
 
 import Home from './src/pages/index';

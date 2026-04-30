@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import CardPublication from '../components/CardPublication';
+import CardPublication from '../components/publications/CardPublication';
 import pubData from '../data/publications.json';
 import { useLanguage } from '../context/LanguageContext';
 

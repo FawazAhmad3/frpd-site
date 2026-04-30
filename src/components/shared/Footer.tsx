@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useLanguage } from '../context/LanguageContext';
-import globalData from '../data/global.json';
+import { useLanguage } from '../../context/LanguageContext';
+import globalData from '../../data/global.json';
 
 export default function Footer() {
   const [email, setEmail] = useState('');

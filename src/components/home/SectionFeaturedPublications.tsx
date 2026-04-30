@@ -16,9 +16,10 @@ interface Props {
   title: string;
   summary: string;
   publications: Publication[];
+  onOpenModal?: (id: string) => void;
 }
 
-export default function SectionFeaturedPublications({ title, summary, publications }: Props) {
+export default function SectionFeaturedPublications({ title, summary, publications, onOpenModal }: Props) {
   const top3 = publications.slice(0, 3);
   const delays = ['animate__delay-1s', 'animate__delay-2s', 'animate__delay-3s'];
 
@@ -32,7 +33,11 @@ export default function SectionFeaturedPublications({ title, summary, publicatio
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {top3.map((pub, i) => (
-            <div key={pub.id} className={`group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col h-full animate__animated animate__fadeInUp ${delays[i]}`}>
+            <div 
+              key={pub.id} 
+              className={`group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col h-full animate__animated animate__fadeInUp ${delays[i]} cursor-pointer`}
+              onClick={() => onOpenModal?.(pub.id)}
+            >
               <div className="aspect-[16/10] overflow-hidden relative">
                 <img src={pub.thumbnail} alt={pub.title} className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
                 <div className="absolute top-4 left-4">
@@ -50,7 +55,11 @@ export default function SectionFeaturedPublications({ title, summary, publicatio
                 <h3 className="text-lg font-heading font-bold text-brand-dark group-hover:text-brand-accent transition-colors mb-3 line-clamp-2">{pub.title}</h3>
                 <p className="text-gray-500 text-sm mb-6 line-clamp-2">{pub.description}</p>
                 <div className="mt-auto pt-4 border-t border-gray-50 flex items-center justify-between">
-                  <a href={pub.downloadUrl} className="inline-flex items-center text-xs font-bold text-brand-accent uppercase tracking-widest hover:text-blue-700 transition-colors">
+                  <a 
+                    href={pub.downloadUrl} 
+                    className="inline-flex items-center text-xs font-bold text-brand-accent uppercase tracking-widest hover:text-blue-700 transition-colors"
+                    onClick={(e) => e.stopPropagation()}
+                  >
                     <i className="fas fa-file-download mr-2"></i> Download
                   </a>
                 </div>

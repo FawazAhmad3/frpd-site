@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import CardEvent from '../components/CardEvent';
+import CardEvent from '../components/events/CardEvent';
 import eventsData from '../data/events.json';
 import { useLanguage } from '../context/LanguageContext';
 
