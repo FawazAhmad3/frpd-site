@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import CardPublication from '../components/publications/CardPublication';
+import ModalPublication from '../components/publications/ModalPublication';
 import pubData from '../data/publications.json';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -10,6 +11,8 @@ export default function Publications() {
   const publications = pageData.publications || [];
 
   const [currentFilter, setCurrentFilter] = useState('All');
+  const [searchTerm, setSearchTerm] = useState('');
+  const [modalItem, setModalItem] = useState<any>(null);
 
   const filterButtons = [
     { label: ui.filterAll, value: 'All' },
@@ -18,56 +21,98 @@ export default function Publications() {
     { label: ui.filterArticles, value: 'Article' }
   ];
 
-  const filtered = publications.filter((item: any) => currentFilter === 'All' || item.type === currentFilter);
+  const filtered = useMemo(() => {
+    return publications.filter((item: any) => {
+      const matchesFilter = currentFilter === 'All' || item.type === currentFilter;
+      const matchesSearch = item.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
+                            item.author.toLowerCase().includes(searchTerm.toLowerCase());
+      return matchesFilter && matchesSearch;
+    });
+  }, [publications, currentFilter, searchTerm]);
 
   return (
-    <>
+    <main className="flex-grow bg-gray-50/50 min-h-screen">
       {/* Page Header */}
-      <section className="bg-brand-dark py-24 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute -top-24 -right-24 w-96 h-96 bg-brand-accent rounded-full blur-3xl opacity-50"></div>
-          <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-900 rounded-full blur-3xl opacity-30"></div>
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          <span className="inline-block px-4 py-1.5 bg-brand-accent/20 text-brand-accent text-xs font-bold uppercase tracking-widest rounded-full mb-6 animate__animated animate__fadeInDown">{ui.badge}</span>
-          <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mb-6 animate__animated animate__fadeInUp">{pageData?.hero?.title || 'Publications'}</h1>
-          <p className="text-gray-400 max-w-2xl mx-auto text-lg leading-relaxed animate__animated animate__fadeInUp animate__delay-1s">
-            {pageData?.hero?.description || ''}
-          </p>
-        </div>
-      </section>
-
-      {/* Filter Bar */}
-      <section className="sticky top-28 z-30 bg-white/80 backdrop-blur-md border-b border-gray-100 py-6">
+      <section className="bg-white py-16 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-3">
-            {filterButtons.map((btn: any) => (
-              <button
-                key={btn.value}
-                onClick={() => setCurrentFilter(btn.value)}
-                className={`pub-filter-btn px-5 py-2 rounded-full border border-gray-200 text-xs font-bold uppercase tracking-widest shadow-sm transition-all ${
-                  currentFilter === btn.value ? 'active bg-brand-accent text-white' : 'bg-white text-brand-dark hover:border-brand-accent hover:text-brand-accent'
-                }`}
-              >
-                {btn.label}
-              </button>
-            ))}
+          <div className="text-center md:text-left mb-8">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold text-brand-dark mb-4">
+              {pageData?.hero?.title || 'Recent Publications'}
+            </h1>
+            <div className="w-16 h-1 bg-brand-accent mx-auto md:mx-0"></div>
+          </div>
+          
+          <div className="max-w-2xl">
+            <div className="relative group shadow-sm">
+              <i className="fas fa-search absolute left-5 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-brand-accent transition-colors"></i>
+              <input
+                type="text"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                placeholder="Search by title or author..."
+                className="w-full pl-14 pr-6 py-4 bg-gray-50 border border-gray-200 rounded-full text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:bg-white transition-all"
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Main Content */}
-      <section className="py-20 bg-gray-50/50 min-h-[600px]">
+      {/* Main Layout */}
+      <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filtered.length === 0 ? (
-              <div className="col-span-full py-20 text-center text-gray-400">{ui.noResults}</div>
-            ) : (
-              filtered.map((item: any) => <CardPublication key={item.id} {...item} />)
-            )}
+          <div className="flex flex-col lg:flex-row gap-10">
+            {/* Sidebar */}
+            <aside className="w-full lg:w-64 flex-shrink-0">
+              <div className="sticky top-32 bg-white p-6 rounded-[2rem] border border-gray-100 shadow-sm">
+                <h4 className="text-sm font-bold text-brand-dark uppercase tracking-widest mb-6 pb-4 border-b border-gray-100">Filter by Type</h4>
+                <nav className="space-y-2 flex flex-col">
+                  {filterButtons.map((btn: any) => (
+                    <button
+                      key={btn.value}
+                      onClick={() => setCurrentFilter(btn.value)}
+                      className={`flex items-center gap-3 px-4 py-3 rounded-[1rem] text-sm font-bold transition-all ${
+                        currentFilter === btn.value
+                          ? 'bg-brand-accent text-white shadow-md'
+                          : 'text-gray-600 hover:bg-blue-50 hover:text-brand-accent'
+                      }`}
+                    >
+                      <i className={`fas fa-chevron-right text-[10px] ${currentFilter === btn.value ? 'text-white/70' : 'text-gray-300'}`}></i>
+                      <span>{btn.label}</span>
+                    </button>
+                  ))}
+                </nav>
+              </div>
+            </aside>
+
+            {/* Grid */}
+            <div className="flex-grow">
+              <div className="flex items-center justify-between mb-8">
+                <h2 className="text-xl font-bold text-brand-dark">Showing {filtered.length} Results</h2>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {filtered.length === 0 ? (
+                  <div className="col-span-full py-20 text-center text-gray-400 bg-white rounded-[2.5rem] border border-gray-100">
+                    <i className="fas fa-search text-4xl mb-4 text-brand-accent opacity-50"></i>
+                    <p className="font-medium">{ui.noResults}</p>
+                  </div>
+                ) : (
+                  filtered.map((item: any) => (
+                    <CardPublication 
+                      key={item.id} 
+                      {...item} 
+                      onOpenModal={(id) => setModalItem(publications.find((p: any) => p.id === id))} 
+                    />
+                  ))
+                )}
+              </div>
+            </div>
           </div>
         </div>
       </section>
-    </>
+
+      {modalItem && (
+        <ModalPublication item={modalItem} onClose={() => setModalItem(null)} />
+      )}
+    </main>
   );
 }
