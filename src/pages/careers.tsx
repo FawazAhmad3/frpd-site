@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import CardCareer from '../components/CardCareer';
+import CardCareer from '../components/careers/CardCareer';
 import careersData from '../data/careers.json';
 import { useLanguage } from '../context/LanguageContext';
 

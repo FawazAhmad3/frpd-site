@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import CardResearch from '../components/CardResearch';
-import ModalResearch from '../components/ModalResearch';
+import CardResearch from '../components/research/CardResearch';
+import ModalResearch from '../components/research/ModalResearch';
 import researchDataAll from '../data/research-wing.json';
 import { useLanguage } from '../context/LanguageContext';
 import globalData from '../data/global.json';

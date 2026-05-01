@@ -1,4 +1,4 @@
-import SectionContact from '../components/SectionContact';
+import SectionContact from '../components/contact/SectionContact';
 import contactDataAll from '../data/contact.json';
 import { useLanguage } from '../context/LanguageContext';
 

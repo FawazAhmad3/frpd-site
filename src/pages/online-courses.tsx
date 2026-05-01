@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
-import CardCourse from '../components/CardCourse';
-import ModalCourse from '../components/ModalCourse';
+import CardCourse from '../components/courses/CardCourse';
+import ModalCourse from '../components/courses/ModalCourse';
 import programsData from '../data/online-programs.json';
 import { useLanguage } from '../context/LanguageContext';
 

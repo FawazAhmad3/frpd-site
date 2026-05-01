@@ -1,4 +1,4 @@
-import CardMember from '../components/CardMember';
+import CardMember from '../components/governance/CardMember';
 import govDataAll from '../data/governance.json';
 import { useLanguage } from '../context/LanguageContext';
 

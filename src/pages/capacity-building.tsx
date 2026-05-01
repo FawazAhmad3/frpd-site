@@ -1,4 +1,4 @@
-import SectionProgramCategory from '../components/SectionProgramCategory';
+import SectionProgramCategory from '../components/programs/SectionProgramCategory';
 import cbData from '../data/capacity-building.json';
 import { useLanguage } from '../context/LanguageContext';
 

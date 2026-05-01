@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import CardData from '../components/CardData';
-import ModalData from '../components/ModalData';
+import CardData from '../components/datahub/CardData';
+import ModalData from '../components/datahub/ModalData';
 import datahubData from '../data/datahub.json';
 import { useLanguage } from '../context/LanguageContext';
 

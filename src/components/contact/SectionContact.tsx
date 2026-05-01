@@ -1,5 +1,5 @@
 import CardDepartment from './CardDepartment';
-import { useLanguage } from '../context/LanguageContext';
+import { useLanguage } from '../../context/LanguageContext';
 
 interface Department {
   name: string;

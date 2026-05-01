@@ -1,4 +1,4 @@
-import SectionMandate from '../components/SectionMandate';
+import SectionMandate from '../components/mandate/SectionMandate';
 import mandateDataAll from '../data/mandate.json';
 import { useLanguage } from '../context/LanguageContext';
 

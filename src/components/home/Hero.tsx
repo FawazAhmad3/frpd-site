@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
-import { useLanguage } from '../context/LanguageContext';
-import globalData from '../data/global.json';
+import { useLanguage } from '../../context/LanguageContext';
+import globalData from '../../data/global.json';
 
 const slides = [
   { src: '/assets/images/sample1.jpg', alt: 'Slide 1' },
