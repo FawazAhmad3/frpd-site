@@ -3,7 +3,7 @@
     "nav": {
       "home": "Home",
       "whatWeDo": "What we do",
-      "research": "Research & Development (R&D)",
+      "research": "Research & Development",
       "onlineCourses": "Executive Online Programs",
       "capacityBuilding": "Capacity Building Programs",
       "policyAdvisory": "Policy & Advisory Services",
@@ -41,7 +41,7 @@
     "nav": {
       "home": "الرئيسية",
       "whatWeDo": "ماذا نفعل",
-      "research": "البحث والتطوير (R&D)",
+      "research": "البحث والتطوير)",
       "onlineCourses": "البرامج التنفيذية عبر الإنترنت",
       "capacityBuilding": "برامج بناء القدرات",
       "policyAdvisory": "خدمات السياسات والاستشارات",
@@ -79,7 +79,7 @@
     "nav": {
       "home": "Accueil",
       "whatWeDo": "Ce que nous faisons",
-      "research": "Recherche et développement (R&D)",
+      "research": "Recherche et développement",
       "onlineCourses": "Programmes exécutifs en ligne",
       "capacityBuilding": "Programmes de renforcement des capacités",
       "policyAdvisory": "Services de politiques et de conseil",
@@ -117,7 +117,7 @@
     "nav": {
       "home": "Startseite",
       "whatWeDo": "Was wir tun",
-      "research": "Forschung & Entwicklung (F&E)",
+      "research": "Forschung & Entwicklung)",
       "onlineCourses": "Online-Programme für Führungskräfte",
       "capacityBuilding": "Programme zum Kapazitätsaufbau",
       "policyAdvisory": "Politik- und Beratungsdienste",
@@ -155,7 +155,7 @@
     "nav": {
       "home": "首页",
       "whatWeDo": "我们的业务",
-      "research": "研究与开发 (R&D)",
+      "research": "研究与开发",
       "onlineCourses": "高管在线课程",
       "capacityBuilding": "能力建设计划",
       "policyAdvisory": "政策与咨询服务",
