@@ -31,10 +31,10 @@
       ],
       "adminStaff": [
         {
-          "name": "Sarah Collins",
-          "role": "Operations Manager",
-          "image": "/assets/images/sample1.jpg",
-          "bio": "Expert in institutional logistics and process optimization. Manages the core administrative functions across global offices."
+          "name": "Fawaz Ahmad",
+          "role": "Junior AI & Web Developers",
+          "image": "/assets/images/Governance/Fawaz.png",
+          "bio": "Builds web applications using React and Flask, developing user-friendly interfaces and backend APIs. Works on machine learning models, including data preprocessing, training, and basic integration into web apps. Focused on creating practical, data-driven solutions while continuously improving development and AI skills."
         }
       ]
     },
