@@ -67,7 +67,7 @@ export default function ModalPublication({ item, onClose }: Props) {
              </div>
           </div>
 
-          <div className="mt-auto space-y-4">
+          <div className="mt-auto">
             <a 
               href={item.downloadUrl || '#'} 
               target="_blank" 
@@ -76,16 +76,6 @@ export default function ModalPublication({ item, onClose }: Props) {
             >
               <i className="fa-solid fa-file-pdf"></i> Download PDF
             </a>
-            
-            <button 
-              onClick={() => {
-                navigator.clipboard.writeText(window.location.href);
-                alert("Link copied to clipboard!");
-              }}
-              className="flex w-full items-center justify-center gap-3 px-6 py-5 bg-white border border-gray-200 text-brand-dark text-lg font-bold rounded-[1.5rem] hover:bg-gray-50 hover:border-gray-300 transition-all"
-            >
-              <i className="fa-solid fa-link"></i> Copy Link
-            </button>
           </div>
           
           {/* Mock QR Code space like PIDE */}

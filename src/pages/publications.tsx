@@ -16,9 +16,11 @@ export default function Publications() {
 
   const filterButtons = [
     { label: ui.filterAll, value: 'All' },
-    { label: ui.filterReports, value: 'Report' },
-    { label: ui.filterBriefs, value: 'Policy Brief' },
-    { label: ui.filterArticles, value: 'Article' },
+    { label: ui.filterBlog || 'Blog', value: 'Blog' },
+    { label: ui.filterReports || 'Reports', value: 'Report' },
+    { label: ui.filterArticles || 'Article', value: 'Article' },
+    { label: ui.filterBriefs || 'Policy Briefs', value: 'Policy Brief' },
+    { label: ui.filterMagazines || 'Magazines', value: 'Magazine' },
     { label: ui.filterBooks || 'Books', value: 'Book' }
   ];
 
@@ -82,6 +84,19 @@ export default function Publications() {
                     </button>
                   ))}
                 </nav>
+
+                {/* Submit Publication CTA */}
+                <div className="mt-8 bg-brand-dark rounded-[1.5rem] p-6 text-white text-center relative overflow-hidden group">
+                  <div className="absolute inset-0 bg-brand-accent opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
+                  <i className="fa-solid fa-cloud-arrow-up text-3xl text-brand-accent mb-4 relative z-10 transition-transform group-hover:-translate-y-1"></i>
+                  <h4 className="font-bold text-lg mb-2 relative z-10">Submit Your Work</h4>
+                  <p className="text-gray-300 text-sm mb-6 leading-relaxed relative z-10">
+                    Want to feature your research on our platform? Submit your publication for review.
+                  </p>
+                  <a href={pubData.en.ui.submitUrl || "#"} target="_blank" rel="noopener noreferrer" className="relative z-10 inline-block w-full py-3 bg-brand-accent hover:bg-red-700 text-white font-bold rounded-xl transition-all duration-300 shadow-lg shadow-brand-accent/20 hover:shadow-brand-accent/40 text-sm">
+                    Submit Now
+                  </a>
+                </div>
               </div>
             </aside>
 
