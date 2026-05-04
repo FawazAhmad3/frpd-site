@@ -18,7 +18,8 @@ export default function Publications() {
     { label: ui.filterAll, value: 'All' },
     { label: ui.filterReports, value: 'Report' },
     { label: ui.filterBriefs, value: 'Policy Brief' },
-    { label: ui.filterArticles, value: 'Article' }
+    { label: ui.filterArticles, value: 'Article' },
+    { label: ui.filterBooks || 'Books', value: 'Book' }
   ];
 
   const filtered = useMemo(() => {
@@ -89,7 +90,7 @@ export default function Publications() {
               <div className="flex items-center justify-between mb-8">
                 <h2 className="text-xl font-bold text-brand-dark">Showing {filtered.length} Results</h2>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {filtered.length === 0 ? (
                   <div className="col-span-full py-20 text-center text-gray-400 bg-white rounded-[2.5rem] border border-gray-100">
                     <i className="fas fa-search text-4xl mb-4 text-brand-accent opacity-50"></i>

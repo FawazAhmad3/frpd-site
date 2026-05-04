@@ -7,71 +7,64 @@
     "publications": [
       {
         "id": "pub-1",
-        "title": "Iran-US/Israel Conflict Induced Austerity Measures in Pakistan: Savings Accrued, Costs Incurred",
-        "author": "Azwar Muhammad Aslam, Saddam Hussein",
-        "date": "2026",
-        "type": "Policy Viewpoint",
-        "typeClass": "bg-red-100 text-red-700",
-        "description": "A comprehensive analysis of the total savings and costs that could be realized from the austerity measures in Pakistan due to the Iran-US/Israel conflict.",
-        "thumbnail": "/assets/images/research-economics-1.jpg",
-        "downloadUrl": "#",
+        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
+        "author": "Prof. Dr. Attiya Y. Javid",
+        "date": "2019-2020",
+        "type": "Report",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP...",
+        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
+        "downloadUrl": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1).pdf",
         "sections": [
           {
             "title": "Executive Summary",
-            "body": "<p>The total savings that could be realized from the austerity measures in Pakistan due to the Iran-US/Israel conflict is estimated to be around USD 482.7 million, which is a consolidated, albeit limited, fiscal effort. Nevertheless, the net effect on national fuel consumption is small, since government operations contribute to 2.05% of total domestic fuel consumption. As a result, the aggregate fuel savings (approximately 12.63%) are relatively small in comparison to the overall national demand, which restricts the macro-level effectiveness. More importantly, there is also opportunity cost of these actions, estimated at USD 1314.7 million, which is mainly caused due to productivity and learning losses. This gives a cost to benefit ratio of approximately 2.7, which means that each dollar saved from austerity measures has the opportunity cost/losses of 2.7 dollars, making the package economically suboptimal in net terms.</p><p>Although, some of the administrative actions, including fleet limits, work-from-home, and non-essential spending reductions, do play a significant role in savings. However, most of the interventions are short-term in nature, resulting in deferred, not permanent fiscal benefits. Symbolic measures, including salary reductions and forfeitures, are meant to be political signaling mechanism to positively influence behavioral change across the board, rather than a substantive part of fiscal consolidation. The analysis indicates that the measures can be justified as short-term responses to the crisis in a limited policy space, but they do not provide long-term or structurally meaningful economic gains. These measures would not be adequate in the case of a long-lasting conflict or further escalation (e.g., the blockage of the Strait of Hormuz). More detailed demand management approach, especially in the transport sector (MS and HSD consumption) would be needed to realize significant and sustainable savings, in such scenario.</p>"
-          },
-          {
-            "title": "Key Highlights",
-            "body": "<ul class='space-y-4 list-none pl-0'><li class='flex items-start gap-4'><i class='fa-solid fa-check text-[#c62828] mt-1.5'></i><span>Most of the austerity measures are aimed at the government sector. However, the share of government fuel consumption in total domestic consumption of fuel is just 2.05%.</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-[#c62828] mt-1.5'></i><span>The policies that are aimed at fuel conservation when implemented accrue relatively small fuel savings compared to Pakistan’s total domestic demand. Approximately 12.63% of monthly total domestic fuel consumption savings.</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-[#c62828] mt-1.5'></i><span>The total savings in monetary terms from imposition of austerity measures (of phase I) are approximately USD 482.7 Million. Total monthly savings from the austerity measures are approximately USD 317.63 million.</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-[#c62828] mt-1.5'></i><span>The total opportunity cost that these measure incur due to productivity and learning losses is approximately USD 1314.7 million.</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-[#c62828] mt-1.5'></i><span>The benefit to cost ratio of the proposed measures is 1:2.7 which implies that for every dollar that is saved, approximately USD 2.7 is lost in productivity and learning losses.</span></li></ul>"
-          },
-          {
-            "title": "Objective",
-            "body": "<p>The objective is to carry out a quick assessment of Iran-US/Israel conflict induced austerity measures, which will be based on fuel saving and spending cuts. It assesses the realization of savings along with the opportunity costs and how much benefits outweigh costs. Thus, determining measures that have the highest net economic returns. The study also seeks to guide future policy responses and increase the clarity of decisions, especially in case of a long-term conflict situation.</p>"
-          },
-          {
-            "title": "Background",
-            "body": "<p>Given the state of the economy and vulnerabilities that it is enduring, a shock in the wake of the Iran-US/Israel could possibly have severe economic implications for the country. To mitigate any possible effect well in time, the government took some drastic measures with an aim to curtail the impact of the war, which could undo the stability gains within the past few months. Though, as of now, the macroeconomic stabilization was almost entirely gained through the compression of demand rather than the supply side productivity. And the IMF EEF program was also designed for such a setting, which given its design, cannot by default deal with the external supply shock generated as a result of war and subsequent closure of the Strait of Hormuz.</p><p>The standard response in practice for the economies in such a situation, i.e., mitigating external terms of trade deterioration through currency depreciation plus expansionary fiscal policy in order to cushion the income shock, is not possible here. Pakistan can’t neither depreciate its way out nor spend its way out, given the primary surplus requirement. So, the government is practically left with limited policy options in short-run i.e., conservation of fuel, in light of which austerity measures were proposed and implemented. Pakistan’s total domestic consumption of fuel stood at 16.46 MMT of which only transport accounts for 89.23 percent (OCAC, 2025). Out of this MS (Petrol) and HSD (Diesel) together account for more than 85 percent. The measures are aimed at curbing the fiscal outlay and domestic fuel consumption.</p>"
-          },
-          {
-            "title": "Decoding the Savings from Austerity Measures",
-            "body": "<p>The fiscal savings as a result of the imposed measures amounts to USD 206 Million of which the significant share of savings is from the 20 percent cut of non-employee related expenditures for three months. The decrease in expenditure is for both essential and non-essential items, without making any distinction, which may affect the productivity and efficacy of overall operations. The other component of the fiscal savings is the cabinet salary forfeitures and legislative pay cuts, both of which amounts to USD 1.92 million over the period of two months. The restriction imposed on foreign travels will save around USD 0.36 million.</p><br><div class='overflow-x-auto'><table class='min-w-full divide-y divide-gray-200 mt-4 mb-6 border border-gray-100 rounded-lg'><thead class='bg-gray-50'><tr><th class='px-4 py-3 text-left text-xs font-bold text-gray-500 uppercase'>Category</th><th class='px-4 py-3 text-left text-xs font-bold text-gray-500 uppercase'>Total PKR (Million)</th><th class='px-4 py-3 text-left text-xs font-bold text-gray-500 uppercase'>Total USD (Million)</th><th class='px-4 py-3 text-left text-xs font-bold text-gray-500 uppercase'>Monthly (USD Million)</th></tr></thead><tbody class='bg-white divide-y divide-gray-100'><tr><td class='px-4 py-3 text-sm text-gray-900 font-medium'>Cabinet Salary Forfeitures</td><td class='px-4 py-3 text-sm text-gray-500'>275.03</td><td class='px-4 py-3 text-sm text-gray-500'>0.99</td><td class='px-4 py-3 text-sm text-gray-500'>0.49</td></tr><tr><td class='px-4 py-3 text-sm text-gray-900 font-medium'>Legislative Pay Cuts</td><td class='px-4 py-3 text-sm text-gray-500'>261.90</td><td class='px-4 py-3 text-sm text-gray-500'>0.94</td><td class='px-4 py-3 text-sm text-gray-500'>0.47</td></tr><tr><td class='px-4 py-3 text-sm text-gray-900 font-medium'>Non-Salary Departmental Expenditure Cut</td><td class='px-4 py-3 text-sm text-gray-500'>57600.00</td><td class='px-4 py-3 text-sm text-gray-500'>206.45</td><td class='px-4 py-3 text-sm text-gray-500'>51.61</td></tr><tr><td class='px-4 py-3 text-sm text-gray-900 font-medium'>Foreign Travel Restriction</td><td class='px-4 py-3 text-sm text-gray-500'>100.00</td><td class='px-4 py-3 text-sm text-gray-500'>0.36</td><td class='px-4 py-3 text-sm text-gray-500'>0.18</td></tr><tr class='bg-gray-50'><td class='px-4 py-3 text-sm text-gray-900 font-bold'>Total</td><td class='px-4 py-3 text-sm text-gray-900 font-bold'>77436.94</td><td class='px-4 py-3 text-sm text-gray-900 font-bold'>208.73</td><td class='px-4 py-3 text-sm text-gray-900 font-bold'>52.75</td></tr></tbody></table></div><p>Most of the fuel that is consumed is imported, so the evolving situation due to war prompted the state to introduce measures to reduce the domestic fuel consumption, in order to mitigate the impact on balance of payments due to the increase in international fuel price, and to protect the consumers from the sudden spike in the price of oil in the domestic markets later. The imposed measures will accrue almost USD 274 million in savings. The measures are mostly targeted to contain the use of fuel in transport. The schools and university closure will result in saving of USD 221.31 million. The imposition of restriction for use of official vehicles will accrue savings of USD 25.33 million, where half of the fleet is grounded and other half will be facing a 50% reduction in fuel allowances. Taking the figure of 1.39 million employees working at home as an estimate at any given point, the measure would save USD 27 million in 40 days, and monthly saving of 13.7 million, which is one of the most effective elements of the austerity package.</p>"
+            "body": "<p>Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP. These remittances play extremely important in management of Pakistan economy, mainly contributing to the management of current account balance. For a long period over the history, Pakistan is facing large trade deficit and the remittances are used to bring the current account deficit at balance. However, when remittances reach the country through formal channels, the bank keep the foreign currency with them and pay rupee in exchange of it. Thus about Rs. 3.3 trillion come into the pockets of recipients. The earlier studies on remittances show that the marginal propensity to save for the remitters is much higher compared to the overall propensity to save. Supposing marginal propensity to save to be only 20%, the amount of saving should be sufficient to finance millions of jobs. But no job related activities are observable.</p><p>The first question arises that how remittances contribute to the economy? A model was estimated using WALS approach which show that the huge surge in remittances didn’t effect the pace of growth of economy.</p><p>The second question that arises is; what is happening to the remittances that they don’t contribute to economy. Extensive Survey was carried out in selected cities of all four provinces, Azad Kashmir, Islamabad Capital territory and Gilgit Baltistan to find the answer to this question. The findings reveal that largest share of the investable part of remittances goes into real estate, especially sale and purchase of plots which is extremely capital intensive business and one doesn’t contribute to the employment generation and any other economic benefit.</p><p>The next important question was to recommend the measures for enhancing the flow of remittances through formal channels and to recommend measures for welfare of remittances. We propose that in order to increase the formal inflow, SBP should subsidize the formal inflow. This subsidy would be proportional to size of remittances and would not be directly encashable. Half of this subsidy is deposited to the premium for health and life insurance of the remitter and his/her family and remaining half of subsidy is to be deposited to a welfare fund for remitter. The amount deposited to the fund along with the profit would be payable to the remitter when he/she quits overseas job, or when he/she intends to finance the business of any of his heirs. Such a subsidy would be a goodwill gesture from the government for the remitters and would help remitters to start a business when he/she comes back to the homeland. Since this subsidy would not be directly encashable, it would not affect the current exchange rate.</p><p>The last and most important question was; how to utilize the remittances in better way. We have found from the data we collected that the major chunk of investable remittances goes into real estate and in particular, business of plots. This is extremely capital intensive business and we have to replace it with some labor intensive business. We argue that the investable part of remittances can be invested in the mega-development projects using bonds issued in the name of projects. The investors may be paid return when the project become mature. We argue that such an investment must be protected through proper legislation. We also discuss the necessary measures needed to make such investments viable.</p>"
           }
         ]
       },
       {
         "id": "pub-2",
-        "title": "The Future of Rural Health Systems in South Asia",
-        "author": "FRPD Health Unit",
-        "date": "January 2025",
-        "type": "Policy Brief",
-        "typeClass": "bg-green-100 text-green-700",
-        "description": "Recommendations for digital integration in primary healthcare across developing nations.",
-        "thumbnail": "/assets/images/research-economics-2.jpg",
-        "downloadUrl": "#"
+        "title": "The Effect of Various Relationship Factors on Business Success; Empirical Evidence from Business Partners of Pakistan and China",
+        "author": "Prof. Dr. Attiya Yasmin Javid, Shakeel Shahzad, Jawad Ali",
+        "date": "April 2018",
+        "type": "Report",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment...",
+        "thumbnail": "/assets/data/Publications/Reports/The Effect of Various Relationship/Cover-image.png",
+        "downloadUrl": "/assets/data/Publications/Reports/The Effect of Various Relationship/Project Final Report - CPEC 2017-18.pdf",
+        "sections": [
+          {
+            "title": "Abstract",
+            "body": "<p>The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment in a sample of business partners from Pakistanis and Chinese companies that do business together in Pakistan. Path modeling was used to explore the hierarchical nature of the relationship dimensions amongst one another and on the dependent variables. We conclude that relationship variables in our cross-cultural study are hierarchical and that personal relationships are critical to building and enhancing inter-organizational relationships. We further noted that some relationship dimensions may not have significant direct relationships with commitment, but their indirect and total effects may be significant. Our results challenge conventional conceptualization of relationship dimensions by suggesting a hierarchy of importance among these dimensions.</p>"
+          },
+          {
+            "title": "Project Details",
+            "body": "<ul class='space-y-4 list-none pl-0'><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Sponsoring Organization:</b> Center of Excellence China Pakistan Economic Corridor - PIDE</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Grant No:</b> CPRG-2017/18</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Performing Organization:</b> Pakistan Institute of Development Economics</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Key Words:</b> Relationship dimensions; Interpersonal relationship; Inter-organizational commitment; Pakistan; China</span></li></ul>"
+          }
+        ]
       },
       {
         "id": "pub-3",
-        "title": "Climate Adaptation and Infrastructure Finance",
-        "author": "Marcus Thorne, PhD",
-        "date": "December 2024",
-        "type": "Article",
+        "title": "Introduction to Monetary Economics",
+        "author": "Atiq Ur Rehman, Shakeel Shahzad",
+        "date": "2026",
+        "type": "Book",
         "typeClass": "bg-purple-100 text-purple-700",
-        "description": "Investigating public-private partnership models for localized climate resilience projects.",
-        "thumbnail": "/assets/images/research-economics-3.jpg",
-        "downloadUrl": "#"
-      },
-      {
-        "id": "pub-4",
-        "title": "Infrastructure Finance",
-        "author": "Marcus Thorne, PhD",
-        "date": "December 2024",
-        "type": "Article",
-        "typeClass": "bg-purple-100 text-purple-700",
-        "description": "Investigating public-private partnership models for localized climate resilience projects.",
-        "thumbnail": "/assets/images/research-economics-3.jpg",
-        "downloadUrl": "#"
+        "description": "Monetary Economics, 1st Edition. This book will be of interest to teachers and students of monetary economics, money and banking, macroeconomics and monetary policy.",
+        "thumbnail": "/assets/data/Publications/Books/cover-image.png",
+        "downloadUrl": "/assets/data/Publications/Books/Monetary Economics - Latest Version - [2026].pdf",
+        "sections": [
+          {
+            "title": "Major Features of this Edition",
+            "body": "<ul class='space-y-3 list-disc pl-5'><li>Moderated Stylized facts on money demand and supply, and the relationships between monetary policy, inflation, output and unemployment in the economy.</li><li>Theories on money demand and supply, including precautionary and buffer stock models, and monetary aggregation.</li><li>Competing macroeconomic models of the Classical and Keynesian paradigms, along with a discussion of their validity and consistency with the stylized facts.</li><li>Excellent pedagogical features such as introductions, key concepts, end-of-chapter summaries, and review and discussion questions.</li></ul>"
+          },
+          {
+            "title": "About the Authors",
+            "body": "<p class='mb-4'><b>Dr. Atiq ur Rehman</b> is Associate Professor of Economics at University of Azad Jammu and Kashmir, UAJK and has taught monetary economics and macroeconomics for over 15 years.</p><p><b>Dr. Shakeel Shahzad</b> is Assistant Professor of Economics at Bahria University, Islamabad and has taught monetary economics, macroeconomics, and econometrics for over 10 years.</p>"
+          }
+        ]
       }
-    ] ,
+    ],
     "ui": {
       "badge": "Resource Library",
       "searchPlaceholder": "Search publications...",
@@ -79,6 +72,7 @@
       "filterReports": "Reports",
       "filterBriefs": "Policy Briefs",
       "filterArticles": "Articles",
+      "filterBooks": "Books",
       "noResults": "No publications found matching your search.",
       "download": "Download PDF"
     }
@@ -91,14 +85,15 @@
     "publications": [
       {
         "id": "pub-1",
-        "title": "الآفاق الاقتصادية العالمية 2025: التنقل عبر عدم اليقين",
-        "author": "د. سارة جونسون، وآخرون.",
-        "date": "مارس 2025",
+        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
+        "author": "أ.د. عطية ي. جافيد",
+        "date": "مايو 2020",
         "type": "Report",
         "typeClass": "bg-blue-100 text-blue-700",
-        "description": "تحليل شامل لمرونة الأسواق الناشئة واستراتيجيات التحسين المالي.",
-        "thumbnail": "/assets/images/research-economics-1.jpg",
-        "downloadUrl": "#"
+        "description": "التقرير النهائي المقدم إلى لجنة التعليم العالي.",
+        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
+        "downloadUrl": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1).pdf",
+        "sections": []
       }
     ],
     "ui": {
@@ -120,14 +115,15 @@
     "publications": [
       {
         "id": "pub-1",
-        "title": "Perspectives économiques mondiales 2025 : naviguer dans l'incertitude",
-        "author": "Dr Sarah Johnson, et al.",
-        "date": "Mars 2025",
+        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
+        "author": "Prof. Dr. Attiya Y. Javid",
+        "date": "Mai 2020",
         "type": "Report",
         "typeClass": "bg-blue-100 text-blue-700",
-        "description": "Une analyse complète de la résilience des marchés émergents et des stratégies d'optimisation fiscale.",
-        "thumbnail": "/assets/images/research-economics-1.jpg",
-        "downloadUrl": "#"
+        "description": "Rapport final soumis à la Commission de l'Enseignement Supérieur.",
+        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
+        "downloadUrl": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1).pdf",
+        "sections": []
       }
     ],
     "ui": {
@@ -149,14 +145,15 @@
     "publications": [
       {
         "id": "pub-1",
-        "title": "Globaler Wirtschaftsausblick 2025: Navigation durch Unsicherheit",
-        "author": "Dr. Sarah Johnson, et al.",
-        "date": "März 2025",
+        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
+        "author": "Prof. Dr. Attiya Y. Javid",
+        "date": "Mai 2020",
         "type": "Report",
         "typeClass": "bg-blue-100 text-blue-700",
-        "description": "Eine umfassende Analyse der Resilienz von Schwellenländern und fiskalischen Optimierungsstrategien.",
-        "thumbnail": "/assets/images/research-economics-1.jpg",
-        "downloadUrl": "#"
+        "description": "Abschlussbericht eingereicht bei der Higher Education Commission.",
+        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
+        "downloadUrl": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1).pdf",
+        "sections": []
       }
     ],
     "ui": {
@@ -178,14 +175,15 @@
     "publications": [
       {
         "id": "pub-1",
-        "title": "2025年全球经济展望：在不确定性中航行",
-        "author": "Sarah Johnson 博士等",
-        "date": "2025年3月",
+        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
+        "author": "Attiya Y. Javid 教授/博士",
+        "date": "2020年5月",
         "type": "Report",
         "typeClass": "bg-blue-100 text-blue-700",
-        "description": "对新兴市场韧性和财政优化策略的全面分析。",
-        "thumbnail": "/assets/images/research-economics-1.jpg",
-        "downloadUrl": "#"
+        "description": "提交给高等教育委员会的最终报告。",
+        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
+        "downloadUrl": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1).pdf",
+        "sections": []
       }
     ],
     "ui": {
