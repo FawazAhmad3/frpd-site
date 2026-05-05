@@ -44,36 +44,29 @@ export default function DataHub() {
   };
 
   return (
-    <main className="flex-grow">
+    <main className="flex-grow bg-gray-50/50 min-h-screen">
       {/* Page Header */}
-      <section className="bg-brand-dark py-16 relative overflow-hidden border-b border-white/5">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
-        </div>
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-            <div className="text-center md:text-left">
-              <span className="inline-block px-4 py-1.5 bg-brand-accent/20 text-brand-accent text-[10px] font-bold uppercase tracking-[0.2em] rounded-full mb-4">
-                {ui.badge}
-              </span>
-              <h1 className="text-3xl md:text-5xl font-heading font-bold text-white mb-4">
-                {data.hero.title}
-              </h1>
-              <p className="text-gray-400 max-w-xl text-base leading-relaxed">
-                {data.hero.description}
-              </p>
-            </div>
-
-            {/* Search */}
-            <div className="w-full max-w-md relative group">
-              <i className="fas fa-search absolute left-5 top-1/2 -translate-y-1/2 text-gray-500 group-focus-within:text-brand-accent transition-colors"></i>
+      <section className="bg-white py-16 border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold text-brand-dark mb-4">
+              FRPD DataHub
+            </h1>
+            <p className="text-gray-500 max-w-3xl mx-auto text-lg leading-relaxed mb-6">
+              The central repository for high-fidelity economic data, longitudinal surveys, and interactive visualization tools designed to support evidence-based policy making.
+            </p>
+            <div className="w-16 h-1 bg-brand-accent mx-auto"></div>
+          </div>
+          
+          <div className="max-w-2xl mx-auto">
+            <div className="relative group shadow-sm">
+              <i className="fas fa-search absolute left-5 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-brand-accent transition-colors"></i>
               <input
                 type="text"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                placeholder={ui.searchPlaceholder}
-                className="w-full pl-14 pr-6 py-4 bg-white/5 border border-white/10 rounded-2xl text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:bg-white/10 transition-all shadow-2xl"
+                placeholder="Search by title..."
+                className="w-full pl-14 pr-6 py-4 bg-gray-50 border border-gray-200 rounded-full text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:bg-white transition-all"
               />
             </div>
           </div>
