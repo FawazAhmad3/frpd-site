@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import CardData from '../components/datahub/CardData';
 import ModalData from '../components/datahub/ModalData';
@@ -16,6 +16,8 @@ export default function DataHub() {
   const [categoryFilter, setCategoryFilter] = useState('All');
   const [accessFilter, setAccessFilter] = useState('All');
   const [modalItem, setModalItem] = useState<any>(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 4;
 
   const filtered = useMemo(() => {
     return data.resources.filter((r: any) => {
@@ -25,6 +27,16 @@ export default function DataHub() {
       return matchSearch && matchCategory && matchAccess;
     });
   }, [search, categoryFilter, accessFilter, data.resources]);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filtered]);
+
+  const totalPages = Math.ceil(filtered.length / itemsPerPage);
+  const paginatedItems = useMemo(() => {
+    const start = (currentPage - 1) * itemsPerPage;
+    return filtered.slice(start, start + itemsPerPage);
+  }, [filtered, currentPage]);
 
   const openModal = (id: string) => {
     const item = data.resources.find((r: any) => r.id === id);
@@ -131,8 +143,8 @@ export default function DataHub() {
 
               {/* Data Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {filtered.length > 0 ? (
-                  filtered.map((resource: any) => (
+                {paginatedItems.length > 0 ? (
+                  paginatedItems.map((resource: any) => (
                     <CardData
                       key={resource.id}
                       {...resource}
@@ -146,6 +158,49 @@ export default function DataHub() {
                   </div>
                 )}
               </div>
+
+              {/* Pagination */}
+              {totalPages > 1 && (
+                <div className="mt-12 flex justify-center items-center gap-2">
+                  <button
+                    onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+                    disabled={currentPage === 1}
+                    className={`w-10 h-10 rounded-xl border flex items-center justify-center transition-all ${
+                      currentPage === 1 
+                        ? 'text-gray-300 border-gray-100 cursor-not-allowed' 
+                        : 'text-brand-dark border-gray-200 hover:border-brand-accent hover:text-brand-accent shadow-sm'
+                    }`}
+                  >
+                    <i className="fas fa-chevron-left text-xs"></i>
+                  </button>
+                  
+                  {[...Array(totalPages)].map((_, i) => (
+                    <button
+                      key={i + 1}
+                      onClick={() => setCurrentPage(i + 1)}
+                      className={`w-10 h-10 rounded-xl font-bold text-sm transition-all shadow-sm ${
+                        currentPage === i + 1
+                          ? 'bg-brand-accent text-white border-brand-accent'
+                          : 'bg-white text-gray-600 border border-gray-200 hover:border-brand-accent hover:text-brand-accent'
+                      }`}
+                    >
+                      {i + 1}
+                    </button>
+                  ))}
+
+                  <button
+                    onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
+                    disabled={currentPage === totalPages}
+                    className={`w-10 h-10 rounded-xl border flex items-center justify-center transition-all ${
+                      currentPage === totalPages 
+                        ? 'text-gray-300 border-gray-100 cursor-not-allowed' 
+                        : 'text-brand-dark border-gray-200 hover:border-brand-accent hover:text-brand-accent shadow-sm'
+                    }`}
+                  >
+                    <i className="fas fa-chevron-right text-xs"></i>
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -158,9 +213,14 @@ export default function DataHub() {
           <p className="text-gray-400 mb-10 text-lg">
             {ui.ctaDesc}
           </p>
-          <Link to="/contact" className="inline-block px-10 py-4 bg-brand-accent text-white font-bold rounded-full hover:bg-blue-600 transition-all btn-hover shadow-xl">
+          <a 
+            href={ui.submitUrl || "#"} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-block px-10 py-4 bg-brand-accent text-white font-bold rounded-full hover:bg-red-600 transition-all btn-hover shadow-xl"
+          >
             {ui.ctaButton} <i className="fas fa-paper-plane ml-2"></i>
-          </Link>
+          </a>
         </div>
       </section>
 
