@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 interface Props {
   title: string;
   url: string;
@@ -11,9 +13,9 @@ export default function CardProgram({ title, url }: Props) {
       </div>
       <h4 className="text-base font-bold text-brand-dark leading-tight mb-4 flex-grow">{title}</h4>
       <div className="mt-4 pt-4 border-t border-gray-50">
-        <a href={url} className="text-xs font-bold text-brand-accent uppercase tracking-widest hover:text-blue-700 transition-colors">
+        <Link to="/pages/contact" className="text-xs font-bold text-brand-accent uppercase tracking-widest hover:text-blue-700 transition-colors">
           Inquire Now <i className="fas fa-chevron-right ml-1 text-[8px]"></i>
-        </a>
+        </Link>
       </div>
     </div>
   );
