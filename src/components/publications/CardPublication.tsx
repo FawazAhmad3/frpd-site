@@ -15,9 +15,9 @@ export default function CardPublication({ id, title, author, date, type, typeCla
   return (
     <div 
       onClick={() => onOpenModal ? onOpenModal(id) : window.open(downloadUrl, '_blank')}
-      className="bg-white rounded-[2.5rem] shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 p-4 flex flex-col h-full group animate__animated animate__fadeInUp cursor-pointer"
+      className="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 p-4 flex flex-col h-full group animate__animated animate__fadeInUp cursor-pointer"
     >
-      <div className="relative overflow-hidden rounded-[2rem] mb-5 border border-gray-50">
+      <div className="relative overflow-hidden rounded-xl mb-5 border border-gray-50">
         <img src={thumbnail} alt={title} className="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-700" />
       </div>
 
