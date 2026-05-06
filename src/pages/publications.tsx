@@ -78,7 +78,7 @@ export default function Publications() {
           <div className="flex flex-col lg:flex-row gap-10">
             {/* Sidebar */}
             <aside className="w-full lg:w-64 flex-shrink-0">
-              <div className="sticky top-32 bg-white p-6 rounded-[2rem] border border-gray-100 shadow-sm">
+              <div className="bg-white p-6 rounded-[2rem] border border-gray-100 shadow-sm">
                 <h4 className="text-sm font-bold text-brand-dark uppercase tracking-widest mb-6 pb-4 border-b border-gray-100">Filter by Type</h4>
                 <nav className="space-y-2 flex flex-col">
                   {filterButtons.map((btn: any) => (
