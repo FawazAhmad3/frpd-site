@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import CardData from '../components/datahub/CardData';
 import ModalData from '../components/datahub/ModalData';
@@ -16,6 +16,8 @@ export default function DataHub() {
   const [categoryFilter, setCategoryFilter] = useState('All');
   const [accessFilter, setAccessFilter] = useState('All');
   const [modalItem, setModalItem] = useState<any>(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 4;
 
   const filtered = useMemo(() => {
     return data.resources.filter((r: any) => {
@@ -26,42 +28,45 @@ export default function DataHub() {
     });
   }, [search, categoryFilter, accessFilter, data.resources]);
 
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filtered]);
+
+  const totalPages = Math.ceil(filtered.length / itemsPerPage);
+  const paginatedItems = useMemo(() => {
+    const start = (currentPage - 1) * itemsPerPage;
+    return filtered.slice(start, start + itemsPerPage);
+  }, [filtered, currentPage]);
+
   const openModal = (id: string) => {
     const item = data.resources.find((r: any) => r.id === id);
     if (item) setModalItem(item);
   };
 
   return (
-    <main className="flex-grow">
+    <main className="flex-grow bg-gray-50/50 min-h-screen">
       {/* Page Header */}
-      <section className="bg-brand-dark py-16 relative overflow-hidden border-b border-white/5">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
-        </div>
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-            <div className="text-center md:text-left">
-              <span className="inline-block px-4 py-1.5 bg-brand-accent/20 text-brand-accent text-[10px] font-bold uppercase tracking-[0.2em] rounded-full mb-4">
-                {ui.badge}
-              </span>
-              <h1 className="text-3xl md:text-5xl font-heading font-bold text-white mb-4">
-                {data.hero.title}
-              </h1>
-              <p className="text-gray-400 max-w-xl text-base leading-relaxed">
-                {data.hero.description}
-              </p>
-            </div>
-
-            {/* Search */}
-            <div className="w-full max-w-md relative group">
-              <i className="fas fa-search absolute left-5 top-1/2 -translate-y-1/2 text-gray-500 group-focus-within:text-brand-accent transition-colors"></i>
+      <section className="bg-white py-16 border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold text-brand-dark mb-4">
+              FRPD DataHub
+            </h1>
+            <p className="text-gray-500 max-w-3xl mx-auto text-lg leading-relaxed mb-6">
+              The central repository for high-fidelity economic data, longitudinal surveys, and interactive visualization tools designed to support evidence-based policy making.
+            </p>
+            <div className="w-16 h-1 bg-brand-accent mx-auto"></div>
+          </div>
+          
+          <div className="max-w-2xl mx-auto">
+            <div className="relative group shadow-sm">
+              <i className="fas fa-search absolute left-5 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-brand-accent transition-colors"></i>
               <input
                 type="text"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                placeholder={ui.searchPlaceholder}
-                className="w-full pl-14 pr-6 py-4 bg-white/5 border border-white/10 rounded-2xl text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:bg-white/10 transition-all shadow-2xl"
+                placeholder="Search by title..."
+                className="w-full pl-14 pr-6 py-4 bg-gray-50 border border-gray-200 rounded-full text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:bg-white transition-all"
               />
             </div>
           </div>
@@ -131,8 +136,8 @@ export default function DataHub() {
 
               {/* Data Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {filtered.length > 0 ? (
-                  filtered.map((resource: any) => (
+                {paginatedItems.length > 0 ? (
+                  paginatedItems.map((resource: any) => (
                     <CardData
                       key={resource.id}
                       {...resource}
@@ -146,6 +151,49 @@ export default function DataHub() {
                   </div>
                 )}
               </div>
+
+              {/* Pagination */}
+              {totalPages > 1 && (
+                <div className="mt-12 flex justify-center items-center gap-2">
+                  <button
+                    onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+                    disabled={currentPage === 1}
+                    className={`w-10 h-10 rounded-xl border flex items-center justify-center transition-all ${
+                      currentPage === 1 
+                        ? 'text-gray-300 border-gray-100 cursor-not-allowed' 
+                        : 'text-brand-dark border-gray-200 hover:border-brand-accent hover:text-brand-accent shadow-sm'
+                    }`}
+                  >
+                    <i className="fas fa-chevron-left text-xs"></i>
+                  </button>
+                  
+                  {[...Array(totalPages)].map((_, i) => (
+                    <button
+                      key={i + 1}
+                      onClick={() => setCurrentPage(i + 1)}
+                      className={`w-10 h-10 rounded-xl font-bold text-sm transition-all shadow-sm ${
+                        currentPage === i + 1
+                          ? 'bg-brand-accent text-white border-brand-accent'
+                          : 'bg-white text-gray-600 border border-gray-200 hover:border-brand-accent hover:text-brand-accent'
+                      }`}
+                    >
+                      {i + 1}
+                    </button>
+                  ))}
+
+                  <button
+                    onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
+                    disabled={currentPage === totalPages}
+                    className={`w-10 h-10 rounded-xl border flex items-center justify-center transition-all ${
+                      currentPage === totalPages 
+                        ? 'text-gray-300 border-gray-100 cursor-not-allowed' 
+                        : 'text-brand-dark border-gray-200 hover:border-brand-accent hover:text-brand-accent shadow-sm'
+                    }`}
+                  >
+                    <i className="fas fa-chevron-right text-xs"></i>
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -158,9 +206,14 @@ export default function DataHub() {
           <p className="text-gray-400 mb-10 text-lg">
             {ui.ctaDesc}
           </p>
-          <Link to="/contact" className="inline-block px-10 py-4 bg-brand-accent text-white font-bold rounded-full hover:bg-blue-600 transition-all btn-hover shadow-xl">
+          <a 
+            href={ui.submitUrl || "#"} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-block px-10 py-4 bg-brand-accent text-white font-bold rounded-full hover:bg-red-600 transition-all btn-hover shadow-xl"
+          >
             {ui.ctaButton} <i className="fas fa-paper-plane ml-2"></i>
-          </Link>
+          </a>
         </div>
       </section>
 
