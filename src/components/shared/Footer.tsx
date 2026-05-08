@@ -94,7 +94,7 @@ export default function Footer() {
               <div className="space-y-4">
                 <div className="flex items-center gap-4 text-sm group cursor-pointer border-t border-gray-50 pt-4">
                   <i className="fas fa-phone text-brand-accent"></i>
-                  <span className="font-medium group-hover:text-brand-accent">0092 344 9198158</span>
+                  <span className="font-medium group-hover:text-brand-accent">0516045132</span>
                 </div>
                 <div className="flex items-center gap-4 text-sm group cursor-pointer border-t border-gray-50 pt-4">
                   <i className="fas fa-envelope text-brand-accent"></i>

@@ -70,7 +70,7 @@ export default function SectionContact({ phone, email, address, workHours, mapUr
         </div>
 
         {/* WhatsApp Channel CTA */}
-        <div 
+        {/* <div 
           className="mt-12 bg-gradient-to-r from-[#25D366] to-[#128C7E] rounded-2xl p-8 shadow-xl text-center flex flex-col md:flex-row items-center justify-between group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 cursor-pointer" 
           onClick={() => window.open('https://whatsapp.com/channel/0029Vae6bpnISTkOmoPQwp25', '_blank')}
         >
@@ -92,7 +92,7 @@ export default function SectionContact({ phone, email, address, workHours, mapUr
           >
             {l.joinBtn} <i className={`fas ${language === 'ar' ? 'fa-arrow-left' : 'fa-arrow-right'}`}></i>
           </a>
-        </div>
+        </div> */}
 
         {/* Departmental Contacts */}
         <div className="mt-24">
