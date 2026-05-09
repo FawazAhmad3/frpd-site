@@ -11,22 +11,21 @@
         {
           "name": "Dr. Shakeel Shahzad",
           "role": "Chief Executive Officer",
+          "department": "Executive Office",
+          "phone": "051-9248024",
+          "email": "ceo@frpd.org.pk",
           "image": "/assets/images/Governance/Dr Shakeel.jpg",
           "bio": "Over 15 years of distinguished experience in national and international economic policy and institutional reform. Former Advisor to GIZ International Services (GIZ IS/GmbH) and the Central Asia Development Group (CADG)."
         }
       ],
-      "team": [
-        {
-          "name": "Michael Okafor",
-          "role": "Lead Researcher",
-          "image": "/assets/images/sample3.png",
-          "bio": "Specializes in microeconomic modeling and supply chain dynamics in emerging markets."
-        }
-      ],
+      "team": [],
       "adminStaff": [
         {
           "name": "Fawaz Ahmad",
           "role": "Software Engineer",
+          "department": "Technical Support",
+          "phone": "051-9248051",
+          "email": "fawaz.ahmad@frpd.pk",
           "image": "/assets/images/Governance/Fawaz.png",
           "bio": "Builds web applications using React and Flask, developing user-friendly interfaces and backend APIs. Works on machine learning models, including data preprocessing, training, and basic integration into web apps. Focused on creating practical, data-driven solutions while continuously improving development and AI skills."
         }
@@ -55,7 +54,17 @@
         }
       ],
       "team": [],
-      "adminStaff": []
+      "adminStaff": [
+        {
+          "name": "فواز أحمد",
+          "role": "مهندس برمجيات",
+          "department": "الدعم الفني",
+          "phone": "051-9248051",
+          "email": "fawaz.ahmad@frpd.pk",
+          "image": "/assets/images/Governance/Fawaz.png",
+          "bio": "يقوم ببناء تطبيقات الويب باستخدام React و Flask، وتطوير واجهات سهلة الاستخدام وواجهات برمجة تطبيقات خلفية."
+        }
+      ]
     },
     "ui": {
       "badge": "القيادة والفريق",
@@ -80,7 +89,17 @@
         }
       ],
       "team": [],
-      "adminStaff": []
+      "adminStaff": [
+        {
+          "name": "Fawaz Ahmad",
+          "role": "Ingénieur Logiciel",
+          "department": "Support Technique",
+          "phone": "051-9248051",
+          "email": "fawaz.ahmad@frpd.pk",
+          "image": "/assets/images/Governance/Fawaz.png",
+          "bio": "Construit des applications Web à l'aide de React et Flask, développant des interfaces conviviales et des API backend."
+        }
+      ]
     },
     "ui": {
       "badge": "Direction et équipe",
@@ -105,7 +124,17 @@
         }
       ],
       "team": [],
-      "adminStaff": []
+      "adminStaff": [
+        {
+          "name": "Fawaz Ahmad",
+          "role": "Softwareentwickler",
+          "department": "Technischer Support",
+          "phone": "051-9248051",
+          "email": "fawaz.ahmad@frpd.pk",
+          "image": "/assets/images/Governance/Fawaz.png",
+          "bio": "Erstellt Webanwendungen mit React und Flask und entwickelt benutzerfreundliche Oberflächen und Backend-APIs."
+        }
+      ]
     },
     "ui": {
       "badge": "Führung & Team",
@@ -130,7 +159,17 @@
         }
       ],
       "team": [],
-      "adminStaff": []
+      "adminStaff": [
+        {
+          "name": "Fawaz Ahmad",
+          "role": "软件工程师",
+          "department": "技术支持",
+          "phone": "051-9248051",
+          "email": "fawaz.ahmad@frpd.pk",
+          "image": "/assets/images/Governance/Fawaz.png",
+          "bio": "使用 React 和 Flask 构建 Web 应用程序，开发用户友好的界面和后端 API。"
+        }
+      ]
     },
     "ui": {
       "badge": "领导与团队",
