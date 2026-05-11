@@ -6,6 +6,10 @@ const slides = [
   { src: '/assets/images/sample1.jpg', alt: 'Slide 1' },
   { src: '/assets/images/sample2.png', alt: 'Slide 2' },
   { src: '/assets/images/sample3.png', alt: 'Slide 3' },
+  { src: '/assets/images/hero_rural_development.png', alt: 'Rural Development' },
+  { src: '/assets/images/hero_capacity_building.png', alt: 'Capacity Building' },
+  { src: '/assets/images/hero_research_policy.png', alt: 'Research and Policy' },
+  { src: '/assets/images/hero_community_engagement.png', alt: 'Community Engagement' },
 ];
 
 export default function Hero() {
