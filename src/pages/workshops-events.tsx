@@ -29,7 +29,6 @@ export default function WorkshopsEvents() {
     { label: l['Conference'], filter: 'Conference', isStatus: false },
     { label: l['Webinar'], filter: 'Webinar', isStatus: false },
     { label: l['Roundtable'], filter: 'Roundtable', isStatus: false },
-    { label: l['Coming Soon'], filter: 'Coming Soon', isStatus: true },
   ];
 
   const filtered = allEvents.filter((item: any) => {

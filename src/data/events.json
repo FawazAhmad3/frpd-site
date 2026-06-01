@@ -6,18 +6,32 @@
     },
     "events": [
       {
-        "id": "1",
-        "type": "Workshop",
-        "typeColor": "bg-blue-600",
-        "title": "Applied Econometrics & Data Visualization",
-        "date": "May 15-17, 2026",
-        "time": "09:00 AM - 04:00 PM",
-        "location": "Islamabad, Pakistan / Hybrid",
-        "description": "A comprehensive hands-on workshop focused on advanced econometric models and modern data visualization techniques using R and Stata.",
-        "imageUrl": "/assets/images/sample1.jpg",
-        "registrationUrl": "/pages/contact",
-        "status": "Coming Soon",
-        "statusColor": "text-green-500"
+        "id": "3",
+        "type": "Conference",
+        "typeColor": "bg-purple-600",
+        "title": "REUSE Jean Monnet Module International Conference",
+        "date": "June 2-3, 2026",
+        "time": "10:00 AM - 04:30 PM",
+        "location": "Online via Google Meet",
+        "description": "Governing the Twin Transition: Digitalisation, Circular Economy and Resilient Industrial Ecosystems.",
+        "imageUrl": "https://reuse.subu.edu.tr/sites/logo/logo_lale.png",
+        "registrationUrl": "https://reuse.subu.edu.tr/tr/node/310",
+        "status": "Registration Open",
+        "statusColor": "text-blue-500"
+      },
+      {
+        "id": "2",
+        "type": "Conference",
+        "typeColor": "bg-purple-600",
+        "title": "The 16th InTraders International Conference on Sustainable Global Trade and Economics",
+        "date": "October 26-27, 2026",
+        "time": "TBD",
+        "location": "Babaeski, Kırklareli, Türkiye",
+        "description": "The 16th InTraders International Conference aims to support researchers by publishing quality articles on sustainable global trade, economics, and more.",
+        "imageUrl": "https://stebilampung.ac.id/wp-content/uploads/2025/02/cropped-logo-stebi-lampung.png",
+        "registrationUrl": "https://stebilampung.ac.id/the-16th-intraders-international-conference-on-sustainable-global-trade-and-economics/",
+        "status": "Registration Open",
+        "statusColor": "text-blue-500"
       }
     ]
   },
@@ -28,18 +42,32 @@
     },
     "events": [
       {
-        "id": "1",
-        "type": "ورشة عمل",
-        "typeColor": "bg-blue-600",
-        "title": "الاقتصاد القياسي التطبيقي وتصور البيانات",
-        "date": "15-17 مايو 2026",
-        "time": "09:00 صباحاً - 04:00 مساءً",
-        "location": "إسلام آباد، باكستان / هجين",
-        "description": "ورشة عمل عملية شاملة تركز على النماذج الاقتصادية القياسية المتقدمة وتقنيات تصور البيانات الحديثة باستخدام R و Stata.",
-        "imageUrl": "/assets/images/sample1.jpg",
-        "registrationUrl": "/pages/contact",
-        "status": "قريباً",
-        "statusColor": "text-green-500"
+        "id": "3",
+        "type": "مؤتمر",
+        "typeColor": "bg-purple-600",
+        "title": "المؤتمر الدولي لنموذج REUSE Jean Monnet",
+        "date": "2-3 يونيو 2026",
+        "time": "10:00 صباحاً - 04:30 مساءً",
+        "location": "عبر الإنترنت (Google Meet)",
+        "description": "حكومة الانتقال المزدوج: الرقمنة والاقتصاد الدائري والنظم البيئية الصناعية المرنة.",
+        "imageUrl": "https://reuse.subu.edu.tr/sites/logo/logo_lale.png",
+        "registrationUrl": "https://reuse.subu.edu.tr/tr/node/310",
+        "status": "التسجيل مفتوح",
+        "statusColor": "text-blue-500"
+      },
+      {
+        "id": "2",
+        "type": "مؤتمر",
+        "typeColor": "bg-purple-600",
+        "title": "المؤتمر الدولي السادس عشر لـ InTraders حول التجارة العالمية المستدامة والاقتصاد",
+        "date": "26-27 أكتوبر 2026",
+        "time": "يُحدد لاحقاً",
+        "location": "بابسكي، قرقلر إيلي، تركيا",
+        "description": "يهدف المؤتمر الدولي السادس عشر لـ InTraders إلى دعم الباحثين من خلال نشر مقالات عالية الجودة حول التجارة العالمية المستدامة والاقتصاد وغير ذلك.",
+        "imageUrl": "https://stebilampung.ac.id/wp-content/uploads/2025/02/cropped-logo-stebi-lampung.png",
+        "registrationUrl": "https://stebilampung.ac.id/the-16th-intraders-international-conference-on-sustainable-global-trade-and-economics/",
+        "status": "التسجيل مفتوح",
+        "statusColor": "text-blue-500"
       }
     ]
   },
@@ -50,18 +78,32 @@
     },
     "events": [
       {
-        "id": "1",
-        "type": "Atelier",
-        "typeColor": "bg-blue-600",
-        "title": "Économétrie appliquée et visualisation des données",
-        "date": "15-17 mai 2026",
-        "time": "09h00 - 16h00",
-        "location": "Islamabad, Pakistan / Hybride",
-        "description": "Un atelier pratique complet axé sur les modèles économétriques avancés et les techniques modernes de visualisation de données utilisant R et Stata.",
-        "imageUrl": "/assets/images/sample1.jpg",
-        "registrationUrl": "/pages/contact",
-        "status": "À venir",
-        "statusColor": "text-green-500"
+        "id": "3",
+        "type": "Conférence",
+        "typeColor": "bg-purple-600",
+        "title": "Conférence internationale du module Jean Monnet REUSE",
+        "date": "2-3 juin 2026",
+        "time": "10h00 - 16h30",
+        "location": "En ligne via Google Meet",
+        "description": "Gouverner la double transition : numérisation, économie circulaire et écosystèmes industriels résilients.",
+        "imageUrl": "https://reuse.subu.edu.tr/sites/logo/logo_lale.png",
+        "registrationUrl": "https://reuse.subu.edu.tr/tr/node/310",
+        "status": "Inscriptions ouvertes",
+        "statusColor": "text-blue-500"
+      },
+      {
+        "id": "2",
+        "type": "Conférence",
+        "typeColor": "bg-purple-600",
+        "title": "La 16ème conférence internationale InTraders sur le commerce mondial durable et l'économie",
+        "date": "26-27 octobre 2026",
+        "time": "À déterminer",
+        "location": "Babaeski, Kırklareli, Turquie",
+        "description": "La 16ème conférence internationale InTraders vise à soutenir les chercheurs en publiant des articles de qualité sur le commerce mondial durable, l'économie et plus encore.",
+        "imageUrl": "https://stebilampung.ac.id/wp-content/uploads/2025/02/cropped-logo-stebi-lampung.png",
+        "registrationUrl": "https://stebilampung.ac.id/the-16th-intraders-international-conference-on-sustainable-global-trade-and-economics/",
+        "status": "Inscriptions ouvertes",
+        "statusColor": "text-blue-500"
       }
     ]
   },
@@ -72,18 +114,32 @@
     },
     "events": [
       {
-        "id": "1",
-        "type": "Workshop",
-        "typeColor": "bg-blue-600",
-        "title": "Angewandte Ökonometrie & Datenvisualisierung",
-        "date": "15.-17. Mai 2026",
-        "time": "09:00 - 16:00 Uhr",
-        "location": "Islamabad, Pakistan / Hybrid",
-        "description": "Ein umfassender praktischer Workshop mit Schwerpunkt auf fortgeschrittenen ökonometrischen Modellen und modernen Datenvisualisierungstechniken unter Verwendung von R und Stata.",
-        "imageUrl": "/assets/images/sample1.jpg",
-        "registrationUrl": "/pages/contact",
-        "status": "Demnächst",
-        "statusColor": "text-green-500"
+        "id": "3",
+        "type": "Konferenz",
+        "typeColor": "bg-purple-600",
+        "title": "Internationale Konferenz des REUSE Jean Monnet Moduls",
+        "date": "2.-3. Juni 2026",
+        "time": "10:00 - 16:30 Uhr",
+        "location": "Online über Google Meet",
+        "description": "Steuerung des doppelten Übergangs: Digitalisierung, Kreislaufwirtschaft und belastbare industrielle Ökosysteme.",
+        "imageUrl": "https://reuse.subu.edu.tr/sites/logo/logo_lale.png",
+        "registrationUrl": "https://reuse.subu.edu.tr/tr/node/310",
+        "status": "Registrierung geöffnet",
+        "statusColor": "text-blue-500"
+      },
+      {
+        "id": "2",
+        "type": "Konferenz",
+        "typeColor": "bg-purple-600",
+        "title": "Die 16. Internationale InTraders Konferenz für nachhaltigen Welthandel und Wirtschaft",
+        "date": "26.-27. Oktober 2026",
+        "time": "TBD",
+        "location": "Babaeski, Kırklareli, Türkei",
+        "description": "Die 16. Internationale InTraders Konferenz zielt darauf ab, Forscher durch die Veröffentlichung hochwertiger Artikel zu nachhaltigem Welthandel, Wirtschaft und mehr zu unterstützen.",
+        "imageUrl": "https://stebilampung.ac.id/wp-content/uploads/2025/02/cropped-logo-stebi-lampung.png",
+        "registrationUrl": "https://stebilampung.ac.id/the-16th-intraders-international-conference-on-sustainable-global-trade-and-economics/",
+        "status": "Registrierung geöffnet",
+        "statusColor": "text-blue-500"
       }
     ]
   },
@@ -94,18 +150,32 @@
     },
     "events": [
       {
-        "id": "1",
-        "type": "研讨会",
-        "typeColor": "bg-blue-600",
-        "title": "应用经济计量学与数据可视化",
-        "date": "2026年5月15-17日",
-        "time": "上午 09:00 - 下午 04:00",
-        "location": "巴基斯坦伊斯兰堡 / 混合办公",
-        "description": "一个全面的实践研讨会，专注于先进的经济计量模型和使用 R 和 Stata 的现代数据可视化技术。",
-        "imageUrl": "/assets/images/sample1.jpg",
-        "registrationUrl": "/pages/contact",
-        "status": "即将推出",
-        "statusColor": "text-green-500"
+        "id": "3",
+        "type": "会议",
+        "typeColor": "bg-purple-600",
+        "title": "REUSE Jean Monnet 模块国际会议",
+        "date": "2026年6月2-3日",
+        "time": "上午 10:00 - 下午 04:30",
+        "location": "通过 Google Meet 在线举行",
+        "description": "治理双重转型：数字化、循环经济和有弹性的工业生态系统。",
+        "imageUrl": "https://reuse.subu.edu.tr/sites/logo/logo_lale.png",
+        "registrationUrl": "https://reuse.subu.edu.tr/tr/node/310",
+        "status": "开放注册",
+        "statusColor": "text-blue-500"
+      },
+      {
+        "id": "2",
+        "type": "会议",
+        "typeColor": "bg-purple-600",
+        "title": "第16届InTraders国际可持续全球贸易与经济会议",
+        "date": "2026年10月26-27日",
+        "time": "待定",
+        "location": "土耳其，克尔克拉雷利，巴巴埃斯基",
+        "description": "第16届InTraders国际会议旨在通过发表有关可持续全球贸易、经济等高质量文章来支持研究人员。",
+        "imageUrl": "https://stebilampung.ac.id/wp-content/uploads/2025/02/cropped-logo-stebi-lampung.png",
+        "registrationUrl": "https://stebilampung.ac.id/the-16th-intraders-international-conference-on-sustainable-global-trade-and-economics/",
+        "status": "开放注册",
+        "statusColor": "text-blue-500"
       }
     ]
   }
