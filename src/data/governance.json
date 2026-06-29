@@ -12,50 +12,13 @@
           "name": "Dr. Shakeel Shahzad",
           "role": "Chief Executive Officer",
           "department": "Executive Office",
-          "phone": "051-6045132",
+          "phone": "0516045132",
           "email": "ceo@frpd.org.pk",
           "image": "/assets/images/Governance/Dr Shakeel.jpg",
           "bio": "Over 15 years of distinguished experience in national and international economic policy and institutional reform. Former Advisor to GIZ International Services (GIZ IS/GmbH) and the Central Asia Development Group (CADG)."
-        },
-        {
-          "name": "Dr. Miraj Ul Haq",
-          "role": "Board Member",
-          "department": "Board of Governors",
-          "phone": "051-9019685",
-          "email": "miraj.haq@iiu.edu.pk",
-          "image": "/assets/images/Governance/Dr Miraj.png",
-          "bio": "Associate Professor of Economics at the International Islamic University, Islamabad (IIUI). Over 18 years of academic and research experience specializing in applied econometrics, development economics, and public policy in Pakistan."
         }
       ],
-      "team": [
-        {
-          "name": "Dr. Asma Khalid",
-          "role": "Lead Policy Researcher",
-          "department": "Policy & Research Division",
-          "phone": "051-9248053",
-          "email": "asma.khalid@frpd.org.pk",
-          "image": "/assets/images/Governance/Asma.png",
-          "bio": "Senior Policy Analyst and Researcher with a PhD in Economics. Specializes in fiscal policy, public financial management, and developmental economics in Pakistan."
-        },
-        {
-          "name": "Dr. Muhammad Irfan",
-          "role": "Senior Economist",
-          "department": "Economic Policy Unit",
-          "phone": "051-9248054",
-          "email": "irfan.muhammad@frpd.org.pk",
-          "image": "/assets/images/Governance/Irfan.png",
-          "bio": "Experienced economist specializing in macro-monetary policy, inflation dynamics, and trade competitiveness in South Asia."
-        },
-        {
-          "name": "Aisha Rehman",
-          "role": "Research Associate",
-          "department": "Data & Analytics Unit",
-          "phone": "051-9248055",
-          "email": "aisha.rehman@frpd.org.pk",
-          "image": "/assets/images/Governance/Aisha.png",
-          "bio": "Data scientist and policy researcher focusing on empirical analysis of microeconomic datasets, household surveys, and social sector indicators."
-        }
-      ],
+      "team": [],
       "adminStaff": [
         {
           "name": "Fawaz Ahmad",
@@ -64,16 +27,7 @@
           "phone": "051-9248051",
           "email": "fawaz.ahmad@frpd.pk",
           "image": "/assets/images/Governance/Fawaz.png",
-          "bio": "Builds web applications using React and Flask, developing user-friendly interfaces and backend APIs. Works on machine learning models, including data preprocessing, training, and basic integration into web apps."
-        },
-        {
-          "name": "Kamran Khan",
-          "role": "Operations Manager",
-          "department": "Administration",
-          "phone": "051-9248052",
-          "email": "kamran.khan@frpd.org.pk",
-          "image": "/assets/images/Governance/Kamran.png",
-          "bio": "Coordinates institutional logistics, process optimization, and administrative functions at FRPD."
+          "bio": "Builds web applications using React and Flask, developing user-friendly interfaces and backend APIs. Works on machine learning models, including data preprocessing, training, and basic integration into web apps. Focused on creating practical, data-driven solutions while continuously improving development and AI skills."
         }
       ]
     },
@@ -95,51 +49,11 @@
         {
           "name": "د. شكيل شهزاد",
           "role": "الرئيس التنفيذي",
-          "department": "المكتب التنفيذي",
-          "phone": "051-6045132",
-          "email": "ceo@frpd.org.pk",
           "image": "/assets/images/Governance/Dr Shakeel.jpg",
           "bio": "أكثر من 15 عاماً من الخبرة المتميزة في السياسة الاقتصادية الوطنية والدولية والإصلاح المؤسسي."
-        },
-        {
-          "name": "د. معراج الحق",
-          "role": "عضو مجلس الإدارة",
-          "department": "مجلس المحافظين",
-          "phone": "051-9019685",
-          "email": "miraj.haq@iiu.edu.pk",
-          "image": "/assets/images/Governance/Dr Miraj.png",
-          "bio": "أستاذ مشارك في علم الاقتصاد في الجامعة الإسلامية العالمية في إسلام آباد (IIUI). أكثر من 18 عاماً من الخبرة الأكاديمية والبحثية المتخصصة في الاقتصاد القياسي التطبيقي واقتصاد التنمية والسياسة العامة في باكستان."
         }
       ],
-      "team": [
-        {
-          "name": "د. أسماء خالد",
-          "role": "كبير باحثي السياسات",
-          "department": "قسم السياسات والبحوث",
-          "phone": "051-9248053",
-          "email": "asma.khalid@frpd.org.pk",
-          "image": "/assets/images/Governance/Asma.png",
-          "bio": "محللة وباحثة سياسات أولى حاصلة على الدكتوراه في الاقتصاد. متخصصة في السياسة المالية، وإدارة المالية العامة، واقتصاد التنمية في باكستان."
-        },
-        {
-          "name": "د. محمد عرفان",
-          "role": "كبير الاقتصاديين",
-          "department": "وحدة السياسة الاقتصادية",
-          "phone": "051-9248054",
-          "email": "irfan.muhammad@frpd.org.pk",
-          "image": "/assets/images/Governance/Irfan.png",
-          "bio": "اقتصادي ذو خبرة متخصص في السياسة النقدية الكلية، وديناميكيات التضخم، والقدرة التنافسية التجارية في جنوب آسيا."
-        },
-        {
-          "name": "عائشة رحمن",
-          "role": "باحث مشارك",
-          "department": "وحدة البيانات والتحليلات",
-          "phone": "051-9248055",
-          "email": "aisha.rehman@frpd.org.pk",
-          "image": "/assets/images/Governance/Aisha.png",
-          "bio": "عالمة بيانات وباحثة سياسات تركز على التحليل التجريبي لمجموعات البيانات الاقتصادية الجزئية، والمسوح الأسرية، ومؤشرات القطاع الاجتماعي."
-        }
-      ],
+      "team": [],
       "adminStaff": [
         {
           "name": "فواز أحمد",
@@ -149,15 +63,6 @@
           "email": "fawaz.ahmad@frpd.pk",
           "image": "/assets/images/Governance/Fawaz.png",
           "bio": "يقوم ببناء تطبيقات الويب باستخدام React و Flask، وتطوير واجهات سهلة الاستخدام وواجهات برمجة تطبيقات خلفية."
-        },
-        {
-          "name": "كامران خان",
-          "role": "مدير العمليات",
-          "department": "الإدارة",
-          "phone": "051-9248052",
-          "email": "kamran.khan@frpd.org.pk",
-          "image": "/assets/images/Governance/Kamran.png",
-          "bio": "ينسق الخدمات اللوجستية المؤسسية، وتحسين العمليات، والوظائف الإدارية في FRPD."
         }
       ]
     },
@@ -179,51 +84,11 @@
         {
           "name": "Dr Shakeel Shahzad",
           "role": "Directeur général",
-          "department": "Bureau exécutif",
-          "phone": "051-6045132",
-          "email": "ceo@frpd.org.pk",
           "image": "/assets/images/Governance/Dr Shakeel.jpg",
           "bio": "Plus de 15 ans d'expérience distinguée dans la politique économique nationale et internationale et la réforme institutionnelle."
-        },
-        {
-          "name": "Dr Miraj Ul Haq",
-          "role": "Membre du conseil",
-          "department": "Conseil des gouverneurs",
-          "phone": "051-9019685",
-          "email": "miraj.haq@iiu.edu.pk",
-          "image": "/assets/images/Governance/Dr Miraj.png",
-          "bio": "Professeur associé d'économie à l'Université Islamique Internationale d'Islamabad (IIUI). Plus de 18 ans d'expérience académique et de recherche spécialisée dans l'économétrie appliquée, l'économie du développement et les politiques publiques au Pakistan."
         }
       ],
-      "team": [
-        {
-          "name": "Dr Asma Khalid",
-          "role": "Chercheuse principale en politiques",
-          "department": "Division des politiques et de la recherche",
-          "phone": "051-9248053",
-          "email": "asma.khalid@frpd.org.pk",
-          "image": "/assets/images/Governance/Asma.png",
-          "bio": "Analyste principale des politiques et chercheuse titulaire d'un doctorat en économie. Spécialisée dans la politique budgétaire, la gestion des finances publiques et l'économie du développement au Pakistan."
-        },
-        {
-          "name": "Dr Muhammad Irfan",
-          "role": "Économiste principal",
-          "department": "Unité de politique économique",
-          "phone": "051-9248054",
-          "email": "irfan.muhammad@frpd.org.pk",
-          "image": "/assets/images/Governance/Irfan.png",
-          "bio": "Économiste chevronné spécialisé dans la politique macro-monétaire, la dynamique de l'inflation et la compétitivité commerciale en Asie du Sud."
-        },
-        {
-          "name": "Aisha Rehman",
-          "role": "Chercheuse associée",
-          "department": "Unité des données et des analyses",
-          "phone": "051-9248055",
-          "email": "aisha.rehman@frpd.org.pk",
-          "image": "/assets/images/Governance/Aisha.png",
-          "bio": "Scientifique des données et chercheuse en politiques axée sur l'analyse empirique des ensembles de données microéconomiques, des enquêtes sur les ménages et des indicateurs du secteur social."
-        }
-      ],
+      "team": [],
       "adminStaff": [
         {
           "name": "Fawaz Ahmad",
@@ -233,15 +98,6 @@
           "email": "fawaz.ahmad@frpd.pk",
           "image": "/assets/images/Governance/Fawaz.png",
           "bio": "Construit des applications Web à l'aide de React et Flask, développant des interfaces conviviales et des API backend."
-        },
-        {
-          "name": "Kamran Khan",
-          "role": "Directeur des opérations",
-          "department": "Administration",
-          "phone": "051-9248052",
-          "email": "kamran.khan@frpd.org.pk",
-          "image": "/assets/images/Governance/Kamran.png",
-          "bio": "Coordonne la logistique institutionnelle, l'optimisation des processus et les fonctions administratives de la FRPD."
         }
       ]
     },
@@ -263,51 +119,11 @@
         {
           "name": "Dr. Shakeel Shahzad",
           "role": "Vorstandsvorsitzender",
-          "department": "Exekutivbüro",
-          "phone": "051-6045132",
-          "email": "ceo@frpd.org.pk",
           "image": "/assets/images/Governance/Dr Shakeel.jpg",
           "bio": "Über 15 Jahre herausragende Erfahrung in nationaler und internationaler Wirtschaftspolitik und institutioneller Reform."
-        },
-        {
-          "name": "Dr. Miraj Ul Haq",
-          "role": "Mitglied des Vorstands",
-          "department": "Gouverneursrat",
-          "phone": "051-9019685",
-          "email": "miraj.haq@iiu.edu.pk",
-          "image": "/assets/images/Governance/Dr Miraj.png",
-          "bio": "Außerordentlicher Professor für Wirtschaftswissenschaften an der Internationalen Islamischen Universität Islamabad (IIUI). Über 18 Jahre akademische und Forschungserfahrung mit Spezialisierung auf angewandte Ökonometrie, Entwicklungsökonomie und öffentliche Ordnung in Pakistan."
         }
       ],
-      "team": [
-        {
-          "name": "Dr. Asma Khalid",
-          "role": "Leitende Politikforscherin",
-          "department": "Abteilung für Politik und Forschung",
-          "phone": "051-9248053",
-          "email": "asma.khalid@frpd.org.pk",
-          "image": "/assets/images/Governance/Asma.png",
-          "bio": "Senior-Politikanalystin und Forscherin mit promoviertem Abschluss in Wirtschaftswissenschaften. Spezialisiert auf Fiskalpolitik, öffentliches Finanzmanagement und Entwicklungsökonomie in Pakistan."
-        },
-        {
-          "name": "Dr. Muhammad Irfan",
-          "role": "Senior-Ökonom",
-          "department": "Wirtschaftspolitische Einheit",
-          "phone": "051-9248054",
-          "email": "irfan.muhammad@frpd.org.pk",
-          "image": "/assets/images/Governance/Irfan.png",
-          "bio": "Erfahrener Ökonom, spezialisiert auf Makrogeldpolitik, Inflationsdynamik und Handelswettbewerbsfähigkeit in Südasien."
-        },
-        {
-          "name": "Aisha Rehman",
-          "role": "Forschungsmitarbeiterin",
-          "department": "Daten- und Analyseabteilung",
-          "phone": "051-9248055",
-          "email": "aisha.rehman@frpd.org.pk",
-          "image": "/assets/images/Governance/Aisha.png",
-          "bio": "Datenwissenschaftlerin und Politikforscherin mit Schwerpunkt auf der empirischen Analyse mikroökonomischer Datensätze, Haushaltsbefragungen und Indikatoren des sozialen Sektors."
-        }
-      ],
+      "team": [],
       "adminStaff": [
         {
           "name": "Fawaz Ahmad",
@@ -317,15 +133,6 @@
           "email": "fawaz.ahmad@frpd.pk",
           "image": "/assets/images/Governance/Fawaz.png",
           "bio": "Erstellt Webanwendungen mit React und Flask und entwickelt benutzerfreundliche Oberflächen und Backend-APIs."
-        },
-        {
-          "name": "Kamran Khan",
-          "role": "Betriebsleiter",
-          "department": "Verwaltung",
-          "phone": "051-9248052",
-          "email": "kamran.khan@frpd.org.pk",
-          "image": "/assets/images/Governance/Kamran.png",
-          "bio": "Koordiniert die institutionelle Logistik, Prozessoptimierung und administrative Funktionen bei FRPD."
         }
       ]
     },
@@ -338,7 +145,7 @@
   "zh": {
     "governance": {
       "boardTitle": "理事会",
-      "boardSummary": "负责监督 FRPD 全球运营 and 伦理标准的战略领导层。",
+      "boardSummary": "负责监督 FRPD 全球运营和伦理标准的战略领导层。",
       "teamTitle": "我们的研究与政策团队",
       "teamSummary": "推动我们日常研究和创新工作的多学科专家。",
       "adminTitle": "行政人员",
@@ -347,51 +154,11 @@
         {
           "name": "Shakeel Shahzad 博士",
           "role": "首席执行官",
-          "department": "执行办公室",
-          "phone": "051-6045132",
-          "email": "ceo@frpd.org.pk",
           "image": "/assets/images/Governance/Dr Shakeel.jpg",
           "bio": "在国家和国际经济政策以及机构改革方面拥有超过15年的卓越经验。"
-        },
-        {
-          "name": "Miraj Ul Haq 博士",
-          "role": "理事会成员",
-          "department": "理事会",
-          "phone": "051-9019685",
-          "email": "miraj.haq@iiu.edu.pk",
-          "image": "/assets/images/Governance/Dr Miraj.png",
-          "bio": "伊斯兰堡国际伊斯兰大学（IIUI）经济学副教授。在应用计量经济学、发展经济学和巴基斯坦公共政策领域拥有超过18年的学术和研究经验。"
         }
       ],
-      "team": [
-        {
-          "name": "Asma Khalid 博士",
-          "role": "首席政策研究员",
-          "department": "政策与研究部",
-          "phone": "051-9248053",
-          "email": "asma.khalid@frpd.org.pk",
-          "image": "/assets/images/Governance/Asma.png",
-          "bio": "资深政策分析师和研究员，经济学博士。专注于巴基斯坦的财政政策、公共财政管理和发展经济学。"
-        },
-        {
-          "name": "Muhammad Irfan 博士",
-          "role": "资深经济学家",
-          "department": "经济政策组",
-          "phone": "051-9248054",
-          "email": "irfan.muhammad@frpd.org.pk",
-          "image": "/assets/images/Governance/Irfan.png",
-          "bio": "资深经济学家，专注于南亚的宏观货币政策、通胀动态和贸易竞争力。"
-        },
-        {
-          "name": "Aisha Rehman",
-          "role": "助理研究员",
-          "department": "数据与分析组",
-          "phone": "051-9248055",
-          "email": "aisha.rehman@frpd.org.pk",
-          "image": "/assets/images/Governance/Aisha.png",
-          "bio": "数据科学家和政策研究员，专注于微观经济数据集、家庭调查 and 公共部门指标的经验分析。"
-        }
-      ],
+      "team": [],
       "adminStaff": [
         {
           "name": "Fawaz Ahmad",
@@ -401,15 +168,6 @@
           "email": "fawaz.ahmad@frpd.pk",
           "image": "/assets/images/Governance/Fawaz.png",
           "bio": "使用 React 和 Flask 构建 Web 应用程序，开发用户友好的界面和后端 API。"
-        },
-        {
-          "name": "Kamran Khan",
-          "role": "运营经理",
-          "department": "行政部",
-          "phone": "051-9248052",
-          "email": "kamran.khan@frpd.org.pk",
-          "image": "/assets/images/Governance/Kamran.png",
-          "bio": "协调 FRPD 的机构物流、流程优化和行政职能。"
         }
       ]
     },
