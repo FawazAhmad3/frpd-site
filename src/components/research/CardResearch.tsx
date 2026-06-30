@@ -15,7 +15,15 @@ export default function CardResearch({ id, image, title, type, date, category, o
       onClick={() => onOpenModal(id)}
     >
       <div className="aspect-[4/3] overflow-hidden">
-        <img src={image} alt={title} className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
+        <img 
+          src={image} 
+          alt={title} 
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = '/assets/images/sample1.jpg';
+          }}
+          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" 
+        />
       </div>
       <div className="p-6">
         <div className="flex items-center justify-between mb-3">
