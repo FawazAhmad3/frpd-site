@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 interface CourseItem {
   id: string;
   title: string;
@@ -14,7 +16,41 @@ interface Props {
 }
 
 export default function ModalCourse({ item, onClose }: Props) {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState('');
+
   if (!item) return null;
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!name || !email || !phone) return;
+    setIsSubmitting(true);
+    setSubmitError('');
+    try {
+      await new Promise((r) => setTimeout(r, 1500));
+      const registrations = JSON.parse(localStorage.getItem('bootcamp_registrations') || '[]');
+      registrations.push({
+        id: '_' + Math.random().toString(36).substr(2, 9),
+        courseId: item.id,
+        courseTitle: item.title,
+        name,
+        email,
+        phone,
+        timestamp: new Date().toISOString(),
+        status: 'Pending Verification'
+      });
+      localStorage.setItem('bootcamp_registrations', JSON.stringify(registrations));
+      setIsSubmitted(true);
+    } catch {
+      setSubmitError('Failed to submit. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <div className="fixed inset-0 z-[100] bg-brand-dark/80 backdrop-blur-md flex items-center justify-center p-4">
@@ -88,26 +124,84 @@ export default function ModalCourse({ item, onClose }: Props) {
                 </div>
 
                 {/* Enrollment Form */}
-                <div className="flex flex-col">
-                  <h3 className="text-xl font-heading font-bold text-brand-dark mb-6">Complete Enrollment</h3>
-                  <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
-                    <div className="space-y-1">
-                      <label className="text-[10px] font-bold text-gray-400 uppercase ml-2">Full Name</label>
-                      <input type="text" required placeholder="Fawaz Ahmad" className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:border-brand-accent transition-all text-sm" />
+                <div className="flex flex-col justify-center">
+                  {isSubmitted ? (
+                    <div className="bg-emerald-50 border border-emerald-200 rounded-3xl p-8 text-center space-y-5 animate__animated animate__fadeIn">
+                      <div className="w-16 h-16 bg-emerald-500 text-white rounded-full flex items-center justify-center mx-auto text-2xl shadow-lg shadow-emerald-500/20">
+                        <i className="fas fa-check-circle"></i>
+                      </div>
+                      <h3 className="text-2xl font-heading font-bold text-brand-dark">Request Submitted!</h3>
+                      <p className="text-sm text-gray-600 leading-relaxed">
+                        Thank you, <strong className="text-brand-dark">{name}</strong>. Your enrollment request for <strong className="text-brand-dark">{item.title}</strong> has been successfully received.
+                      </p>
+                      <div className="bg-white p-5 rounded-2xl border border-emerald-100 text-left text-xs space-y-2">
+                        <p className="text-gray-400 font-bold uppercase tracking-wider text-[9px]">Registration Details</p>
+                        <p><span className="font-semibold text-gray-500">Email:</span> {email}</p>
+                        <p><span className="font-semibold text-gray-500">Phone:</span> {phone}</p>
+                        <p><span className="font-semibold text-gray-500">Payment Status:</span> Pending Verification (24-48 Hours)</p>
+                      </div>
+                      <p className="text-[10px] text-gray-500 italic leading-relaxed">
+                        A confirmation email has been dispatched to {email}. Please check your inbox (and spam folder) for further instructions.
+                      </p>
                     </div>
-                    <div className="space-y-1">
-                      <label className="text-[10px] font-bold text-gray-400 uppercase ml-2">Email Address</label>
-                      <input type="email" required placeholder="fawaz@example.com" className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:border-brand-accent transition-all text-sm" />
-                    </div>
-                    <div className="space-y-1">
-                      <label className="text-[10px] font-bold text-gray-400 uppercase ml-2">Phone / WhatsApp</label>
-                      <input type="tel" required placeholder="03XXXXXXXXX" className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:border-brand-accent transition-all text-sm" />
-                    </div>
-                    <button type="submit" className="w-full mt-4 py-4 bg-brand-dark text-white font-bold rounded-xl hover:bg-brand-accent hover:-translate-y-1 transition-all duration-300 shadow-xl">
-                      Submit Registration Request <i className="fas fa-paper-plane ml-2"></i>
-                    </button>
-                    <p className="text-[9px] text-gray-400 text-center uppercase tracking-widest font-bold">Manual Verification Required (24-48 Hours)</p>
-                  </form>
+                  ) : (
+                    <>
+                      <h3 className="text-xl font-heading font-bold text-brand-dark mb-6">Complete Enrollment</h3>
+                      <form className="space-y-4" onSubmit={handleSubmit}>
+                        <div className="space-y-1">
+                          <label className="text-[10px] font-bold text-gray-400 uppercase ml-2">Full Name</label>
+                          <input 
+                            type="text" 
+                            required 
+                            disabled={isSubmitting}
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
+                            placeholder="Fawaz Ahmad" 
+                            className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:border-brand-accent transition-all text-sm disabled:opacity-50" 
+                          />
+                        </div>
+                        <div className="space-y-1">
+                          <label className="text-[10px] font-bold text-gray-400 uppercase ml-2">Email Address</label>
+                          <input 
+                            type="email" 
+                            required 
+                            disabled={isSubmitting}
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            placeholder="fawaz@example.com" 
+                            className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:border-brand-accent transition-all text-sm disabled:opacity-50" 
+                          />
+                        </div>
+                        <div className="space-y-1">
+                          <label className="text-[10px] font-bold text-gray-400 uppercase ml-2">Phone / WhatsApp</label>
+                          <input 
+                            type="tel" 
+                            required 
+                            disabled={isSubmitting}
+                            value={phone}
+                            onChange={(e) => setPhone(e.target.value)}
+                            placeholder="03XXXXXXXXX" 
+                            className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:border-brand-accent transition-all text-sm disabled:opacity-50" 
+                          />
+                        </div>
+                        {submitError && (
+                          <p className="text-red-500 text-xs font-semibold ml-2">{submitError}</p>
+                        )}
+                        <button 
+                          type="submit" 
+                          disabled={isSubmitting}
+                          className="w-full mt-4 py-4 bg-brand-dark text-white font-bold rounded-xl hover:bg-brand-accent hover:-translate-y-1 transition-all duration-300 shadow-xl flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0"
+                        >
+                          {isSubmitting ? (
+                            <>Submitting Request <i className="fas fa-spinner fa-spin"></i></>
+                          ) : (
+                            <>Submit Registration Request <i className="fas fa-paper-plane"></i></>
+                          )}
+                        </button>
+                        <p className="text-[9px] text-gray-400 text-center uppercase tracking-widest font-bold">Manual Verification Required (24-48 Hours)</p>
+                      </form>
+                    </>
+                  )}
                 </div>
               </div>
             </div>
