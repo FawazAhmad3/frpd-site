@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import CardCareer from '../components/careers/CardCareer';
+import ModalApplyJob from '../components/careers/ModalApplyJob';
 import careersData from '../data/careers.json';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -7,6 +8,8 @@ export default function Careers() {
   const { language } = useLanguage();
   const pageData = (careersData as any)[language] || careersData.en;
   const data = pageData.careers || {};
+  const [activeJob, setActiveJob] = useState<string | null>(null);
+
   return (
     <main className="flex-grow">
       {/* Page Header */}
@@ -37,7 +40,7 @@ export default function Careers() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {(data.listings || []).map((listing: any, i: number) => (
-              <CardCareer key={i} {...listing} />
+              <CardCareer key={i} {...listing} onApply={(title) => setActiveJob(title)} />
             ))}
           </div>
         </div>
@@ -60,17 +63,24 @@ export default function Careers() {
                language === 'zh' ? '将您的简历提交到我们的全球人才库。当有匹配的角色可用时，我们会与您联系。' :
                "Submit your CV to our global talent pool. We'll reach out when a matching role becomes available."}
             </p>
-            <a
-              href={data.cvLink}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => setActiveJob('Talent Pool')}
               className="inline-block px-10 py-4 bg-brand-dark text-white font-bold rounded-full hover:bg-brand-accent transition-all btn-hover shadow-xl"
             >
               {language === 'ar' ? 'انضم إلى تجمع المواهب' : language === 'fr' ? 'Rejoindre le vivier de talents' : language === 'de' ? 'Talentpool beitreten' : language === 'zh' ? '加入人才库' : 'Join Talent Pool'} <i className="fas fa-arrow-right ml-2"></i>
-            </a>
+            </button>
           </div>
         </div>
       </section>
+
+      {/* Application Modal */}
+      {activeJob && (
+        <ModalApplyJob 
+          jobTitle={activeJob} 
+          onClose={() => setActiveJob(null)} 
+          language={language} 
+        />
+      )}
     </main>
   );
 }
