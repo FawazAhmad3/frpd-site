@@ -3,13 +3,10 @@ import { useLanguage } from '../../context/LanguageContext';
 import globalData from '../../data/global.json';
 
 const slides = [
-  { src: '/assets/images/sample1.jpg', alt: 'Slide 1' },
-  { src: '/assets/images/sample2.png', alt: 'Slide 2' },
-  { src: '/assets/images/sample3.png', alt: 'Slide 3' },
-  { src: '/assets/images/hero_rural_development.png', alt: 'Rural Development' },
-  { src: '/assets/images/hero_capacity_building.png', alt: 'Capacity Building' },
-  { src: '/assets/images/hero_research_policy.png', alt: 'Research and Policy' },
-  { src: '/assets/images/hero_community_engagement.png', alt: 'Community Engagement' },
+  { src: '/assets/images/hero_economic_growth.png', alt: 'Economic Growth & Development' },
+  { src: '/assets/images/hero_community.png', alt: 'Empowering Communities in Pakistan' },
+  { src: '/assets/images/hero_research.png', alt: 'Academic & Policy Research' },
+  { src: '/assets/images/hero_training.png', alt: 'Professional Capacity Building' },
 ];
 
 export default function Hero() {
