@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react';
+
 interface ResearchItem {
   id: string;
   image: string;
@@ -18,6 +20,14 @@ interface Props {
 }
 
 export default function ModalResearch({ item, onClose }: Props) {
+  const [imgSrc, setImgSrc] = useState(item?.image || '/assets/images/sample1.jpg');
+
+  useEffect(() => {
+    if (item?.image) {
+      setImgSrc(item.image);
+    }
+  }, [item]);
+
   if (!item) return null;
 
   return (
@@ -35,7 +45,12 @@ export default function ModalResearch({ item, onClose }: Props) {
             <iframe src={item.previewUrl} loading="lazy" className="w-full h-full border-none" allow="autoplay" title="PDF Preview"></iframe>
           ) : (
             <div className="w-full h-full flex items-center justify-center p-8 bg-brand-dark/5 relative">
-              <img src={item.image} alt={item.title} className="w-full h-full object-cover rounded-xl shadow-lg" />
+              <img 
+                src={imgSrc} 
+                alt={item.title} 
+                onError={() => setImgSrc('/assets/images/sample1.jpg')} 
+                className="w-full h-full object-cover rounded-xl shadow-lg" 
+              />
               <div className="absolute inset-0 bg-brand-dark/40 flex flex-col items-center justify-center m-8 rounded-xl opacity-0 hover:opacity-100 transition-opacity duration-300">
                 <i className="fa-solid fa-file-pdf text-4xl text-white mb-2"></i>
                 <p className="text-white text-sm font-bold">Document preview unavailable</p>
@@ -70,12 +85,43 @@ export default function ModalResearch({ item, onClose }: Props) {
           </div>
 
           <div className="mt-10 grid grid-cols-2 gap-4">
-            <a href={item.previewUrl || '#'} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 bg-brand-gray text-brand-dark font-bold rounded-xl hover:bg-gray-200 transition-colors">
-              <i className="fa-solid fa-eye"></i> Preview
-            </a>
-            <a href={item.downloadUrl || '#'} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 bg-brand-accent text-white font-bold rounded-xl hover:bg-blue-600 shadow-lg shadow-brand-accent/20 transition-all active:scale-95">
-              <i className="fa-solid fa-download"></i> Download
-            </a>
+            {item.previewUrl ? (
+              <a 
+                href={item.previewUrl} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center justify-center gap-2 px-6 py-3 bg-brand-gray text-brand-dark font-bold rounded-xl hover:bg-gray-200 transition-colors"
+              >
+                <i className="fa-solid fa-eye"></i> Preview
+              </a>
+            ) : (
+              <button 
+                disabled 
+                className="flex items-center justify-center gap-2 px-6 py-3 bg-gray-100 text-gray-400 font-bold rounded-xl cursor-not-allowed"
+                title="Preview unavailable"
+              >
+                <i className="fa-solid fa-eye-slash"></i> Preview Unavailable
+              </button>
+            )}
+
+            {item.downloadUrl ? (
+              <a 
+                href={item.downloadUrl} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center justify-center gap-2 px-6 py-3 bg-brand-accent text-white font-bold rounded-xl hover:bg-blue-600 shadow-lg shadow-brand-accent/20 transition-all active:scale-95"
+              >
+                <i className="fa-solid fa-download"></i> Download
+              </a>
+            ) : (
+              <button 
+                disabled 
+                className="flex items-center justify-center gap-2 px-6 py-3 bg-gray-100 text-gray-400 font-bold rounded-xl cursor-not-allowed"
+                title="Download unavailable"
+              >
+                <i className="fa-solid fa-download-slash"></i> Download Unavailable
+              </button>
+            )}
           </div>
         </div>
       </div>
