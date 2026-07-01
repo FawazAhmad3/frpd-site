@@ -70,12 +70,43 @@ export default function ModalResearch({ item, onClose }: Props) {
           </div>
 
           <div className="mt-10 grid grid-cols-2 gap-4">
-            <a href={item.previewUrl || '#'} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 bg-brand-gray text-brand-dark font-bold rounded-xl hover:bg-gray-200 transition-colors">
-              <i className="fa-solid fa-eye"></i> Preview
-            </a>
-            <a href={item.downloadUrl || '#'} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 bg-brand-accent text-white font-bold rounded-xl hover:bg-blue-600 shadow-lg shadow-brand-accent/20 transition-all active:scale-95">
-              <i className="fa-solid fa-download"></i> Download
-            </a>
+            {item.previewUrl ? (
+              <a 
+                href={item.previewUrl} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center justify-center gap-2 px-6 py-3 bg-brand-gray text-brand-dark font-bold rounded-xl hover:bg-gray-200 transition-colors"
+              >
+                <i className="fa-solid fa-eye"></i> Preview
+              </a>
+            ) : (
+              <button 
+                disabled 
+                className="flex items-center justify-center gap-2 px-6 py-3 bg-gray-100 text-gray-400 font-bold rounded-xl cursor-not-allowed"
+                title="Preview unavailable"
+              >
+                <i className="fa-solid fa-eye-slash"></i> Preview Unavailable
+              </button>
+            )}
+
+            {item.downloadUrl ? (
+              <a 
+                href={item.downloadUrl} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center justify-center gap-2 px-6 py-3 bg-brand-accent text-white font-bold rounded-xl hover:bg-blue-600 shadow-lg shadow-brand-accent/20 transition-all active:scale-95"
+              >
+                <i className="fa-solid fa-download"></i> Download
+              </a>
+            ) : (
+              <button 
+                disabled 
+                className="flex items-center justify-center gap-2 px-6 py-3 bg-gray-100 text-gray-400 font-bold rounded-xl cursor-not-allowed"
+                title="Download unavailable"
+              >
+                <i className="fa-solid fa-download-slash"></i> Download Unavailable
+              </button>
+            )}
           </div>
         </div>
       </div>
