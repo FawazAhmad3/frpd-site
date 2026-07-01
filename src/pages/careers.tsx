@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import CardCareer from '../components/careers/CardCareer';
 import careersData from '../data/careers.json';
 import { useLanguage } from '../context/LanguageContext';
@@ -7,6 +6,7 @@ export default function Careers() {
   const { language } = useLanguage();
   const pageData = (careersData as any)[language] || careersData.en;
   const data = pageData.careers || {};
+
   return (
     <main className="flex-grow">
       {/* Page Header */}
@@ -56,7 +56,7 @@ export default function Careers() {
             <p className="text-gray-500 text-lg mb-8 max-w-xl mx-auto">
               {language === 'ar' ? 'أرسل سيرتك الذاتية إلى تجمع المواهب العالمي لدينا. سنتواصل معك عندما يتوفر دور مناسب.' : 
                language === 'fr' ? 'Soumettez votre CV à notre vivier de talents mondial. Nous vous contacterons dès qu\'un poste correspondant sera disponible.' :
-               language === 'de' ? 'Reichen Sie Ihren Lebenslauf in unserem globalen Talentpool ein. Wir melden uns, wenn eine passende Stelle frei wird.' :
+               language === 'de' ? 'Reichen Sie Ihren Lebenslauf in unserem globalen Talentpool ein. Wir melden uns, wenn eine passende stelle frei wird.' :
                language === 'zh' ? '将您的简历提交到我们的全球人才库。当有匹配的角色可用时，我们会与您联系。' :
                "Submit your CV to our global talent pool. We'll reach out when a matching role becomes available."}
             </p>

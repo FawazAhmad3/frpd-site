@@ -27,7 +27,12 @@ export default function CardCareer({ title, department, location, type, descript
       </div>
       <p className="text-gray-500 text-base leading-relaxed mb-8 flex-grow">{description}</p>
       <div className="pt-6 border-t border-gray-50 flex justify-between items-center mt-auto">
-        <a href={applyLink} target="_blank" rel="noopener noreferrer" className="text-brand-accent font-bold text-sm tracking-widest uppercase hover:gap-3 flex items-center transition-all group-hover:gap-2">
+        <a 
+          href={applyLink}
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-brand-accent font-bold text-sm tracking-widest uppercase hover:gap-3 flex items-center transition-all group-hover:gap-2"
+        >
           Apply Now <i className="fa-solid fa-arrow-right ml-2 group-hover:ml-3 transition-all"></i>
         </a>
       </div>
