@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react';
+
 interface ResearchItem {
   id: string;
   image: string;
@@ -18,6 +20,14 @@ interface Props {
 }
 
 export default function ModalResearch({ item, onClose }: Props) {
+  const [imgSrc, setImgSrc] = useState(item?.image || '/assets/images/sample1.jpg');
+
+  useEffect(() => {
+    if (item?.image) {
+      setImgSrc(item.image);
+    }
+  }, [item]);
+
   if (!item) return null;
 
   return (
@@ -35,7 +45,12 @@ export default function ModalResearch({ item, onClose }: Props) {
             <iframe src={item.previewUrl} loading="lazy" className="w-full h-full border-none" allow="autoplay" title="PDF Preview"></iframe>
           ) : (
             <div className="w-full h-full flex items-center justify-center p-8 bg-brand-dark/5 relative">
-              <img src={item.image} alt={item.title} className="w-full h-full object-cover rounded-xl shadow-lg" />
+              <img 
+                src={imgSrc} 
+                alt={item.title} 
+                onError={() => setImgSrc('/assets/images/sample1.jpg')} 
+                className="w-full h-full object-cover rounded-xl shadow-lg" 
+              />
               <div className="absolute inset-0 bg-brand-dark/40 flex flex-col items-center justify-center m-8 rounded-xl opacity-0 hover:opacity-100 transition-opacity duration-300">
                 <i className="fa-solid fa-file-pdf text-4xl text-white mb-2"></i>
                 <p className="text-white text-sm font-bold">Document preview unavailable</p>
