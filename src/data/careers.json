@@ -36,6 +36,14 @@
           "type": "Internship",
           "description": "Support ongoing research projects through data collection, literature reviews, and administrative assistance.",
           "applyLink": "https://docs.google.com/forms/d/1BIatkGPX3I8-obyAiY8XkUOSYlnukwXOleApcdYuefc/preview"
+        },
+        {
+          "title": "IT Intern",
+          "department": "Global Network",
+          "location": "Remote",
+          "type": "Internship",
+          "description": "Assist in website maintenance, IT support, troubleshooting, and managing digital systems and databases.",
+          "applyLink": "https://docs.google.com/forms/d/1BIatkGPX3I8-obyAiY8XkUOSYlnukwXOleApcdYuefc/preview"
         }
       ]
     }
@@ -76,6 +84,14 @@
           "location": "عن بعد",
           "type": "تدريب",
           "description": "دعم المشاريع البحثية الجارية من خلال جمع البيانات، ومراجعة الأدبيات، والمساعدة الإدارية.",
+          "applyLink": "https://docs.google.com/forms/d/1BIatkGPX3I8-obyAiY8XkUOSYlnukwXOleApcdYuefc/preview"
+        },
+        {
+          "title": "متدرب تكنولوجيا المعلومات (IT Intern)",
+          "department": "الشبكة العالمية",
+          "location": "عن بعد",
+          "type": "تدريب",
+          "description": "المساعدة في صيانة الموقع، الدعم الفني، حل المشكلات، وإدارة الأنظمة الرقمية وقواعد البيانات.",
           "applyLink": "https://docs.google.com/forms/d/1BIatkGPX3I8-obyAiY8XkUOSYlnukwXOleApcdYuefc/preview"
         }
       ]
@@ -118,6 +134,14 @@
           "type": "Internship",
           "description": "Soutenir les projets de recherche en cours par la collecte de données, les revues de littérature et l'assistance administrative.",
           "applyLink": "https://docs.google.com/forms/d/1BIatkGPX3I8-obyAiY8XkUOSYlnukwXOleApcdYuefc/preview"
+        },
+        {
+          "title": "Stagiaire Informatique (IT Intern)",
+          "department": "Global Network",
+          "location": "Remote",
+          "type": "Internship",
+          "description": "Assister dans la maintenance du site web, le support informatique, le dépannage et la gestion des systèmes numériques et des bases de données.",
+          "applyLink": "https://docs.google.com/forms/d/1BIatkGPX3I8-obyAiY8XkUOSYlnukwXOleApcdYuefc/preview"
         }
       ]
     }
@@ -159,6 +183,14 @@
           "type": "Internship",
           "description": "Unterstützung laufender Forschungsprojekte durch Datenerhebung, Literaturrecherchen und administrative Unterstützung.",
           "applyLink": "https://docs.google.com/forms/d/1BIatkGPX3I8-obyAiY8XkUOSYlnukwXOleApcdYuefc/preview"
+        },
+        {
+          "title": "IT-Praktikant (IT Intern)",
+          "department": "Global Network",
+          "location": "Remote",
+          "type": "Internship",
+          "description": "Unterstützung bei der Website-Wartung, IT-Support, Fehlerbehebung und Verwaltung digitaler Systeme und Datenbanken.",
+          "applyLink": "https://docs.google.com/forms/d/1BIatkGPX3I8-obyAiY8XkUOSYlnukwXOleApcdYuefc/preview"
         }
       ]
     }
@@ -199,6 +231,14 @@
           "location": "远程",
           "type": "实习",
           "description": "通过数据收集、文献综述和行政协助支持正在进行的研究项目。",
+          "applyLink": "https://docs.google.com/forms/d/1BIatkGPX3I8-obyAiY8XkUOSYlnukwXOleApcdYuefc/preview"
+        },
+        {
+          "title": "IT实习生 (IT Intern)",
+          "department": "全球网络",
+          "location": "远程",
+          "type": "实习",
+          "description": "协助网站维护、IT支持、故障排除以及管理数字系统和数据库。",
           "applyLink": "https://docs.google.com/forms/d/1BIatkGPX3I8-obyAiY8XkUOSYlnukwXOleApcdYuefc/preview"
         }
       ]
