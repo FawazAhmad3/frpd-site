@@ -50,7 +50,6 @@ export default function Footer() {
                 { to: '/pages/consultancy', label: nav.policyAdvisory },
                 { to: '/pages/datahub', label: nav.datahub },
                 { to: '/pages/mandate', label: nav.mandate },
-                { to: '/pages/governance', label: nav.governance },
                 { to: '/pages/contact', label: nav.contactUs },
               ].map((item: any, i: number, arr: any[]) => (
                 <span key={item.to} className="flex items-center gap-6">
@@ -105,12 +104,12 @@ export default function Footer() {
                   <span className="font-medium group-hover:text-brand-accent">{t.address}</span>
                 </div>
               </div>
-              <div className="text-right">
+              {/* <div className="text-right">
                 <Link to="/pages/governance" className="inline-flex items-center gap-2 text-brand-accent font-bold text-sm hover:gap-3 transition-all">
                   {t.staffDirectory}
                   <i className="fas fa-chevron-right text-[10px]"></i>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

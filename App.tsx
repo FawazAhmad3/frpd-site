@@ -15,7 +15,7 @@ import WorkshopsEvents from './src/pages/workshops-events';
 import Publications from './src/pages/publications';
 import DataHub from './src/pages/datahub';
 import Mandate from './src/pages/mandate';
-import Governance from './src/pages/governance';
+// import Governance from './src/pages/governance';
 import Careers from './src/pages/careers';
 import Contact from './src/pages/contact';
 
@@ -43,7 +43,7 @@ function Layout() {
           <Route path="/pages/publications" element={<Publications />} />
           <Route path="/pages/datahub" element={<DataHub />} />
           <Route path="/pages/mandate" element={<Mandate />} />
-          <Route path="/pages/governance" element={<Governance />} />
+          {/* <Route path="/pages/governance" element={<Governance />} /> */}
           <Route path="/pages/careers" element={<Careers />} />
           <Route path="/pages/contact" element={<Contact />} />
         </Routes>

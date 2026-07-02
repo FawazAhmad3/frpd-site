@@ -61,7 +61,7 @@ export default function Navbar() {
                 </button>
                 <div className="dropdown-menu absolute right-0 top-full w-56 bg-white text-brand-dark rounded-md shadow-xl z-20 border border-gray-100 mt-1 animate__animated animate__zoomIn animate__faster">
                   <Link to="/pages/mandate" className="block px-4 py-3 text-base hover:bg-brand-gray hover:text-brand-accent">{t.mandate}</Link>
-                  <Link to="/pages/governance" className="block px-4 py-3 text-base hover:bg-brand-gray hover:text-brand-accent">{t.governance}</Link>
+                  {/* <Link to="/pages/governance" className="block px-4 py-3 text-base hover:bg-brand-gray hover:text-brand-accent">{t.governance}</Link> */}
                   <Link to="/pages/careers" className="block px-4 py-3 text-base hover:bg-brand-gray hover:text-brand-accent">{t.careers}</Link>
                 </div>
               </div>
@@ -120,7 +120,6 @@ export default function Navbar() {
             { to: '/pages/consultancy', label: t.policyAdvisory },
             { to: '/pages/datahub', label: t.datahub },
             { to: '/pages/mandate', label: t.mandate },
-            { to: '/pages/governance', label: t.governance },
             { to: '/pages/careers', label: t.careers },
           ].map((item: any) => (
             <Link
