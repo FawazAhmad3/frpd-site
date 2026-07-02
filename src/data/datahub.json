@@ -14,7 +14,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-globe",
-        "url": "https://data.imf.org"
+        "url": "https://data.imf.org",
+        "image": "/assets/images/hero_economic_growth.png"
       },
       {
         "id": "2",
@@ -25,7 +26,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-landmark",
-        "url": "https://data.worldbank.org"
+        "url": "https://data.worldbank.org",
+        "image": "/assets/images/hero_economic_growth.png"
       },
       {
         "id": "3",
@@ -36,7 +38,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-chart-line",
-        "url": "https://fred.stlouisfed.org"
+        "url": "https://fred.stlouisfed.org",
+        "image": "/assets/images/hero_economic_growth.png"
       },
       {
         "id": "4",
@@ -47,7 +50,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-globe-americas",
-        "url": "https://data.oecd.org"
+        "url": "https://data.oecd.org",
+        "image": "/assets/images/hero_economic_growth.png"
       },
       {
         "id": "5",
@@ -58,7 +62,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-flag",
-        "url": "https://data.un.org"
+        "url": "https://data.un.org",
+        "image": "/assets/images/hero_economic_growth.png"
       },
       {
         "id": "6",
@@ -69,7 +74,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-arrow-trend-up",
-        "url": "https://tradingeconomics.com"
+        "url": "https://tradingeconomics.com",
+        "image": "/assets/images/hero_economic_growth.png"
       },
       {
         "id": "7",
@@ -80,7 +86,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-building-columns",
-        "url": "https://www.bis.org/statistics"
+        "url": "https://www.bis.org/statistics",
+        "image": "/assets/images/hero_economic_growth.png"
       },
       {
         "id": "8",
@@ -91,7 +98,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-euro-sign",
-        "url": "https://ec.europa.eu/eurostat"
+        "url": "https://ec.europa.eu/eurostat",
+        "image": "/assets/images/hero_economic_growth.png"
       },
       {
         "id": "9",
@@ -102,7 +110,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-database",
-        "url": "https://databank.worldbank.org"
+        "url": "https://databank.worldbank.org",
+        "image": "/assets/images/hero_economic_growth.png"
       },
       {
         "id": "10",
@@ -113,7 +122,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-display",
-        "url": "https://ourworldindata.org"
+        "url": "https://ourworldindata.org",
+        "image": "/assets/images/hero_economic_growth.png"
       },
       {
         "id": "11",
@@ -124,7 +134,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-network-wired",
-        "url": "https://db.nomics.world"
+        "url": "https://db.nomics.world",
+        "image": "/assets/images/hero_economic_growth.png"
       },
       {
         "id": "12",
@@ -135,7 +146,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-robot",
-        "url": "https://www.kaggle.com/datasets"
+        "url": "https://www.kaggle.com/datasets",
+        "image": "/assets/images/hero_research_policy.png"
       },
       {
         "id": "13",
@@ -146,7 +158,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-building-columns",
-        "url": "https://data.sbp.org.pk"
+        "url": "https://data.sbp.org.pk",
+        "image": "/assets/images/hero_research_policy.png"
       },
       {
         "id": "14",
@@ -157,7 +170,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-users-viewfinder",
-        "url": "https://www.pbs.gov.pk"
+        "url": "https://www.pbs.gov.pk",
+        "image": "/assets/images/hero_research_policy.png"
       },
       {
         "id": "15",
@@ -168,7 +182,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-scroll",
-        "url": "#"
+        "url": "#",
+        "image": "/assets/images/hero_research_policy.png"
       },
       {
         "id": "16",
@@ -179,9 +194,9 @@
         "access": "Premium",
         "accessClass": "bg-amber-100 text-amber-700",
         "icon": "fas fa-shield-halved",
-        "url": "/pages/contact.html"
+        "url": "/pages/contact.html",
+        "image": "/assets/images/hero_research_policy.png"
       },
-
       {
         "id": "21",
         "category": "Dashboards",
@@ -192,7 +207,8 @@
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-chart-pie",
         "url": "#",
-        "chartDataUrl": "../assets/data/dashboard-sample.csv"
+        "chartDataUrl": "../assets/data/dashboard-sample.csv",
+        "image": "/assets/images/hero_research.png"
       },
       {
         "id": "22",
@@ -203,7 +219,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-chart-line",
-        "url": "https://datatopics.worldbank.org/gem/"
+        "url": "https://datatopics.worldbank.org/gem/",
+        "image": "/assets/images/hero_research.png"
       },
       {
         "id": "23",
@@ -214,7 +231,8 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-circle-nodes",
-        "url": "https://www.gapminder.org/tools/"
+        "url": "https://www.gapminder.org/tools/",
+        "image": "/assets/images/hero_research.png"
       },
       {
         "id": "24",
@@ -225,9 +243,10 @@
         "access": "Free",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-leaf",
-        "url": "https://climatedata.imf.org/"
+        "url": "https://climatedata.imf.org/",
+        "image": "/assets/images/hero_research.png"
       }
-    ] ,
+    ],
     "ui": {
       "sidebarTitle": "Resource Types",
       "supportTitle": "Support",
@@ -240,16 +259,45 @@
       "searchPlaceholder": "Search by title...",
       "badge": "Resources Explorer",
       "categories": [
-        { "label": "All Resources", "value": "All", "icon": "fas fa-layer-group" },
-        { "label": "Economic Data", "value": "Economic Data", "icon": "fas fa-chart-simple" },
-        { "label": "Dashboards", "value": "Dashboards", "icon": "fas fa-chart-pie" },
-        { "label": "Reports", "value": "Reports", "icon": "fas fa-file-contract" },
-        { "label": "Softwares", "value": "Softwares", "icon": "fas fa-laptop-code" }
+        {
+          "label": "All Resources",
+          "value": "All",
+          "icon": "fas fa-layer-group"
+        },
+        {
+          "label": "Economic Data",
+          "value": "Economic Data",
+          "icon": "fas fa-chart-simple"
+        },
+        {
+          "label": "Dashboards",
+          "value": "Dashboards",
+          "icon": "fas fa-chart-pie"
+        },
+        {
+          "label": "Reports",
+          "value": "Reports",
+          "icon": "fas fa-file-contract"
+        },
+        {
+          "label": "Softwares",
+          "value": "Softwares",
+          "icon": "fas fa-laptop-code"
+        }
       ],
       "accessFilters": [
-        { "label": "All Access", "value": "All" },
-        { "label": "Open Data", "value": "Free" },
-        { "label": "Premium", "value": "Premium" }
+        {
+          "label": "All Access",
+          "value": "All"
+        },
+        {
+          "label": "Open Data",
+          "value": "Free"
+        },
+        {
+          "label": "Premium",
+          "value": "Premium"
+        }
       ],
       "submitUrl": "#"
     }
@@ -269,7 +317,8 @@
         "access": "مجاني",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-globe",
-        "url": "https://data.imf.org"
+        "url": "https://data.imf.org",
+        "image": "/assets/images/hero_economic_growth.png"
       }
     ],
     "ui": {
@@ -284,16 +333,45 @@
       "searchPlaceholder": "البحث حسب العنوان...",
       "badge": "مستكشف الموارد",
       "categories": [
-        { "label": "جميع الموارد", "value": "All", "icon": "fas fa-layer-group" },
-        { "label": "المسوحات", "value": "Surveys", "icon": "fas fa-square-poll-vertical" },
-        { "label": "لوحات المعلومات", "value": "Dashboards", "icon": "fas fa-chart-pie" },
-        { "label": "التقارير", "value": "Reports", "icon": "fas fa-file-contract" },
-        { "label": "الأدوات", "value": "Tools", "icon": "fas fa-screwdriver-wrench" }
+        {
+          "label": "جميع الموارد",
+          "value": "All",
+          "icon": "fas fa-layer-group"
+        },
+        {
+          "label": "المسوحات",
+          "value": "Surveys",
+          "icon": "fas fa-square-poll-vertical"
+        },
+        {
+          "label": "لوحات المعلومات",
+          "value": "Dashboards",
+          "icon": "fas fa-chart-pie"
+        },
+        {
+          "label": "التقارير",
+          "value": "Reports",
+          "icon": "fas fa-file-contract"
+        },
+        {
+          "label": "الأدوات",
+          "value": "Tools",
+          "icon": "fas fa-screwdriver-wrench"
+        }
       ],
       "accessFilters": [
-        { "label": "كل الوصول", "value": "All" },
-        { "label": "بيانات مفتوحة", "value": "Free" },
-        { "label": "بريميوم", "value": "Premium" }
+        {
+          "label": "كل الوصول",
+          "value": "All"
+        },
+        {
+          "label": "بيانات مفتوحة",
+          "value": "Free"
+        },
+        {
+          "label": "بريميوم",
+          "value": "Premium"
+        }
       ]
     }
   },
@@ -312,7 +390,8 @@
         "access": "Gratuit",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-globe",
-        "url": "https://data.imf.org"
+        "url": "https://data.imf.org",
+        "image": "/assets/images/hero_economic_growth.png"
       }
     ],
     "ui": {
@@ -327,16 +406,45 @@
       "searchPlaceholder": "Rechercher par titre...",
       "badge": "Explorateur de ressources",
       "categories": [
-        { "label": "Toutes les ressources", "value": "All", "icon": "fas fa-layer-group" },
-        { "label": "Enquêtes", "value": "Surveys", "icon": "fas fa-square-poll-vertical" },
-        { "label": "Tableaux de bord", "value": "Dashboards", "icon": "fas fa-chart-pie" },
-        { "label": "Rapports", "value": "Reports", "icon": "fas fa-file-contract" },
-        { "label": "Outils", "value": "Tools", "icon": "fas fa-screwdriver-wrench" }
+        {
+          "label": "Toutes les ressources",
+          "value": "All",
+          "icon": "fas fa-layer-group"
+        },
+        {
+          "label": "Enquêtes",
+          "value": "Surveys",
+          "icon": "fas fa-square-poll-vertical"
+        },
+        {
+          "label": "Tableaux de bord",
+          "value": "Dashboards",
+          "icon": "fas fa-chart-pie"
+        },
+        {
+          "label": "Rapports",
+          "value": "Reports",
+          "icon": "fas fa-file-contract"
+        },
+        {
+          "label": "Outils",
+          "value": "Tools",
+          "icon": "fas fa-screwdriver-wrench"
+        }
       ],
       "accessFilters": [
-        { "label": "Tout l'accès", "value": "All" },
-        { "label": "Données ouvertes", "value": "Free" },
-        { "label": "Premium", "value": "Premium" }
+        {
+          "label": "Tout l'accès",
+          "value": "All"
+        },
+        {
+          "label": "Données ouvertes",
+          "value": "Free"
+        },
+        {
+          "label": "Premium",
+          "value": "Premium"
+        }
       ]
     }
   },
@@ -355,7 +463,8 @@
         "access": "Kostenlos",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-globe",
-        "url": "https://data.imf.org"
+        "url": "https://data.imf.org",
+        "image": "/assets/images/hero_economic_growth.png"
       }
     ],
     "ui": {
@@ -370,16 +479,45 @@
       "searchPlaceholder": "Nach Titel suchen...",
       "badge": "Ressourcen-Explorer",
       "categories": [
-        { "label": "Alle Ressourcen", "value": "All", "icon": "fas fa-layer-group" },
-        { "label": "Umfragen", "value": "Surveys", "icon": "fas fa-square-poll-vertical" },
-        { "label": "Dashboards", "value": "Dashboards", "icon": "fas fa-chart-pie" },
-        { "label": "Berichte", "value": "Reports", "icon": "fas fa-file-contract" },
-        { "label": "Werkzeuge", "value": "Tools", "icon": "fas fa-screwdriver-wrench" }
+        {
+          "label": "Alle Ressourcen",
+          "value": "All",
+          "icon": "fas fa-layer-group"
+        },
+        {
+          "label": "Umfragen",
+          "value": "Surveys",
+          "icon": "fas fa-square-poll-vertical"
+        },
+        {
+          "label": "Dashboards",
+          "value": "Dashboards",
+          "icon": "fas fa-chart-pie"
+        },
+        {
+          "label": "Berichte",
+          "value": "Reports",
+          "icon": "fas fa-file-contract"
+        },
+        {
+          "label": "Werkzeuge",
+          "value": "Tools",
+          "icon": "fas fa-screwdriver-wrench"
+        }
       ],
       "accessFilters": [
-        { "label": "Alle Zugänge", "value": "All" },
-        { "label": "Offene Daten", "value": "Free" },
-        { "label": "Premium", "value": "Premium" }
+        {
+          "label": "Alle Zugänge",
+          "value": "All"
+        },
+        {
+          "label": "Offene Daten",
+          "value": "Free"
+        },
+        {
+          "label": "Premium",
+          "value": "Premium"
+        }
       ]
     }
   },
@@ -398,7 +536,8 @@
         "access": "免费",
         "accessClass": "bg-green-100 text-green-700",
         "icon": "fas fa-globe",
-        "url": "https://data.imf.org"
+        "url": "https://data.imf.org",
+        "image": "/assets/images/hero_economic_growth.png"
       }
     ],
     "ui": {
@@ -413,16 +552,45 @@
       "searchPlaceholder": "按标题搜索...",
       "badge": "资源资源管理器",
       "categories": [
-        { "label": "所有资源", "value": "All", "icon": "fas fa-layer-group" },
-        { "label": "调查", "value": "Surveys", "icon": "fas fa-square-poll-vertical" },
-        { "label": "仪表板", "value": "Dashboards", "icon": "fas fa-chart-pie" },
-        { "label": "报告", "value": "Reports", "icon": "fas fa-file-contract" },
-        { "label": "工具", "value": "Tools", "icon": "fas fa-screwdriver-wrench" }
+        {
+          "label": "所有资源",
+          "value": "All",
+          "icon": "fas fa-layer-group"
+        },
+        {
+          "label": "调查",
+          "value": "Surveys",
+          "icon": "fas fa-square-poll-vertical"
+        },
+        {
+          "label": "仪表板",
+          "value": "Dashboards",
+          "icon": "fas fa-chart-pie"
+        },
+        {
+          "label": "报告",
+          "value": "Reports",
+          "icon": "fas fa-file-contract"
+        },
+        {
+          "label": "工具",
+          "value": "Tools",
+          "icon": "fas fa-screwdriver-wrench"
+        }
       ],
       "accessFilters": [
-        { "label": "所有访问", "value": "All" },
-        { "label": "开放数据", "value": "Free" },
-        { "label": "高级版", "value": "Premium" }
+        {
+          "label": "所有访问",
+          "value": "All"
+        },
+        {
+          "label": "开放数据",
+          "value": "Free"
+        },
+        {
+          "label": "高级版",
+          "value": "Premium"
+        }
       ]
     }
   }
