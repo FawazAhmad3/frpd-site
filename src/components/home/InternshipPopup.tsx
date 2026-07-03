@@ -21,7 +21,7 @@ export default function InternshipPopup({ onClose }: Props) {
       ></div>
 
       {/* Modal Content */}
-      <div className="relative max-w-lg w-full rounded-2xl overflow-hidden shadow-2xl bg-white border border-gray-100 animate__animated animate__zoomIn animate__faster">
+      <div className="relative max-w-2xl w-full rounded-2xl overflow-hidden shadow-2xl bg-white border border-gray-100 animate__animated animate__zoomIn animate__faster">
         {/* Close Button */}
         <button 
           onClick={onClose} 
