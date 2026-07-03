@@ -36,9 +36,14 @@ export default function Careers() {
             <div className="w-20 h-1 bg-brand-accent mx-auto mt-6 rounded-full"></div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {(data.listings || []).map((listing: any, i: number) => (
-              <CardCareer key={i} {...listing} />
-            ))}
+            {(data.listings || []).map((listing: any, i: number) => {
+              const isCentered = i === 3 && data.listings.length === 4;
+              return (
+                <div key={i} className={`flex flex-col ${isCentered ? 'lg:col-start-2' : ''}`}>
+                  <CardCareer {...listing} />
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
