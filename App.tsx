@@ -10,6 +10,7 @@ import Home from './src/pages/index';
 import ResearchWing from './src/pages/research-wing';
 import OnlineCourses from './src/pages/online-courses';
 import CapacityBuilding from './src/pages/capacity-building';
+import BusinessTaxServices from './src/pages/business-tax-services';
 import Consultancy from './src/pages/consultancy';
 import WorkshopsEvents from './src/pages/workshops-events';
 import Publications from './src/pages/publications';
@@ -38,6 +39,7 @@ function Layout() {
           <Route path="/pages/research-wing" element={<ResearchWing />} />
           <Route path="/pages/online-courses" element={<OnlineCourses />} />
           <Route path="/pages/capacity-building" element={<CapacityBuilding />} />
+          <Route path="/pages/business-tax-services" element={<BusinessTaxServices />} />
           <Route path="/pages/consultancy" element={<Consultancy />} />
           <Route path="/pages/workshops-events" element={<WorkshopsEvents />} />
           <Route path="/pages/publications" element={<Publications />} />

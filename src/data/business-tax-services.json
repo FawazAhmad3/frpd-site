@@ -1,0 +1,192 @@
+{
+  "en": {
+    "hero": {
+      "title": "Business & Tax Services",
+      "description": "FRPD offers comprehensive corporate registration, tax compliance, and business facilitation services to ensure seamless operations and regulatory compliance."
+    },
+    "categories": [
+      {
+        "id": "tax",
+        "title": "Tax Services",
+        "icon": "fas fa-file-invoice-dollar",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "FBR Individual NTN Registration", "url": "/pages/contact" },
+          { "title": "Business NTN Registration", "url": "/pages/contact" },
+          { "title": "Income Tax Return Filing", "url": "/pages/contact" },
+          { "title": "Active Taxpayer List (ATL) registration", "url": "/pages/contact" },
+          { "title": "Sales Tax Registration", "url": "/pages/contact" }
+        ]
+      },
+      {
+        "id": "corporate",
+        "title": "Corporate & Compliance Services",
+        "icon": "fas fa-building-shield",
+        "color": "emerald",
+        "colorClass": "text-emerald-600",
+        "bgClass": "bg-emerald-50",
+        "programs": [
+          { "title": "SECP Company Incorporation (SMC, Private Limited, LLP)", "url": "/pages/contact" },
+          { "title": "Company Name Reservation", "url": "/pages/contact" },
+          { "title": "Post-incorporation compliance", "url": "/pages/contact" },
+          { "title": "Trademark registration", "url": "/pages/contact" },
+          { "title": "DNFBP Registration and Compliance", "url": "/pages/contact" }
+        ]
+      }
+    ]
+  },
+  "ar": {
+    "hero": {
+      "title": "خدمات الأعمال والضرائب",
+      "description": "تقدم FRPD خدمات شاملة لتسجيل الشركات والامتثال الضريبي وتسهيل الأعمال لضمان سلاسة العمليات والامتثال التنظيمي."
+    },
+    "categories": [
+      {
+        "id": "tax",
+        "title": "الخدمات الضريبية",
+        "icon": "fas fa-file-invoice-dollar",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "تسجيل الرقم الوطني الضريبي الفردي لدى FBR", "url": "/pages/contact" },
+          { "title": "تسجيل الرقم الوطني الضريبي للأعمال", "url": "/pages/contact" },
+          { "title": "تقديم إقرارات ضريبة الدخل", "url": "/pages/contact" },
+          { "title": "التسجيل في قائمة المكلفين النشطين (ATL)", "url": "/pages/contact" },
+          { "title": "التسجيل في ضريبة المبيعات", "url": "/pages/contact" }
+        ]
+      },
+      {
+        "id": "corporate",
+        "title": "خدمات الشركات والامتثال",
+        "icon": "fas fa-building-shield",
+        "color": "emerald",
+        "colorClass": "text-emerald-600",
+        "bgClass": "bg-emerald-50",
+        "programs": [
+          { "title": "تأسيس الشركات لدى SECP (شركة الشخص الواحد، شركة مساهمة خاصة، شراكة ذات مسؤولية محدودة)", "url": "/pages/contact" },
+          { "title": "حجز اسم الشركة", "url": "/pages/contact" },
+          { "title": "الامتثال ما بعد التأسيس", "url": "/pages/contact" },
+          { "title": "تسجيل العلامات التجارية", "url": "/pages/contact" },
+          { "title": "تسجيل وامتثال الكيانات غير المالية المحددة (DNFBP)", "url": "/pages/contact" }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "hero": {
+      "title": "Services aux entreprises et fiscalité",
+      "description": "FRPD propose des services complets d'enregistrement des sociétés, de conformité fiscale et de facilitation des affaires pour garantir des opérations fluides et le respect des réglementations."
+    },
+    "categories": [
+      {
+        "id": "tax",
+        "title": "Services fiscaux",
+        "icon": "fas fa-file-invoice-dollar",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "Enregistrement NTN individuel FBR", "url": "/pages/contact" },
+          { "title": "Enregistrement NTN d'entreprise", "url": "/pages/contact" },
+          { "title": "Déclaration de revenus", "url": "/pages/contact" },
+          { "title": "Inscription sur la liste des contribuables actifs (ATL)", "url": "/pages/contact" },
+          { "title": "Enregistrement à la taxe sur les ventes", "url": "/pages/contact" }
+        ]
+      },
+      {
+        "id": "corporate",
+        "title": "Services aux entreprises et conformité",
+        "icon": "fas fa-building-shield",
+        "color": "emerald",
+        "colorClass": "text-emerald-600",
+        "bgClass": "bg-emerald-50",
+        "programs": [
+          { "title": "Incorporation de société SECP (SMC, Private Limited, LLP)", "url": "/pages/contact" },
+          { "title": "Réservation de nom de société", "url": "/pages/contact" },
+          { "title": "Conformité post-incorporation", "url": "/pages/contact" },
+          { "title": "Enregistrement de marque", "url": "/pages/contact" },
+          { "title": "Enregistrement et conformité DNFBP", "url": "/pages/contact" }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "hero": {
+      "title": "Unternehmens- & Steuerdienstleistungen",
+      "description": "FRPD bietet umfassende Dienstleistungen in den Bereichen Unternehmensregistrierung, Steuereinhaltung und Geschäftsabwicklung, um reibungslose Abläufe und die Einhaltung gesetzlicher Vorschriften zu gewährleisten."
+    },
+    "categories": [
+      {
+        "id": "tax",
+        "title": "Steuerdienstleistungen",
+        "icon": "fas fa-file-invoice-dollar",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "FBR Individuelle NTN-Registrierung", "url": "/pages/contact" },
+          { "title": "Geschäfts-NTN-Registrierung", "url": "/pages/contact" },
+          { "title": "Einkommensteuererklärung", "url": "/pages/contact" },
+          { "title": "Registrierung in der Liste aktiver Steuerzahler (ATL)", "url": "/pages/contact" },
+          { "title": "Umsatzsteuerregistrierung", "url": "/pages/contact" }
+        ]
+      },
+      {
+        "id": "corporate",
+        "title": "Unternehmens- & Compliance-Dienstleistungen",
+        "icon": "fas fa-building-shield",
+        "color": "emerald",
+        "colorClass": "text-emerald-600",
+        "bgClass": "bg-emerald-50",
+        "programs": [
+          { "title": "SECP-Unternehmensgründung (SMC, Private Limited, LLP)", "url": "/pages/contact" },
+          { "title": "Reservierung des Firmennamens", "url": "/pages/contact" },
+          { "title": "Compliance nach der Gründung", "url": "/pages/contact" },
+          { "title": "Markenanmeldung", "url": "/pages/contact" },
+          { "title": "DNFBP-Registrierung und Compliance", "url": "/pages/contact" }
+        ]
+      }
+    ]
+  },
+  "zh": {
+    "hero": {
+      "title": "商业与税务服务",
+      "description": "FRPD 提供全面的公司注册、税务合规和商业便利服务，以确保无缝运营 and 监管合规。"
+    },
+    "categories": [
+      {
+        "id": "tax",
+        "title": "税务服务",
+        "icon": "fas fa-file-invoice-dollar",
+        "color": "blue",
+        "colorClass": "text-blue-600",
+        "bgClass": "bg-blue-50",
+        "programs": [
+          { "title": "FBR 个人 NTN 注册", "url": "/pages/contact" },
+          { "title": "商业 NTN 注册", "url": "/pages/contact" },
+          { "title": "个人所得税申报", "url": "/pages/contact" },
+          { "title": "活跃纳税人名单 (ATL) 注册", "url": "/pages/contact" },
+          { "title": "销售税注册", "url": "/pages/contact" }
+        ]
+      },
+      {
+        "id": "corporate",
+        "title": "企业与合规服务",
+        "icon": "fas fa-building-shield",
+        "color": "emerald",
+        "colorClass": "text-emerald-600",
+        "bgClass": "bg-emerald-50",
+        "programs": [
+          { "title": "SECP 公司设立 (SMC, 私人有限公司, 合伙企业)", "url": "/pages/contact" },
+          { "title": "公司名称预留", "url": "/pages/contact" },
+          { "title": "成立后合规服务", "url": "/pages/contact" },
+          { "title": "商标注册", "url": "/pages/contact" },
+          { "title": "DNFBP 注册与合规", "url": "/pages/contact" }
+        ]
+      }
+    ]
+  }
+}

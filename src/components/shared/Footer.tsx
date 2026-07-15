@@ -46,6 +46,7 @@ export default function Footer() {
                 { to: '/pages/research-wing', label: nav.research },
                 { to: '/pages/online-courses', label: nav.onlineCourses },
                 { to: '/pages/capacity-building', label: nav.capacityBuilding },
+                { to: '/pages/business-tax-services', label: nav.businessTax },
                 { to: '/pages/workshops-events', label: nav.workshops },
                 { to: '/pages/consultancy', label: nav.policyAdvisory },
                 { to: '/pages/datahub', label: nav.datahub },

@@ -45,6 +45,8 @@ export default function Navbar() {
                   <div className="border-t border-gray-100"></div>
                   <Link to="/pages/capacity-building" className="block px-6 py-3 text-base font-semibold hover:bg-brand-gray hover:text-brand-accent tracking-wide">{t.capacityBuilding}</Link>
                   <div className="border-t border-gray-100"></div>
+                  <Link to="/pages/business-tax-services" className="block px-6 py-3 text-base font-semibold hover:bg-brand-gray hover:text-brand-accent tracking-wide">{t.businessTax}</Link>
+                  <div className="border-t border-gray-100"></div>
                   <Link to="/pages/consultancy" className="block px-6 py-3 text-base font-semibold hover:bg-brand-gray hover:text-brand-accent tracking-wide">{t.policyAdvisory}</Link>
                 </div>
               </div>
@@ -115,6 +117,7 @@ export default function Navbar() {
             { to: '/pages/research-wing', label: t.research },
             { to: '/pages/online-courses', label: t.onlineCourses },
             { to: '/pages/capacity-building', label: t.capacityBuilding },
+            { to: '/pages/business-tax-services', label: t.businessTax },
             { to: '/pages/workshops-events', label: t.workshops },
             { to: '/pages/publications', label: t.publications },
             { to: '/pages/consultancy', label: t.policyAdvisory },
