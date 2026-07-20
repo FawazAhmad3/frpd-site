@@ -6,6 +6,23 @@
     },
     "publications": [
       {
+        "id": "pub-21",
+        "title": "Property Tax Rules",
+        "author": "Shehzad Khan (Software Engineer and Analyst)",
+        "date": "July 2026",
+        "typeClass": "bg-green-100 text-green-700",
+        "description": "Understanding property taxes is essential before buying or selling any property.",
+        "thumbnail": "/assets/data/Publications/Blogs/Property Tax Rules Every Buyer and Seller Should Know/FRPD-EI-2026-773-6_Banner.png",
+        "downloadUrl": "https://drive.google.com/file/d/1SnwkLR8hxd6CGaztDpPphssuzS3LHD10/view?usp=sharing",
+        "sections": [
+          {
+            "title": "Introduction",
+            "body": "<p>Understanding property taxes is essential before buying or selling any property. This guide explains the key tax rules, legal requirements, and practical considerations that every buyer and seller should know to ensure a smooth and compliant transaction.</p><p><strong>Key Highlights:</strong></p><ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Advance Tax on Property Purchases</li><li>Capital Gains Tax (CGT)</li><li>Stamp Duty &amp; Registration Fees</li><li>Filer vs. Non-Filer Tax Benefits</li><li>Property Valuation Guidelines</li><li>Essential Documentation Checklist</li><li>Common Tax Mistakes to Avoid</li><li>Practical Tips for Smooth &amp; Compliant Transactions</li></ul>"
+          }
+        ],
+        "type": "Blog"
+      },
+      {
         "id": "pub-20",
         "title": "Cybersecurity Challenges in Digital Tax Systems: Protecting Revenue, Trust, and Citizens",
         "author": "Shehzad Khan (Software Engineer and Analyst)",
