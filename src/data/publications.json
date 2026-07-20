@@ -6,6 +6,23 @@
     },
     "publications": [
       {
+        "id": "pub-22",
+        "title": "AI-Driven Supply Chain Management",
+        "author": "Shehzad Khan (Software Engineer and Analyst)",
+        "date": "July 2026",
+        "typeClass": "bg-green-100 text-green-700",
+        "description": "AI-Driven Supply Chain Management: The Future of Pakistani Businesses",
+        "thumbnail": "/assets/data/Publications/Blogs/AI-Driven Supply Chain Management/FRPD-EI-2026-773-7_Banner.png",
+        "downloadUrl": "https://drive.google.com/file/d/1av3qs_o1jy509G3iiPQCConZmAo_OFFt/view?usp=sharing",
+        "sections": [
+          {
+            "title": "Introduction",
+            "body": "<p>AI-Driven Supply Chain Management: The Future of Pakistani Businesses explores how Artificial Intelligence is transforming supply chain operations across Pakistan's key industries. The report highlights AI applications such as demand forecasting, inventory optimization, warehouse automation, logistics planning, predictive maintenance, and intelligent procurement. It also examines the opportunities, challenges, and policy considerations for businesses adopting AI while emphasizing the role of digital transformation in improving efficiency, competitiveness, and sustainable economic growth in Pakistan.</p>"
+          }
+        ],
+        "type": "Blog"
+      },
+      {
         "id": "pub-21",
         "title": "Property Tax Rules",
         "author": "Shehzad Khan (Software Engineer and Analyst)",
