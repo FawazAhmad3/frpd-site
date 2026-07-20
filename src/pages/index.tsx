@@ -6,7 +6,6 @@ import SectionFeaturedResearch from '../components/home/SectionFeaturedResearch'
 import SectionFeaturedPublications from '../components/home/SectionFeaturedPublications';
 import ModalResearch from '../components/research/ModalResearch';
 import ModalPublication from '../components/publications/ModalPublication';
-import InternshipPopup from '../components/home/InternshipPopup';
 import homeData from '../data/home.json';
 import researchDataAll from '../data/research-wing.json';
 import publicationsData from '../data/publications.json';
@@ -21,7 +20,6 @@ export default function Home() {
 
   const [selectedResearch, setSelectedResearch] = useState<any>(null);
   const [selectedPublication, setSelectedPublication] = useState<any>(null);
-  const [showInternshipPopup, setShowInternshipPopup] = useState(true);
 
   const openResearchModal = (id: string) => {
     const item = researchData?.find((r: any) => r.id === id);
@@ -61,10 +59,6 @@ export default function Home() {
 
       {selectedPublication && (
         <ModalPublication item={selectedPublication} onClose={() => setSelectedPublication(null)} />
-      )}
-
-      {showInternshipPopup && (
-        <InternshipPopup onClose={() => setShowInternshipPopup(false)} />
       )}
     </>
   );
