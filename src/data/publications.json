@@ -6,6 +6,92 @@
     },
     "publications": [
       {
+        "id": "pub-25",
+        "title": "Data Science in the Age of Generative AI: What's Changed and What Still Matters",
+        "author": "FRPD Research Team",
+        "date": "July 2026",
+        "typeClass": "bg-green-100 text-green-700",
+        "description": "Data Science in the Age of Generative AI: What's Changed and What Still Matters explores how Generative AI is transforming modern data science by accelerating coding, data preparation, analysis, modeling, and communication. While AI enables faster workflows and improved productivity, the blog emphasizes that human expertise remains essential for ensuring data quality, statistical validity, ethical governance, evaluation, and trustworthy decision-making. It highlights the evolving skills data scientists need—such as prompt engineering, AI evaluation, experimentation, and risk management—and explains that the future of data science lies in combining AI-powered efficiency with scientific rigor to deliver reliable, evidence-based insights and real-world business impact.",
+        "thumbnail": "/assets/data/Publications/Blogs/Data Science in the Age of Generative AI/FRPD-EI-2026-773-09_Banner.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/14McLoYP4Z6cv3isk-NINbmm5wrj2o0-G/view?usp=sharing",
+        "sections": [
+          {
+            "title": "Introduction",
+            "body": "<p>Generative AI has fundamentally changed how data work gets done—making it dramatically faster to draft code, prepare datasets, conduct exploratory analysis, build predictive baselines, and synthesize findings for executive stakeholders. But speed alone does not guarantee business impact or policy success.</p><p class=\"mt-4\">As Generative AI tools proliferate across organizations, true impact relies more than ever on trustworthy data foundations, rigorous quantitative evaluation, and human judgment. AI can draft models and automate routine workflow steps, but human expertise remains essential to validate underlying assumptions, ensure ethical governance, and guide high-stakes decision-making.</p>"
+          },
+          {
+            "title": "How the Workflow Shifts",
+            "body": "<p>Generative AI transforms each phase of the traditional data science lifecycle. However, for every stage where AI accelerates execution, human specialists retain ultimate ownership over quality and validity:</p><div class=\"space-y-6 mt-6\"><div><h4 class=\"font-bold text-gray-900 text-base\">1. Data Prep</h4><p class=\"mt-1\">AI enables faster drafts for SQL joins, schema transformations, quality checks, and pipeline documentation.</p><p class=\"mt-1 text-sm font-semibold text-brand-accent\">You control: Business definitions, privacy compliance, data lineage, and correctness.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">2. Exploratory Data Analysis (EDA)</h4><p class=\"mt-1\">AI rapidly suggests hypotheses, potential features, and quick ideas on what variables might explain patterns in the data.</p><p class=\"mt-1 text-sm font-semibold text-brand-accent\">You control: Statistical validity, confounder identification, and causal claims.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">3. Modeling</h4><p class=\"mt-1\">AI generates faster baselines and embeds LLM components for unstructured text extraction and summarization.</p><p class=\"mt-1 text-sm font-semibold text-brand-accent\">You control: Evaluation benchmarks, model drift monitoring, and deployment accountability.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">4. Communication</h4><p class=\"mt-1\">AI assists in creating clearer write-ups, executive summaries, and stakeholder-ready translations of technical findings.</p><p class=\"mt-1 text-sm font-semibold text-brand-accent\">You control: Evidence quality, uncertainty communication, and decision impact.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">5. Decision Impact</h4><p class=\"mt-1\">AI helps synthesize insights that drive organizational action and concrete business outcomes.</p><p class=\"mt-1 text-sm font-semibold text-brand-accent\">You control: What changes, for whom, and with what confidence interval.</p></div></div>"
+          },
+          {
+            "title": "Skills That Matter Now",
+            "body": "<p>As AI automates routine coding and data manipulation, the core skill set required of competitive data scientists is evolving rapidly toward strategic and analytical capabilities:</p><ul class=\"space-y-4 list-disc pl-5 mt-4\"><li><b>Specification & Prompting:</b> Write prompts like software requirements. Define precise inputs, output formats, operational constraints, and clear acceptance checks.</li><li><b>Evaluation Literacy:</b> Design task-appropriate evaluation frameworks, measure performance across distinct demographic or business segments, and systematically track degradation over time.</li><li><b>Governance & Risk Thinking:</b> Master data privacy rules, organizational approval workflows, audit trails, and determine precisely where human review is mandatory.</li><li><b>Statistics & Experimentation:</b> Rigorous experimental design, causal reasoning, and effective uncertainty communication are more valuable than ever in an AI-assisted world.</li></ul>"
+          },
+          {
+            "title": "Risks & Best Practices",
+            "body": "<p>To deploy Generative AI responsibly within high-stakes organizational environments, data teams must adhere to core risk management principles:</p><ul class=\"space-y-4 list-disc pl-5 mt-4\"><li><b>Ground in Real Sources:</b> Implement Retrieval-Augmented Generation (RAG) and validated tool integrations to keep AI outputs strictly factual, traceable, and verifiable against primary documents.</li><li><b>Build Comprehensive Evaluations:</b> Systematically test AI pipelines with real-world datasets, edge cases, and high-risk operational segments before release.</li><li><b>Set Strict Guardrails:</b> Protect user privacy, enforce strict role-based data access controls, and maintain full compliance with regulatory requirements.</li><li><b>Require Human Sign-Off:</b> Mandatory expert review must be enforced whenever decisions carry material financial, legal, customer, or compliance consequences.</li></ul>"
+          },
+          {
+            "title": "The Future Outlook: Shifting Toward Decision Engineering",
+            "body": "<p>The role of the data scientist is shifting decisively from raw model building toward <b>Decision Engineering</b>—connecting data analysis directly to strategic decisions through durable metrics, trusted evaluation frameworks, clean experimental designs, and reusable analytical systems.</p><p class=\"mt-4\">In the era of Generative AI, proof is the ultimate differentiator. Every data-driven initiative must clearly answer:</p><ul class=\"space-y-2 list-disc pl-5 mt-3\"><li>What changed?</li><li>For whom?</li><li>Under what conditions?</li><li>How confident are we in the result?</li></ul>"
+          },
+          {
+            "title": "Conclusion: Move Faster, But Keep the Standards",
+            "body": "<p>Generative AI is a powerful leverage multiplier—helping data professionals iterate faster and communicate complex findings better. However, the real competitive advantage does not come from AI alone; it stems from pairing GenAI speed with scientific rigor, robust governance, and human responsibility.</p><p class=\"mt-4 font-semibold text-gray-900\"><i>Let AI draft. Let humans decide. That's how we create trustworthy impact.</i></p>"
+          },
+          {
+            "title": "About FRPD",
+            "body": "<p>The Firm of Research, Policy and Development (FRPD) is committed to advancing research, policy innovation, data science, artificial intelligence, digital transformation, and evidence-based decision-making. Through research, consultancy, professional training, and policy advisory services, FRPD supports organizations in leveraging emerging technologies to drive sustainable development and institutional excellence.</p>"
+          }
+        ],
+        "type": "Blog"
+      },
+      {
+        "id": "pub-24",
+        "title": "How Large Language Models Actually Work: From Input to Output",
+        "author": "FRPD Research Team",
+        "date": "July 2026",
+        "typeClass": "bg-green-100 text-green-700",
+        "description": "Large Language Models (LLMs) are advanced artificial intelligence systems that generate human-like text by predicting the next token based on patterns learned from vast amounts of data. This blog explains how LLMs are trained through pre-training, instruction tuning, and safety optimization, while also describing key concepts such as tokenization, embeddings, attention, and inference. It highlights the strengths of LLMs in content generation, coding, and summarization, alongside important limitations including hallucinations, prompt sensitivity, privacy concerns, and context limitations. The article concludes that LLMs deliver the best results when paired with reliable data, clear instructions, and human verification, making them powerful tools for improving productivity and supporting informed decision-making.",
+        "thumbnail": "/assets/data/Publications/Blogs/How Large Language Models Actually Work/FRPD-EI-2026-773-10_Banner.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/10IaXGuPlJSe22HVmLXF3scOd6QeayaFq/view?usp=sharing",
+        "sections": [
+          {
+            "title": "Introduction",
+            "body": "<p>Large Language Models (LLMs) predict text, one token at a time, using mathematical patterns learned from extensive training data. They excel at generating fluent, natural responses—but they do not inherently \"know\" facts by default.</p><p class=\"mt-4\">Understanding how LLMs process input into output allows organizations and professionals to use them effectively: pairing models with rich context, clear instructions, and rigorous human verification to turn text generation into reliable business intelligence.</p>"
+          },
+          {
+            "title": "The Journey of an LLM: From Input to Output",
+            "body": "<p>When a prompt is submitted to a Large Language Model, it undergoes a multi-stage transformation process:</p><div class=\"space-y-6 mt-6\"><div><h4 class=\"font-bold text-gray-900 text-base\">1. You Provide a Prompt</h4><p class=\"mt-1\">The user asks a question, requests a summary, or provides detailed functional instructions.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">2. Tokenization & Embeddings</h4><p class=\"mt-1\">Input text is broken down into sub-word tokens (words or word fragments) and converted into high-dimensional numerical vectors (embeddings).</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">3. Attention in Action</h4><p class=\"mt-1\">The self-attention mechanisms evaluate relationships between all tokens in the sequence, allowing the model to focus on relevant contextual details.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">4. Next Token Prediction</h4><p class=\"mt-1\">Based on calculated probabilities, the model predicts the most likely single next token to follow the current context.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">5. Repeat & Generate</h4><p class=\"mt-1\">The newly predicted token is appended to the sequence, and the process repeats iteratively until a complete, coherent response is generated.</p></div></div>"
+          },
+          {
+            "title": "What an LLM Is (And Isn't)",
+            "body": "<p>To apply LLMs correctly, it is helpful to compare them with existing software systems:</p><div class=\"overflow-x-auto my-6\"><table class=\"min-w-full divide-y divide-gray-200 border border-gray-200 rounded-lg\"><thead class=\"bg-gray-50\"><tr><th class=\"px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider\">System Type</th><th class=\"px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider\">Optimized To Do</th><th class=\"px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider\">What to Expect</th></tr></thead><tbody class=\"bg-white divide-y divide-gray-200\"><tr><td class=\"px-6 py-4 text-sm font-bold text-gray-900\">LLM</td><td class=\"px-6 py-4 text-sm text-gray-500\">Generate likely text given prompt & context</td><td class=\"px-6 py-4 text-sm text-gray-500\">Great drafts & synthesis; may be confidently wrong without external grounding.</td></tr><tr><td class=\"px-6 py-4 text-sm font-bold text-gray-900\">Search Engine</td><td class=\"px-6 py-4 text-sm text-gray-500\">Find relevant documents matching search terms</td><td class=\"px-6 py-4 text-sm text-gray-500\">Good for content discovery; still requires human reading and evaluation.</td></tr><tr><td class=\"px-6 py-4 text-sm font-bold text-gray-900\">Database / System of Record</td><td class=\"px-6 py-4 text-sm text-gray-500\">Store & retrieve exact structured facts</td><td class=\"px-6 py-4 text-sm text-gray-500\">Deterministic and reliable retrieval; limited to explicitly stored data.</td></tr></tbody></table></div>"
+          },
+          {
+            "title": "How Training Shapes Behavior",
+            "body": "<p>Modern LLMs undergo three primary phases of training that determine how they respond to user input:</p><ul class=\"space-y-4 list-disc pl-5 mt-4\"><li><b>Pre-Training:</b> The model learns broad linguistic structure, domain concepts, and world patterns by processing massive, diverse text datasets.</li><li><b>Instruction Tuning:</b> The model is fine-tuned to follow user instructions, answer questions directly, and maintain a helpful conversation style.</li><li><b>Preference & Safety Optimization:</b> Techniques like RLHF (Reinforcement Learning from Human Feedback) ensure responses align with human preferences, safety standards, and compliance rules.</li></ul><p class=\"mt-4\">These training incentives explain why LLMs are highly articulate and versatile—yet can still exhibit overconfidence or produce inaccuracies when context is ambiguous.</p>"
+          },
+          {
+            "title": "Main Limitations & Risks",
+            "body": "<p>Deploying LLMs effectively requires active management of key operational risks:</p><ul class=\"space-y-4 list-disc pl-5 mt-4\"><li><b>Hallucinations:</b> Models may generate plausible-sounding but factually incorrect details or citations.</li><li><b>Context Window Limits:</b> Models cannot reference information outside their active context window unless supplied via retrieval mechanisms.</li><li><b>Prompt Sensitivity:</b> Small variations in prompt phrasing or formatting can produce noticeable shifts in generated outputs.</li><li><b>Bias & Uneven Coverage:</b> Training corpora reflect real-world data gaps and historical blind spots.</li><li><b>Privacy, Security & Compliance:</b> Unprotected prompts can risk exposure of sensitive customer or proprietary organizational data.</li><li><b>Overreliance:</b> Fluent writing is not equivalent to factual truth. Important outputs must always be audited prior to operational decision-making.</li></ul>"
+          },
+          {
+            "title": "How to Use LLMs Professionally",
+            "body": "<p>To extract maximum value from LLMs while mitigating risks, follow these operational best practices:</p><ul class=\"space-y-4 list-disc pl-5 mt-4\"><li><b>Be Specific:</b> Define target audience, preferred output format, constraints, and objective goals clearly.</li><li><b>Provide Context:</b> Feed relevant background facts, reference documents, and source data directly in the prompt.</li><li><b>Set Expectations:</b> Explicitly define what high-quality output looks like.</li><li><b>Require Evidence:</b> Prompt the model to provide sources, state assumptions, and indicate confidence levels.</li><li><b>Review & Verify:</b> Always validate outputs with domain experts before using them in publication or high-impact decisions.</li></ul>"
+          },
+          {
+            "title": "Key Takeaway: Smarter Tomorrow with AI",
+            "body": "<p>LLMs are powerful productivity tools for drafting, summarizing, and complex problem-solving—not flawless oracles. By pairing LLMs with trusted data inputs, precise requirements, and expert human oversight, organizations can unlock tremendous value and make smarter, data-driven decisions.</p><p class=\"mt-4 font-semibold text-brand-accent\">Better Decisions. Stronger Outcomes. Smarter Tomorrow.</p>"
+          },
+          {
+            "title": "About FRPD",
+            "body": "<p>The Firm of Research, Policy and Development (FRPD) is committed to advancing research, policy innovation, data science, artificial intelligence, digital transformation, and evidence-based decision-making. Through research, consultancy, professional training, and policy advisory services, FRPD supports organizations in leveraging emerging technologies to drive sustainable development and institutional excellence.</p>"
+          }
+        ],
+        "type": "Blog"
+      },
+      {
         "id": "pub-23",
         "title": "The Data Scientist’s Toolkit in 2026: Essential Skills and Technologies for Pakistan’s Digital Future",
         "author": "Dr. Shakeel Shahzad",
