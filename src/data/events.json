@@ -6,6 +6,21 @@
     },
     "events": [
       {
+        "id": "webinar-01",
+        "type": "Webinar",
+        "typeColor": "bg-blue-600",
+        "title": "Pakistan at the Crossroads: Economic Challenges Amid the U.S.-Iran Conflict",
+        "speaker": "Dr Miraj Ul Haq (Associate Professor IIUI Islamabad)",
+        "date": "25 July 2026",
+        "time": "9:00 - 10:00 PM PKT",
+        "location": "Live on Google Meet",
+        "description": "Gain expert insights into how regional geopolitical tensions are shaping Pakistan’s economy, trade, energy, and future. Don’t miss this timely discussion with leading experts. Open to All.",
+        "imageUrl": "/assets/images/webinars/webinar-01.png",
+        "registrationUrl": "/pages/contact",
+        "status": "Registration Open",
+        "statusColor": "text-green-500"
+      },
+      {
         "id": "3",
         "type": "Conference",
         "typeColor": "bg-purple-600",
@@ -41,6 +56,21 @@
       "description": "انضم إلى جلساتنا التي يقودها الخبراء والمصممة لسد الفجوة بين البحث الأكاديمي والتطبيق العملي للسياسات."
     },
     "events": [
+      {
+        "id": "webinar-01",
+        "type": "ندوة عبر الإنترنت",
+        "typeColor": "bg-blue-600",
+        "title": "باكستان عند مفترق الطرق: التحديات الاقتصادية وسط الصراع الأمريكي الإيراني",
+        "speaker": "د. معراج الحق (أستاذ مشارك بالجامعة الإسلامية العالمية بإسلام آباد)",
+        "date": "25 يوليو 2026",
+        "time": "9:00 - 10:00 مساءً بتوقيت باكستان",
+        "location": "مباشر عبر Google Meet",
+        "description": "احصل على رؤى خبراء حول كيفية تشكيل التوترات الجيوسياسية الإقليمية لاقتصاد باكستان وتجارتها وطاقتها ومستقبلها. لا تفوت هذه المناقشة المهمة مع كبار الخبراء. مفتوح للجميع.",
+        "imageUrl": "/assets/images/webinars/webinar-01.png",
+        "registrationUrl": "/pages/contact",
+        "status": "التسجيل مفتوح",
+        "statusColor": "text-green-500"
+      },
       {
         "id": "3",
         "type": "مؤتمر",
@@ -78,6 +108,21 @@
     },
     "events": [
       {
+        "id": "webinar-01",
+        "type": "Webinaire",
+        "typeColor": "bg-blue-600",
+        "title": "Le Pakistan à la croisée des chemins : Défis économiques au cœur du conflit USA-Iran",
+        "speaker": "Dr Miraj Ul Haq (Professeur associé IIUI Islamabad)",
+        "date": "25 juillet 2026",
+        "time": "21h00 - 22h00 PKT",
+        "location": "En direct sur Google Meet",
+        "description": "Obtenez des informations d'experts sur la façon dont les tensions géopolitiques régionales façonnent l'économie, le commerce, l'énergie et l'avenir du Pakistan. Ouvert à tous.",
+        "imageUrl": "/assets/images/webinars/webinar-01.png",
+        "registrationUrl": "/pages/contact",
+        "status": "Inscriptions ouvertes",
+        "statusColor": "text-green-500"
+      },
+      {
         "id": "3",
         "type": "Conférence",
         "typeColor": "bg-purple-600",
@@ -114,6 +159,21 @@
     },
     "events": [
       {
+        "id": "webinar-01",
+        "type": "Webinar",
+        "typeColor": "bg-blue-600",
+        "title": "Pakistan am Scheideweg: Wirtschaftliche Herausforderungen im US-Iran-Konflikt",
+        "speaker": "Dr. Miraj Ul Haq (Außerordentlicher Professor IIUI Islamabad)",
+        "date": "25. Juli 2026",
+        "time": "21:00 - 22:00 Uhr PKT",
+        "location": "Live auf Google Meet",
+        "description": "Erhalten Sie Experteneinblicke darüber, wie regionale geopolitische Spannungen Pakistans Wirtschaft, Handel, Energie und Zukunft prägen. Offen für alle.",
+        "imageUrl": "/assets/images/webinars/webinar-01.png",
+        "registrationUrl": "/pages/contact",
+        "status": "Registrierung geöffnet",
+        "statusColor": "text-green-500"
+      },
+      {
         "id": "3",
         "type": "Konferenz",
         "typeColor": "bg-purple-600",
@@ -149,6 +209,21 @@
       "description": "参加由专家领导的课程，旨在缩小学术研究与实际政策应用之间的差距。"
     },
     "events": [
+      {
+        "id": "webinar-01",
+        "type": "网络研讨会",
+        "typeColor": "bg-blue-600",
+        "title": "处于十字路口的巴基斯坦：美伊冲突背景下的经济挑战",
+        "speaker": "Miraj Ul Haq 博士（伊斯兰堡IIUI副教授）",
+        "date": "2026年7月25日",
+        "time": "晚上 9:00 - 10:00 PKT",
+        "location": "Google Meet 线上直播",
+        "description": "深入了解地缘政治紧张局势如何塑造巴基斯坦的经济、贸易、能源和未来。面向所有人开放。",
+        "imageUrl": "/assets/images/webinars/webinar-01.png",
+        "registrationUrl": "/pages/contact",
+        "status": "开放注册",
+        "statusColor": "text-green-500"
+      },
       {
         "id": "3",
         "type": "会议",
