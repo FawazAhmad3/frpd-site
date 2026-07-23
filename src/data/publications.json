@@ -6,6 +6,47 @@
     },
     "publications": [
       {
+        "id": "pub-26",
+        "title": "Deepfake Scams Are Here: How AI Fraud Works, How to Spot It, and How to Stay Safe",
+        "author": "FRPD Research Team",
+        "date": "July 2026",
+        "typeClass": "bg-green-100 text-green-700",
+        "description": "Deepfake scams are AI-powered frauds that use fake videos, cloned voices, and synthetic messages to impersonate trusted individuals and trick victims into sharing money, credentials, or sensitive information. As these technologies become more advanced and accessible, cybercriminals are increasingly exploiting trust and urgency to carry out sophisticated scams. The report explains how these attacks work, highlights common warning signs, and provides practical strategies for individuals and organizations to verify identities, strengthen security, and protect themselves from AI-driven fraud.",
+        "thumbnail": "/assets/data/Publications/Blogs/Deepfake Scams Are Here/FRPD-EI-2026-773-11_Banner.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1jwLqROTVCosui4NZ6URET00LLyM03y-D/view?usp=sharing",
+        "sections": [
+          {
+            "title": "Introduction",
+            "body": "<p>Deepfake scams are AI-powered frauds that use fake videos, cloned voices, and synthetic messages to impersonate trusted individuals and trick victims into sharing money, credentials, or sensitive information. As these technologies become more advanced and accessible, cybercriminals are increasingly exploiting trust and urgency to carry out sophisticated scams.</p><p class=\"mt-4\">Scammers leverage AI to clone voices, create fake videos, and impersonate people you trust—often to steal money, access, or sensitive information. Understanding how these attacks work, recognizing warning signs, and establishing robust verification mechanisms is essential for staying safe in an AI-driven digital world.</p>"
+          },
+          {
+            "title": "How Deepfake Scams Work",
+            "body": "<p>AI-driven fraud leverages cutting-edge synthetic media generation and social engineering techniques to manipulate victims into taking immediate action:</p><div class=\"space-y-6 mt-6\"><div><h4 class=\"font-bold text-gray-900 text-base\">1. AI-Generated Videos</h4><p class=\"mt-1\">Attackers create synthetic videos that mimic real people—such as executives, colleagues, or family members—to make false requests look authentic and real.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">2. Voice Cloning</h4><p class=\"mt-1\">Using advanced AI algorithms, fraudsters clone voices from short audio clips to impersonate anyone—whether during live phone calls or recorded messages.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">3. AI-Generated Text & Documents</h4><p class=\"mt-1\">Convincing, error-free messages, fraudulent invoices, and synthetic IDs are rapidly created to make scams appear legitimate.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">4. Social Engineering</h4><p class=\"mt-1\">Attackers combine leaked personal data with manufactured urgency to manipulate, pressure, and trick targets into compliance.</p></div></div>"
+          },
+          {
+            "title": "Common Red Flags",
+            "body": "<p>Recognizing early warning signs can prevent AI fraud before financial or security losses occur. Look out for these common indicators:</p><ul class=\"space-y-4 list-disc pl-5 mt-4\"><li><b>Urgent Requests & Pressure:</b> Aggressive demands to act immediately or transfer money under emergency circumstances.</li><li><b>New Payment Instructions:</b> Unexpected requests to update bank account numbers, routing details, or payment methods.</li><li><b>Avoidance of Direct Verification:</b> Refusal to take callbacks, switch to live video, or answer security questions.</li><li><b>Unusual Behavior & Tone:</b> Visual glitches in video feeds, unnatural speech rhythm, or odd messaging tone.</li><li><b>Requests for Access:</b> Demands for passwords, one-time verification codes, multi-factor tokens, or sensitive access permissions.</li><li><b>Unusual Payment Methods:</b> Requests for payment via gift cards, cryptocurrency, or untraceable wire transfers.</li></ul><p class=\"mt-4 p-4 bg-red-50 border-l-4 border-red-500 font-semibold text-red-800\"><b>Rule of Thumb:</b> If something feels off, it probably is. Don't trust—verify.</p>"
+          },
+          {
+            "title": "How to Protect Yourself",
+            "body": "<p>Defending against AI-driven fraud requires proactive security measures and strict verification habits:</p><ul class=\"space-y-4 list-disc pl-5 mt-4\"><li><b>Verify Always:</b> Always use pre-established callbacks or known contact channels to confirm sensitive requests.</li><li><b>Use Strong Security:</b> Enable Multi-Factor Authentication (MFA) and use strong, unique passwords across all accounts.</li><li><b>Follow Internal Approval Processes:</b> Require multi-person approvals for financial transactions and sensitive data transfers.</li><li><b>Protect Your Public Data:</b> Limit what you share online to minimize public voice and video samples available for AI cloning.</li><li><b>Create a Family or Team Passphrase:</b> Establish a confidential verbal passphrase with family or key colleagues for emergency verification.</li><li><b>Stay Alert, Stay Safe:</b> Think before you act. Verify first, then trust.</li></ul>"
+          },
+          {
+            "title": "What to Do If You're Targeted",
+            "body": "<p>If you suspect you are being targeted by a deepfake scam, take immediate action to protect yourself and your organization:</p><div class=\"space-y-4 mt-4\"><div><h4 class=\"font-bold text-gray-900 text-base\">1. Stop & Verify</h4><p class=\"mt-1\">End the interaction immediately and verify the person's identity using a trusted, independent communication channel.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">2. Contact Your Bank / IT Department</h4><p class=\"mt-1\">If money was transferred or credentials were shared, notify your bank and corporate IT/security team immediately.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">3. Preserve Evidence</h4><p class=\"mt-1\">Save all call recordings, text messages, emails, invoice copies, and screenshots for forensic investigation.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">4. Report the Incident</h4><p class=\"mt-1\">Inform your organization, platform administrators, and relevant legal and cybersecurity authorities.</p></div></div>"
+          },
+          {
+            "title": "Conclusion: Verification Is Protection",
+            "body": "<p>Deepfake scams thrive on trust and urgency. In an era where seeing and hearing are no longer guarantee of authenticity, verification must become a habitual practice. Because when trust is provable, fraud loses its power.</p><p class=\"mt-4 font-semibold text-gray-900\"><i>Slow Down. Verify. Protect. Make trust provable, not assumed.</i></p>"
+          },
+          {
+            "title": "About FRPD",
+            "body": "<p>The Firm of Research, Policy and Development (FRPD) is committed to advancing research, policy innovation, data science, artificial intelligence, digital transformation, and evidence-based decision-making. Through research, consultancy, professional training, and policy advisory services, FRPD supports organizations in leveraging emerging technologies to drive sustainable development and institutional excellence.</p>"
+          }
+        ],
+        "type": "Blog"
+      },
+      {
         "id": "pub-25",
         "title": "Data Science in the Age of Generative AI: What's Changed and What Still Matters",
         "author": "FRPD Research Team",
