@@ -21,20 +21,6 @@
         "statusColor": "text-green-500"
       },
       {
-        "id": "3",
-        "type": "Conference",
-        "typeColor": "bg-purple-600",
-        "title": "REUSE Jean Monnet Module International Conference",
-        "date": "June 2-3, 2026",
-        "time": "10:00 AM - 04:30 PM",
-        "location": "Online via Google Meet",
-        "description": "Governing the Twin Transition: Digitalisation, Circular Economy and Resilient Industrial Ecosystems.",
-        "imageUrl": "https://reuse.subu.edu.tr/sites/logo/logo_lale.png",
-        "registrationUrl": "https://reuse.subu.edu.tr/tr/node/310",
-        "status": "Registration Open",
-        "statusColor": "text-blue-500"
-      },
-      {
         "id": "2",
         "type": "Conference",
         "typeColor": "bg-purple-600",
@@ -70,20 +56,6 @@
         "registrationUrl": "/pages/contact",
         "status": "التسجيل مفتوح",
         "statusColor": "text-green-500"
-      },
-      {
-        "id": "3",
-        "type": "مؤتمر",
-        "typeColor": "bg-purple-600",
-        "title": "المؤتمر الدولي لنموذج REUSE Jean Monnet",
-        "date": "2-3 يونيو 2026",
-        "time": "10:00 صباحاً - 04:30 مساءً",
-        "location": "عبر الإنترنت (Google Meet)",
-        "description": "حكومة الانتقال المزدوج: الرقمنة والاقتصاد الدائري والنظم البيئية الصناعية المرنة.",
-        "imageUrl": "https://reuse.subu.edu.tr/sites/logo/logo_lale.png",
-        "registrationUrl": "https://reuse.subu.edu.tr/tr/node/310",
-        "status": "التسجيل مفتوح",
-        "statusColor": "text-blue-500"
       },
       {
         "id": "2",
@@ -123,20 +95,6 @@
         "statusColor": "text-green-500"
       },
       {
-        "id": "3",
-        "type": "Conférence",
-        "typeColor": "bg-purple-600",
-        "title": "Conférence internationale du module Jean Monnet REUSE",
-        "date": "2-3 juin 2026",
-        "time": "10h00 - 16h30",
-        "location": "En ligne via Google Meet",
-        "description": "Gouverner la double transition : numérisation, économie circulaire et écosystèmes industriels résilients.",
-        "imageUrl": "https://reuse.subu.edu.tr/sites/logo/logo_lale.png",
-        "registrationUrl": "https://reuse.subu.edu.tr/tr/node/310",
-        "status": "Inscriptions ouvertes",
-        "statusColor": "text-blue-500"
-      },
-      {
         "id": "2",
         "type": "Conférence",
         "typeColor": "bg-purple-600",
@@ -174,20 +132,6 @@
         "statusColor": "text-green-500"
       },
       {
-        "id": "3",
-        "type": "Konferenz",
-        "typeColor": "bg-purple-600",
-        "title": "Internationale Konferenz des REUSE Jean Monnet Moduls",
-        "date": "2.-3. Juni 2026",
-        "time": "10:00 - 16:30 Uhr",
-        "location": "Online über Google Meet",
-        "description": "Steuerung des doppelten Übergangs: Digitalisierung, Kreislaufwirtschaft und belastbare industrielle Ökosysteme.",
-        "imageUrl": "https://reuse.subu.edu.tr/sites/logo/logo_lale.png",
-        "registrationUrl": "https://reuse.subu.edu.tr/tr/node/310",
-        "status": "Registrierung geöffnet",
-        "statusColor": "text-blue-500"
-      },
-      {
         "id": "2",
         "type": "Konferenz",
         "typeColor": "bg-purple-600",
@@ -223,20 +167,6 @@
         "registrationUrl": "/pages/contact",
         "status": "开放注册",
         "statusColor": "text-green-500"
-      },
-      {
-        "id": "3",
-        "type": "会议",
-        "typeColor": "bg-purple-600",
-        "title": "REUSE Jean Monnet 模块国际会议",
-        "date": "2026年6月2-3日",
-        "time": "上午 10:00 - 下午 04:30",
-        "location": "通过 Google Meet 在线举行",
-        "description": "治理双重转型：数字化、循环经济和有弹性的工业生态系统。",
-        "imageUrl": "https://reuse.subu.edu.tr/sites/logo/logo_lale.png",
-        "registrationUrl": "https://reuse.subu.edu.tr/tr/node/310",
-        "status": "开放注册",
-        "statusColor": "text-blue-500"
       },
       {
         "id": "2",
