@@ -6,6 +6,47 @@
     },
     "publications": [
       {
+        "id": "pub-29",
+        "title": "Explainable AI (XAI): Understand AI, Trust AI, Build the Future",
+        "author": "Shehzad Khan",
+        "date": "July 2026",
+        "typeClass": "bg-green-100 text-green-700",
+        "description": "Explainable Artificial Intelligence (XAI) is becoming a cornerstone of responsible AI by making complex AI models more transparent, understandable, and trustworthy. This blog explores why XAI is essential in the era of Generative AI, highlighting its role in improving decision-making, ensuring fairness, supporting regulatory compliance, and building user trust across industries such as healthcare, finance, cybersecurity, and education. It also discusses key XAI techniques, real-world applications, current challenges, and the future of transparent and human-centered AI.",
+        "thumbnail": "/assets/data/Publications/Blogs/Explainable AI (XAI)/FRPD-EI-2026-773-14_Banner.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/188O_xide-J0soI8DsvIXo8WXrVIY9hs-/view?usp=sharing",
+        "sections": [
+          {
+            "title": "Introduction",
+            "body": "<p>Explainable Artificial Intelligence (XAI) includes techniques and methods that enable humans to understand, interpret, and trust the decisions made by machine learning models. In an era dominated by complex deep learning and Generative AI, moving away from black-box systems toward transparent AI is essential for responsible technology adoption.</p><p class=\"mt-4\">This article explores what XAI is, key questions it addresses, why explainability matters, leading XAI techniques, industry applications, and how transparent AI will shape the future of human-AI collaboration.</p>"
+          },
+          {
+            "title": "Key Questions XAI Answers",
+            "body": "<p>When automated systems make critical decisions, XAI provides insights by answering five fundamental questions:</p><ul class=\"space-y-4 list-disc pl-5 mt-4\"><li><b>Why was this prediction made?</b> Uncovering the rationale behind a specific model output.</li><li><b>Which features influenced the decision?</b> Identifying the exact data points that drove the outcome.</li><li><b>How confident is the model?</b> Quantifying uncertainty and reliability of the predictions.</li><li><b>Could the outcome change under different conditions?</b> Analyzing counterfactual scenarios and sensitivity.</li><li><b>Is the decision fair and unbiased?</b> Verifying that model outputs do not discriminate or rely on spurious correlations.</li></ul>"
+          },
+          {
+            "title": "Why XAI Is Trending in 2026",
+            "body": "<p>Several major developments are pushing Explainable AI to the forefront of technology strategy:</p><div class=\"space-y-4 mt-4\"><div><h4 class=\"font-bold text-gray-900 text-base\">Explosion of Generative AI</h4><p class=\"mt-1\">As foundation models and LLMs automate complex workflows, understanding how outputs are generated is vital for accuracy and safety.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">AI Regulations & Compliance</h4><p class=\"mt-1\">Global regulatory frameworks (such as the EU AI Act) mandate transparency and the 'right to explanation' for high-risk AI deployments.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">Enterprise AI Governance</h4><p class=\"mt-1\">Organizations require auditability, risk management, and ethical oversight before deploying AI in mission-critical environments.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">Human-Centered AI</h4><p class=\"mt-1\">Designing AI systems that work collaboratively with human operators requires clear communication of AI reasoning.</p></div></div>"
+          },
+          {
+            "title": "Why Explainability Matters & The Accuracy Trade-Off",
+            "body": "<p>Explainability is essential because it <b>builds trust</b>, <b>ensures accountability</b>, <b>promotes fairness</b>, <b>enhances safety</b>, and <b>improves decision-making</b> across all levels of an enterprise.</p><p class=\"mt-4 p-4 bg-yellow-50 border-l-4 border-yellow-500 text-yellow-900 font-medium\"><b>The Explainability vs. Accuracy Trade-off:</b> Historically, highly accurate models (like deep neural networks) are less interpretable, while simple models (like decision trees) are highly interpretable but may sacrifice accuracy. The goal of modern XAI is to strike the optimal balance between high performance and transparent interpretability.</p>"
+          },
+          {
+            "title": "Core XAI Techniques & Real-World Applications",
+            "body": "<p>Researchers and practitioners utilize several key technical frameworks to expose model mechanics:</p><ul class=\"space-y-3 list-disc pl-5 mt-4\"><li><b>LIME (Local Interpretable Model-agnostic Explanations):</b> Approximates complex black-box models locally with simple interpretable models.</li><li><b>SHAP (Shapley Additive exPlanations):</b> Computes feature contribution scores based on cooperative game theory.</li><li><b>Saliency Maps:</b> Highlights image regions that influenced computer vision model classifications.</li><li><b>Feature Importance:</b> Ranks variables according to their impact on overall model predictions.</li><li><b>Attention Visualization:</b> Displays attention weights in Transformer models to show which input tokens influenced the output.</li></ul><h4 class=\"font-bold text-gray-900 text-lg mt-6 mb-3\">Industry Applications</h4><div class=\"space-y-4\"><div><h4 class=\"font-bold text-gray-900 text-base\">Healthcare</h4><p class=\"mt-1\">Assists clinicians by explaining AI diagnostic recommendations and treatment suggestions.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">Finance & Banking</h4><p class=\"mt-1\">Explains automated credit scoring, loan approvals, and algorithmic fraud detection to regulators and customers.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">Autonomous Vehicles</h4><p class=\"mt-1\">Provides interpretable logs for sensor fusion and obstacle avoidance decisions to elevate safety standards.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">Legal & Compliance</h4><p class=\"mt-1\">Ensures automated document analysis and risk assessments adhere to statutory non-discrimination rules.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">Education</h4><p class=\"mt-1\">Offers personalized feedback explaining learning analytics and grading assistance systems.</p></div></div>"
+          },
+          {
+            "title": "Key Benefits & The Future of XAI",
+            "body": "<p>Implementing XAI delivers tangible organizational benefits: <b>increased transparency</b>, <b>seamless regulatory compliance</b>, <b>reduced algorithmic bias</b>, <b>better human-AI collaboration</b>, and <b>improved system reliability</b>.</p><p class=\"mt-4\">Transparent AI will be the foundation of trustworthy, ethical, and responsible AI systems across global enterprises.</p><p class=\"mt-4 p-4 bg-blue-50 border-l-4 border-brand-accent font-semibold text-brand-dark\"><b>Key Takeaway:</b> <i>\"AI that explains, empowers. XAI that builds trust.\"</i></p>"
+          },
+          {
+            "title": "About FRPD",
+            "body": "<p>The Firm of Research, Policy and Development (FRPD) is committed to advancing research, policy innovation, data science, artificial intelligence, digital transformation, and evidence-based decision-making. Through research, consultancy, professional training, and policy advisory services, FRPD supports organizations in leveraging emerging technologies to drive sustainable development and institutional excellence.</p>"
+          }
+        ],
+        "type": "Blog"
+      },
+      {
         "id": "pub-28",
         "title": "Top 10 Emerging Technologies That Will Transform the Next Decade",
         "author": "Shehzad Khan",
