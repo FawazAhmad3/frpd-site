@@ -6,6 +6,72 @@
     },
     "publications": [
       {
+        "id": "pub-31",
+        "title": "Big Data, AI, and the Future of Economic Policy: Transforming Governance in the Digital Age",
+        "author": "Dr. Shakeel Shahzad",
+        "date": "August 2026",
+        "typeClass": "bg-green-100 text-green-700",
+        "description": "This blog examines how Big Data and Artificial Intelligence (AI) are transforming economic policymaking by enabling governments to make faster, more accurate, and evidence-based decisions. It explores the role of advanced data analytics in improving fiscal and monetary policy, tax administration, economic forecasting, public service delivery, and governance. The report also discusses the opportunities and challenges associated with AI adoption, including data privacy, cybersecurity, and ethical considerations. Focusing on Pakistan, it highlights how institutions such as the FBR, SBP, and PBS can leverage digital technologies to strengthen economic resilience, enhance policy effectiveness, and promote sustainable development in an increasingly data-driven world.",
+        "thumbnail": "/assets/data/Publications/Blogs/Big Data AI and the Future of Economic Policy/FRPD-EI-2026-773-16_Banner.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1QG8ns8qm7qbPoVgr0MRIPceICwb4GyMI/view?usp=sharing",
+        "sections": [
+          {
+            "title": "Introduction",
+            "body": "<p>Harnessing the power of Big Data and Artificial Intelligence (AI) is fundamental to building smarter economies, evidence-based policies, and resilient governance for a sustainable future. In an increasingly interconnected global economy, traditional static data collection methods are being replaced by real-time analytics and predictive modeling.</p><p class=\"mt-4\">This report explores how Big Data analytics and AI frameworks are transforming macroeconomic governance, fiscal planning, and public administration, with a particular focus on how Pakistani institutions can leverage these technologies to foster long-term economic stability.</p>"
+          },
+          {
+            "title": "How Big Data & AI Are Shaping Economic Policy",
+            "body": "<p>Advanced data frameworks are redefining key functions across macroeconomic management:</p><div class=\"space-y-6 mt-6\"><div><h4 class=\"font-bold text-gray-900 text-base\">1. AI-Powered Policymaking</h4><p class=\"mt-1\">Provides superior forecasting of inflation trends, GDP growth trajectories, employment metrics, and macroeconomic shifts.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">2. Big Data Analytics</h4><p class=\"mt-1\">Delivers real-time insights from diverse data streams for accurate, timely, and responsive economic decision-making.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">3. Tax & Revenue Optimization</h4><p class=\"mt-1\">Detects tax evasion, improves compliance, and enhances national revenue collection through machine learning algorithms.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">4. Fiscal Efficiency</h4><p class=\"mt-1\">Optimizes public expenditure allocations and simulates the economic impact of proposed fiscal reforms accurately before implementation.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">5. Economic Forecasting</h4><p class=\"mt-1\">Predicts economic cycles, financial market behaviors, and sectoral performance with significantly lower margin of error.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">6. Financial Stability</h4><p class=\"mt-1\">Monitors systemic risks in financial markets, detects liquidity shocks early, and strengthens national economic resilience.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">7. Smart Public Services</h4><p class=\"mt-1\">Targets social welfare programs effectively, improves public service delivery, and expands financial inclusion.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">8. Evidence-Based Governance</h4><p class=\"mt-1\">Designs transparent, accountable, and highly effective policies grounded in verifiable empirical data.</p></div></div>"
+          },
+          {
+            "title": "Strategic Objectives for Digital Governance",
+            "body": "<p>Deploying AI and Big Data across key public institutions yields four core strategic outcomes:</p><ul class=\"space-y-4 list-disc pl-5 mt-4\"><li><b>Better Policies:</b> Stronger and more effective policy design tailored to real-time economic conditions.</li><li><b>Inclusive Growth:</b> Equitable economic opportunities generated through data-driven interventions.</li><li><b>Resilient Economy:</b> Building a shock-resistant and future-ready economic architecture.</li><li><b>Digital Future:</b> Empowering institutions for competitive global standing in the digital age.</li></ul>"
+          },
+          {
+            "title": "Conclusion & Vision for Pakistan",
+            "body": "<p>For key institutions such as the Federal Board of Revenue (FBR), State Bank of Pakistan (SBP), and the Pakistan Bureau of Statistics (PBS), digital transformation is no longer optional—it is essential. By combining robust data infrastructure with AI governance, Pakistan can build an intelligent, inclusive economic model.</p><p class=\"mt-4 p-4 bg-blue-50 border-l-4 border-brand-accent font-semibold text-brand-dark\"><b>Our Vision:</b> <i>\"Data is the new oil. AI is the engine. Together, they drive smarter governance and a stronger Pakistan.\"</i></p>"
+          },
+          {
+            "title": "About FRPD",
+            "body": "<p>The Firm of Research, Policy and Development (FRPD) is committed to advancing research, policy innovation, data science, artificial intelligence, digital transformation, and evidence-based decision-making. Through research, consultancy, professional training, and policy advisory services, FRPD supports organizations in leveraging emerging technologies to drive sustainable development and institutional excellence.</p>"
+          }
+        ],
+        "type": "Blog"
+      },
+      {
+        "id": "pub-30",
+        "title": "Ransomware Attacks: Prevention and Recovery",
+        "author": "Shehzad Khan",
+        "date": "August 2026",
+        "typeClass": "bg-green-100 text-green-700",
+        "description": "Ransomware is one of the fastest-growing cybersecurity threats, causing financial losses, operational disruptions, and data breaches across organizations worldwide. This blog explains how ransomware attacks occur, their business impact, and the importance of proactive prevention through strong security practices, employee awareness, secure backups, and effective recovery planning. It emphasizes that a layered cybersecurity strategy is essential for building resilience against evolving cyber threats.",
+        "thumbnail": "/assets/data/Publications/Blogs/Ransomware Attacks Prevention and Recovery/FRPD-EI-2026-773-15_Banner.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1YHXWlKWTbnZm4noFDio-Wtwswtmn7IMV/view?usp=sharing",
+        "sections": [
+          {
+            "title": "Understanding Ransomware",
+            "body": "<p>Ransomware is malicious software designed to block access to computer systems or encrypt critical files until a ransom is paid. Attackers specifically target organizations that cannot tolerate extended downtime, demanding payment—typically in cryptocurrency—in exchange for a decryption key.</p><p class=\"mt-4 font-bold\">The Standard Attack Lifecycle:</p><ol class=\"space-y-2 list-decimal pl-5 mt-2\"><li><b>Initial Access:</b> Infiltration via phishing emails, compromised credentials, or unpatched vulnerabilities.</li><li><b>Malware Execution:</b> Deployment of malicious payloads into the local environment.</li><li><b>Privilege Escalation & Lateral Movement:</b> Moving across internal networks to gain administrative control.</li><li><b>Encryption:</b> Encrypting core files, databases, and connected backup systems.</li><li><b>Ransom Demand:</b> Issuing extortion notes demanding cryptocurrency payments.</li></ol>"
+          },
+          {
+            "title": "Common Attack Vectors & Business Impact",
+            "body": "<h4 class=\"font-bold text-gray-900 text-lg mb-3\">Primary Attack Vectors</h4><ul class=\"space-y-3 list-disc pl-5\"><li><b>Phishing Emails:</b> Malicious links and attachments remain the leading entry point.</li><li><b>Weak Passwords:</b> RDP, VPN, and cloud accounts with weak authentication are easily compromised.</li><li><b>Software Vulnerabilities:</b> Outdated applications and unpatched OS vulnerabilities increase cyber risk.</li><li><b>Supply Chain Attacks:</b> Compromising third-party vendor systems to deliver ransomware via software updates.</li><li><b>Insider Threats:</b> Employees or contractors introducing malware accidentally or maliciously.</li></ul><h4 class=\"font-bold text-gray-900 text-lg mt-6 mb-3\">Severe Business Impact</h4><p>The cost of a ransomware attack extends far beyond the initial ransom demand:</p><ul class=\"space-y-2 list-disc pl-5 mt-2\"><li>Complete operational shutdowns and business disruption</li><li>Loss of confidential customer, financial, and employee data</li><li>Regulatory fines for data protection and privacy breaches</li><li>Extensive legal liabilities and contractual penalties</li><li>Long-term damage to corporate brand reputation and loss of customer trust</li><li>Recovery and remediation expenses that routinely exceed the ransom demand itself</li></ul>"
+          },
+          {
+            "title": "Prevention & Recovery Strategies",
+            "body": "<h4 class=\"font-bold text-gray-900 text-lg mb-3\">Layered Prevention Strategies</h4><ul class=\"space-y-3 list-disc pl-5\"><li><b>Employee Awareness Training:</b> Educate staff to identify phishing lures and suspicious links.</li><li><b>Multi-Factor Authentication (MFA):</b> Mandate MFA across all corporate systems and remote portals.</li><li><b>Regular Software Updates:</b> Patch OS and software vulnerabilities systematically.</li><li><b>3-2-1 Backup Strategy:</b> Maintain 3 copies of data on 2 different media types, with 1 copy offline/offsite.</li><li><b>Endpoint Protection (EDR):</b> Deploy Endpoint Detection & Response tools to stop threats early.</li><li><b>Network Segmentation:</b> Isolate critical network zones to prevent lateral movement.</li><li><b>Least Privilege Access:</b> Restrict administrative rights strictly to necessary tasks.</li><li><b>Continuous Monitoring:</b> Utilize SIEM/SOC services for 24/7 real-time threat detection.</li></ul><h4 class=\"font-bold text-gray-900 text-lg mt-6 mb-3\">7-Step Incident Recovery Framework</h4><ol class=\"space-y-2 list-decimal pl-5 mt-2\"><li><b>Isolate Infected Systems:</b> Disconnect compromised devices immediately to prevent spread.</li><li><b>Activate Incident Response:</b> Execute the documented incident response protocol.</li><li><b>Identify Infection Source:</b> Determine entry point, scope, and affected systems.</li><li><b>Restore from Clean Backups:</b> Remove malware completely and restore data from verified offline backups.</li><li><b>Notify Relevant Stakeholders:</b> Inform customers, partners, regulators, and insurers as required.</li><li><b>Post-Incident Review:</b> Analyze the breach vector and strengthen security controls.</li><li><b>Strengthen Future Readiness:</b> Update security policies, re-train staff, and test recovery plans.</li></ol>"
+          },
+          {
+            "title": "Key Takeaways",
+            "body": "<p>Building cyber resilience against ransomware requires continuous vigilance and proactive planning:</p><ul class=\"space-y-4 list-disc pl-5 mt-4\"><li>Ransomware is evolving rapidly with double-extortion tactics (data theft + encryption).</li><li>Prevention through a multi-layered security architecture is the strongest defense.</li><li>Regular, isolated backups and routine restore testing are crucial for fast recovery.</li><li>Employee security awareness is the first and most vital line of defense.</li><li>A well-practiced incident response plan ensures faster operational recovery.</li></ul><p class=\"mt-4 p-4 bg-blue-50 border-l-4 border-brand-accent font-semibold text-brand-dark\"><b>Key Takeaway:</b> <i>\"Preparation is the key to resilience. Strong prevention today ensures a faster and safer recovery tomorrow.\"</i></p>"
+          },
+          {
+            "title": "About FRPD",
+            "body": "<p>The Firm of Research, Policy and Development (FRPD) is committed to advancing research, policy innovation, data science, artificial intelligence, digital transformation, and evidence-based decision-making. Through research, consultancy, professional training, and policy advisory services, FRPD supports organizations in leveraging emerging technologies to drive sustainable development and institutional excellence.</p>"
+          }
+        ],
+        "type": "Blog"
+      },
+      {
         "id": "pub-29",
         "title": "Explainable AI (XAI): Understand AI, Trust AI, Build the Future",
         "author": "Shehzad Khan",
