@@ -6,6 +6,39 @@
     },
     "publications": [
       {
+        "id": "pub-34",
+        "title": "Evidence-Based Policymaking: Why Data Analytics Matters More Than Ever",
+        "author": "Shehzad Khan",
+        "date": "August 2026",
+        "typeClass": "bg-green-100 text-green-700",
+        "description": "Evidence-Based Policymaking: Why Data Analytics Matters More Than Ever explores how governments can make smarter, more transparent, and effective decisions by using reliable data, empirical research, and advanced analytics instead of assumptions. The blog highlights the transformative role of data analytics and artificial intelligence in improving economic policy, tax administration, public service delivery, and resource allocation through real-time monitoring and predictive insights. It also discusses the challenges of data quality, privacy, and institutional capacity, emphasizing that investing in data-driven governance is essential for sustainable development, accountability, and better policy outcomes—particularly for developing countries like Pakistan.",
+        "thumbnail": "/assets/data/Publications/Blogs/Evidence-Based Policymaking Why Data Analytics Matters More Than Ever/FRPD-EI-2026-773-19_Banner.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1RRDYa3RtsaE-cMDqLP4Z5mT5ZGPIgS-9/view?usp=sharing",
+        "sections": [
+          {
+            "title": "Introduction",
+            "body": "<p>In an increasingly complex and data-driven world, effective governance relies on policies built on solid evidence rather than political intuition or unverified assumptions. Evidence-Based Policymaking (EBPM) leverages empirical research, rigorous data analytics, and advanced predictive tools to design, implement, and evaluate public interventions.</p><p class=\"mt-4\">This article explores why data analytics matters more than ever for modern governance, highlighting key advantages, primary application areas across public administration, and strategic priorities for developing nations like Pakistan.</p>"
+          },
+          {
+            "title": "Why Data Analytics Matters in Governance",
+            "body": "<p>Integrating data analytics into public decision-making transforms how governments operate across five key dimensions:</p><div class=\"space-y-6 mt-6\"><div><h4 class=\"font-bold text-gray-900 text-base\">1. Better & Informed Decisions</h4><p class=\"mt-1\">Enables leaders to make grounded choices using verified empirical data and statistical forecasting rather than guesswork.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">2. Efficient Resource Allocation</h4><p class=\"mt-1\">Directs public budgets and manpower toward programs that deliver the highest measurable social and economic returns.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">3. Real-Time Monitoring</h4><p class=\"mt-1\">Continuously tracks policy implementation and outcomes, enabling swift adaptations as conditions change.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">4. Predictive Policy Design</h4><p class=\"mt-1\">Leverages machine learning models to anticipate economic shocks, demographic shifts, and infrastructure demands before crises escalate.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">5. Transparency & Accountability</h4><p class=\"mt-1\">Open data initiatives foster citizen trust, encourage public participation, and hold government agencies accountable for results.</p></div></div>"
+          },
+          {
+            "title": "Applications Across Key Sectors",
+            "body": "<p>Data analytics drives measurable improvement across vital governance domains:</p><ul class=\"space-y-4 list-disc pl-5 mt-4\"><li><b>Economic Policy:</b> Forecast GDP growth, inflation dynamics, and employment trends to design effective fiscal and monetary measures.</li><li><b>Tax Administration:</b> Utilize predictive risk scoring to detect evasion, identify fraudulent transactions, and expand compliance.</li><li><b>Healthcare:</b> Predict disease outbreaks, optimize hospital capacity, and streamline medical resource distribution.</li><li><b>Education:</b> Map learning gaps across districts, track student outcomes, and optimize educational funding allocations.</li><li><b>Environmental Management:</b> Monitor climate risks, track carbon emissions, and manage natural resources sustainably.</li><li><b>Public Services:</b> Streamline municipal service delivery, reduce bureaucratic bottlenecks, and elevate citizen satisfaction.</li></ul>"
+          },
+          {
+            "title": "Overcoming Challenges & The Path Forward",
+            "body": "<p>To realize the full potential of evidence-based governance, institutions must address data quality gaps, protect citizen privacy, and invest heavily in institutional analytical capacity. By establishing central data hubs and fostering inter-agency collaboration, governments can build a future where every policy is smarter, fairer, and vastly more effective.</p><p class=\"mt-4 p-4 bg-blue-50 border-l-4 border-brand-accent font-semibold text-brand-dark\"><b>Key Takeaway:</b> <i>\"When decisions are driven by data, policies create impact. From Data to Decisions. From Evidence to Impact.\"</i></p>"
+          },
+          {
+            "title": "About FRPD",
+            "body": "<p>The Firm of Research, Policy and Development (FRPD) is committed to advancing research, policy innovation, data science, artificial intelligence, digital transformation, and evidence-based decision-making. Through research, consultancy, professional training, and policy advisory services, FRPD supports organizations in leveraging emerging technologies to drive sustainable development and institutional excellence.</p>"
+          }
+        ],
+        "type": "Blog"
+      },
+      {
         "id": "pub-33",
         "title": "The Psychology of Tax Compliance: Why People Avoid Paying Taxes",
         "author": "Shehzad Khan",
