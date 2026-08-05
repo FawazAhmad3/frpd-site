@@ -6,6 +6,43 @@
     },
     "publications": [
       {
+        "id": "pub-35",
+        "title": "Why Data Is the New Oil for Economic Growth",
+        "author": "Shehzad Khan",
+        "date": "August 2026",
+        "typeClass": "bg-green-100 text-green-700",
+        "description": "Why Data Is the New Oil for Economic Growth explains how data has become one of the world's most valuable economic resources, driving innovation, productivity, and smarter decision-making across governments, businesses, and society. The article highlights how technologies such as artificial intelligence, big data analytics, and cloud computing transform raw data into actionable insights that improve governance, strengthen tax administration, support business growth, and accelerate economic development. It also discusses key global statistics, Pakistan's growing digital ecosystem, and the challenges of data privacy, cybersecurity, and digital skills, emphasizing that investing in data-driven infrastructure and evidence-based policymaking is essential for sustainable economic growth in the digital age.",
+        "thumbnail": "/assets/data/Publications/Blogs/Why Data Is the New Oil for Economic Growth/FRPD-EI-2026-773-20_Banner.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1V7o1bzKKDPq7pl1mskKmW8Z0cWA4FpVE/view?usp=sharing",
+        "sections": [
+          {
+            "title": "Introduction: The 21st Century Strategic Resource",
+            "body": "<p>In the 21st century, data has emerged as a strategic resource that is fundamental to reshaping global economies and societies. Just as crude oil powered the Industrial Revolution, data is fueling the modern digital revolution. When collected, refined, and analyzed, raw data becomes a powerful driver of innovation, productivity, and inclusive economic growth.</p><p class=\"mt-4 p-4 bg-blue-50 border-l-4 border-brand-accent font-semibold text-brand-dark\"><i>\"Data is the new oil.\"</i> — Clive Humby, 2006. <br/><span class=\"text-sm text-gray-600 font-normal\">Raw data has little value on its own; its true economic power lies in analytics, extraction of insights, and intelligent application.</span></p>"
+          },
+          {
+            "title": "Comparing the Oil Economy vs. The Data Economy",
+            "body": "<p>Understanding how data functions as an economic asset requires contrasting it with traditional natural resources:</p><div class=\"space-y-4 mt-6\"><div><h4 class=\"font-bold text-gray-900 text-base\">Extraction & Refining</h4><p class=\"mt-1\">While oil is extracted physically from the earth and refined into fuel, data is generated continuously through digital activities and requires cleaning, structuring, and machine learning analytics.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">Productivity Impact</h4><p class=\"mt-1\">Refined oil powers heavy industrial machinery; refined data powers intelligent, automated decision-making engines across enterprise and public policy.</p></div><div><h4 class=\"font-bold text-gray-900 text-base\">Unique Economic Advantages of Data</h4><ul class=\"space-y-2 list-disc pl-5 mt-2\"><li><b>Renewable & Infinite:</b> Unlike finite fossil fuels, data expands exponentially as digital interactions increase.</li><li><b>Reusable & Non-Rivalrous:</b> Data can be consumed simultaneously by multiple organizations without depleting its utility.</li><li><b>Appreciating Asset:</b> Data becomes significantly more valuable when aggregated and combined with complementary datasets.</li><li><b>Drives Continuous Innovation:</b> Enables iterative feedback loops that optimize products and services in real time.</li></ul></div></div>"
+          },
+          {
+            "title": "Economic Impact & Key Growth Drivers",
+            "body": "<p>The World Economic Forum estimates that digital transformation powered by data will contribute over <b>US$100 Trillion</b> in cumulative value to businesses and society by 2030. According to McKinsey, data-driven organizations are <b>23x more likely to acquire customers</b>, <b>6x more likely to retain customers</b>, and <b>19x more likely to achieve above-average profitability</b>.</p><h4 class=\"font-bold text-gray-900 text-lg mt-6 mb-3\">5 Ways Data Drives Macroeconomic Growth</h4><ol class=\"space-y-3 list-decimal pl-5\"><li><b>Better Government Decision-Making:</b> Real-time indicators inform fiscal policies on inflation, employment, GDP growth, and social protection.</li><li><b>Improving Tax Administration:</b> Predictive analytics identifies tax evasion risk, selects high-risk audit targets, and elevates compliance.</li><li><b>Supporting Business Innovation:</b> Advanced analytics enables precise demand forecasting, supply chain optimization, and personalized consumer offerings.</li><li><b>Financial Inclusion:</b> Transaction analytics allows financial institutions to evaluate creditworthiness for unbanked populations.</li><li><b>Smart Infrastructure & Urban Planning:</b> IoT sensor networks optimize traffic flows, energy grids, water distribution, and municipal services.</li></ol>"
+          },
+          {
+            "title": "Pakistan's Digital Opportunity & Key Challenges",
+            "body": "<p>Pakistan possesses a rapidly expanding digital footprint, with over <b>190 Million mobile subscribers</b> and <b>140 Million broadband users</b> (PTA). Accelerating digital payments and e-commerce create an unprecedented opportunity to leverage national data assets.</p><p class=\"mt-4\">Effective data utilization will allow Pakistan to expand its tax base, reduce the informal economy, modernize agriculture, enhance disaster response, and attract foreign direct investment.</p><h4 class=\"font-bold text-gray-900 text-lg mt-6 mb-3\">Addressing Core Challenges</h4><ul class=\"space-y-2 list-disc pl-5\"><li><b>Data Privacy & Security:</b> Enacting strong legal frameworks to protect personal information.</li><li><b>Data Quality Assurance:</b> Investing in high-standard data governance to eliminate bad data in decision-making.</li><li><b>Digital Skills Gap:</b> Training the next generation of data scientists, AI engineers, and domain analysts.</li><li><b>Cybersecurity Resilience:</b> Safeguarding national digital assets against cyber threats.</li></ul>"
+          },
+          {
+            "title": "Conclusion & Key Takeaways",
+            "body": "<p>Data is the foundation of the modern economy. Unlike oil in the industrial age, data is renewable, reusable, and most valuable when shared responsibly. By investing in data infrastructure, human talent, and evidence-based governance, countries like Pakistan can unlock sustainable economic growth, stronger institutions, and better lives for all citizens.</p><p class=\"mt-4 p-4 bg-blue-50 border-l-4 border-brand-accent font-semibold text-brand-dark\"><b>Key Takeaway:</b> <i>\"Data is the foundation of the modern economy. High-quality data is the fuel for intelligent decisions.\"</i></p>"
+          },
+          {
+            "title": "About FRPD",
+            "body": "<p>The Firm of Research, Policy and Development (FRPD) is committed to advancing research, policy innovation, data science, artificial intelligence, digital transformation, and evidence-based decision-making. Through research, consultancy, professional training, and policy advisory services, FRPD supports organizations in leveraging emerging technologies to drive sustainable development and institutional excellence.</p>"
+          }
+        ],
+        "type": "Blog"
+      },
+      {
         "id": "pub-34",
         "title": "Evidence-Based Policymaking: Why Data Analytics Matters More Than Ever",
         "author": "Shehzad Khan",
