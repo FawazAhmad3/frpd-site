@@ -3,7 +3,7 @@ export default function SocialButtons() {
     { href: 'https://www.facebook.com/frpdpk', icon: 'fab fa-facebook-f', bg: 'bg-[#1877F2]' },
     // { href: 'https://wa.me/923316677772', icon: 'fab fa-whatsapp', bg: 'bg-[#25D366]' },
     { href: 'https://www.linkedin.com/company/frpdpk', icon: 'fab fa-linkedin-in', bg: 'bg-[#0A66C2]' },
-    { href: '#', icon: 'fab fa-instagram', bg: 'bg-[#E4405F]' },
+    { href: 'https://www.instagram.com/frpd.official', icon: 'fab fa-instagram', bg: 'bg-[#E4405F]' },
     { href: 'https://www.youtube.com/channel/UCDygs990-Kf2Jn_Tt3JikqA', icon: 'fab fa-youtube', bg: 'bg-[#E4405F]' },
   ];
 
