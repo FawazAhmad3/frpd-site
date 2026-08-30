@@ -6,174 +6,6 @@
     },
     "publications": [
       {
-        "id": "pub-49",
-        "title": "Corporate Governance and Profitability of Insurance Companies: Empirical Insights from Pakistan",
-        "author": "Dr. Shakeel Shahzad",
-        "date": "December 2023",
-        "type": "Article",
-        "typeClass": "bg-indigo-100 text-indigo-700",
-        "description": "An empirical investigation evaluating the impact of corporate governance structures—including board size, board independence, audit committee independence, and ownership concentration—on the profitability and financial performance of insurance companies in Pakistan.",
-        "thumbnail": "/assets/images/articles/corporate_governance.jpg",
-        "downloadUrl": "https://doi.org/10.52131/pjhss.2023.1104.0716",
-        "sections": [
-          {
-            "title": "Journal & Publication Details",
-            "body": "<p><b>Journal:</b> Pakistan Journal of Humanities and Social Sciences (PJHSS)<br/><b>Volume/Issue:</b> Vol. 11, No. 4 (2023)<br/><b>DOI:</b> <a href=\"https://doi.org/10.52131/pjhss.2023.1104.0716\" target=\"_blank\" class=\"text-brand-accent underline\">10.52131/pjhss.2023.1104.0716</a></p>"
-          },
-          {
-            "title": "Abstract & Findings",
-            "body": "<p>This empirical study analyzes the role of corporate governance mechanisms in influencing the financial performance and profitability of insurance firms operating in Pakistan. Using multi-year firm-level data, the paper examines key governance indicators including board size, board independence, audit committee oversight, and ownership concentration, measuring their relationship with Return on Assets (ROA) and Return on Equity (ROE). The findings provide strategic recommendations for regulatory bodies and financial sector leaders to enhance oversight, strengthen investor confidence, and ensure long-term stability in the insurance industry.</p>"
-          }
-        ]
-      },
-      {
-        "id": "pub-50",
-        "title": "Critical Discourse Analysis of Trauma Bonding in Female Victims of Intimate Partner Abuse: A Phenomenological Constructivist Approach",
-        "author": "Dr. Shakeel Shahzad",
-        "date": "December 2022",
-        "type": "Article",
-        "typeClass": "bg-indigo-100 text-indigo-700",
-        "description": "A phenomenological constructivist study applying Critical Discourse Analysis (CDA) to deconstruct media labels, societal ideals, and cognitive dynamics that reinforce trauma bonding in female victims of intimate partner abuse.",
-        "thumbnail": "/assets/images/articles/trauma_bonding.jpg",
-        "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i4.2496",
-        "sections": [
-          {
-            "title": "Journal & Publication Details",
-            "body": "<p><b>Journal:</b> Sustainable Business and Society in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 4 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/sbsee.v4i4.2496\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/sbsee.v4i4.2496</a></p>"
-          },
-          {
-            "title": "Abstract",
-            "body": "<p>Intimate partner abuse (IPA) is a socially prevalent issue across cultures. Despite the establishment of survivor institutes and anti-domestic violence NGOs, the voices of battered women have frequently failed to reach legal and governmental policy frameworks. Recent research indicates that women often remain bound to dangerously abusive relationships due to complex psychological and social factors. This study adopts a socio-cognitive approach and phenomenological constructivism to critically deconstruct media labels, societal expectations, and victim narratives. The findings show how these intersecting factors generate trauma bonding, forcing victims to stay in abusive environments, and highlighting the need for policy interventions tailored to survivor cognitive reality.</p>"
-          }
-        ]
-      },
-      {
-        "id": "pub-51",
-        "title": "Opening of Kartarpur Corridor: A Critical Discourse Analysis that How Indo-Pak Media Projected the Corridor Initiative",
-        "author": "Dr. Shakeel Shahzad",
-        "date": "June 2022",
-        "type": "Article",
-        "typeClass": "bg-indigo-100 text-indigo-700",
-        "description": "A Critical Discourse Analysis comparing how Pakistani and Indian media outlets projected the historic opening of the Kartarpur Corridor, contrasting narratives of peace and religious diplomacy with security concerns.",
-        "thumbnail": "/assets/images/articles/kartarpur_media.jpg",
-        "downloadUrl": "http://dx.doi.org/10.26710/rope.v4i1.2277",
-        "sections": [
-          {
-            "title": "Journal & Publication Details",
-            "body": "<p><b>Journal:</b> Review of Politics and Public Policy in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/rope.v4i1.2277\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/rope.v4i1.2277</a></p>"
-          },
-          {
-            "title": "Abstract",
-            "body": "<p>Taking the opening of the Kartarpur Corridor as a case study, this research paper highlights the divergent media perspectives across Indian and Pakistani newspapers published between 2020 and 2022. Applying Critical Discourse Analysis (CDA), the study reveals that Pakistani media predominantly framed the corridor as a symbol of peace, regional stability, religious tourism, and diplomatic breakthrough. In contrast, Indian media coverage focused heavily on security protocols, travel modalities, and interstate tensions. The research underscores the powerful role of media framing in shaping public perception, religious tourism, and peacebuilding initiatives between Pakistan and India.</p>"
-          }
-        ]
-      },
-      {
-        "id": "pub-52",
-        "title": "Most Stringent Test of Independence in W×K Contingency Tables for Nominal Data Using Monte Carlo Simulations",
-        "author": "Dr. Shakeel Shahzad",
-        "date": "March 2022",
-        "type": "Article",
-        "typeClass": "bg-indigo-100 text-indigo-700",
-        "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
-        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
-        "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
-        "sections": [
-          {
-            "title": "Journal & Publication Details",
-            "body": "<p><b>Journal:</b> Sustainable Business and Society in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/sbsee.v4i1.2145\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/sbsee.v4i1.2145</a></p>"
-          },
-          {
-            "title": "Abstract",
-            "body": "<p>Testing for independence in contingency tables is one of the most widely used statistical techniques in econometrics and empirical social science. However, researchers face ambiguity regarding the optimal test selection across different Data Generating Processes (DGPs) for nominal data. This study applies Stringent Criteria (SC) via Monte Carlo simulations to evaluate a wide range of independence tests in W &times; K contingency tables. The results demonstrate that the Logarithmic Minimum Square (LMS) test is optimal and superior to competing statistical tests, providing empirical econometricians with clear guidance for analyzing nominal contingency tables.</p>"
-          }
-        ]
-      },
-      {
-        "id": "pub-53",
-        "title": "Human Capital the Key to Economic Growth: Some New Evidence from Selected Developing Countries",
-        "author": "Dr. Shakeel Shahzad",
-        "date": "March 2022",
-        "type": "Article",
-        "typeClass": "bg-indigo-100 text-indigo-700",
-        "description": "An empirical panel study investigating the impact of education and health human capital indicators on long-run economic growth across 43 developing countries using Pooled OLS estimation.",
-        "thumbnail": "/assets/images/articles/human_capital.jpg",
-        "downloadUrl": "http://dx.doi.org/10.26710/jbsee.v8i1.2135",
-        "sections": [
-          {
-            "title": "Journal & Publication Details",
-            "body": "<p><b>Journal:</b> Journal of Business and Social Review in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 8, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/jbsee.v8i1.2135\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/jbsee.v8i1.2135</a></p>"
-          },
-          {
-            "title": "Abstract",
-            "body": "<p>Endogenous growth theory identifies human capital as the central driving force of long-term economic expansion. However, empirical literature on the specific roles of education versus health investments has yielded mixed conclusions. Utilizing a panel dataset of 43 developing countries spanning 1990 to 2018, this study estimates Pooled OLS models to evaluate how education and health indicators influence growth. The findings demonstrate that education proxies consistently drive long-run economic growth, while health expenditures become significantly positive when conditioned on education spending, urging policymakers to coordinate public health and education budgets.</p>"
-          }
-        ]
-      },
-      {
-        "id": "pub-54",
-        "title": "The Role of Financial Inclusion in Income Inequality, Poverty Reduction & Economic Growth in Developing Countries",
-        "author": "Dr. Shakeel Shahzad",
-        "date": "December 2021",
-        "type": "Article",
-        "typeClass": "bg-indigo-100 text-indigo-700",
-        "description": "An econometric panel study of 101 developing countries utilizing System GMM estimation to analyze how expanding financial inclusion reduces income inequality and boosts economic growth.",
-        "thumbnail": "/assets/images/articles/financial_inclusion.jpg",
-        "downloadUrl": "http://dx.doi.org/10.58932/muld0006",
-        "sections": [
-          {
-            "title": "Journal & Publication Details",
-            "body": "<p><b>Journal:</b> International Journal of Islamic Economics and Governance<br/><b>Volume/Issue:</b> Vol. 2, No. 2 (2021)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.58932/muld0006\" target=\"_blank\" class=\"text-brand-accent underline\">10.58932/muld0006</a></p>"
-          },
-          {
-            "title": "Abstract",
-            "body": "<p>This study examines the role of financial inclusion in driving economic growth, mitigating poverty, and lowering income inequality across 101 developing countries from 2010 to 2020. Data compiled from World Development Indicators and the World Bank Global Findex Database were analyzed using System Generalized Method of Moments (GMM). The empirical findings confirm that financial inclusion significantly boosts economic growth and narrows income inequality in developing nations. While financial inclusion operates indirectly on poverty alleviation through growth and distribution channels, policymakers are advised to expand access to formal financial services and digital banking infrastructure.</p>"
-          }
-        ]
-      },
-      {
-        "id": "pub-55",
-        "title": "Semi-Strong Form of Efficiency in South Asian Foreign Exchange Markets",
-        "author": "Dr. Shakeel Shahzad",
-        "date": "January 2020",
-        "type": "Article",
-        "typeClass": "bg-indigo-100 text-indigo-700",
-        "description": "An empirical evaluation of market efficiency across four South Asian foreign exchange markets (Pakistan, India, Sri Lanka, and Bangladesh) covering bilateral spot exchange rates from 1995 to 2015.",
-        "thumbnail": "/assets/images/articles/forex_efficiency.jpg",
-        "downloadUrl": "https://www.iiu.edu.pk/wp-content/uploads/2021/02/IJEF-2020-1-2-05-15022021.pdf",
-        "sections": [
-          {
-            "title": "Journal & Publication Details",
-            "body": "<p><b>Journal:</b> IIIE Journal of Economics and Finance<br/><b>Volume/Issue:</b> Vol. 1, No. 2 (2020)<br/><b>PDF Download:</b> <a href=\"https://www.iiu.edu.pk/wp-content/uploads/2021/02/IJEF-2020-1-2-05-15022021.pdf\" target=\"_blank\" class=\"text-brand-accent underline\">Download Full Paper</a></p>"
-          },
-          {
-            "title": "Abstract",
-            "body": "<p>This study tests the weak-form and semi-strong form of market efficiency across four major South Asian foreign exchange markets: Pakistan, India, Sri Lanka, and Bangladesh. Using monthly bilateral spot exchange rates against the US Dollar, British Pound, and Japanese Yen from January 1995 to December 2015, the empirical analysis confirms that all four markets conform to weak-form efficiency. However, the findings reject semi-strong form efficiency, demonstrating that regime shifts leave foreign exchange markets inefficient in the semi-strong sense and offering actionable insights for currency traders and macroeconomic regulators.</p>"
-          }
-        ]
-      },
-      {
-        "id": "pub-56",
-        "title": "Test of Ownership Dispersion Theory as Explanation of Underpricing of New Issues in Pakistan",
-        "author": "Prof. Dr. Attiya Yasmin Javid, Malik Muhammad Shehryar, Dr. Shakeel Shahzad",
-        "date": "January 2019",
-        "type": "Article",
-        "typeClass": "bg-indigo-100 text-indigo-700",
-        "description": "An empirical investigation of 72 IPOs listed on the Karachi Stock Exchange (2000–2015) validating the ownership dispersion hypothesis as a primary explanation for initial public offering underpricing.",
-        "thumbnail": "/assets/images/articles/ipo_underpricing.jpg",
-        "downloadUrl": "http://eco.qau.edu.pk/per/wp-content/uploads/2019/08/Download-article-1-21-2019.pdf",
-        "sections": [
-          {
-            "title": "Journal & Publication Details",
-            "body": "<p><b>Journal:</b> Journal of Pakistan Economic Review, Quaid-e-Azam University, Islamabad<br/><b>Date:</b> January 2019<br/><b>PDF Link:</b> <a href=\"http://eco.qau.edu.pk/per/wp-content/uploads/2019/08/Download-article-1-21-2019.pdf\" target=\"_blank\" class=\"text-brand-accent underline\">Download Full Paper</a></p>"
-          },
-          {
-            "title": "Abstract",
-            "body": "<p>This paper tests the ownership dispersion hypothesis to explain the phenomenon of Initial Public Offering (IPO) underpricing using sample data of 72 IPOs issued at the Karachi Stock Exchange (KSE) between 2000 and 2015. The hypothesis posits that firms deliberately underprice new issues to generate oversubscription and establish a broad shareholder base, thereby enhancing secondary market liquidity. Empirical results confirm that underpricing induces oversubscription and dispersed ownership, reducing risk for existing owners and establishing a liquid secondary trading market.</p>"
-          }
-        ]
-      },
-      {
         "id": "pub-48",
         "title": "Blockchain in Public Governance: Can Technology Improve Transparency?",
         "author": "Dr. Shakeel Shahzad",
@@ -1980,66 +1812,6 @@
         ]
       },
       {
-        "id": "pub-1",
-        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
-        "author": "Prof. Dr. Attiya Y. Javid",
-        "date": "2019-2020",
-        "type": "Report",
-        "typeClass": "bg-blue-100 text-blue-700",
-        "description": "Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP...",
-        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
-        "downloadUrl": "https://drive.google.com/uc?export=download&id=1PXjdf1tFZaUkLKQgQ7vjvkNdT2ep2zy-",
-        "sections": [
-          {
-            "title": "Executive Summary",
-            "body": "<p>Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP. These remittances play extremely important in management of Pakistan economy, mainly contributing to the management of current account balance. For a long period over the history, Pakistan is facing large trade deficit and the remittances are used to bring the current account deficit at balance. However, when remittances reach the country through formal channels, the bank keep the foreign currency with them and pay rupee in exchange of it. Thus about Rs. 3.3 trillion come into the pockets of recipients. The earlier studies on remittances show that the marginal propensity to save for the remitters is much higher compared to the overall propensity to save. Supposing marginal propensity to save to be only 20%, the amount of saving should be sufficient to finance millions of jobs. But no job related activities are observable.</p><p>The first question arises that how remittances contribute to the economy? A model was estimated using WALS approach which show that the huge surge in remittances didn’t effect the pace of growth of economy.</p><p>The second question that arises is; what is happening to the remittances that they don’t contribute to economy. Extensive Survey was carried out in selected cities of all four provinces, Azad Kashmir, Islamabad Capital territory and Gilgit Baltistan to find the answer to this question. The findings reveal that largest share of the investable part of remittances goes into real estate, especially sale and purchase of plots which is extremely capital intensive business and one doesn’t contribute to the employment generation and any other economic benefit.</p><p>The next important question was to recommend the measures for enhancing the flow of remittances through formal channels and to recommend measures for welfare of remittances. We propose that in order to increase the formal inflow, SBP should subsidize the formal inflow. This subsidy would be proportional to size of remittances and would not be directly encashable. Half of this subsidy is deposited to the premium for health and life insurance of the remitter and his/her family and remaining half of subsidy is to be deposited to a welfare fund for remitter. The amount deposited to the fund along with the profit would be payable to the remitter when he/she quits overseas job, or when he/she intends to finance the business of any of his heirs. Such a subsidy would be a goodwill gesture from the government for the remitters and would help remitters to start a business when he/she comes back to the homeland. Since this subsidy would not be directly encashable, it would not affect the current exchange rate.</p><p>The last and most important question was; how to utilize the remittances in better way. We have found from the data we collected that the major chunk of investable remittances goes into real estate and in particular, business of plots. This is extremely capital intensive business and we have to replace it with some labor intensive business. We argue that the investable part of remittances can be invested in the mega-development projects using bonds issued in the name of projects. The investors may be paid return when the project become mature. We argue that such an investment must be protected through proper legislation. We also discuss the necessary measures needed to make such investments viable.</p>"
-          }
-        ]
-      },
-      {
-        "id": "pub-2",
-        "title": "The Effect of Various Relationship Factors on Business Success; Empirical Evidence from Business Partners of Pakistan and China",
-        "author": "Prof. Dr. Attiya Yasmin Javid, Shakeel Shahzad, Jawad Ali",
-        "date": "April 2018",
-        "type": "Report",
-        "typeClass": "bg-blue-100 text-blue-700",
-        "description": "The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment...",
-        "thumbnail": "/assets/data/Publications/Reports/The Effect of Various Relationship/Cover-image.png",
-        "downloadUrl": "https://drive.google.com/uc?export=download&id=1IMATdULSXk6_jdjLX1wjZAFHGw4PF9sc",
-        "sections": [
-          {
-            "title": "Abstract",
-            "body": "<p>The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment in a sample of business partners from Pakistanis and Chinese companies that do business together in Pakistan. Path modeling was used to explore the hierarchical nature of the relationship dimensions amongst one another and on the dependent variables. We conclude that relationship variables in our cross-cultural study are hierarchical and that personal relationships are critical to building and enhancing inter-organizational relationships. We further noted that some relationship dimensions may not have significant direct relationships with commitment, but their indirect and total effects may be significant. Our results challenge conventional conceptualization of relationship dimensions by suggesting a hierarchy of importance among these dimensions.</p>"
-          },
-          {
-            "title": "Project Details",
-            "body": "<ul class='space-y-4 list-none pl-0'><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Sponsoring Organization:</b> Center of Excellence China Pakistan Economic Corridor - PIDE</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Grant No:</b> CPRG-2017/18</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Performing Organization:</b> Pakistan Institute of Development Economics</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Key Words:</b> Relationship dimensions; Interpersonal relationship; Inter-organizational commitment; Pakistan; China</span></li></ul>"
-          }
-        ]
-      }
-    ],
-    "ui": {
-      "badge": "Resource Library",
-      "searchPlaceholder": "Search publications...",
-      "filterAll": "All Publications",
-      "filterBlog": "Blog",
-      "filterReports": "Reports",
-      "filterArticles": "Articles",
-      "filterBriefs": "Policy Briefs",
-      "filterMagazines": "Magazines",
-      "filterBooks": "Books",
-      "noResults": "No publications found matching your search.",
-      "download": "Download PDF",
-      "submitUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeAywNlH4ULz82iSZsI1ke5zs1_pni2_dFfR1jUgXCLkbFdlA/viewform?usp=publish-editor"
-    }
-  },
-  "ar": {
-    "hero": {
-      "title": "المنشورات",
-      "description": "استكشف مكتبتنا من تقارير الأبحاث وملخصات السياسات والمنشورات الأكاديمية التي تقود حوار التنمية العالمي."
-    },
-    "publications": [
-      {
         "id": "pub-49",
         "title": "Corporate Governance and Profitability of Insurance Companies: Empirical Insights from Pakistan",
         "author": "Dr. Shakeel Shahzad",
@@ -2103,27 +1875,6 @@
         ]
       },
       {
-        "id": "pub-52",
-        "title": "Most Stringent Test of Independence in W×K Contingency Tables for Nominal Data Using Monte Carlo Simulations",
-        "author": "Dr. Shakeel Shahzad",
-        "date": "March 2022",
-        "type": "Article",
-        "typeClass": "bg-indigo-100 text-indigo-700",
-        "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
-        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
-        "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
-        "sections": [
-          {
-            "title": "Journal & Publication Details",
-            "body": "<p><b>Journal:</b> Sustainable Business and Society in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/sbsee.v4i1.2145\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/sbsee.v4i1.2145</a></p>"
-          },
-          {
-            "title": "Abstract",
-            "body": "<p>Testing for independence in contingency tables is one of the most widely used statistical techniques in econometrics and empirical social science. However, researchers face ambiguity regarding the optimal test selection across different Data Generating Processes (DGPs) for nominal data. This study applies Stringent Criteria (SC) via Monte Carlo simulations to evaluate a wide range of independence tests in W &times; K contingency tables. The results demonstrate that the Logarithmic Minimum Square (LMS) test is optimal and superior to competing statistical tests, providing empirical econometricians with clear guidance for analyzing nominal contingency tables.</p>"
-          }
-        ]
-      },
-      {
         "id": "pub-53",
         "title": "Human Capital the Key to Economic Growth: Some New Evidence from Selected Developing Countries",
         "author": "Dr. Shakeel Shahzad",
@@ -2141,6 +1892,27 @@
           {
             "title": "Abstract",
             "body": "<p>Endogenous growth theory identifies human capital as the central driving force of long-term economic expansion. However, empirical literature on the specific roles of education versus health investments has yielded mixed conclusions. Utilizing a panel dataset of 43 developing countries spanning 1990 to 2018, this study estimates Pooled OLS models to evaluate how education and health indicators influence growth. The findings demonstrate that education proxies consistently drive long-run economic growth, while health expenditures become significantly positive when conditioned on education spending, urging policymakers to coordinate public health and education budgets.</p>"
+          }
+        ]
+      },
+      {
+        "id": "pub-52",
+        "title": "Most Stringent Test of Independence in W×K Contingency Tables for Nominal Data Using Monte Carlo Simulations",
+        "author": "Dr. Shakeel Shahzad",
+        "date": "March 2022",
+        "type": "Article",
+        "typeClass": "bg-indigo-100 text-indigo-700",
+        "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
+        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
+        "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
+        "sections": [
+          {
+            "title": "Journal & Publication Details",
+            "body": "<p><b>Journal:</b> Sustainable Business and Society in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/sbsee.v4i1.2145\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/sbsee.v4i1.2145</a></p>"
+          },
+          {
+            "title": "Abstract",
+            "body": "<p>Testing for independence in contingency tables is one of the most widely used statistical techniques in econometrics and empirical social science. However, researchers face ambiguity regarding the optimal test selection across different Data Generating Processes (DGPs) for nominal data. This study applies Stringent Criteria (SC) via Monte Carlo simulations to evaluate a wide range of independence tests in W &times; K contingency tables. The results demonstrate that the Logarithmic Minimum Square (LMS) test is optimal and superior to competing statistical tests, providing empirical econometricians with clear guidance for analyzing nominal contingency tables.</p>"
           }
         ]
       },
@@ -2187,6 +1959,23 @@
         ]
       },
       {
+        "id": "pub-1",
+        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
+        "author": "Prof. Dr. Attiya Y. Javid",
+        "date": "2019-2020",
+        "type": "Report",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP...",
+        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1PXjdf1tFZaUkLKQgQ7vjvkNdT2ep2zy-",
+        "sections": [
+          {
+            "title": "Executive Summary",
+            "body": "<p>Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP. These remittances play extremely important in management of Pakistan economy, mainly contributing to the management of current account balance. For a long period over the history, Pakistan is facing large trade deficit and the remittances are used to bring the current account deficit at balance. However, when remittances reach the country through formal channels, the bank keep the foreign currency with them and pay rupee in exchange of it. Thus about Rs. 3.3 trillion come into the pockets of recipients. The earlier studies on remittances show that the marginal propensity to save for the remitters is much higher compared to the overall propensity to save. Supposing marginal propensity to save to be only 20%, the amount of saving should be sufficient to finance millions of jobs. But no job related activities are observable.</p><p>The first question arises that how remittances contribute to the economy? A model was estimated using WALS approach which show that the huge surge in remittances didn’t effect the pace of growth of economy.</p><p>The second question that arises is; what is happening to the remittances that they don’t contribute to economy. Extensive Survey was carried out in selected cities of all four provinces, Azad Kashmir, Islamabad Capital territory and Gilgit Baltistan to find the answer to this question. The findings reveal that largest share of the investable part of remittances goes into real estate, especially sale and purchase of plots which is extremely capital intensive business and one doesn’t contribute to the employment generation and any other economic benefit.</p><p>The next important question was to recommend the measures for enhancing the flow of remittances through formal channels and to recommend measures for welfare of remittances. We propose that in order to increase the formal inflow, SBP should subsidize the formal inflow. This subsidy would be proportional to size of remittances and would not be directly encashable. Half of this subsidy is deposited to the premium for health and life insurance of the remitter and his/her family and remaining half of subsidy is to be deposited to a welfare fund for remitter. The amount deposited to the fund along with the profit would be payable to the remitter when he/she quits overseas job, or when he/she intends to finance the business of any of his heirs. Such a subsidy would be a goodwill gesture from the government for the remitters and would help remitters to start a business when he/she comes back to the homeland. Since this subsidy would not be directly encashable, it would not affect the current exchange rate.</p><p>The last and most important question was; how to utilize the remittances in better way. We have found from the data we collected that the major chunk of investable remittances goes into real estate and in particular, business of plots. This is extremely capital intensive business and we have to replace it with some labor intensive business. We argue that the investable part of remittances can be invested in the mega-development projects using bonds issued in the name of projects. The investors may be paid return when the project become mature. We argue that such an investment must be protected through proper legislation. We also discuss the necessary measures needed to make such investments viable.</p>"
+          }
+        ]
+      },
+      {
         "id": "pub-56",
         "title": "Test of Ownership Dispersion Theory as Explanation of Underpricing of New Issues in Pakistan",
         "author": "Prof. Dr. Attiya Yasmin Javid, Malik Muhammad Shehryar, Dr. Shakeel Shahzad",
@@ -2207,6 +1996,49 @@
           }
         ]
       },
+      {
+        "id": "pub-2",
+        "title": "The Effect of Various Relationship Factors on Business Success; Empirical Evidence from Business Partners of Pakistan and China",
+        "author": "Prof. Dr. Attiya Yasmin Javid, Shakeel Shahzad, Jawad Ali",
+        "date": "April 2018",
+        "type": "Report",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment...",
+        "thumbnail": "/assets/data/Publications/Reports/The Effect of Various Relationship/Cover-image.png",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1IMATdULSXk6_jdjLX1wjZAFHGw4PF9sc",
+        "sections": [
+          {
+            "title": "Abstract",
+            "body": "<p>The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment in a sample of business partners from Pakistanis and Chinese companies that do business together in Pakistan. Path modeling was used to explore the hierarchical nature of the relationship dimensions amongst one another and on the dependent variables. We conclude that relationship variables in our cross-cultural study are hierarchical and that personal relationships are critical to building and enhancing inter-organizational relationships. We further noted that some relationship dimensions may not have significant direct relationships with commitment, but their indirect and total effects may be significant. Our results challenge conventional conceptualization of relationship dimensions by suggesting a hierarchy of importance among these dimensions.</p>"
+          },
+          {
+            "title": "Project Details",
+            "body": "<ul class='space-y-4 list-none pl-0'><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Sponsoring Organization:</b> Center of Excellence China Pakistan Economic Corridor - PIDE</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Grant No:</b> CPRG-2017/18</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Performing Organization:</b> Pakistan Institute of Development Economics</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Key Words:</b> Relationship dimensions; Interpersonal relationship; Inter-organizational commitment; Pakistan; China</span></li></ul>"
+          }
+        ]
+      }
+    ],
+    "ui": {
+      "badge": "Resource Library",
+      "searchPlaceholder": "Search publications...",
+      "filterAll": "All Publications",
+      "filterBlog": "Blog",
+      "filterReports": "Reports",
+      "filterArticles": "Articles",
+      "filterBriefs": "Policy Briefs",
+      "filterMagazines": "Magazines",
+      "filterBooks": "Books",
+      "noResults": "No publications found matching your search.",
+      "download": "Download PDF",
+      "submitUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeAywNlH4ULz82iSZsI1ke5zs1_pni2_dFfR1jUgXCLkbFdlA/viewform?usp=publish-editor"
+    }
+  },
+  "ar": {
+    "hero": {
+      "title": "المنشورات",
+      "description": "استكشف مكتبتنا من تقارير الأبحاث وملخصات السياسات والمنشورات الأكاديمية التي تقود حوار التنمية العالمي."
+    },
+    "publications": [
       {
         "id": "pub-48",
         "title": "Blockchain in Public Governance: Can Technology Improve Transparency?",
@@ -3443,63 +3275,6 @@
         ]
       },
       {
-        "id": "pub-2",
-        "title": "The Effect of Various Relationship Factors on Business Success; Empirical Evidence from Business Partners of Pakistan and China",
-        "author": "Prof. Dr. Attiya Yasmin Javid, Shakeel Shahzad, Jawad Ali",
-        "date": "April 2018",
-        "type": "تقرير",
-        "typeClass": "bg-blue-100 text-blue-700",
-        "description": "The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment...",
-        "thumbnail": "/assets/data/Publications/Reports/The Effect of Various Relationship/Cover-image.png",
-        "downloadUrl": "https://drive.google.com/uc?export=download&id=1IMATdULSXk6_jdjLX1wjZAFHGw4PF9sc",
-        "sections": [
-          {
-            "title": "Abstract",
-            "body": "<p>The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment in a sample of business partners from Pakistanis and Chinese companies that do business together in Pakistan. Path modeling was used to explore the hierarchical nature of the relationship dimensions amongst one another and on the dependent variables. We conclude that relationship variables in our cross-cultural study are hierarchical and that personal relationships are critical to building and enhancing inter-organizational relationships. We further noted that some relationship dimensions may not have significant direct relationships with commitment, but their indirect and total effects may be significant. Our results challenge conventional conceptualization of relationship dimensions by suggesting a hierarchy of importance among these dimensions.</p>"
-          },
-          {
-            "title": "Project Details",
-            "body": "<ul class='space-y-4 list-none pl-0'><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Sponsoring Organization:</b> Center of Excellence China Pakistan Economic Corridor - PIDE</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Grant No:</b> CPRG-2017/18</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Performing Organization:</b> Pakistan Institute of Development Economics</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Key Words:</b> Relationship dimensions; Interpersonal relationship; Inter-organizational commitment; Pakistan; China</span></li></ul>"
-          }
-        ]
-      },
-      {
-        "id": "pub-1",
-        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
-        "author": "أ.د. عطية ي. جافيد",
-        "date": "مايو 2020",
-        "type": "Report",
-        "typeClass": "bg-blue-100 text-blue-700",
-        "description": "التقرير النهائي المقدم إلى لجنة التعليم العالي.",
-        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
-        "downloadUrl": "https://drive.google.com/uc?export=download&id=1PXjdf1tFZaUkLKQgQ7vjvkNdT2ep2zy-",
-        "sections": [
-          {
-            "title": "Executive Summary",
-            "body": "<p>Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP. These remittances play extremely important in management of Pakistan economy, mainly contributing to the management of current account balance. For a long period over the history, Pakistan is facing large trade deficit and the remittances are used to bring the current account deficit at balance. However, when remittances reach the country through formal channels, the bank keep the foreign currency with them and pay rupee in exchange of it. Thus about Rs. 3.3 trillion come into the pockets of recipients. The earlier studies on remittances show that the marginal propensity to save for the remitters is much higher compared to the overall propensity to save. Supposing marginal propensity to save to be only 20%, the amount of saving should be sufficient to finance millions of jobs. But no job related activities are observable.</p><p>The first question arises that how remittances contribute to the economy? A model was estimated using WALS approach which show that the huge surge in remittances didn’t effect the pace of growth of economy.</p><p>The second question that arises is; what is happening to the remittances that they don’t contribute to economy. Extensive Survey was carried out in selected cities of all four provinces, Azad Kashmir, Islamabad Capital territory and Gilgit Baltistan to find the answer to this question. The findings reveal that largest share of the investable part of remittances goes into real estate, especially sale and purchase of plots which is extremely capital intensive business and one doesn’t contribute to the employment generation and any other economic benefit.</p><p>The next important question was to recommend the measures for enhancing the flow of remittances through formal channels and to recommend measures for welfare of remittances. We propose that in order to increase the formal inflow, SBP should subsidize the formal inflow. This subsidy would be proportional to size of remittances and would not be directly encashable. Half of this subsidy is deposited to the premium for health and life insurance of the remitter and his/her family and remaining half of subsidy is to be deposited to a welfare fund for remitter. The amount deposited to the fund along with the profit would be payable to the remitter when he/she quits overseas job, or when he/she intends to finance the business of any of his heirs. Such a subsidy would be a goodwill gesture from the government for the remitters and would help remitters to start a business when he/she comes back to the homeland. Since this subsidy would not be directly encashable, it would not affect the current exchange rate.</p><p>The last and most important question was; how to utilize the remittances in better way. We have found from the data we collected that the major chunk of investable remittances goes into real estate and in particular, business of plots. This is extremely capital intensive business and we have to replace it with some labor intensive business. We argue that the investable part of remittances can be invested in the mega-development projects using bonds issued in the name of projects. The investors may be paid return when the project become mature. We argue that such an investment must be protected through proper legislation. We also discuss the necessary measures needed to make such investments viable.</p>"
-          }
-        ]
-      }
-    ],
-    "ui": {
-      "badge": "مكتبة الموارد",
-      "searchPlaceholder": "البحث في المنشورات...",
-      "filterAll": "جميع المنشورات",
-      "filterReports": "تقارير",
-      "filterBriefs": "ملخصات السياسات",
-      "filterArticles": "مقالات",
-      "noResults": "لم يتم العثور على منشورات تطابق بحثك.",
-      "download": "تحميل PDF",
-      "submitUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeAywNlH4ULz82iSZsI1ke5zs1_pni2_dFfR1jUgXCLkbFdlA/viewform?usp=publish-editor"
-    }
-  },
-  "fr": {
-    "hero": {
-      "title": "Publications",
-      "description": "Explorez notre bibliothèque de rapports de recherche, de notes de politique et de publications académiques alimentant le dialogue sur le développement mondial."
-    },
-    "publications": [
-      {
         "id": "pub-49",
         "title": "Corporate Governance and Profitability of Insurance Companies: Empirical Insights from Pakistan",
         "author": "Dr. Shakeel Shahzad",
@@ -3563,27 +3338,6 @@
         ]
       },
       {
-        "id": "pub-52",
-        "title": "Most Stringent Test of Independence in W×K Contingency Tables for Nominal Data Using Monte Carlo Simulations",
-        "author": "Dr. Shakeel Shahzad",
-        "date": "March 2022",
-        "type": "Article",
-        "typeClass": "bg-indigo-100 text-indigo-700",
-        "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
-        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
-        "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
-        "sections": [
-          {
-            "title": "Journal & Publication Details",
-            "body": "<p><b>Journal:</b> Sustainable Business and Society in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/sbsee.v4i1.2145\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/sbsee.v4i1.2145</a></p>"
-          },
-          {
-            "title": "Abstract",
-            "body": "<p>Testing for independence in contingency tables is one of the most widely used statistical techniques in econometrics and empirical social science. However, researchers face ambiguity regarding the optimal test selection across different Data Generating Processes (DGPs) for nominal data. This study applies Stringent Criteria (SC) via Monte Carlo simulations to evaluate a wide range of independence tests in W &times; K contingency tables. The results demonstrate that the Logarithmic Minimum Square (LMS) test is optimal and superior to competing statistical tests, providing empirical econometricians with clear guidance for analyzing nominal contingency tables.</p>"
-          }
-        ]
-      },
-      {
         "id": "pub-53",
         "title": "Human Capital the Key to Economic Growth: Some New Evidence from Selected Developing Countries",
         "author": "Dr. Shakeel Shahzad",
@@ -3601,6 +3355,27 @@
           {
             "title": "Abstract",
             "body": "<p>Endogenous growth theory identifies human capital as the central driving force of long-term economic expansion. However, empirical literature on the specific roles of education versus health investments has yielded mixed conclusions. Utilizing a panel dataset of 43 developing countries spanning 1990 to 2018, this study estimates Pooled OLS models to evaluate how education and health indicators influence growth. The findings demonstrate that education proxies consistently drive long-run economic growth, while health expenditures become significantly positive when conditioned on education spending, urging policymakers to coordinate public health and education budgets.</p>"
+          }
+        ]
+      },
+      {
+        "id": "pub-52",
+        "title": "Most Stringent Test of Independence in W×K Contingency Tables for Nominal Data Using Monte Carlo Simulations",
+        "author": "Dr. Shakeel Shahzad",
+        "date": "March 2022",
+        "type": "Article",
+        "typeClass": "bg-indigo-100 text-indigo-700",
+        "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
+        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
+        "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
+        "sections": [
+          {
+            "title": "Journal & Publication Details",
+            "body": "<p><b>Journal:</b> Sustainable Business and Society in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/sbsee.v4i1.2145\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/sbsee.v4i1.2145</a></p>"
+          },
+          {
+            "title": "Abstract",
+            "body": "<p>Testing for independence in contingency tables is one of the most widely used statistical techniques in econometrics and empirical social science. However, researchers face ambiguity regarding the optimal test selection across different Data Generating Processes (DGPs) for nominal data. This study applies Stringent Criteria (SC) via Monte Carlo simulations to evaluate a wide range of independence tests in W &times; K contingency tables. The results demonstrate that the Logarithmic Minimum Square (LMS) test is optimal and superior to competing statistical tests, providing empirical econometricians with clear guidance for analyzing nominal contingency tables.</p>"
           }
         ]
       },
@@ -3647,6 +3422,23 @@
         ]
       },
       {
+        "id": "pub-1",
+        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
+        "author": "أ.د. عطية ي. جافيد",
+        "date": "مايو 2020",
+        "type": "Report",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "التقرير النهائي المقدم إلى لجنة التعليم العالي.",
+        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1PXjdf1tFZaUkLKQgQ7vjvkNdT2ep2zy-",
+        "sections": [
+          {
+            "title": "Executive Summary",
+            "body": "<p>Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP. These remittances play extremely important in management of Pakistan economy, mainly contributing to the management of current account balance. For a long period over the history, Pakistan is facing large trade deficit and the remittances are used to bring the current account deficit at balance. However, when remittances reach the country through formal channels, the bank keep the foreign currency with them and pay rupee in exchange of it. Thus about Rs. 3.3 trillion come into the pockets of recipients. The earlier studies on remittances show that the marginal propensity to save for the remitters is much higher compared to the overall propensity to save. Supposing marginal propensity to save to be only 20%, the amount of saving should be sufficient to finance millions of jobs. But no job related activities are observable.</p><p>The first question arises that how remittances contribute to the economy? A model was estimated using WALS approach which show that the huge surge in remittances didn’t effect the pace of growth of economy.</p><p>The second question that arises is; what is happening to the remittances that they don’t contribute to economy. Extensive Survey was carried out in selected cities of all four provinces, Azad Kashmir, Islamabad Capital territory and Gilgit Baltistan to find the answer to this question. The findings reveal that largest share of the investable part of remittances goes into real estate, especially sale and purchase of plots which is extremely capital intensive business and one doesn’t contribute to the employment generation and any other economic benefit.</p><p>The next important question was to recommend the measures for enhancing the flow of remittances through formal channels and to recommend measures for welfare of remittances. We propose that in order to increase the formal inflow, SBP should subsidize the formal inflow. This subsidy would be proportional to size of remittances and would not be directly encashable. Half of this subsidy is deposited to the premium for health and life insurance of the remitter and his/her family and remaining half of subsidy is to be deposited to a welfare fund for remitter. The amount deposited to the fund along with the profit would be payable to the remitter when he/she quits overseas job, or when he/she intends to finance the business of any of his heirs. Such a subsidy would be a goodwill gesture from the government for the remitters and would help remitters to start a business when he/she comes back to the homeland. Since this subsidy would not be directly encashable, it would not affect the current exchange rate.</p><p>The last and most important question was; how to utilize the remittances in better way. We have found from the data we collected that the major chunk of investable remittances goes into real estate and in particular, business of plots. This is extremely capital intensive business and we have to replace it with some labor intensive business. We argue that the investable part of remittances can be invested in the mega-development projects using bonds issued in the name of projects. The investors may be paid return when the project become mature. We argue that such an investment must be protected through proper legislation. We also discuss the necessary measures needed to make such investments viable.</p>"
+          }
+        ]
+      },
+      {
         "id": "pub-56",
         "title": "Test of Ownership Dispersion Theory as Explanation of Underpricing of New Issues in Pakistan",
         "author": "Prof. Dr. Attiya Yasmin Javid, Malik Muhammad Shehryar, Dr. Shakeel Shahzad",
@@ -3667,6 +3459,46 @@
           }
         ]
       },
+      {
+        "id": "pub-2",
+        "title": "The Effect of Various Relationship Factors on Business Success; Empirical Evidence from Business Partners of Pakistan and China",
+        "author": "Prof. Dr. Attiya Yasmin Javid, Shakeel Shahzad, Jawad Ali",
+        "date": "April 2018",
+        "type": "تقرير",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment...",
+        "thumbnail": "/assets/data/Publications/Reports/The Effect of Various Relationship/Cover-image.png",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1IMATdULSXk6_jdjLX1wjZAFHGw4PF9sc",
+        "sections": [
+          {
+            "title": "Abstract",
+            "body": "<p>The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment in a sample of business partners from Pakistanis and Chinese companies that do business together in Pakistan. Path modeling was used to explore the hierarchical nature of the relationship dimensions amongst one another and on the dependent variables. We conclude that relationship variables in our cross-cultural study are hierarchical and that personal relationships are critical to building and enhancing inter-organizational relationships. We further noted that some relationship dimensions may not have significant direct relationships with commitment, but their indirect and total effects may be significant. Our results challenge conventional conceptualization of relationship dimensions by suggesting a hierarchy of importance among these dimensions.</p>"
+          },
+          {
+            "title": "Project Details",
+            "body": "<ul class='space-y-4 list-none pl-0'><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Sponsoring Organization:</b> Center of Excellence China Pakistan Economic Corridor - PIDE</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Grant No:</b> CPRG-2017/18</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Performing Organization:</b> Pakistan Institute of Development Economics</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Key Words:</b> Relationship dimensions; Interpersonal relationship; Inter-organizational commitment; Pakistan; China</span></li></ul>"
+          }
+        ]
+      }
+    ],
+    "ui": {
+      "badge": "مكتبة الموارد",
+      "searchPlaceholder": "البحث في المنشورات...",
+      "filterAll": "جميع المنشورات",
+      "filterReports": "تقارير",
+      "filterBriefs": "ملخصات السياسات",
+      "filterArticles": "مقالات",
+      "noResults": "لم يتم العثور على منشورات تطابق بحثك.",
+      "download": "تحميل PDF",
+      "submitUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeAywNlH4ULz82iSZsI1ke5zs1_pni2_dFfR1jUgXCLkbFdlA/viewform?usp=publish-editor"
+    }
+  },
+  "fr": {
+    "hero": {
+      "title": "Publications",
+      "description": "Explorez notre bibliothèque de rapports de recherche, de notes de politique et de publications académiques alimentant le dialogue sur le développement mondial."
+    },
+    "publications": [
       {
         "id": "pub-48",
         "title": "Blockchain in Public Governance: Can Technology Improve Transparency?",
@@ -4903,63 +4735,6 @@
         ]
       },
       {
-        "id": "pub-1",
-        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
-        "author": "Prof. Dr. Attiya Y. Javid",
-        "date": "Mai 2020",
-        "type": "Report",
-        "typeClass": "bg-blue-100 text-blue-700",
-        "description": "Rapport final soumis à la Commission de l'Enseignement Supérieur.",
-        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
-        "downloadUrl": "https://drive.google.com/uc?export=download&id=1PXjdf1tFZaUkLKQgQ7vjvkNdT2ep2zy-",
-        "sections": [
-          {
-            "title": "Executive Summary",
-            "body": "<p>Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP. These remittances play extremely important in management of Pakistan economy, mainly contributing to the management of current account balance. For a long period over the history, Pakistan is facing large trade deficit and the remittances are used to bring the current account deficit at balance. However, when remittances reach the country through formal channels, the bank keep the foreign currency with them and pay rupee in exchange of it. Thus about Rs. 3.3 trillion come into the pockets of recipients. The earlier studies on remittances show that the marginal propensity to save for the remitters is much higher compared to the overall propensity to save. Supposing marginal propensity to save to be only 20%, the amount of saving should be sufficient to finance millions of jobs. But no job related activities are observable.</p><p>The first question arises that how remittances contribute to the economy? A model was estimated using WALS approach which show that the huge surge in remittances didn’t effect the pace of growth of economy.</p><p>The second question that arises is; what is happening to the remittances that they don’t contribute to economy. Extensive Survey was carried out in selected cities of all four provinces, Azad Kashmir, Islamabad Capital territory and Gilgit Baltistan to find the answer to this question. The findings reveal that largest share of the investable part of remittances goes into real estate, especially sale and purchase of plots which is extremely capital intensive business and one doesn’t contribute to the employment generation and any other economic benefit.</p><p>The next important question was to recommend the measures for enhancing the flow of remittances through formal channels and to recommend measures for welfare of remittances. We propose that in order to increase the formal inflow, SBP should subsidize the formal inflow. This subsidy would be proportional to size of remittances and would not be directly encashable. Half of this subsidy is deposited to the premium for health and life insurance of the remitter and his/her family and remaining half of subsidy is to be deposited to a welfare fund for remitter. The amount deposited to the fund along with the profit would be payable to the remitter when he/she quits overseas job, or when he/she intends to finance the business of any of his heirs. Such a subsidy would be a goodwill gesture from the government for the remitters and would help remitters to start a business when he/she comes back to the homeland. Since this subsidy would not be directly encashable, it would not affect the current exchange rate.</p><p>The last and most important question was; how to utilize the remittances in better way. We have found from the data we collected that the major chunk of investable remittances goes into real estate and in particular, business of plots. This is extremely capital intensive business and we have to replace it with some labor intensive business. We argue that the investable part of remittances can be invested in the mega-development projects using bonds issued in the name of projects. The investors may be paid return when the project become mature. We argue that such an investment must be protected through proper legislation. We also discuss the necessary measures needed to make such investments viable.</p>"
-          }
-        ]
-      },
-      {
-        "id": "pub-2",
-        "title": "The Effect of Various Relationship Factors on Business Success; Empirical Evidence from Business Partners of Pakistan and China",
-        "author": "Prof. Dr. Attiya Yasmin Javid, Shakeel Shahzad, Jawad Ali",
-        "date": "April 2018",
-        "type": "Rapport",
-        "typeClass": "bg-blue-100 text-blue-700",
-        "description": "The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment...",
-        "thumbnail": "/assets/data/Publications/Reports/The Effect of Various Relationship/Cover-image.png",
-        "downloadUrl": "https://drive.google.com/uc?export=download&id=1IMATdULSXk6_jdjLX1wjZAFHGw4PF9sc",
-        "sections": [
-          {
-            "title": "Abstract",
-            "body": "<p>The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment in a sample of business partners from Pakistanis and Chinese companies that do business together in Pakistan. Path modeling was used to explore the hierarchical nature of the relationship dimensions amongst one another and on the dependent variables. We conclude that relationship variables in our cross-cultural study are hierarchical and that personal relationships are critical to building and enhancing inter-organizational relationships. We further noted that some relationship dimensions may not have significant direct relationships with commitment, but their indirect and total effects may be significant. Our results challenge conventional conceptualization of relationship dimensions by suggesting a hierarchy of importance among these dimensions.</p>"
-          },
-          {
-            "title": "Project Details",
-            "body": "<ul class='space-y-4 list-none pl-0'><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Sponsoring Organization:</b> Center of Excellence China Pakistan Economic Corridor - PIDE</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Grant No:</b> CPRG-2017/18</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Performing Organization:</b> Pakistan Institute of Development Economics</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Key Words:</b> Relationship dimensions; Interpersonal relationship; Inter-organizational commitment; Pakistan; China</span></li></ul>"
-          }
-        ]
-      }
-    ],
-    "ui": {
-      "badge": "Bibliothèque de ressources",
-      "searchPlaceholder": "Rechercher des publications...",
-      "filterAll": "Toutes les publications",
-      "filterReports": "Rapports",
-      "filterBriefs": "Notes de politique",
-      "filterArticles": "Articles",
-      "noResults": "Aucune publication trouvée correspondant à votre recherche.",
-      "download": "Télécharger le PDF",
-      "submitUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeAywNlH4ULz82iSZsI1ke5zs1_pni2_dFfR1jUgXCLkbFdlA/viewform?usp=publish-editor"
-    }
-  },
-  "de": {
-    "hero": {
-      "title": "Publikationen",
-      "description": "Erkunden Sie unsere Bibliothek mit Forschungsberichten, Policy Briefs und akademischen Publikationen, die den globalen Entwicklungsdialog vorantreiben."
-    },
-    "publications": [
-      {
         "id": "pub-49",
         "title": "Corporate Governance and Profitability of Insurance Companies: Empirical Insights from Pakistan",
         "author": "Dr. Shakeel Shahzad",
@@ -5023,27 +4798,6 @@
         ]
       },
       {
-        "id": "pub-52",
-        "title": "Most Stringent Test of Independence in W×K Contingency Tables for Nominal Data Using Monte Carlo Simulations",
-        "author": "Dr. Shakeel Shahzad",
-        "date": "March 2022",
-        "type": "Article",
-        "typeClass": "bg-indigo-100 text-indigo-700",
-        "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
-        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
-        "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
-        "sections": [
-          {
-            "title": "Journal & Publication Details",
-            "body": "<p><b>Journal:</b> Sustainable Business and Society in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/sbsee.v4i1.2145\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/sbsee.v4i1.2145</a></p>"
-          },
-          {
-            "title": "Abstract",
-            "body": "<p>Testing for independence in contingency tables is one of the most widely used statistical techniques in econometrics and empirical social science. However, researchers face ambiguity regarding the optimal test selection across different Data Generating Processes (DGPs) for nominal data. This study applies Stringent Criteria (SC) via Monte Carlo simulations to evaluate a wide range of independence tests in W &times; K contingency tables. The results demonstrate that the Logarithmic Minimum Square (LMS) test is optimal and superior to competing statistical tests, providing empirical econometricians with clear guidance for analyzing nominal contingency tables.</p>"
-          }
-        ]
-      },
-      {
         "id": "pub-53",
         "title": "Human Capital the Key to Economic Growth: Some New Evidence from Selected Developing Countries",
         "author": "Dr. Shakeel Shahzad",
@@ -5061,6 +4815,27 @@
           {
             "title": "Abstract",
             "body": "<p>Endogenous growth theory identifies human capital as the central driving force of long-term economic expansion. However, empirical literature on the specific roles of education versus health investments has yielded mixed conclusions. Utilizing a panel dataset of 43 developing countries spanning 1990 to 2018, this study estimates Pooled OLS models to evaluate how education and health indicators influence growth. The findings demonstrate that education proxies consistently drive long-run economic growth, while health expenditures become significantly positive when conditioned on education spending, urging policymakers to coordinate public health and education budgets.</p>"
+          }
+        ]
+      },
+      {
+        "id": "pub-52",
+        "title": "Most Stringent Test of Independence in W×K Contingency Tables for Nominal Data Using Monte Carlo Simulations",
+        "author": "Dr. Shakeel Shahzad",
+        "date": "March 2022",
+        "type": "Article",
+        "typeClass": "bg-indigo-100 text-indigo-700",
+        "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
+        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
+        "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
+        "sections": [
+          {
+            "title": "Journal & Publication Details",
+            "body": "<p><b>Journal:</b> Sustainable Business and Society in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/sbsee.v4i1.2145\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/sbsee.v4i1.2145</a></p>"
+          },
+          {
+            "title": "Abstract",
+            "body": "<p>Testing for independence in contingency tables is one of the most widely used statistical techniques in econometrics and empirical social science. However, researchers face ambiguity regarding the optimal test selection across different Data Generating Processes (DGPs) for nominal data. This study applies Stringent Criteria (SC) via Monte Carlo simulations to evaluate a wide range of independence tests in W &times; K contingency tables. The results demonstrate that the Logarithmic Minimum Square (LMS) test is optimal and superior to competing statistical tests, providing empirical econometricians with clear guidance for analyzing nominal contingency tables.</p>"
           }
         ]
       },
@@ -5107,6 +4882,23 @@
         ]
       },
       {
+        "id": "pub-1",
+        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
+        "author": "Prof. Dr. Attiya Y. Javid",
+        "date": "Mai 2020",
+        "type": "Report",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "Rapport final soumis à la Commission de l'Enseignement Supérieur.",
+        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1PXjdf1tFZaUkLKQgQ7vjvkNdT2ep2zy-",
+        "sections": [
+          {
+            "title": "Executive Summary",
+            "body": "<p>Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP. These remittances play extremely important in management of Pakistan economy, mainly contributing to the management of current account balance. For a long period over the history, Pakistan is facing large trade deficit and the remittances are used to bring the current account deficit at balance. However, when remittances reach the country through formal channels, the bank keep the foreign currency with them and pay rupee in exchange of it. Thus about Rs. 3.3 trillion come into the pockets of recipients. The earlier studies on remittances show that the marginal propensity to save for the remitters is much higher compared to the overall propensity to save. Supposing marginal propensity to save to be only 20%, the amount of saving should be sufficient to finance millions of jobs. But no job related activities are observable.</p><p>The first question arises that how remittances contribute to the economy? A model was estimated using WALS approach which show that the huge surge in remittances didn’t effect the pace of growth of economy.</p><p>The second question that arises is; what is happening to the remittances that they don’t contribute to economy. Extensive Survey was carried out in selected cities of all four provinces, Azad Kashmir, Islamabad Capital territory and Gilgit Baltistan to find the answer to this question. The findings reveal that largest share of the investable part of remittances goes into real estate, especially sale and purchase of plots which is extremely capital intensive business and one doesn’t contribute to the employment generation and any other economic benefit.</p><p>The next important question was to recommend the measures for enhancing the flow of remittances through formal channels and to recommend measures for welfare of remittances. We propose that in order to increase the formal inflow, SBP should subsidize the formal inflow. This subsidy would be proportional to size of remittances and would not be directly encashable. Half of this subsidy is deposited to the premium for health and life insurance of the remitter and his/her family and remaining half of subsidy is to be deposited to a welfare fund for remitter. The amount deposited to the fund along with the profit would be payable to the remitter when he/she quits overseas job, or when he/she intends to finance the business of any of his heirs. Such a subsidy would be a goodwill gesture from the government for the remitters and would help remitters to start a business when he/she comes back to the homeland. Since this subsidy would not be directly encashable, it would not affect the current exchange rate.</p><p>The last and most important question was; how to utilize the remittances in better way. We have found from the data we collected that the major chunk of investable remittances goes into real estate and in particular, business of plots. This is extremely capital intensive business and we have to replace it with some labor intensive business. We argue that the investable part of remittances can be invested in the mega-development projects using bonds issued in the name of projects. The investors may be paid return when the project become mature. We argue that such an investment must be protected through proper legislation. We also discuss the necessary measures needed to make such investments viable.</p>"
+          }
+        ]
+      },
+      {
         "id": "pub-56",
         "title": "Test of Ownership Dispersion Theory as Explanation of Underpricing of New Issues in Pakistan",
         "author": "Prof. Dr. Attiya Yasmin Javid, Malik Muhammad Shehryar, Dr. Shakeel Shahzad",
@@ -5127,6 +4919,46 @@
           }
         ]
       },
+      {
+        "id": "pub-2",
+        "title": "The Effect of Various Relationship Factors on Business Success; Empirical Evidence from Business Partners of Pakistan and China",
+        "author": "Prof. Dr. Attiya Yasmin Javid, Shakeel Shahzad, Jawad Ali",
+        "date": "April 2018",
+        "type": "Rapport",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment...",
+        "thumbnail": "/assets/data/Publications/Reports/The Effect of Various Relationship/Cover-image.png",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1IMATdULSXk6_jdjLX1wjZAFHGw4PF9sc",
+        "sections": [
+          {
+            "title": "Abstract",
+            "body": "<p>The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment in a sample of business partners from Pakistanis and Chinese companies that do business together in Pakistan. Path modeling was used to explore the hierarchical nature of the relationship dimensions amongst one another and on the dependent variables. We conclude that relationship variables in our cross-cultural study are hierarchical and that personal relationships are critical to building and enhancing inter-organizational relationships. We further noted that some relationship dimensions may not have significant direct relationships with commitment, but their indirect and total effects may be significant. Our results challenge conventional conceptualization of relationship dimensions by suggesting a hierarchy of importance among these dimensions.</p>"
+          },
+          {
+            "title": "Project Details",
+            "body": "<ul class='space-y-4 list-none pl-0'><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Sponsoring Organization:</b> Center of Excellence China Pakistan Economic Corridor - PIDE</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Grant No:</b> CPRG-2017/18</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Performing Organization:</b> Pakistan Institute of Development Economics</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Key Words:</b> Relationship dimensions; Interpersonal relationship; Inter-organizational commitment; Pakistan; China</span></li></ul>"
+          }
+        ]
+      }
+    ],
+    "ui": {
+      "badge": "Bibliothèque de ressources",
+      "searchPlaceholder": "Rechercher des publications...",
+      "filterAll": "Toutes les publications",
+      "filterReports": "Rapports",
+      "filterBriefs": "Notes de politique",
+      "filterArticles": "Articles",
+      "noResults": "Aucune publication trouvée correspondant à votre recherche.",
+      "download": "Télécharger le PDF",
+      "submitUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeAywNlH4ULz82iSZsI1ke5zs1_pni2_dFfR1jUgXCLkbFdlA/viewform?usp=publish-editor"
+    }
+  },
+  "de": {
+    "hero": {
+      "title": "Publikationen",
+      "description": "Erkunden Sie unsere Bibliothek mit Forschungsberichten, Policy Briefs und akademischen Publikationen, die den globalen Entwicklungsdialog vorantreiben."
+    },
+    "publications": [
       {
         "id": "pub-48",
         "title": "Blockchain in Public Governance: Can Technology Improve Transparency?",
@@ -6363,63 +6195,6 @@
         ]
       },
       {
-        "id": "pub-1",
-        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
-        "author": "Prof. Dr. Attiya Y. Javid",
-        "date": "Mai 2020",
-        "type": "Report",
-        "typeClass": "bg-blue-100 text-blue-700",
-        "description": "Abschlussbericht eingereicht bei der Higher Education Commission.",
-        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
-        "downloadUrl": "https://drive.google.com/uc?export=download&id=1PXjdf1tFZaUkLKQgQ7vjvkNdT2ep2zy-",
-        "sections": [
-          {
-            "title": "Executive Summary",
-            "body": "<p>Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP. These remittances play extremely important in management of Pakistan economy, mainly contributing to the management of current account balance. For a long period over the history, Pakistan is facing large trade deficit and the remittances are used to bring the current account deficit at balance. However, when remittances reach the country through formal channels, the bank keep the foreign currency with them and pay rupee in exchange of it. Thus about Rs. 3.3 trillion come into the pockets of recipients. The earlier studies on remittances show that the marginal propensity to save for the remitters is much higher compared to the overall propensity to save. Supposing marginal propensity to save to be only 20%, the amount of saving should be sufficient to finance millions of jobs. But no job related activities are observable.</p><p>The first question arises that how remittances contribute to the economy? A model was estimated using WALS approach which show that the huge surge in remittances didn’t effect the pace of growth of economy.</p><p>The second question that arises is; what is happening to the remittances that they don’t contribute to economy. Extensive Survey was carried out in selected cities of all four provinces, Azad Kashmir, Islamabad Capital territory and Gilgit Baltistan to find the answer to this question. The findings reveal that largest share of the investable part of remittances goes into real estate, especially sale and purchase of plots which is extremely capital intensive business and one doesn’t contribute to the employment generation and any other economic benefit.</p><p>The next important question was to recommend the measures for enhancing the flow of remittances through formal channels and to recommend measures for welfare of remittances. We propose that in order to increase the formal inflow, SBP should subsidize the formal inflow. This subsidy would be proportional to size of remittances and would not be directly encashable. Half of this subsidy is deposited to the premium for health and life insurance of the remitter and his/her family and remaining half of subsidy is to be deposited to a welfare fund for remitter. The amount deposited to the fund along with the profit would be payable to the remitter when he/she quits overseas job, or when he/she intends to finance the business of any of his heirs. Such a subsidy would be a goodwill gesture from the government for the remitters and would help remitters to start a business when he/she comes back to the homeland. Since this subsidy would not be directly encashable, it would not affect the current exchange rate.</p><p>The last and most important question was; how to utilize the remittances in better way. We have found from the data we collected that the major chunk of investable remittances goes into real estate and in particular, business of plots. This is extremely capital intensive business and we have to replace it with some labor intensive business. We argue that the investable part of remittances can be invested in the mega-development projects using bonds issued in the name of projects. The investors may be paid return when the project become mature. We argue that such an investment must be protected through proper legislation. We also discuss the necessary measures needed to make such investments viable.</p>"
-          }
-        ]
-      },
-      {
-        "id": "pub-2",
-        "title": "The Effect of Various Relationship Factors on Business Success; Empirical Evidence from Business Partners of Pakistan and China",
-        "author": "Prof. Dr. Attiya Yasmin Javid, Shakeel Shahzad, Jawad Ali",
-        "date": "April 2018",
-        "type": "Bericht",
-        "typeClass": "bg-blue-100 text-blue-700",
-        "description": "The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment...",
-        "thumbnail": "/assets/data/Publications/Reports/The Effect of Various Relationship/Cover-image.png",
-        "downloadUrl": "https://drive.google.com/uc?export=download&id=1IMATdULSXk6_jdjLX1wjZAFHGw4PF9sc",
-        "sections": [
-          {
-            "title": "Abstract",
-            "body": "<p>The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment in a sample of business partners from Pakistanis and Chinese companies that do business together in Pakistan. Path modeling was used to explore the hierarchical nature of the relationship dimensions amongst one another and on the dependent variables. We conclude that relationship variables in our cross-cultural study are hierarchical and that personal relationships are critical to building and enhancing inter-organizational relationships. We further noted that some relationship dimensions may not have significant direct relationships with commitment, but their indirect and total effects may be significant. Our results challenge conventional conceptualization of relationship dimensions by suggesting a hierarchy of importance among these dimensions.</p>"
-          },
-          {
-            "title": "Project Details",
-            "body": "<ul class='space-y-4 list-none pl-0'><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Sponsoring Organization:</b> Center of Excellence China Pakistan Economic Corridor - PIDE</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Grant No:</b> CPRG-2017/18</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Performing Organization:</b> Pakistan Institute of Development Economics</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Key Words:</b> Relationship dimensions; Interpersonal relationship; Inter-organizational commitment; Pakistan; China</span></li></ul>"
-          }
-        ]
-      }
-    ],
-    "ui": {
-      "badge": "Ressourcenbibliothek",
-      "searchPlaceholder": "Publikationen suchen...",
-      "filterAll": "Alle Publikationen",
-      "filterReports": "Berichte",
-      "filterBriefs": "Policy Briefs",
-      "filterArticles": "Artikel",
-      "noResults": "Keine Publikationen gefunden, die Ihrer Suche entsprechen.",
-      "download": "PDF herunterladen",
-      "submitUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeAywNlH4ULz82iSZsI1ke5zs1_pni2_dFfR1jUgXCLkbFdlA/viewform?usp=publish-editor"
-    }
-  },
-  "zh": {
-    "hero": {
-      "title": "出版物",
-      "description": "探索我们的研究报告、政策简报和学术出版物库，推动全球发展对话。"
-    },
-    "publications": [
-      {
         "id": "pub-49",
         "title": "Corporate Governance and Profitability of Insurance Companies: Empirical Insights from Pakistan",
         "author": "Dr. Shakeel Shahzad",
@@ -6483,27 +6258,6 @@
         ]
       },
       {
-        "id": "pub-52",
-        "title": "Most Stringent Test of Independence in W×K Contingency Tables for Nominal Data Using Monte Carlo Simulations",
-        "author": "Dr. Shakeel Shahzad",
-        "date": "March 2022",
-        "type": "Article",
-        "typeClass": "bg-indigo-100 text-indigo-700",
-        "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
-        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
-        "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
-        "sections": [
-          {
-            "title": "Journal & Publication Details",
-            "body": "<p><b>Journal:</b> Sustainable Business and Society in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/sbsee.v4i1.2145\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/sbsee.v4i1.2145</a></p>"
-          },
-          {
-            "title": "Abstract",
-            "body": "<p>Testing for independence in contingency tables is one of the most widely used statistical techniques in econometrics and empirical social science. However, researchers face ambiguity regarding the optimal test selection across different Data Generating Processes (DGPs) for nominal data. This study applies Stringent Criteria (SC) via Monte Carlo simulations to evaluate a wide range of independence tests in W &times; K contingency tables. The results demonstrate that the Logarithmic Minimum Square (LMS) test is optimal and superior to competing statistical tests, providing empirical econometricians with clear guidance for analyzing nominal contingency tables.</p>"
-          }
-        ]
-      },
-      {
         "id": "pub-53",
         "title": "Human Capital the Key to Economic Growth: Some New Evidence from Selected Developing Countries",
         "author": "Dr. Shakeel Shahzad",
@@ -6521,6 +6275,27 @@
           {
             "title": "Abstract",
             "body": "<p>Endogenous growth theory identifies human capital as the central driving force of long-term economic expansion. However, empirical literature on the specific roles of education versus health investments has yielded mixed conclusions. Utilizing a panel dataset of 43 developing countries spanning 1990 to 2018, this study estimates Pooled OLS models to evaluate how education and health indicators influence growth. The findings demonstrate that education proxies consistently drive long-run economic growth, while health expenditures become significantly positive when conditioned on education spending, urging policymakers to coordinate public health and education budgets.</p>"
+          }
+        ]
+      },
+      {
+        "id": "pub-52",
+        "title": "Most Stringent Test of Independence in W×K Contingency Tables for Nominal Data Using Monte Carlo Simulations",
+        "author": "Dr. Shakeel Shahzad",
+        "date": "March 2022",
+        "type": "Article",
+        "typeClass": "bg-indigo-100 text-indigo-700",
+        "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
+        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
+        "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
+        "sections": [
+          {
+            "title": "Journal & Publication Details",
+            "body": "<p><b>Journal:</b> Sustainable Business and Society in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/sbsee.v4i1.2145\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/sbsee.v4i1.2145</a></p>"
+          },
+          {
+            "title": "Abstract",
+            "body": "<p>Testing for independence in contingency tables is one of the most widely used statistical techniques in econometrics and empirical social science. However, researchers face ambiguity regarding the optimal test selection across different Data Generating Processes (DGPs) for nominal data. This study applies Stringent Criteria (SC) via Monte Carlo simulations to evaluate a wide range of independence tests in W &times; K contingency tables. The results demonstrate that the Logarithmic Minimum Square (LMS) test is optimal and superior to competing statistical tests, providing empirical econometricians with clear guidance for analyzing nominal contingency tables.</p>"
           }
         ]
       },
@@ -6567,6 +6342,23 @@
         ]
       },
       {
+        "id": "pub-1",
+        "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
+        "author": "Prof. Dr. Attiya Y. Javid",
+        "date": "Mai 2020",
+        "type": "Report",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "Abschlussbericht eingereicht bei der Higher Education Commission.",
+        "thumbnail": "/assets/data/Publications/Reports/HEC final Report (Prof. Dr. Attiya Y. Javid - 21052020) (1)/Cover-image.png",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1PXjdf1tFZaUkLKQgQ7vjvkNdT2ep2zy-",
+        "sections": [
+          {
+            "title": "Executive Summary",
+            "body": "<p>Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP. These remittances play extremely important in management of Pakistan economy, mainly contributing to the management of current account balance. For a long period over the history, Pakistan is facing large trade deficit and the remittances are used to bring the current account deficit at balance. However, when remittances reach the country through formal channels, the bank keep the foreign currency with them and pay rupee in exchange of it. Thus about Rs. 3.3 trillion come into the pockets of recipients. The earlier studies on remittances show that the marginal propensity to save for the remitters is much higher compared to the overall propensity to save. Supposing marginal propensity to save to be only 20%, the amount of saving should be sufficient to finance millions of jobs. But no job related activities are observable.</p><p>The first question arises that how remittances contribute to the economy? A model was estimated using WALS approach which show that the huge surge in remittances didn’t effect the pace of growth of economy.</p><p>The second question that arises is; what is happening to the remittances that they don’t contribute to economy. Extensive Survey was carried out in selected cities of all four provinces, Azad Kashmir, Islamabad Capital territory and Gilgit Baltistan to find the answer to this question. The findings reveal that largest share of the investable part of remittances goes into real estate, especially sale and purchase of plots which is extremely capital intensive business and one doesn’t contribute to the employment generation and any other economic benefit.</p><p>The next important question was to recommend the measures for enhancing the flow of remittances through formal channels and to recommend measures for welfare of remittances. We propose that in order to increase the formal inflow, SBP should subsidize the formal inflow. This subsidy would be proportional to size of remittances and would not be directly encashable. Half of this subsidy is deposited to the premium for health and life insurance of the remitter and his/her family and remaining half of subsidy is to be deposited to a welfare fund for remitter. The amount deposited to the fund along with the profit would be payable to the remitter when he/she quits overseas job, or when he/she intends to finance the business of any of his heirs. Such a subsidy would be a goodwill gesture from the government for the remitters and would help remitters to start a business when he/she comes back to the homeland. Since this subsidy would not be directly encashable, it would not affect the current exchange rate.</p><p>The last and most important question was; how to utilize the remittances in better way. We have found from the data we collected that the major chunk of investable remittances goes into real estate and in particular, business of plots. This is extremely capital intensive business and we have to replace it with some labor intensive business. We argue that the investable part of remittances can be invested in the mega-development projects using bonds issued in the name of projects. The investors may be paid return when the project become mature. We argue that such an investment must be protected through proper legislation. We also discuss the necessary measures needed to make such investments viable.</p>"
+          }
+        ]
+      },
+      {
         "id": "pub-56",
         "title": "Test of Ownership Dispersion Theory as Explanation of Underpricing of New Issues in Pakistan",
         "author": "Prof. Dr. Attiya Yasmin Javid, Malik Muhammad Shehryar, Dr. Shakeel Shahzad",
@@ -6587,6 +6379,46 @@
           }
         ]
       },
+      {
+        "id": "pub-2",
+        "title": "The Effect of Various Relationship Factors on Business Success; Empirical Evidence from Business Partners of Pakistan and China",
+        "author": "Prof. Dr. Attiya Yasmin Javid, Shakeel Shahzad, Jawad Ali",
+        "date": "April 2018",
+        "type": "Bericht",
+        "typeClass": "bg-blue-100 text-blue-700",
+        "description": "The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment...",
+        "thumbnail": "/assets/data/Publications/Reports/The Effect of Various Relationship/Cover-image.png",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1IMATdULSXk6_jdjLX1wjZAFHGw4PF9sc",
+        "sections": [
+          {
+            "title": "Abstract",
+            "body": "<p>The existing study investigates the dynamic association among various dimensions of relationship and their impact on interpersonal and inter-organizational commitment in a sample of business partners from Pakistanis and Chinese companies that do business together in Pakistan. Path modeling was used to explore the hierarchical nature of the relationship dimensions amongst one another and on the dependent variables. We conclude that relationship variables in our cross-cultural study are hierarchical and that personal relationships are critical to building and enhancing inter-organizational relationships. We further noted that some relationship dimensions may not have significant direct relationships with commitment, but their indirect and total effects may be significant. Our results challenge conventional conceptualization of relationship dimensions by suggesting a hierarchy of importance among these dimensions.</p>"
+          },
+          {
+            "title": "Project Details",
+            "body": "<ul class='space-y-4 list-none pl-0'><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Sponsoring Organization:</b> Center of Excellence China Pakistan Economic Corridor - PIDE</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Grant No:</b> CPRG-2017/18</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Performing Organization:</b> Pakistan Institute of Development Economics</span></li><li class='flex items-start gap-4'><i class='fa-solid fa-check text-brand-accent mt-1.5'></i><span><b>Key Words:</b> Relationship dimensions; Interpersonal relationship; Inter-organizational commitment; Pakistan; China</span></li></ul>"
+          }
+        ]
+      }
+    ],
+    "ui": {
+      "badge": "Ressourcenbibliothek",
+      "searchPlaceholder": "Publikationen suchen...",
+      "filterAll": "Alle Publikationen",
+      "filterReports": "Berichte",
+      "filterBriefs": "Policy Briefs",
+      "filterArticles": "Artikel",
+      "noResults": "Keine Publikationen gefunden, die Ihrer Suche entsprechen.",
+      "download": "PDF herunterladen",
+      "submitUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeAywNlH4ULz82iSZsI1ke5zs1_pni2_dFfR1jUgXCLkbFdlA/viewform?usp=publish-editor"
+    }
+  },
+  "zh": {
+    "hero": {
+      "title": "出版物",
+      "description": "探索我们的研究报告、政策简报和学术出版物库，推动全球发展对话。"
+    },
+    "publications": [
       {
         "id": "pub-48",
         "title": "Blockchain in Public Governance: Can Technology Improve Transparency?",
@@ -7823,6 +7655,153 @@
         ]
       },
       {
+        "id": "pub-49",
+        "title": "Corporate Governance and Profitability of Insurance Companies: Empirical Insights from Pakistan",
+        "author": "Dr. Shakeel Shahzad",
+        "date": "December 2023",
+        "type": "Article",
+        "typeClass": "bg-indigo-100 text-indigo-700",
+        "description": "An empirical investigation evaluating the impact of corporate governance structures—including board size, board independence, audit committee independence, and ownership concentration—on the profitability and financial performance of insurance companies in Pakistan.",
+        "thumbnail": "/assets/images/articles/corporate_governance.jpg",
+        "downloadUrl": "https://doi.org/10.52131/pjhss.2023.1104.0716",
+        "sections": [
+          {
+            "title": "Journal & Publication Details",
+            "body": "<p><b>Journal:</b> Pakistan Journal of Humanities and Social Sciences (PJHSS)<br/><b>Volume/Issue:</b> Vol. 11, No. 4 (2023)<br/><b>DOI:</b> <a href=\"https://doi.org/10.52131/pjhss.2023.1104.0716\" target=\"_blank\" class=\"text-brand-accent underline\">10.52131/pjhss.2023.1104.0716</a></p>"
+          },
+          {
+            "title": "Abstract & Findings",
+            "body": "<p>This empirical study analyzes the role of corporate governance mechanisms in influencing the financial performance and profitability of insurance firms operating in Pakistan. Using multi-year firm-level data, the paper examines key governance indicators including board size, board independence, audit committee oversight, and ownership concentration, measuring their relationship with Return on Assets (ROA) and Return on Equity (ROE). The findings provide strategic recommendations for regulatory bodies and financial sector leaders to enhance oversight, strengthen investor confidence, and ensure long-term stability in the insurance industry.</p>"
+          }
+        ]
+      },
+      {
+        "id": "pub-50",
+        "title": "Critical Discourse Analysis of Trauma Bonding in Female Victims of Intimate Partner Abuse: A Phenomenological Constructivist Approach",
+        "author": "Dr. Shakeel Shahzad",
+        "date": "December 2022",
+        "type": "Article",
+        "typeClass": "bg-indigo-100 text-indigo-700",
+        "description": "A phenomenological constructivist study applying Critical Discourse Analysis (CDA) to deconstruct media labels, societal ideals, and cognitive dynamics that reinforce trauma bonding in female victims of intimate partner abuse.",
+        "thumbnail": "/assets/images/articles/trauma_bonding.jpg",
+        "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i4.2496",
+        "sections": [
+          {
+            "title": "Journal & Publication Details",
+            "body": "<p><b>Journal:</b> Sustainable Business and Society in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 4 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/sbsee.v4i4.2496\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/sbsee.v4i4.2496</a></p>"
+          },
+          {
+            "title": "Abstract",
+            "body": "<p>Intimate partner abuse (IPA) is a socially prevalent issue across cultures. Despite the establishment of survivor institutes and anti-domestic violence NGOs, the voices of battered women have frequently failed to reach legal and governmental policy frameworks. Recent research indicates that women often remain bound to dangerously abusive relationships due to complex psychological and social factors. This study adopts a socio-cognitive approach and phenomenological constructivism to critically deconstruct media labels, societal expectations, and victim narratives. The findings show how these intersecting factors generate trauma bonding, forcing victims to stay in abusive environments, and highlighting the need for policy interventions tailored to survivor cognitive reality.</p>"
+          }
+        ]
+      },
+      {
+        "id": "pub-51",
+        "title": "Opening of Kartarpur Corridor: A Critical Discourse Analysis that How Indo-Pak Media Projected the Corridor Initiative",
+        "author": "Dr. Shakeel Shahzad",
+        "date": "June 2022",
+        "type": "Article",
+        "typeClass": "bg-indigo-100 text-indigo-700",
+        "description": "A Critical Discourse Analysis comparing how Pakistani and Indian media outlets projected the historic opening of the Kartarpur Corridor, contrasting narratives of peace and religious diplomacy with security concerns.",
+        "thumbnail": "/assets/images/articles/kartarpur_media.jpg",
+        "downloadUrl": "http://dx.doi.org/10.26710/rope.v4i1.2277",
+        "sections": [
+          {
+            "title": "Journal & Publication Details",
+            "body": "<p><b>Journal:</b> Review of Politics and Public Policy in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/rope.v4i1.2277\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/rope.v4i1.2277</a></p>"
+          },
+          {
+            "title": "Abstract",
+            "body": "<p>Taking the opening of the Kartarpur Corridor as a case study, this research paper highlights the divergent media perspectives across Indian and Pakistani newspapers published between 2020 and 2022. Applying Critical Discourse Analysis (CDA), the study reveals that Pakistani media predominantly framed the corridor as a symbol of peace, regional stability, religious tourism, and diplomatic breakthrough. In contrast, Indian media coverage focused heavily on security protocols, travel modalities, and interstate tensions. The research underscores the powerful role of media framing in shaping public perception, religious tourism, and peacebuilding initiatives between Pakistan and India.</p>"
+          }
+        ]
+      },
+      {
+        "id": "pub-53",
+        "title": "Human Capital the Key to Economic Growth: Some New Evidence from Selected Developing Countries",
+        "author": "Dr. Shakeel Shahzad",
+        "date": "March 2022",
+        "type": "Article",
+        "typeClass": "bg-indigo-100 text-indigo-700",
+        "description": "An empirical panel study investigating the impact of education and health human capital indicators on long-run economic growth across 43 developing countries using Pooled OLS estimation.",
+        "thumbnail": "/assets/images/articles/human_capital.jpg",
+        "downloadUrl": "http://dx.doi.org/10.26710/jbsee.v8i1.2135",
+        "sections": [
+          {
+            "title": "Journal & Publication Details",
+            "body": "<p><b>Journal:</b> Journal of Business and Social Review in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 8, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/jbsee.v8i1.2135\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/jbsee.v8i1.2135</a></p>"
+          },
+          {
+            "title": "Abstract",
+            "body": "<p>Endogenous growth theory identifies human capital as the central driving force of long-term economic expansion. However, empirical literature on the specific roles of education versus health investments has yielded mixed conclusions. Utilizing a panel dataset of 43 developing countries spanning 1990 to 2018, this study estimates Pooled OLS models to evaluate how education and health indicators influence growth. The findings demonstrate that education proxies consistently drive long-run economic growth, while health expenditures become significantly positive when conditioned on education spending, urging policymakers to coordinate public health and education budgets.</p>"
+          }
+        ]
+      },
+      {
+        "id": "pub-52",
+        "title": "Most Stringent Test of Independence in W×K Contingency Tables for Nominal Data Using Monte Carlo Simulations",
+        "author": "Dr. Shakeel Shahzad",
+        "date": "March 2022",
+        "type": "Article",
+        "typeClass": "bg-indigo-100 text-indigo-700",
+        "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
+        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
+        "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
+        "sections": [
+          {
+            "title": "Journal & Publication Details",
+            "body": "<p><b>Journal:</b> Sustainable Business and Society in Emerging Economies<br/><b>Volume/Issue:</b> Vol. 4, No. 1 (2022)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.26710/sbsee.v4i1.2145\" target=\"_blank\" class=\"text-brand-accent underline\">10.26710/sbsee.v4i1.2145</a></p>"
+          },
+          {
+            "title": "Abstract",
+            "body": "<p>Testing for independence in contingency tables is one of the most widely used statistical techniques in econometrics and empirical social science. However, researchers face ambiguity regarding the optimal test selection across different Data Generating Processes (DGPs) for nominal data. This study applies Stringent Criteria (SC) via Monte Carlo simulations to evaluate a wide range of independence tests in W &times; K contingency tables. The results demonstrate that the Logarithmic Minimum Square (LMS) test is optimal and superior to competing statistical tests, providing empirical econometricians with clear guidance for analyzing nominal contingency tables.</p>"
+          }
+        ]
+      },
+      {
+        "id": "pub-54",
+        "title": "The Role of Financial Inclusion in Income Inequality, Poverty Reduction & Economic Growth in Developing Countries",
+        "author": "Dr. Shakeel Shahzad",
+        "date": "December 2021",
+        "type": "Article",
+        "typeClass": "bg-indigo-100 text-indigo-700",
+        "description": "An econometric panel study of 101 developing countries utilizing System GMM estimation to analyze how expanding financial inclusion reduces income inequality and boosts economic growth.",
+        "thumbnail": "/assets/images/articles/financial_inclusion.jpg",
+        "downloadUrl": "http://dx.doi.org/10.58932/muld0006",
+        "sections": [
+          {
+            "title": "Journal & Publication Details",
+            "body": "<p><b>Journal:</b> International Journal of Islamic Economics and Governance<br/><b>Volume/Issue:</b> Vol. 2, No. 2 (2021)<br/><b>DOI:</b> <a href=\"http://dx.doi.org/10.58932/muld0006\" target=\"_blank\" class=\"text-brand-accent underline\">10.58932/muld0006</a></p>"
+          },
+          {
+            "title": "Abstract",
+            "body": "<p>This study examines the role of financial inclusion in driving economic growth, mitigating poverty, and lowering income inequality across 101 developing countries from 2010 to 2020. Data compiled from World Development Indicators and the World Bank Global Findex Database were analyzed using System Generalized Method of Moments (GMM). The empirical findings confirm that financial inclusion significantly boosts economic growth and narrows income inequality in developing nations. While financial inclusion operates indirectly on poverty alleviation through growth and distribution channels, policymakers are advised to expand access to formal financial services and digital banking infrastructure.</p>"
+          }
+        ]
+      },
+      {
+        "id": "pub-55",
+        "title": "Semi-Strong Form of Efficiency in South Asian Foreign Exchange Markets",
+        "author": "Dr. Shakeel Shahzad",
+        "date": "January 2020",
+        "type": "Article",
+        "typeClass": "bg-indigo-100 text-indigo-700",
+        "description": "An empirical evaluation of market efficiency across four South Asian foreign exchange markets (Pakistan, India, Sri Lanka, and Bangladesh) covering bilateral spot exchange rates from 1995 to 2015.",
+        "thumbnail": "/assets/images/articles/forex_efficiency.jpg",
+        "downloadUrl": "https://www.iiu.edu.pk/wp-content/uploads/2021/02/IJEF-2020-1-2-05-15022021.pdf",
+        "sections": [
+          {
+            "title": "Journal & Publication Details",
+            "body": "<p><b>Journal:</b> IIIE Journal of Economics and Finance<br/><b>Volume/Issue:</b> Vol. 1, No. 2 (2020)<br/><b>PDF Download:</b> <a href=\"https://www.iiu.edu.pk/wp-content/uploads/2021/02/IJEF-2020-1-2-05-15022021.pdf\" target=\"_blank\" class=\"text-brand-accent underline\">Download Full Paper</a></p>"
+          },
+          {
+            "title": "Abstract",
+            "body": "<p>This study tests the weak-form and semi-strong form of market efficiency across four major South Asian foreign exchange markets: Pakistan, India, Sri Lanka, and Bangladesh. Using monthly bilateral spot exchange rates against the US Dollar, British Pound, and Japanese Yen from January 1995 to December 2015, the empirical analysis confirms that all four markets conform to weak-form efficiency. However, the findings reject semi-strong form efficiency, demonstrating that regime shifts leave foreign exchange markets inefficient in the semi-strong sense and offering actionable insights for currency traders and macroeconomic regulators.</p>"
+          }
+        ]
+      },
+      {
         "id": "pub-1",
         "title": "Role of Remittance’s in Pakistan Economy; Analysis of the current status and guideline for Reforms",
         "author": "Attiya Y. Javid 教授/博士",
@@ -7836,6 +7815,27 @@
           {
             "title": "Executive Summary",
             "body": "<p>Remittances for a very respectable size in the economy of Pakistan, and they form about 8.8% of GDP. These remittances play extremely important in management of Pakistan economy, mainly contributing to the management of current account balance. For a long period over the history, Pakistan is facing large trade deficit and the remittances are used to bring the current account deficit at balance. However, when remittances reach the country through formal channels, the bank keep the foreign currency with them and pay rupee in exchange of it. Thus about Rs. 3.3 trillion come into the pockets of recipients. The earlier studies on remittances show that the marginal propensity to save for the remitters is much higher compared to the overall propensity to save. Supposing marginal propensity to save to be only 20%, the amount of saving should be sufficient to finance millions of jobs. But no job related activities are observable.</p><p>The first question arises that how remittances contribute to the economy? A model was estimated using WALS approach which show that the huge surge in remittances didn’t effect the pace of growth of economy.</p><p>The second question that arises is; what is happening to the remittances that they don’t contribute to economy. Extensive Survey was carried out in selected cities of all four provinces, Azad Kashmir, Islamabad Capital territory and Gilgit Baltistan to find the answer to this question. The findings reveal that largest share of the investable part of remittances goes into real estate, especially sale and purchase of plots which is extremely capital intensive business and one doesn’t contribute to the employment generation and any other economic benefit.</p><p>The next important question was to recommend the measures for enhancing the flow of remittances through formal channels and to recommend measures for welfare of remittances. We propose that in order to increase the formal inflow, SBP should subsidize the formal inflow. This subsidy would be proportional to size of remittances and would not be directly encashable. Half of this subsidy is deposited to the premium for health and life insurance of the remitter and his/her family and remaining half of subsidy is to be deposited to a welfare fund for remitter. The amount deposited to the fund along with the profit would be payable to the remitter when he/she quits overseas job, or when he/she intends to finance the business of any of his heirs. Such a subsidy would be a goodwill gesture from the government for the remitters and would help remitters to start a business when he/she comes back to the homeland. Since this subsidy would not be directly encashable, it would not affect the current exchange rate.</p><p>The last and most important question was; how to utilize the remittances in better way. We have found from the data we collected that the major chunk of investable remittances goes into real estate and in particular, business of plots. This is extremely capital intensive business and we have to replace it with some labor intensive business. We argue that the investable part of remittances can be invested in the mega-development projects using bonds issued in the name of projects. The investors may be paid return when the project become mature. We argue that such an investment must be protected through proper legislation. We also discuss the necessary measures needed to make such investments viable.</p>"
+          }
+        ]
+      },
+      {
+        "id": "pub-56",
+        "title": "Test of Ownership Dispersion Theory as Explanation of Underpricing of New Issues in Pakistan",
+        "author": "Prof. Dr. Attiya Yasmin Javid, Malik Muhammad Shehryar, Dr. Shakeel Shahzad",
+        "date": "January 2019",
+        "type": "Article",
+        "typeClass": "bg-indigo-100 text-indigo-700",
+        "description": "An empirical investigation of 72 IPOs listed on the Karachi Stock Exchange (2000–2015) validating the ownership dispersion hypothesis as a primary explanation for initial public offering underpricing.",
+        "thumbnail": "/assets/images/articles/ipo_underpricing.jpg",
+        "downloadUrl": "http://eco.qau.edu.pk/per/wp-content/uploads/2019/08/Download-article-1-21-2019.pdf",
+        "sections": [
+          {
+            "title": "Journal & Publication Details",
+            "body": "<p><b>Journal:</b> Journal of Pakistan Economic Review, Quaid-e-Azam University, Islamabad<br/><b>Date:</b> January 2019<br/><b>PDF Link:</b> <a href=\"http://eco.qau.edu.pk/per/wp-content/uploads/2019/08/Download-article-1-21-2019.pdf\" target=\"_blank\" class=\"text-brand-accent underline\">Download Full Paper</a></p>"
+          },
+          {
+            "title": "Abstract",
+            "body": "<p>This paper tests the ownership dispersion hypothesis to explain the phenomenon of Initial Public Offering (IPO) underpricing using sample data of 72 IPOs issued at the Karachi Stock Exchange (KSE) between 2000 and 2015. The hypothesis posits that firms deliberately underprice new issues to generate oversubscription and establish a broad shareholder base, thereby enhancing secondary market liquidity. Empirical results confirm that underpricing induces oversubscription and dispersed ownership, reducing risk for existing owners and establishing a liquid secondary trading market.</p>"
           }
         ]
       },
