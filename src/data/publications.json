@@ -13,7 +13,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical investigation evaluating the impact of corporate governance structures—including board size, board independence, audit committee independence, and ownership concentration—on the profitability and financial performance of insurance companies in Pakistan.",
-        "thumbnail": "/assets/images/research/pakistan_economics.png",
+        "thumbnail": "/assets/images/articles/corporate_governance.jpg",
         "downloadUrl": "https://doi.org/10.52131/pjhss.2023.1104.0716",
         "sections": [
           {
@@ -34,7 +34,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A phenomenological constructivist study applying Critical Discourse Analysis (CDA) to deconstruct media labels, societal ideals, and cognitive dynamics that reinforce trauma bonding in female victims of intimate partner abuse.",
-        "thumbnail": "/assets/images/research/health.png",
+        "thumbnail": "/assets/images/articles/trauma_bonding.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i4.2496",
         "sections": [
           {
@@ -55,7 +55,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A Critical Discourse Analysis comparing how Pakistani and Indian media outlets projected the historic opening of the Kartarpur Corridor, contrasting narratives of peace and religious diplomacy with security concerns.",
-        "thumbnail": "/assets/images/research/pakistan_digital_trade.png",
+        "thumbnail": "/assets/images/articles/kartarpur_media.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/rope.v4i1.2277",
         "sections": [
           {
@@ -76,7 +76,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
-        "thumbnail": "/assets/images/research/AI.png",
+        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
         "sections": [
           {
@@ -97,7 +97,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical panel study investigating the impact of education and health human capital indicators on long-run economic growth across 43 developing countries using Pooled OLS estimation.",
-        "thumbnail": "/assets/images/research/Development.png",
+        "thumbnail": "/assets/images/articles/human_capital.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/jbsee.v8i1.2135",
         "sections": [
           {
@@ -118,7 +118,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An econometric panel study of 101 developing countries utilizing System GMM estimation to analyze how expanding financial inclusion reduces income inequality and boosts economic growth.",
-        "thumbnail": "/assets/images/research/pakistan_monetary_policy.png",
+        "thumbnail": "/assets/images/articles/financial_inclusion.jpg",
         "downloadUrl": "http://dx.doi.org/10.58932/muld0006",
         "sections": [
           {
@@ -139,7 +139,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical evaluation of market efficiency across four South Asian foreign exchange markets (Pakistan, India, Sri Lanka, and Bangladesh) covering bilateral spot exchange rates from 1995 to 2015.",
-        "thumbnail": "/assets/images/research/pakistan_economics.png",
+        "thumbnail": "/assets/images/articles/forex_efficiency.jpg",
         "downloadUrl": "https://www.iiu.edu.pk/wp-content/uploads/2021/02/IJEF-2020-1-2-05-15022021.pdf",
         "sections": [
           {
@@ -160,7 +160,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical investigation of 72 IPOs listed on the Karachi Stock Exchange (2000–2015) validating the ownership dispersion hypothesis as a primary explanation for initial public offering underpricing.",
-        "thumbnail": "/assets/images/research/pakistan_monetary_policy.png",
+        "thumbnail": "/assets/images/articles/ipo_underpricing.jpg",
         "downloadUrl": "http://eco.qau.edu.pk/per/wp-content/uploads/2019/08/Download-article-1-21-2019.pdf",
         "sections": [
           {
@@ -2047,7 +2047,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical investigation evaluating the impact of corporate governance structures—including board size, board independence, audit committee independence, and ownership concentration—on the profitability and financial performance of insurance companies in Pakistan.",
-        "thumbnail": "/assets/images/research/pakistan_economics.png",
+        "thumbnail": "/assets/images/articles/corporate_governance.jpg",
         "downloadUrl": "https://doi.org/10.52131/pjhss.2023.1104.0716",
         "sections": [
           {
@@ -2068,7 +2068,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A phenomenological constructivist study applying Critical Discourse Analysis (CDA) to deconstruct media labels, societal ideals, and cognitive dynamics that reinforce trauma bonding in female victims of intimate partner abuse.",
-        "thumbnail": "/assets/images/research/health.png",
+        "thumbnail": "/assets/images/articles/trauma_bonding.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i4.2496",
         "sections": [
           {
@@ -2089,7 +2089,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A Critical Discourse Analysis comparing how Pakistani and Indian media outlets projected the historic opening of the Kartarpur Corridor, contrasting narratives of peace and religious diplomacy with security concerns.",
-        "thumbnail": "/assets/images/research/pakistan_digital_trade.png",
+        "thumbnail": "/assets/images/articles/kartarpur_media.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/rope.v4i1.2277",
         "sections": [
           {
@@ -2110,7 +2110,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
-        "thumbnail": "/assets/images/research/AI.png",
+        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
         "sections": [
           {
@@ -2131,7 +2131,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical panel study investigating the impact of education and health human capital indicators on long-run economic growth across 43 developing countries using Pooled OLS estimation.",
-        "thumbnail": "/assets/images/research/Development.png",
+        "thumbnail": "/assets/images/articles/human_capital.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/jbsee.v8i1.2135",
         "sections": [
           {
@@ -2152,7 +2152,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An econometric panel study of 101 developing countries utilizing System GMM estimation to analyze how expanding financial inclusion reduces income inequality and boosts economic growth.",
-        "thumbnail": "/assets/images/research/pakistan_monetary_policy.png",
+        "thumbnail": "/assets/images/articles/financial_inclusion.jpg",
         "downloadUrl": "http://dx.doi.org/10.58932/muld0006",
         "sections": [
           {
@@ -2173,7 +2173,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical evaluation of market efficiency across four South Asian foreign exchange markets (Pakistan, India, Sri Lanka, and Bangladesh) covering bilateral spot exchange rates from 1995 to 2015.",
-        "thumbnail": "/assets/images/research/pakistan_economics.png",
+        "thumbnail": "/assets/images/articles/forex_efficiency.jpg",
         "downloadUrl": "https://www.iiu.edu.pk/wp-content/uploads/2021/02/IJEF-2020-1-2-05-15022021.pdf",
         "sections": [
           {
@@ -2194,7 +2194,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical investigation of 72 IPOs listed on the Karachi Stock Exchange (2000–2015) validating the ownership dispersion hypothesis as a primary explanation for initial public offering underpricing.",
-        "thumbnail": "/assets/images/research/pakistan_monetary_policy.png",
+        "thumbnail": "/assets/images/articles/ipo_underpricing.jpg",
         "downloadUrl": "http://eco.qau.edu.pk/per/wp-content/uploads/2019/08/Download-article-1-21-2019.pdf",
         "sections": [
           {
@@ -3507,7 +3507,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical investigation evaluating the impact of corporate governance structures—including board size, board independence, audit committee independence, and ownership concentration—on the profitability and financial performance of insurance companies in Pakistan.",
-        "thumbnail": "/assets/images/research/pakistan_economics.png",
+        "thumbnail": "/assets/images/articles/corporate_governance.jpg",
         "downloadUrl": "https://doi.org/10.52131/pjhss.2023.1104.0716",
         "sections": [
           {
@@ -3528,7 +3528,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A phenomenological constructivist study applying Critical Discourse Analysis (CDA) to deconstruct media labels, societal ideals, and cognitive dynamics that reinforce trauma bonding in female victims of intimate partner abuse.",
-        "thumbnail": "/assets/images/research/health.png",
+        "thumbnail": "/assets/images/articles/trauma_bonding.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i4.2496",
         "sections": [
           {
@@ -3549,7 +3549,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A Critical Discourse Analysis comparing how Pakistani and Indian media outlets projected the historic opening of the Kartarpur Corridor, contrasting narratives of peace and religious diplomacy with security concerns.",
-        "thumbnail": "/assets/images/research/pakistan_digital_trade.png",
+        "thumbnail": "/assets/images/articles/kartarpur_media.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/rope.v4i1.2277",
         "sections": [
           {
@@ -3570,7 +3570,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
-        "thumbnail": "/assets/images/research/AI.png",
+        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
         "sections": [
           {
@@ -3591,7 +3591,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical panel study investigating the impact of education and health human capital indicators on long-run economic growth across 43 developing countries using Pooled OLS estimation.",
-        "thumbnail": "/assets/images/research/Development.png",
+        "thumbnail": "/assets/images/articles/human_capital.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/jbsee.v8i1.2135",
         "sections": [
           {
@@ -3612,7 +3612,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An econometric panel study of 101 developing countries utilizing System GMM estimation to analyze how expanding financial inclusion reduces income inequality and boosts economic growth.",
-        "thumbnail": "/assets/images/research/pakistan_monetary_policy.png",
+        "thumbnail": "/assets/images/articles/financial_inclusion.jpg",
         "downloadUrl": "http://dx.doi.org/10.58932/muld0006",
         "sections": [
           {
@@ -3633,7 +3633,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical evaluation of market efficiency across four South Asian foreign exchange markets (Pakistan, India, Sri Lanka, and Bangladesh) covering bilateral spot exchange rates from 1995 to 2015.",
-        "thumbnail": "/assets/images/research/pakistan_economics.png",
+        "thumbnail": "/assets/images/articles/forex_efficiency.jpg",
         "downloadUrl": "https://www.iiu.edu.pk/wp-content/uploads/2021/02/IJEF-2020-1-2-05-15022021.pdf",
         "sections": [
           {
@@ -3654,7 +3654,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical investigation of 72 IPOs listed on the Karachi Stock Exchange (2000–2015) validating the ownership dispersion hypothesis as a primary explanation for initial public offering underpricing.",
-        "thumbnail": "/assets/images/research/pakistan_monetary_policy.png",
+        "thumbnail": "/assets/images/articles/ipo_underpricing.jpg",
         "downloadUrl": "http://eco.qau.edu.pk/per/wp-content/uploads/2019/08/Download-article-1-21-2019.pdf",
         "sections": [
           {
@@ -4967,7 +4967,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical investigation evaluating the impact of corporate governance structures—including board size, board independence, audit committee independence, and ownership concentration—on the profitability and financial performance of insurance companies in Pakistan.",
-        "thumbnail": "/assets/images/research/pakistan_economics.png",
+        "thumbnail": "/assets/images/articles/corporate_governance.jpg",
         "downloadUrl": "https://doi.org/10.52131/pjhss.2023.1104.0716",
         "sections": [
           {
@@ -4988,7 +4988,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A phenomenological constructivist study applying Critical Discourse Analysis (CDA) to deconstruct media labels, societal ideals, and cognitive dynamics that reinforce trauma bonding in female victims of intimate partner abuse.",
-        "thumbnail": "/assets/images/research/health.png",
+        "thumbnail": "/assets/images/articles/trauma_bonding.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i4.2496",
         "sections": [
           {
@@ -5009,7 +5009,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A Critical Discourse Analysis comparing how Pakistani and Indian media outlets projected the historic opening of the Kartarpur Corridor, contrasting narratives of peace and religious diplomacy with security concerns.",
-        "thumbnail": "/assets/images/research/pakistan_digital_trade.png",
+        "thumbnail": "/assets/images/articles/kartarpur_media.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/rope.v4i1.2277",
         "sections": [
           {
@@ -5030,7 +5030,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
-        "thumbnail": "/assets/images/research/AI.png",
+        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
         "sections": [
           {
@@ -5051,7 +5051,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical panel study investigating the impact of education and health human capital indicators on long-run economic growth across 43 developing countries using Pooled OLS estimation.",
-        "thumbnail": "/assets/images/research/Development.png",
+        "thumbnail": "/assets/images/articles/human_capital.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/jbsee.v8i1.2135",
         "sections": [
           {
@@ -5072,7 +5072,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An econometric panel study of 101 developing countries utilizing System GMM estimation to analyze how expanding financial inclusion reduces income inequality and boosts economic growth.",
-        "thumbnail": "/assets/images/research/pakistan_monetary_policy.png",
+        "thumbnail": "/assets/images/articles/financial_inclusion.jpg",
         "downloadUrl": "http://dx.doi.org/10.58932/muld0006",
         "sections": [
           {
@@ -5093,7 +5093,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical evaluation of market efficiency across four South Asian foreign exchange markets (Pakistan, India, Sri Lanka, and Bangladesh) covering bilateral spot exchange rates from 1995 to 2015.",
-        "thumbnail": "/assets/images/research/pakistan_economics.png",
+        "thumbnail": "/assets/images/articles/forex_efficiency.jpg",
         "downloadUrl": "https://www.iiu.edu.pk/wp-content/uploads/2021/02/IJEF-2020-1-2-05-15022021.pdf",
         "sections": [
           {
@@ -5114,7 +5114,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical investigation of 72 IPOs listed on the Karachi Stock Exchange (2000–2015) validating the ownership dispersion hypothesis as a primary explanation for initial public offering underpricing.",
-        "thumbnail": "/assets/images/research/pakistan_monetary_policy.png",
+        "thumbnail": "/assets/images/articles/ipo_underpricing.jpg",
         "downloadUrl": "http://eco.qau.edu.pk/per/wp-content/uploads/2019/08/Download-article-1-21-2019.pdf",
         "sections": [
           {
@@ -6427,7 +6427,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical investigation evaluating the impact of corporate governance structures—including board size, board independence, audit committee independence, and ownership concentration—on the profitability and financial performance of insurance companies in Pakistan.",
-        "thumbnail": "/assets/images/research/pakistan_economics.png",
+        "thumbnail": "/assets/images/articles/corporate_governance.jpg",
         "downloadUrl": "https://doi.org/10.52131/pjhss.2023.1104.0716",
         "sections": [
           {
@@ -6448,7 +6448,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A phenomenological constructivist study applying Critical Discourse Analysis (CDA) to deconstruct media labels, societal ideals, and cognitive dynamics that reinforce trauma bonding in female victims of intimate partner abuse.",
-        "thumbnail": "/assets/images/research/health.png",
+        "thumbnail": "/assets/images/articles/trauma_bonding.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i4.2496",
         "sections": [
           {
@@ -6469,7 +6469,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A Critical Discourse Analysis comparing how Pakistani and Indian media outlets projected the historic opening of the Kartarpur Corridor, contrasting narratives of peace and religious diplomacy with security concerns.",
-        "thumbnail": "/assets/images/research/pakistan_digital_trade.png",
+        "thumbnail": "/assets/images/articles/kartarpur_media.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/rope.v4i1.2277",
         "sections": [
           {
@@ -6490,7 +6490,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "A statistical econometrics study using Monte Carlo simulations to establish that the Logarithmic Minimum Square (LMS) test is the most stringent test of independence in W x K contingency tables for nominal data.",
-        "thumbnail": "/assets/images/research/AI.png",
+        "thumbnail": "/assets/images/articles/monte_carlo.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/sbsee.v4i1.2145",
         "sections": [
           {
@@ -6511,7 +6511,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical panel study investigating the impact of education and health human capital indicators on long-run economic growth across 43 developing countries using Pooled OLS estimation.",
-        "thumbnail": "/assets/images/research/Development.png",
+        "thumbnail": "/assets/images/articles/human_capital.jpg",
         "downloadUrl": "http://dx.doi.org/10.26710/jbsee.v8i1.2135",
         "sections": [
           {
@@ -6532,7 +6532,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An econometric panel study of 101 developing countries utilizing System GMM estimation to analyze how expanding financial inclusion reduces income inequality and boosts economic growth.",
-        "thumbnail": "/assets/images/research/pakistan_monetary_policy.png",
+        "thumbnail": "/assets/images/articles/financial_inclusion.jpg",
         "downloadUrl": "http://dx.doi.org/10.58932/muld0006",
         "sections": [
           {
@@ -6553,7 +6553,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical evaluation of market efficiency across four South Asian foreign exchange markets (Pakistan, India, Sri Lanka, and Bangladesh) covering bilateral spot exchange rates from 1995 to 2015.",
-        "thumbnail": "/assets/images/research/pakistan_economics.png",
+        "thumbnail": "/assets/images/articles/forex_efficiency.jpg",
         "downloadUrl": "https://www.iiu.edu.pk/wp-content/uploads/2021/02/IJEF-2020-1-2-05-15022021.pdf",
         "sections": [
           {
@@ -6574,7 +6574,7 @@
         "type": "Article",
         "typeClass": "bg-indigo-100 text-indigo-700",
         "description": "An empirical investigation of 72 IPOs listed on the Karachi Stock Exchange (2000–2015) validating the ownership dispersion hypothesis as a primary explanation for initial public offering underpricing.",
-        "thumbnail": "/assets/images/research/pakistan_monetary_policy.png",
+        "thumbnail": "/assets/images/articles/ipo_underpricing.jpg",
         "downloadUrl": "http://eco.qau.edu.pk/per/wp-content/uploads/2019/08/Download-article-1-21-2019.pdf",
         "sections": [
           {
