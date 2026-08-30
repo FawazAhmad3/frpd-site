@@ -3,6 +3,7 @@ import CardCourse from '../components/courses/CardCourse';
 import ModalCourse from '../components/courses/ModalCourse';
 import programsData from '../data/online-programs.json';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from '../components/shared/SEO';
 
 interface Course {
   id: string;
@@ -66,6 +67,12 @@ export default function OnlineCourses() {
 
   return (
     <main className="flex-grow">
+      <SEO
+        title="Online Programs & Executive E-Learning Certification"
+        description="Enroll in specialized online courses on Econometrics, Applied AI for Business, Public Financial Management, Tax Compliance, and Data Science taught by industry leaders."
+        keywords="Online Courses, Executive Education, Applied Econometrics Course, AI for Business, Tax Compliance Certification, Financial Management Online"
+        canonicalUrl="/pages/online-courses"
+      />
       {/* Premium Banner */}
       <section className="bg-white pt-20 pb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

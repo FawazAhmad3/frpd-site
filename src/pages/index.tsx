@@ -10,6 +10,7 @@ import homeData from '../data/home.json';
 import researchDataAll from '../data/research-wing.json';
 import publicationsData from '../data/publications.json';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from '../components/shared/SEO';
 
 export default function Home() {
   const { language } = useLanguage();
@@ -33,6 +34,12 @@ export default function Home() {
 
   return (
     <>
+      <SEO
+        title="Home | Firm of Research, Policy and Development"
+        description="FRPD is a leading research institute advancing economic policy, data science, artificial intelligence, capacity building, and policy advisory services globally."
+        keywords="FRPD, Economic Policy, Public Policy Institute, Dr Shakeel Shahzad, Artificial Intelligence Governance, Data Science Pakistan, Policy Advisory"
+        canonicalUrl="/"
+      />
       <Hero />
 
       <SectionAbout title={data.about.title} summary={data.about.summary} />

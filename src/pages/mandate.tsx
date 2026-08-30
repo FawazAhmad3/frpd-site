@@ -1,6 +1,7 @@
 import SectionMandate from '../components/mandate/SectionMandate';
 import mandateDataAll from '../data/mandate.json';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from '../components/shared/SEO';
 
 export default function Mandate() {
   const { language } = useLanguage();
@@ -8,6 +9,12 @@ export default function Mandate() {
 
   return (
     <main className="flex-grow">
+      <SEO
+        title="Our Institutional Mandate & Strategic Vision"
+        description="Learn about FRPD's core mission, ethical research standards, institutional mandate, and strategic commitment to driving evidence-based public policy and sustainable economic development."
+        keywords="Institutional Mandate, FRPD Vision, Evidence-Based Policy, Research Ethics, Public Sector Governance, Economic Development Principles"
+        canonicalUrl="/pages/mandate"
+      />
       {/* Page Header */}
       <section className="bg-brand-dark py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">

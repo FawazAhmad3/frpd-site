@@ -1,6 +1,7 @@
 import SectionProgramCategory from '../components/programs/SectionProgramCategory';
 import cbData from '../data/capacity-building.json';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from '../components/shared/SEO';
 
 export default function CapacityBuilding() {
   const { language } = useLanguage();
@@ -13,6 +14,12 @@ export default function CapacityBuilding() {
 
   return (
     <main className="flex-grow">
+      <SEO
+        title="Capacity Building & Professional Executive Training"
+        description="Empowering civil servants, policy analysts, corporate executives, and researchers through advanced capacity building workshops, leadership programs, and data analytics masterclasses."
+        keywords="Capacity Building, Executive Training, Policy Workshops, Leadership Development, Data Science Training, Institutional Reform, FRPD Training"
+        canonicalUrl="/pages/capacity-building"
+      />
       {/* Page Header */}
       <section className="bg-brand-dark py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">

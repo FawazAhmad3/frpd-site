@@ -3,6 +3,7 @@ import CardPublication from '../components/publications/CardPublication';
 import ModalPublication from '../components/publications/ModalPublication';
 import pubData from '../data/publications.json';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from '../components/shared/SEO';
 
 export default function Publications() {
   const { language } = useLanguage();
@@ -47,6 +48,12 @@ export default function Publications() {
 
   return (
     <main className="flex-grow bg-gray-50/50 min-h-screen">
+      <SEO
+        title="Publications & Academic Research Archive"
+        description="Explore FRPD's digital library of peer-reviewed journal articles, policy briefs, economic reports, books, and blogs written by Dr. Shakeel Shahzad and leading researchers."
+        keywords="Publications, Policy Briefs, Journal Articles, FRPD Research, Economic Reports, Dr Shakeel Shahzad ORCID, Governance Reports, Academic Papers"
+        canonicalUrl="/pages/publications"
+      />
       {/* Page Header */}
       <section className="bg-white py-16 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

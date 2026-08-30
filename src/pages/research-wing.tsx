@@ -4,6 +4,7 @@ import ModalResearch from '../components/research/ModalResearch';
 import researchDataAll from '../data/research-wing.json';
 import { useLanguage } from '../context/LanguageContext';
 import globalData from '../data/global.json';
+import SEO from '../components/shared/SEO';
 
 type ResearchItem = any;
 
@@ -27,6 +28,12 @@ export default function ResearchWing() {
 
   return (
     <>
+      <SEO
+        title="Research Wing | Economic Policy, Data Science & AI Research"
+        description="FRPD's Research Wing conducts multidisciplinary research across macroeconomics, digital trade, public health policy, artificial intelligence, and fiscal federalism."
+        keywords="Research Wing, Economic Policy Research, Econometrics, Monetary Policy, Health Economics, Data Science Research, Public Governance"
+        canonicalUrl="/pages/research-wing"
+      />
       {/* Page Header */}
       <section className="bg-brand-dark py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">

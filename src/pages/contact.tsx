@@ -1,6 +1,7 @@
 import SectionContact from '../components/contact/SectionContact';
 import contactDataAll from '../data/contact.json';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from '../components/shared/SEO';
 
 export default function Contact() {
   const { language } = useLanguage();
@@ -9,6 +10,12 @@ export default function Contact() {
 
   return (
     <main className="flex-grow">
+      <SEO
+        title="Contact Us & Institutional Office"
+        description="Get in touch with the Firm of Research, Policy and Development (FRPD). Connect with our research offices, policy advisors, and support team in Islamabad, Pakistan."
+        keywords="Contact FRPD, FRPD Office Address, Policy Consultation, Economic Research Inquiry, Islamabad Research Institute, FRPD Contact"
+        canonicalUrl="/pages/contact"
+      />
       {/* Page Header */}
       <section className="bg-brand-dark py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">

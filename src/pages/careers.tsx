@@ -1,6 +1,7 @@
 import CardCareer from '../components/careers/CardCareer';
 import careersData from '../data/careers.json';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from '../components/shared/SEO';
 
 export default function Careers() {
   const { language } = useLanguage();
@@ -9,6 +10,12 @@ export default function Careers() {
 
   return (
     <main className="flex-grow">
+      <SEO
+        title="Careers, Fellowships & Job Opportunities"
+        description="Join FRPD's team of economists, data scientists, policy analysts, and AI researchers. Explore current job openings, research fellowships, and internship opportunities."
+        keywords="Careers, Job Openings, Research Fellowships, Policy Analyst Jobs, Economist Positions, Data Science Careers, Internships FRPD"
+        canonicalUrl="/pages/careers"
+      />
       {/* Page Header */}
       <section className="bg-brand-dark py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">

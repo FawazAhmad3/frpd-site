@@ -1,6 +1,7 @@
 import SectionProgramCategory from '../components/programs/SectionProgramCategory';
 import btData from '../data/business-tax-services.json';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from '../components/shared/SEO';
 
 export default function BusinessTaxServices() {
   const { language } = useLanguage();
@@ -13,6 +14,12 @@ export default function BusinessTaxServices() {
 
   return (
     <main className="flex-grow">
+      <SEO
+        title="Business Tax & Financial Advisory Services"
+        description="Comprehensive business tax planning, FBR compliance, corporate restructuring, transfer pricing advisory, and financial governance solutions by FRPD tax experts."
+        keywords="Business Tax Services, Tax Compliance Pakistan, FBR Filer Services, Corporate Tax Advisory, Transfer Pricing, Tax Incentives, Financial Governance"
+        canonicalUrl="/pages/business-tax-services"
+      />
       {/* Page Header */}
       <section className="bg-brand-dark py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">

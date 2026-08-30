@@ -4,6 +4,7 @@ import CardData from '../components/datahub/CardData';
 import ModalData from '../components/datahub/ModalData';
 import datahubData from '../data/datahub.json';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from '../components/shared/SEO';
 
 export default function DataHub() {
   const { language } = useLanguage();
@@ -45,6 +46,12 @@ export default function DataHub() {
 
   return (
     <main className="flex-grow bg-gray-50/50 min-h-screen">
+      <SEO
+        title="DataHub | Open Data, Econometric Datasets & AI Analytics"
+        description="FRPD's DataHub provides centralized access to curated open datasets, macroeconomic indicators, trade statistics, AI models, and policy data visualization dashboards."
+        keywords="DataHub, Open Data Pakistan, Econometric Datasets, Trade Data, Macroeconomic Indicators, AI Models, Data Science Repository"
+        canonicalUrl="/pages/datahub"
+      />
       {/* Page Header */}
       <section className="bg-white py-16 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

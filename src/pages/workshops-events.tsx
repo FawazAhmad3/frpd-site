@@ -2,6 +2,7 @@ import { useState } from 'react';
 import CardEvent from '../components/events/CardEvent';
 import eventsData from '../data/events.json';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from '../components/shared/SEO';
 
 export default function WorkshopsEvents() {
   const { language } = useLanguage();
@@ -39,6 +40,12 @@ export default function WorkshopsEvents() {
 
   return (
     <>
+      <SEO
+        title="Workshops, International Conferences & Seminars"
+        description="Participate in FRPD's high-level international conferences, policy roundtables, webinars, and executive workshops on economic governance, AI policy, and development."
+        keywords="Workshops, Seminars, International Conferences, Policy Roundtables, Economic Symposia, FRPD Events, Public Policy Webinars"
+        canonicalUrl="/pages/workshops-events"
+      />
       {/* Page Header */}
       <section className="bg-brand-dark py-24 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">

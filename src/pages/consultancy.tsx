@@ -1,6 +1,7 @@
 import SectionProgramCategory from '../components/programs/SectionProgramCategory';
 import paData from '../data/policy-advisory.json';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from '../components/shared/SEO';
 
 export default function Consultancy() {
   const { language } = useLanguage();
@@ -13,6 +14,12 @@ export default function Consultancy() {
 
   return (
     <main className="flex-grow">
+      <SEO
+        title="Policy Advisory & Strategic Consultancy Services"
+        description="FRPD delivers strategic policy advisory, macroeconomic reform consulting, digital transformation strategy, AI governance frameworks, and institutional development services."
+        keywords="Policy Advisory, Strategic Consultancy, Economic Reform Consulting, Digital Transformation, AI Governance Frameworks, Public Sector Advisory"
+        canonicalUrl="/pages/consultancy"
+      />
       {/* Page Header */}
       <section className="bg-brand-dark py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
