@@ -4,5 +4,5 @@ Disallow: /config/
 Disallow: /node_modules/
 
 # Host & Sitemap
-Host: https://frpd.org.pk
-Sitemap: https://frpd.org.pk/sitemap.xml
+Host: https://frpd.pk
+Sitemap: https://frpd.pk/sitemap.xml
