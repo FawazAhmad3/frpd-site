@@ -13,8 +13,8 @@ export interface SEOProps {
 const DEFAULT_TITLE = 'FRPD - Firm of Research, Policy and Development | Leading Research & Advisory Institute';
 const DEFAULT_DESCRIPTION = 'The Firm of Research, Policy and Development (FRPD) is a premier institute advancing economic research, public policy innovation, data science, artificial intelligence, capacity building, and evidence-based decision-making.';
 const DEFAULT_KEYWORDS = 'FRPD, Firm of Research Policy and Development, Economic Policy Pakistan, Public Policy Institute, Dr Shakeel Shahzad, Artificial Intelligence Policy, Data Science Pakistan, Business Tax Services, Fiscal Governance, Econometrics, Monetary Policy, Capacity Building, Policy Advisory';
-const SITE_URL = 'https://frpd.org.pk';
-const DEFAULT_OG_IMAGE = 'https://frpd.org.pk/assets/icons/logo.png';
+const SITE_URL = 'https://frpd.pk';
+const DEFAULT_OG_IMAGE = 'https://frpd.pk/assets/icons/logo.png';
 
 export default function SEO({
   title,
@@ -109,7 +109,7 @@ export default function SEO({
         '@type': 'ContactPoint',
         'telephone': '+92-51-255-4920',
         'contactType': 'customer support',
-        'email': 'info@frpd.org.pk',
+        'email': 'info@frpd.pk',
         'areaServed': 'PK',
         'availableLanguage': ['English', 'Arabic', 'French', 'German', 'Chinese']
       },
